@@ -1,0 +1,1 @@
+ClaudeとChatGPTのGitHub接続テスト
