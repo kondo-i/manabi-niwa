@@ -1,0 +1,7 @@
+GitHub connector write/read verification
+Repository: kondo-i/manabi-niwa
+Branch: test/github-connector-20261031-1793458063076
+Base main SHA: c1074a75059a8654e7c7e9c8c12d08e44de962b8
+Test date: 2026-10-31 (Asia/Tokyo)
+日本語検証: 書き込み内容と再読み取り内容の完全一致を確認する。
+Scope: test branch only.
