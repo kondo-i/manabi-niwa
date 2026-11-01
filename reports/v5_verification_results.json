@@ -1,0 +1,207 @@
+{
+  "base_commit": "968707b8b070a6641438cd4d45003ac8de5e1d5d",
+  "overall_status": "DRAFT_WITH_UNMET_REQUIREMENT",
+  "questions": 1040,
+  "checks": [
+    {
+      "name": "1040 questions; ID order and uniqueness",
+      "status": "PASS"
+    },
+    {
+      "name": "JSON/CSV independent full-field reverse round trip",
+      "status": "PASS"
+    },
+    {
+      "name": "3 distinct choices; correct index and answer",
+      "status": "PASS"
+    },
+    {
+      "name": "500 M / 500 C / 40 reading; 500 unique headwords",
+      "status": "PASS"
+    },
+    {
+      "name": "M definitions and named distractors all present in current wording",
+      "status": "PASS"
+    },
+    {
+      "name": "C all 3 current definitions and word names present; M/C headwords aligned",
+      "status": "PASS"
+    },
+    {
+      "name": "500 C complete situation quotes, excluding question sentences; nested quotes preserved",
+      "status": "PASS"
+    },
+    {
+      "name": "500 individual reason entries, each used once for its ID",
+      "status": "PASS"
+    },
+    {
+      "name": "M three choice ending classes are all こと; answer-only ending outliers 0",
+      "status": "PASS"
+    },
+    {
+      "name": "Same definition has only one canonical surface across M choices and M/C explanations",
+      "status": "PASS"
+    },
+    {
+      "name": "Reading all quoted strings occur verbatim in passage",
+      "status": "PASS"
+    },
+    {
+      "name": "Individual requested text edits",
+      "status": "PASS"
+    },
+    {
+      "name": "Change map matches recomputed JSON differences: IDs, fields, before and after, no extras",
+      "status": "PASS"
+    },
+    {
+      "name": "Grade, furigana policy, reading passages, IDs and order unchanged",
+      "status": "PASS"
+    },
+    {
+      "name": "Literal suffix のこと mixed with other こと endings: zero required",
+      "status": "UNMET",
+      "count": 122
+    }
+  ],
+  "changes": 998,
+  "changed_questions": 689,
+  "changed_by_type": {
+    "meaning": 182,
+    "context": 500,
+    "logical_reading": 7
+  },
+  "reading_quotes": 41,
+  "literal_no_koto_mixed_count": 122,
+  "literal_no_koto_mixed_ids": [
+    "JVQ-003-01-M",
+    "JVQ-003-02-M",
+    "JVQ-003-03-M",
+    "JVQ-011-01-M",
+    "JVQ-011-02-M",
+    "JVQ-011-03-M",
+    "JVQ-011-04-M",
+    "JVQ-012-01-M",
+    "JVQ-012-03-M",
+    "JVQ-012-04-M",
+    "JVQ-013-01-M",
+    "JVQ-013-02-M",
+    "JVQ-013-04-M",
+    "JVQ-015-02-M",
+    "JVQ-015-03-M",
+    "JVQ-015-04-M",
+    "JVQ-017-01-M",
+    "JVQ-017-02-M",
+    "JVQ-017-03-M",
+    "JVQ-019-02-M",
+    "JVQ-019-03-M",
+    "JVQ-019-04-M",
+    "JVQ-033-01-M",
+    "JVQ-033-03-M",
+    "JVQ-033-04-M",
+    "JVQ-038-01-M",
+    "JVQ-038-03-M",
+    "JVQ-038-04-M",
+    "JVQ-039-01-M",
+    "JVQ-039-02-M",
+    "JVQ-039-03-M",
+    "JVQ-039-04-M",
+    "JVQ-040-02-M",
+    "JVQ-040-03-M",
+    "JVQ-040-04-M",
+    "JVQ-042-01-M",
+    "JVQ-042-03-M",
+    "JVQ-042-04-M",
+    "JVQ-043-01-M",
+    "JVQ-043-02-M",
+    "JVQ-043-03-M",
+    "JVQ-043-04-M",
+    "JVQ-044-01-M",
+    "JVQ-044-02-M",
+    "JVQ-044-04-M",
+    "JVQ-047-02-M",
+    "JVQ-047-03-M",
+    "JVQ-047-04-M",
+    "JVQ-052-01-M",
+    "JVQ-052-02-M",
+    "JVQ-052-04-M",
+    "JVQ-053-01-M",
+    "JVQ-053-02-M",
+    "JVQ-053-03-M",
+    "JVQ-053-04-M",
+    "JVQ-055-01-M",
+    "JVQ-055-03-M",
+    "JVQ-055-04-M",
+    "JVQ-058-02-M",
+    "JVQ-058-03-M",
+    "JVQ-058-04-M",
+    "JVQ-059-01-M",
+    "JVQ-059-02-M",
+    "JVQ-059-03-M",
+    "JVQ-059-04-M",
+    "JVQ-060-01-M",
+    "JVQ-060-02-M",
+    "JVQ-060-03-M",
+    "JVQ-061-01-M",
+    "JVQ-061-02-M",
+    "JVQ-061-03-M",
+    "JVQ-061-04-M",
+    "JVQ-063-01-M",
+    "JVQ-063-03-M",
+    "JVQ-063-04-M",
+    "JVQ-078-01-M",
+    "JVQ-078-02-M",
+    "JVQ-078-03-M",
+    "JVQ-078-04-M",
+    "JVQ-081-01-M",
+    "JVQ-081-02-M",
+    "JVQ-081-03-M",
+    "JVQ-082-01-M",
+    "JVQ-082-02-M",
+    "JVQ-082-03-M",
+    "JVQ-085-01-M",
+    "JVQ-085-02-M",
+    "JVQ-085-03-M",
+    "JVQ-085-04-M",
+    "JVQ-090-01-M",
+    "JVQ-090-02-M",
+    "JVQ-090-03-M",
+    "JVQ-090-04-M",
+    "JVQ-091-01-M",
+    "JVQ-091-02-M",
+    "JVQ-091-03-M",
+    "JVQ-095-01-M",
+    "JVQ-095-03-M",
+    "JVQ-095-04-M",
+    "JVQ-108-01-M",
+    "JVQ-108-02-M",
+    "JVQ-108-03-M",
+    "JVQ-108-04-M",
+    "JVQ-111-01-M",
+    "JVQ-111-03-M",
+    "JVQ-113-02-M",
+    "JVQ-113-03-M",
+    "JVQ-113-04-M",
+    "JVQ-114-02-M",
+    "JVQ-114-03-M",
+    "JVQ-114-04-M",
+    "JVQ-119-01-M",
+    "JVQ-119-02-M",
+    "JVQ-119-03-M",
+    "JVQ-119-04-M",
+    "JVQ-124-01-M",
+    "JVQ-124-02-M",
+    "JVQ-124-03-M",
+    "JVQ-124-04-M",
+    "JVQ-125-01-M",
+    "JVQ-125-02-M",
+    "JVQ-125-03-M"
+  ],
+  "hashes": {
+    "data/v4/questions.json": "6f46871540b79aebf59334b4faabe497e9e04da1186e430cc2b7ecba45cded29",
+    "data/v5/questions.json": "f7eec495c3e28c61fc93c820b373e88ebbf0f796a0dbbc4fa3ea644f65e284ae",
+    "data/v5/questions.csv": "721191fd091e9df05a288be7c9fa6c03220fe2b3220f62e6495316c2ccc5405b",
+    "data/v5/change_map_v4_v5.csv": "1fe4a5d797becf884b2f26770a2ea3b6b2fc2bdf3977d1c9a715da4c6e1b36fb"
+  }
+}
