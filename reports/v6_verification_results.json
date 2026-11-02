@@ -1,0 +1,144 @@
+{
+  "base_commit": "4b525c907d28ca3909f6b3b05cafcd3841b8b2c0",
+  "overall_status": "MECHANICAL_CHECKS_PASSED",
+  "questions": 1040,
+  "checks": [
+    {
+      "name": "1040 questions; ID order and uniqueness",
+      "status": "PASS"
+    },
+    {
+      "name": "JSON/CSV independent full-field reverse round trip",
+      "status": "PASS"
+    },
+    {
+      "name": "3 distinct choices; correct index and answer",
+      "status": "PASS"
+    },
+    {
+      "name": "500 M / 500 C / 40 reading; 500 unique headwords",
+      "status": "PASS"
+    },
+    {
+      "name": "M definitions and named distractors all present in current wording",
+      "status": "PASS"
+    },
+    {
+      "name": "C all 3 current definitions and word names present; M/C headwords aligned",
+      "status": "PASS"
+    },
+    {
+      "name": "500 C complete situation quotes, excluding question sentences; nested quotes preserved",
+      "status": "PASS"
+    },
+    {
+      "name": "500 individual reason entries, each used once for its ID",
+      "status": "PASS"
+    },
+    {
+      "name": "M three choice ending classes are all こと; answer-only ending outliers 0",
+      "status": "PASS"
+    },
+    {
+      "name": "Same definition has only one canonical surface across M choices and M/C explanations",
+      "status": "PASS"
+    },
+    {
+      "name": "Reading all quoted strings occur verbatim in passage",
+      "status": "PASS"
+    },
+    {
+      "name": "Individual requested text edits",
+      "status": "PASS"
+    },
+    {
+      "name": "Change map matches recomputed JSON differences: IDs, fields, before and after, no extras",
+      "status": "PASS"
+    },
+    {
+      "name": "Grade, furigana policy, reading passages, IDs and order unchanged",
+      "status": "PASS"
+    },
+    {
+      "name": "Literal のこと mixed questions zero; のこと ending choices zero",
+      "status": "PASS"
+    },
+    {
+      "name": "Answer-only ending type outliers zero (であること / other こと)",
+      "status": "PASS"
+    },
+    {
+      "name": "Definition conversion 97 source headwords and exact linked wording",
+      "status": "PASS"
+    },
+    {
+      "name": "Changed ID file matches recomputed differences",
+      "status": "PASS"
+    }
+  ],
+  "changes": 619,
+  "changed_questions": 345,
+  "changed_by_type": {
+    "meaning": 171,
+    "context": 173,
+    "logical_reading": 1
+  },
+  "reading_quotes": 40,
+  "answer_only_type_outlier_ids": [],
+  "base_outlier_ids": [
+    "JVQ-003-03-M",
+    "JVQ-011-01-M",
+    "JVQ-011-03-M",
+    "JVQ-012-01-M",
+    "JVQ-013-02-M",
+    "JVQ-015-04-M",
+    "JVQ-017-03-M",
+    "JVQ-019-04-M",
+    "JVQ-033-01-M",
+    "JVQ-038-01-M",
+    "JVQ-039-02-M",
+    "JVQ-039-04-M",
+    "JVQ-040-04-M",
+    "JVQ-042-01-M",
+    "JVQ-043-02-M",
+    "JVQ-043-04-M",
+    "JVQ-044-02-M",
+    "JVQ-047-04-M",
+    "JVQ-052-02-M",
+    "JVQ-053-01-M",
+    "JVQ-053-03-M",
+    "JVQ-055-01-M",
+    "JVQ-058-04-M",
+    "JVQ-059-02-M",
+    "JVQ-059-04-M",
+    "JVQ-060-03-M",
+    "JVQ-061-02-M",
+    "JVQ-061-04-M",
+    "JVQ-063-01-M",
+    "JVQ-081-03-M",
+    "JVQ-082-03-M",
+    "JVQ-085-02-M",
+    "JVQ-085-04-M",
+    "JVQ-090-02-M",
+    "JVQ-090-04-M",
+    "JVQ-091-03-M",
+    "JVQ-095-01-M",
+    "JVQ-108-02-M",
+    "JVQ-108-04-M",
+    "JVQ-111-01-M",
+    "JVQ-113-04-M",
+    "JVQ-114-04-M",
+    "JVQ-124-02-M",
+    "JVQ-124-04-M",
+    "JVQ-125-03-M"
+  ],
+  "distractor_replacements": 44,
+  "literal_no_koto_mixed_count": 0,
+  "literal_no_koto_mixed_ids": [],
+  "hashes": {
+    "data/v5/questions.json": "f7eec495c3e28c61fc93c820b373e88ebbf0f796a0dbbc4fa3ea644f65e284ae",
+    "data/v6/questions.json": "09f9d405922ebb054be1860ac1773effa4f4350b72df0633708799e1729adb86",
+    "data/v6/questions.csv": "2a8cde183d224074ad011f1822d9b0c2e8440139d9bac5d0292848c210bc0858",
+    "data/v6/change_map_v5_v6.csv": "3c718e62fef741039d01c9b1b4f868291cedc577079cff301a1b45375cc12d4e"
+  }
+}
