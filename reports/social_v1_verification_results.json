@@ -1,0 +1,65 @@
+{
+  "status": "MECHANICAL_CHECKS_PASSED_CONTENT_AUDIT_PENDING",
+  "questions": 30,
+  "by_field": {
+    "geography": 10,
+    "history": 10,
+    "civics": 10
+  },
+  "checks": [
+    {
+      "name": "30 items and unique IDs",
+      "status": "PASS"
+    },
+    {
+      "name": "10 per field",
+      "status": "PASS"
+    },
+    {
+      "name": "unique prompts",
+      "status": "PASS"
+    },
+    {
+      "name": "three distinct nonempty choices",
+      "status": "PASS"
+    },
+    {
+      "name": "index and correct answer",
+      "status": "PASS"
+    },
+    {
+      "name": "exactly 2 distractor notes, for wrong choices only",
+      "status": "PASS"
+    },
+    {
+      "name": "source links resolve in manifest",
+      "status": "PASS"
+    },
+    {
+      "name": "all drafts and unpublished",
+      "status": "PASS"
+    },
+    {
+      "name": "CSV full-field reverse round trip",
+      "status": "PASS"
+    },
+    {
+      "name": "answer positions balanced",
+      "status": "PASS"
+    },
+    {
+      "name": "scale calculations",
+      "status": "PASS"
+    },
+    {
+      "name": "markdown contains all prompts and answers",
+      "status": "PASS"
+    }
+  ],
+  "sha256": {
+    "questions.csv": "f771c68c5126a68ff16684f394ebea8619c8ea7401b1be03a833e5921674e683",
+    "questions.json": "404794296e3a0831739f17f1c1be118c041871e09021de74ad62d6a3d2b2631d",
+    "questions.md": "1bcf03d364955aceb32b17e8881eb1250e2857bd55ab730cfca5794a34d3034f",
+    "sources.json": "36a082ee6acac51d082b5e75485e594f02bf08c2a867921cc039c482d3818bec"
+  }
+}
