@@ -1,0 +1,46 @@
+{
+  "checked_date_jst": "2026-11-03",
+  "source_access": "制作側が参照先の本文を取得して確認。参照箇所と照合範囲は報告書参照。",
+  "sources": {
+    "NAO": {
+      "title": "国立天文台 暦Wiki 緯度と経度",
+      "url": "https://eco2.mtk.nao.ac.jp/koyomi/wiki/C3CFB5E52FB7D0C5D9A4C8B0DEC5D9.html",
+      "basis": "赤道・本初子午線・北緯南緯・東経西経の定義"
+    },
+    "GSI": {
+      "title": "国土地理院 距離と縮尺",
+      "url": "https://www.gsi.go.jp/KIDS/KIDS04.html",
+      "basis": "縮尺の意味と距離計算。数値を変えた設問の計算は制作側で実施"
+    },
+    "TIMELINE": {
+      "title": "国立公文書館 日本のあゆみ 年表",
+      "url": "https://www.archives.go.jp/ayumi/table.html",
+      "basis": "1871年廃藩置県、1872年学制、1873年地租改正を年表本文で確認。"
+    },
+    "HAN": {
+      "title": "国立公文書館 廃藩置県が断行される",
+      "url": "https://www.archives.go.jp/ayumi/kobetsu/m04_1871_04.html",
+      "basis": "藩を廃し、政府の任命する知事が行政を行う"
+    },
+    "TAX": {
+      "title": "国立公文書館 地租改正条例が制定される",
+      "url": "https://www.archives.go.jp/ayumi/kobetsu/m06_1873_03.html",
+      "basis": "地価に基づく金納。1873年当初の税率3%からの後年の変更と区別"
+    },
+    "CONST": {
+      "title": "衆議院 日本国憲法",
+      "url": "https://www.shugiin.go.jp/Internet/itdb_annai.nsf/html/statics/shiryo/dl-constitution.htm",
+      "basis": "前文・第1、14、19、21、25、26、30、41、42、65、76条等"
+    },
+    "MEIJI_CONST": {
+      "title": "国立公文書館 大日本帝国憲法が発布される",
+      "url": "https://www.archives.go.jp/ayumi/kobetsu/m22_1889_01.html",
+      "basis": "1889年2月11日の発布、天皇が統治権を総攬、帝国議会は法律案・予算案の審議権。解説本文を確認。"
+    },
+    "MEIJI_TEXT": {
+      "title": "国立国会図書館 大日本帝国憲法",
+      "url": "https://www.ndl.go.jp/constitution/etc/j02.html",
+      "basis": "第1条・第4条の統治権、第5条・第37条・第38条の帝国議会の協賛・議決。条文本文を確認。"
+    }
+  }
+}

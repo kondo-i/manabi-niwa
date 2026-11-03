@@ -1,0 +1,164 @@
+{
+  "source_commit": "b54cc88b362ee144a2ba013d920ed8bf41b4083a",
+  "random_seed": 20261103,
+  "method": "Actual click-handler code; simulated DOM, storage and learner answers; no student trial or timing claim",
+  "counts": {
+    "balance": 100,
+    "cozy": 60,
+    "stretch": 25
+  },
+  "checks": {
+    "unique_ids": 185,
+    "proposed_changes": 7,
+    "live_assets_compared": 17
+  },
+  "asset_files": [
+    {
+      "path": "dist/data/packs/english-g2-little-notes-cozy-001.json",
+      "sha256": "50e9ca2049a61445ce2385c603405f4a0c999c7d055328aac07844d168ae7ee4",
+      "live_sha256": "50e9ca2049a61445ce2385c603405f4a0c999c7d055328aac07844d168ae7ee4"
+    },
+    {
+      "path": "dist/data/packs/english-g3-passive-context-balance-001.json",
+      "sha256": "9d0ba6ca2f2f9becf709ac3419d9ff501396726597233ec37f8f93b446c704ae",
+      "live_sha256": "9d0ba6ca2f2f9becf709ac3419d9ff501396726597233ec37f8f93b446c704ae"
+    },
+    {
+      "path": "dist/data/packs/english-g3-perfect-context-balance-001.json",
+      "sha256": "d3013e1858a635be489d8adc7785a2378714d962f6e5bac38c62b98a61c07c59",
+      "live_sha256": "d3013e1858a635be489d8adc7785a2378714d962f6e5bac38c62b98a61c07c59"
+    },
+    {
+      "path": "dist/data/packs/japanese-g2-auxiliary-context-balance-001.json",
+      "sha256": "6562c0052c849acacc71f4fa3446aaeb83778dae5e85cab013fbe4be31e99f79",
+      "live_sha256": "6562c0052c849acacc71f4fa3446aaeb83778dae5e85cab013fbe4be31e99f79"
+    },
+    {
+      "path": "dist/data/packs/japanese-g2-evidence-compare-balance-001.json",
+      "sha256": "5c57ef32499f790fcf19e5d038efc51cb28d3633b64cc1b60d455cc242e51b20",
+      "live_sha256": "5c57ef32499f790fcf19e5d038efc51cb28d3633b64cc1b60d455cc242e51b20"
+    },
+    {
+      "path": "dist/data/packs/japanese-g2-honorific-context-balance-001.json",
+      "sha256": "885dd3370d8d80f348a915ca132e548c47954611b97a6e66dd28d0279a34c9bd",
+      "live_sha256": "885dd3370d8d80f348a915ca132e548c47954611b97a6e66dd28d0279a34c9bd"
+    },
+    {
+      "path": "dist/data/packs/japanese-g2-little-mysteries-cozy-001.json",
+      "sha256": "4ec5d63e40d715746987c582912c2722b8b411e1326ae7cb45b20a713d18a1a5",
+      "live_sha256": "4ec5d63e40d715746987c582912c2722b8b411e1326ae7cb45b20a713d18a1a5"
+    },
+    {
+      "path": "dist/data/packs/japanese-g2-story-feelings-cozy-001.json",
+      "sha256": "be8279d0d237b22299304d41a9e334492fe1d777e0ae0cc179db5159b7bbe487",
+      "live_sha256": "be8279d0d237b22299304d41a9e334492fe1d777e0ae0cc179db5159b7bbe487"
+    },
+    {
+      "path": "dist/data/packs/japanese-g3-argument-reading-balance-001.json",
+      "sha256": "d828dd19dc5f7741192231fb6da818e7f03a0642f84597cf9a37de0ff25bd100",
+      "live_sha256": "d828dd19dc5f7741192231fb6da818e7f03a0642f84597cf9a37de0ff25bd100"
+    },
+    {
+      "path": "dist/data/packs/math-g1-picnic-puzzles-cozy-001.json",
+      "sha256": "37f05ebe8d160231e0d9c187af59326253f0e29b3f9c7a19b021e878547c6597",
+      "live_sha256": "37f05ebe8d160231e0d9c187af59326253f0e29b3f9c7a19b021e878547c6597"
+    },
+    {
+      "path": "dist/data/packs/science-g1-kitchen-notebook-cozy-001.json",
+      "sha256": "ecf2edf1c05c86aca44b8dd1c66ae0c2a6181f7a7e1093eefee9b4a95c7050cd",
+      "live_sha256": "ecf2edf1c05c86aca44b8dd1c66ae0c2a6181f7a7e1093eefee9b4a95c7050cd"
+    },
+    {
+      "path": "dist/data/packs/social-g1-geography-data-balance-001.json",
+      "sha256": "1c8463f0f65695f3f1a9885498fed8b474ff799d6de1da9a2706313c2622b420",
+      "live_sha256": "1c8463f0f65695f3f1a9885498fed8b474ff799d6de1da9a2706313c2622b420"
+    },
+    {
+      "path": "dist/data/packs/social-g2-history-sources-balance-001.json",
+      "sha256": "13f968ba6e5fa8122b43b6718326f03a12bce769aba49b7f391132801d169793",
+      "live_sha256": "13f968ba6e5fa8122b43b6718326f03a12bce769aba49b7f391132801d169793"
+    },
+    {
+      "path": "dist/data/packs/social-g3-civics-discussion-balance-001.json",
+      "sha256": "1ec654f6ad3f617456e5dd6c811de472115a74340bd40af46a9aae5a9a0fd5cb",
+      "live_sha256": "1ec654f6ad3f617456e5dd6c811de472115a74340bd40af46a9aae5a9a0fd5cb"
+    },
+    {
+      "path": "dist/data/packs/social-g3-economy-data-balance-001.json",
+      "sha256": "733ef18c55b93e0f6524ba59721beda39de86d2d986402b7054007d7841bee03",
+      "live_sha256": "733ef18c55b93e0f6524ba59721beda39de86d2d986402b7054007d7841bee03"
+    },
+    {
+      "path": "dist/data/packs/social-g3-town-workshop-cozy-001.json",
+      "sha256": "b3a7d8818a3e236555e1db7221a3256e5502fb2fd1d92040166a9fb332f8f2d2",
+      "live_sha256": "b3a7d8818a3e236555e1db7221a3256e5502fb2fd1d92040166a9fb332f8f2d2"
+    },
+    {
+      "path": "dist/data/stretch-bank.json",
+      "sha256": "d08dd6d24401b10d62097b3d0244c106ec54ad910f19cf9b74d03a55db4bc003",
+      "live_sha256": "d08dd6d24401b10d62097b3d0244c106ec54ad910f19cf9b74d03a55db4bc003"
+    }
+  ],
+  "scenarios": [
+    {
+      "scenario": "初回から国語を1問。誤答しても国語へ戻る",
+      "firstChoices": [
+        "science",
+        "math",
+        "english",
+        "japanese",
+        "social"
+      ],
+      "taps_to_question": 2,
+      "id": "japanese-g1-kanji-reading-a-001:q5",
+      "result": {
+        "score": 0,
+        "total": 1,
+        "xp": 0,
+        "effort_message": true,
+        "direct_retry": false
+      },
+      "continuation": "japanese",
+      "other_subjects": [
+        "math",
+        "english",
+        "social",
+        "science"
+      ]
+    },
+    {
+      "scenario": "誤答後に復習で取り戻す",
+      "id": "japanese-g1-kanji-reading-a-001:q5",
+      "taps_from_result_to_review": 3,
+      "correct_on_retry": true
+    },
+    {
+      "scenario": "数学に寄り道。難問でヒント2回、再読込後に正解",
+      "id": "stretch-math-20261103:q1",
+      "hints": 2,
+      "self_correct": 0,
+      "assisted_correct": 1,
+      "xp": 0
+    },
+    {
+      "scenario": "難問を解けないとき、解説だけで終える",
+      "id": "stretch-math-20261103:q2",
+      "solution_views": 1,
+      "self_correct": 0,
+      "finished": true
+    },
+    {
+      "scenario": "同じ日に社会の難問を一巡後、さらに2回開く",
+      "ids": [
+        "stretch-social-20261103:q1",
+        "stretch-social-20261103:q2",
+        "stretch-social-20261103:q3",
+        "stretch-social-20261103:q4",
+        "stretch-social-20261103:q5",
+        "stretch-social-20261103:q1",
+        "stretch-social-20261103:q1"
+      ],
+      "repeat_after_cycle": true
+    }
+  ]
+}

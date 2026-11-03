@@ -1,0 +1,130 @@
+{
+  "status": "MECHANICAL_PASS_REAUDIT_PENDING",
+  "questions": 30,
+  "content_edits": 7,
+  "changed_questions": 27,
+  "changed_fields": 72,
+  "position_changed_ids": [
+    "SOC-GEO-001",
+    "SOC-GEO-002",
+    "SOC-GEO-004",
+    "SOC-GEO-005",
+    "SOC-GEO-006",
+    "SOC-GEO-007",
+    "SOC-GEO-008",
+    "SOC-GEO-009",
+    "SOC-HIS-001",
+    "SOC-HIS-003",
+    "SOC-HIS-004",
+    "SOC-HIS-005",
+    "SOC-HIS-006",
+    "SOC-HIS-008",
+    "SOC-HIS-009",
+    "SOC-HIS-010",
+    "SOC-CIV-001",
+    "SOC-CIV-002",
+    "SOC-CIV-003",
+    "SOC-CIV-005",
+    "SOC-CIV-006",
+    "SOC-CIV-007",
+    "SOC-CIV-008",
+    "SOC-CIV-009",
+    "SOC-CIV-010"
+  ],
+  "positions": {
+    "geography": [
+      2,
+      1,
+      3,
+      3,
+      1,
+      2,
+      3,
+      1,
+      2,
+      1
+    ],
+    "history": [
+      3,
+      2,
+      1,
+      2,
+      3,
+      1,
+      1,
+      3,
+      2,
+      2
+    ],
+    "civics": [
+      3,
+      1,
+      2,
+      1,
+      3,
+      2,
+      3,
+      3,
+      1,
+      2
+    ]
+  },
+  "limited_choice_matches": [],
+  "checks": [
+    {
+      "name": "30 unique IDs in original order and 10 per field",
+      "status": "PASS"
+    },
+    {
+      "name": "CSV full-field reverse roundtrip",
+      "status": "PASS"
+    },
+    {
+      "name": "distinct choices and correct index and answer",
+      "status": "PASS"
+    },
+    {
+      "name": "each distractor has a matching explanation and note",
+      "status": "PASS"
+    },
+    {
+      "name": "all source references and publication/grade flags",
+      "status": "PASS"
+    },
+    {
+      "name": "change map before/after values exact",
+      "status": "PASS"
+    },
+    {
+      "name": "each correct position occurs 10 times",
+      "status": "PASS"
+    },
+    {
+      "name": "no global or within-field periods of length 1 to 5",
+      "status": "PASS"
+    },
+    {
+      "name": "no only/always/all cue in choices",
+      "status": "PASS"
+    },
+    {
+      "name": "three scale calculations and scale range comparison",
+      "status": "PASS"
+    },
+    {
+      "name": "HIS-010 content replaced, not copied from HIS-008",
+      "status": "PASS"
+    },
+    {
+      "name": "Markdown contains all IDs prompts choices and exact answers",
+      "status": "PASS"
+    }
+  ],
+  "hashes": {
+    "change_map_social_v1_v2.csv": "0dc09e7f6e1583328be659246076e54022ef36f9b82a25bf0cbcc94fed7fe32b",
+    "questions.csv": "782f6bcf9308dd98330fe751c1e92d5393ef054889ceb5a6f14a89c5d3c410f8",
+    "questions.json": "e78e9f3bf78d1797bbf67893716b477a4ead15a69930552f0091c9398350bd44",
+    "questions.md": "97a74935617dec7d13465934f02384be224cac1dfde4628ce0741602f5cfd7a4",
+    "sources.json": "f543067a244cdc152c8edd046a521d1654e8dbd34b33a1daba80ff55acaa2512"
+  }
+}
