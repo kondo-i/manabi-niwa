@@ -110,7 +110,7 @@
         "social"
       ],
       "taps_to_question": 2,
-      "id": "japanese-g1-kanji-reading-a-001:q5",
+      "id": "japanese-g1-kanji-reading-a-001:q10",
       "result": {
         "score": 0,
         "total": 1,
@@ -128,7 +128,7 @@
     },
     {
       "scenario": "誤答後に復習で取り戻す",
-      "id": "japanese-g1-kanji-reading-a-001:q5",
+      "id": "japanese-g1-kanji-reading-a-001:q10",
       "taps_from_result_to_review": 3,
       "correct_on_retry": true
     },

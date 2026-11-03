@@ -243,14 +243,14 @@
       "grade": 1,
       "unitId": "science-kitchen-notebook",
       "type": "choice",
-      "prompt": "同じ種類・同じ量の液体を、同じ形の容器二つに一つずつ入れた。一方にだけふたをする。何の違いを比べる実験？",
+      "prompt": "同じ材質・同じ形の容器を二つ用意した。それぞれに同じ種類・同じ量の液体を入れ、一方にだけふたをする。何の違いを比べる実験？",
       "choices": [
         "液体の種類の違い",
         "容器の材質の違い",
         "ふたの有無"
       ],
       "answer": 2,
-      "explanation": "容器の形と中の液体は同じ。変えるのは、ふたをするかどうか。",
+      "explanation": "容器の材質と形、中の液体の種類と量は同じ。変えるのは、ふたをするかどうか。",
       "status": "prototype",
       "auditStatus": "independent_review_pending",
       "skill": "実験条件・質量・密度・状態変化を考える"

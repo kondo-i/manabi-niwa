@@ -42,7 +42,7 @@ async function main(){
   ['japanese-g2-honorific-context-balance-001:q1','P2','先生本人の発言に尊敬語を当てはめる読みを避ける。','生徒が友達に「明日、先生が教室に行きます」と伝えます。先生の動作を高める言い方にすると、「行きます」はどれに変わる？','動作をするのは先生なので、尊敬語の「いらっしゃいます」を使う。「参ります」は自分側の動作をへりくだって述べる形。「申します」は「言う」の謙譲語。'],
   ['japanese-g2-honorific-context-balance-001:q9','P3','来客相手の内・外の関係に依存するため、話者と相手を固定。','生徒が友達に「先生は今、教室にいる」と説明します。先生への敬意が伝わる言い方はどれ？','「いる」の尊敬語は「いらっしゃる」。「申す」は「言う」、「拝見する」は「見る」の謙譲語。'],
   ['japanese-g2-story-feelings-cozy-001:q4','P2','足音は直接の描写、静けさはそこから伝わる様子。','「帰り道、足音だけが長い廊下に響いた。」この一文から、どんな様子が伝わってくる？','足音だけが響く描写から、廊下の静けさが伝わる。合唱も温度の数値も書かれていない。'],
-  ['science-g1-kitchen-notebook-cozy-001:q8','P3','比較する液体の初期量もそろえる。','同じ種類・同じ量の液体を、同じ形の容器二つに一つずつ入れた。一方にだけふたをする。何の違いを比べる実験？','容器の形と中の液体は同じ。変えるのは、ふたをするかどうか。'],
+  ['science-g1-kitchen-notebook-cozy-001:q8','P3','比較する液体の初期量もそろえる。','同じ材質・同じ形の容器を二つ用意した。それぞれに同じ種類・同じ量の液体を入れ、一方にだけふたをする。何の違いを比べる実験？','容器の材質と形、中の液体の種類と量は同じ。変えるのは、ふたをするかどうか。'],
   ['social-g3-civics-discussion-balance-001:q7','P3','夜勤の人が昼間に参加しやすいという一般化を避ける。','【架空の意見募集】昼の説明会には「昼間なら来られる」という人も、「仕事で昼間は来られない」という人もいます。もっと参加しやすくするには？','別の時間にも説明会を開いたり、書面で意見を出せるようにしたりすると、参加できる人が増える。来られないことと、意見がないことは別。']
  ];
  const changes=amendments.map(([id,priority,reason,prompt,explanation])=>{const item=added.find(a=>a.question.id===id);assert(item,id);const before=item.question,after={...before,prompt,explanation};assert(C.judge(after,before.answer)&&prompt!==before.prompt&&explanation!==before.explanation);return {id,priority,reason,source_file:item.source_file,before,after,status:'proposal_only_not_deployed'};});

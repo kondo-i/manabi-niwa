@@ -1,75 +1,6 @@
 {
-  "status": "MECHANICAL_PASS_REAUDIT_PENDING",
-  "questions": 30,
-  "content_edits": 7,
-  "changed_questions": 27,
   "changed_fields": 72,
-  "position_changed_ids": [
-    "SOC-GEO-001",
-    "SOC-GEO-002",
-    "SOC-GEO-004",
-    "SOC-GEO-005",
-    "SOC-GEO-006",
-    "SOC-GEO-007",
-    "SOC-GEO-008",
-    "SOC-GEO-009",
-    "SOC-HIS-001",
-    "SOC-HIS-003",
-    "SOC-HIS-004",
-    "SOC-HIS-005",
-    "SOC-HIS-006",
-    "SOC-HIS-008",
-    "SOC-HIS-009",
-    "SOC-HIS-010",
-    "SOC-CIV-001",
-    "SOC-CIV-002",
-    "SOC-CIV-003",
-    "SOC-CIV-005",
-    "SOC-CIV-006",
-    "SOC-CIV-007",
-    "SOC-CIV-008",
-    "SOC-CIV-009",
-    "SOC-CIV-010"
-  ],
-  "positions": {
-    "geography": [
-      2,
-      1,
-      3,
-      3,
-      1,
-      2,
-      3,
-      1,
-      2,
-      1
-    ],
-    "history": [
-      3,
-      2,
-      1,
-      2,
-      3,
-      1,
-      1,
-      3,
-      2,
-      2
-    ],
-    "civics": [
-      3,
-      1,
-      2,
-      1,
-      3,
-      2,
-      3,
-      3,
-      1,
-      2
-    ]
-  },
-  "limited_choice_matches": [],
+  "changed_questions": 27,
   "checks": [
     {
       "name": "30 unique IDs in original order and 10 per field",
@@ -120,11 +51,80 @@
       "status": "PASS"
     }
   ],
+  "content_edits": 7,
   "hashes": {
-    "change_map_social_v1_v2.csv": "0dc09e7f6e1583328be659246076e54022ef36f9b82a25bf0cbcc94fed7fe32b",
-    "questions.csv": "782f6bcf9308dd98330fe751c1e92d5393ef054889ceb5a6f14a89c5d3c410f8",
-    "questions.json": "e78e9f3bf78d1797bbf67893716b477a4ead15a69930552f0091c9398350bd44",
-    "questions.md": "97a74935617dec7d13465934f02384be224cac1dfde4628ce0741602f5cfd7a4",
-    "sources.json": "f543067a244cdc152c8edd046a521d1654e8dbd34b33a1daba80ff55acaa2512"
-  }
+    "change_map_social_v1_v2.csv": "2e53ff00d2c9a47d954d41c06edc782c8413acb817642f3214eb7a31c98a0e80",
+    "questions.csv": "31e2fc690cb27d412cd5f592b70e24a23bb51e90ba59ae3706fa08be2ba7ccb4",
+    "questions.json": "c64c7bfcfad408ead46abaa60caa1091a46462f62d5da1a5b5fc9fe20805f479",
+    "questions.md": "1dd10c2e3680967ad0e1f5aa975284ab9c692375c3e64139ab49f5d2cd348993",
+    "sources.json": "32f5705f433c8e704655ec0e3590c8b06671d022b2b65ec65da1b16a8f91f7b5"
+  },
+  "limited_choice_matches": [],
+  "position_changed_ids": [
+    "SOC-GEO-001",
+    "SOC-GEO-002",
+    "SOC-GEO-004",
+    "SOC-GEO-005",
+    "SOC-GEO-006",
+    "SOC-GEO-007",
+    "SOC-GEO-008",
+    "SOC-GEO-009",
+    "SOC-HIS-001",
+    "SOC-HIS-003",
+    "SOC-HIS-004",
+    "SOC-HIS-005",
+    "SOC-HIS-006",
+    "SOC-HIS-008",
+    "SOC-HIS-009",
+    "SOC-HIS-010",
+    "SOC-CIV-001",
+    "SOC-CIV-002",
+    "SOC-CIV-003",
+    "SOC-CIV-005",
+    "SOC-CIV-006",
+    "SOC-CIV-007",
+    "SOC-CIV-008",
+    "SOC-CIV-009",
+    "SOC-CIV-010"
+  ],
+  "positions": {
+    "civics": [
+      3,
+      1,
+      2,
+      1,
+      3,
+      2,
+      3,
+      3,
+      1,
+      2
+    ],
+    "geography": [
+      2,
+      1,
+      3,
+      3,
+      1,
+      2,
+      3,
+      1,
+      2,
+      1
+    ],
+    "history": [
+      3,
+      2,
+      1,
+      2,
+      3,
+      1,
+      1,
+      3,
+      2,
+      2
+    ]
+  },
+  "questions": 30,
+  "status": "MECHANICAL_PASS_REAUDIT_PENDING"
 }
