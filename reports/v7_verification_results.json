@@ -1,16 +1,11 @@
 {
-  "status": "MECHANICAL_PASS_SEMANTIC_REAUDIT_PENDING",
-  "questions": 1040,
+  "Claude_CSV_provided": false,
+  "changed_by_type": {
+    "context": 6,
+    "meaning": 120
+  },
   "changed_fields": 249,
   "changed_questions": 126,
-  "changed_by_type": {
-    "meaning": 120,
-    "context": 6
-  },
-  "mixed_before": 120,
-  "mixed_after": 0,
-  "distractor_choices_replaced": 117,
-  "definition_changes": 3,
   "checks": [
     {
       "name": "1040 unique IDs, same order",
@@ -65,13 +60,18 @@
       "status": "PASS"
     }
   ],
-  "Claude_CSV_provided": false,
+  "definition_changes": 3,
+  "distractor_choices_replaced": 117,
   "hashes": {
-    "canonical_definitions.json": "fea1f11400b75ed00e5ba4915b5b6baec473fdf16ad01a6164706c7ddcac7487",
-    "change_map_v6_v7.csv": "cf6288afec75f935a7c91bbb275e90baa5f5fa9472da6d04fe59edbca27883ca",
-    "definition_changes.csv": "aa4fe3ea4c86f6ff94378af4a9420611c5bd48f2c7b5aeb8f41e649981e95722",
-    "distractor_replacements.csv": "853e7401fdd7568efcf22731b5f833ee659037136ba9b6875f32e3794996769d",
-    "questions.csv": "653506768178d6285fb9e79b5759e257956f6b9d306aed2525ddc3440aa4e26f",
-    "questions.json": "dff2b7158eb11d64e23b9ffb728c0b169d1480db00a2a77cc9edd67546e1472e"
-  }
+    "canonical_definitions.json": "6666f1a2e864a164eee6d04404ef061a69f4ddeecc46e76f325795070ac575f8",
+    "change_map_v6_v7.csv": "8ca31495ba0fb29e9dbcb73207fb5dfb9da9d799b56dcc59ad404d25248e5e6b",
+    "definition_changes.csv": "76893adab6fe2842bf0df4b04e3a01632f62158952abf786040b9d6543b1a3ea",
+    "distractor_replacements.csv": "4dc30a217a6a6c909a71dbad78d5bd4b6c5133004da72b0bde7e5bd4df79bfc7",
+    "questions.csv": "1c5ea20a7718843027e96d3a36bdf1887bf6e1f3b430fb713ebea882e75a9e5d",
+    "questions.json": "0c06906f6cbd15f733349c9b3e256ea3156965a5139412caf9dc58ca0f4d2bbe"
+  },
+  "mixed_after": 0,
+  "mixed_before": 120,
+  "questions": 1040,
+  "status": "MECHANICAL_PASS_SEMANTIC_REAUDIT_PENDING"
 }
