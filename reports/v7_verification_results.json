@@ -68,10 +68,10 @@
   "Claude_CSV_provided": false,
   "hashes": {
     "canonical_definitions.json": "fea1f11400b75ed00e5ba4915b5b6baec473fdf16ad01a6164706c7ddcac7487",
-    "change_map_v6_v7.csv": "9c28d6f6ca4d3859a02ed98e14baf0000d7e3cf14885c0dc50f012ce342962b8",
+    "change_map_v6_v7.csv": "cf6288afec75f935a7c91bbb275e90baa5f5fa9472da6d04fe59edbca27883ca",
     "definition_changes.csv": "aa4fe3ea4c86f6ff94378af4a9420611c5bd48f2c7b5aeb8f41e649981e95722",
-    "distractor_replacements.csv": "aa0ad617b0da2810b57aa648124e46e1495c715e91712b5713078b6c4df83722",
-    "questions.csv": "01858fe09ca5502f37249a3f54d60a2e9ca0d3a3950761926dce53bac3c57dc3",
-    "questions.json": "e7c16d7f433b82de17cf2ecee708a646fba20e87b2ca138749feb583e17d1e7a"
+    "distractor_replacements.csv": "853e7401fdd7568efcf22731b5f833ee659037136ba9b6875f32e3794996769d",
+    "questions.csv": "653506768178d6285fb9e79b5759e257956f6b9d306aed2525ddc3440aa4e26f",
+    "questions.json": "dff2b7158eb11d64e23b9ffb728c0b169d1480db00a2a77cc9edd67546e1472e"
   }
 }
