@@ -1,0 +1,77 @@
+{
+  "status": "MECHANICAL_PASS_SEMANTIC_REAUDIT_PENDING",
+  "questions": 1040,
+  "changed_fields": 249,
+  "changed_questions": 126,
+  "changed_by_type": {
+    "meaning": 120,
+    "context": 6
+  },
+  "mixed_before": 120,
+  "mixed_after": 0,
+  "distractor_choices_replaced": 117,
+  "definition_changes": 3,
+  "checks": [
+    {
+      "name": "1040 unique IDs, same order",
+      "status": "PASS"
+    },
+    {
+      "name": "CSV all fields and types exactly reconstructed",
+      "status": "PASS"
+    },
+    {
+      "name": "three distinct choices and correct answer",
+      "status": "PASS"
+    },
+    {
+      "name": "500 M, 500 C, 40 reading",
+      "status": "PASS"
+    },
+    {
+      "name": "all 500 M same ending type; all 1500 choices end in こと",
+      "status": "PASS"
+    },
+    {
+      "name": "canonical definitions unique and manifest matches",
+      "status": "PASS"
+    },
+    {
+      "name": "M current word names and definitions in explanations",
+      "status": "PASS"
+    },
+    {
+      "name": "C all three current definitions linked",
+      "status": "PASS"
+    },
+    {
+      "name": "change map exact IDs fields before after; no missing or extra entries",
+      "status": "PASS"
+    },
+    {
+      "name": "protected fields preserved; no inherited audit statuses overwritten",
+      "status": "PASS"
+    },
+    {
+      "name": "all reading data unchanged",
+      "status": "PASS"
+    },
+    {
+      "name": "replacement log before/after values and explanation exact",
+      "status": "PASS"
+    },
+    {
+      "name": "requested 061,047,059 replacements",
+      "status": "PASS"
+    }
+  ],
+  "Claude_CSV_provided": false,
+  "hashes": {
+    "canonical_definitions.json": "fea1f11400b75ed00e5ba4915b5b6baec473fdf16ad01a6164706c7ddcac7487",
+    "change_map_v6_v7.csv": "9c28d6f6ca4d3859a02ed98e14baf0000d7e3cf14885c0dc50f012ce342962b8",
+    "definition_changes.csv": "aa4fe3ea4c86f6ff94378af4a9420611c5bd48f2c7b5aeb8f41e649981e95722",
+    "distractor_replacements.csv": "aa0ad617b0da2810b57aa648124e46e1495c715e91712b5713078b6c4df83722",
+    "questions.csv": "01858fe09ca5502f37249a3f54d60a2e9ca0d3a3950761926dce53bac3c57dc3",
+    "questions.json": "e7c16d7f433b82de17cf2ecee708a646fba20e87b2ca138749feb583e17d1e7a"
+  }
+}
