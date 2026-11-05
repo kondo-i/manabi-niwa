@@ -347,7 +347,7 @@
     "JVQ-124-04-C",
     "JVQ-124-04-M"
   ],
-  "natural_style_outlier_correct_count": 10,
+  "natural_style_outlier_correct_count": 7,
   "natural_style_outliers": [
     {
       "id": "JVQ-015-04-M",
@@ -430,21 +430,6 @@
       "unique_is_correct": false
     },
     {
-      "id": "JVQ-111-01-M",
-      "unique_choice_number": 2,
-      "unique_is_correct": true
-    },
-    {
-      "id": "JVQ-113-04-M",
-      "unique_choice_number": 3,
-      "unique_is_correct": true
-    },
-    {
-      "id": "JVQ-114-04-M",
-      "unique_choice_number": 2,
-      "unique_is_correct": true
-    },
-    {
       "id": "JVQ-119-01-M",
       "unique_choice_number": 3,
       "unique_is_correct": true
@@ -458,12 +443,12 @@
   "questions": 1040,
   "semantic_domain_limit": "13 targeted items reviewed by producer; broad semantic domain equality is not machine-proven",
   "sha256_lf": {
-    "canonical_definitions.json": "16058384328b29d3e7f6984544cb7140a22596d1dee08c93da72943650a114d0",
-    "change_map_v7_v8.csv": "534b084e333327d4e294c324650d57bcf709bc9dc87bcc11c69f7ffa6b6b675f",
-    "definition_changes.csv": "235ddc77a1832541f55749052ef32abfea981f30c438c047a9a1a1f270cf53f1",
+    "canonical_definitions.json": "0711af3b3d0c2aabc1e19b574d7963331d1d6960bb8c8d442cdbfcfbd073f0fc",
+    "change_map_v7_v8.csv": "71fca996b46c73e98dba53276cd3cae48cbce782855be537d99d93cf7bf0c217",
+    "definition_changes.csv": "ec84a1361f14b0ab084642be06f66cfcd79725e14b4456cf0b0947e3c21ae81c",
     "distractor_replacements.csv": "a5cc61acc8cbcd2c7ad1176953b2970415bf6201d743fe6df72058f76e46001f",
-    "questions.csv": "98a72cb495180c0ab061209665649ed8de72c67376c8adb624379f0e4bdece4b",
-    "questions.json": "e56f10d38ec49ed9c73370c628661f16948a2be1810fcd9edbaefe9049c68db6",
+    "questions.csv": "7a27a55916a4f5b2dde5b4fb0cf8630f6578badcbc60c2e6c124e0225dd84f5d",
+    "questions.json": "bcb0de7e4e21dd08d7d6c2aac429bc081577be18deb99bc16746dd33bf6b3e83",
     "targeted_semantic_review.csv": "f0c013b06fb8b61f07cf6f1e7d13531e73ffc12be6533c64c332109d94eb3e5f",
     "textbook_policy.json": "57005bddf2173a3b5974247b8c0c2215ecde693ac45314b4da1e1249af5be855"
   },
