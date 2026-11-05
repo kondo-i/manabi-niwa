@@ -1,0 +1,6 @@
+{
+  "exact_prompt_duplicates": [],
+  "near_prompt_candidates": [],
+  "scope": "Current social32 + app187 against socialv2 + app185. Different-ID comparisons only.",
+  "limit": "Character similarity is a screening aid. Semantic/skill identity is not decided automatically."
+}

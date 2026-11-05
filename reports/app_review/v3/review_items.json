@@ -1,0 +1,4918 @@
+[
+  {
+    "batch": "balance",
+    "unit_id": "japanese-honorific-context",
+    "unit_title": "敬語：場面に合う表現",
+    "subject": "japanese",
+    "grade": 2,
+    "source_file": "dist/data/packs/japanese-g2-honorific-context-balance-001.json",
+    "question": {
+      "id": "japanese-g2-honorific-context-balance-001:q1",
+      "subject": "japanese",
+      "grade": 2,
+      "unitId": "japanese-honorific-context",
+      "type": "choice",
+      "prompt": "明日、先生が教室に行く。「行く」を先生への敬意を表す形に変えるとどれか。",
+      "choices": [
+        "いらっしゃる",
+        "参る",
+        "申す"
+      ],
+      "answer": 0,
+      "explanation": "先生の「行く」動作への敬意を表す尊敬語は「いらっしゃる」。「参る」は自分側の行く・来る動作の謙譲表現。「申す」は言う動作の謙譲語。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "尊敬語と謙譲語の区別"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "japanese-honorific-context",
+    "unit_title": "敬語：場面に合う表現",
+    "subject": "japanese",
+    "grade": 2,
+    "source_file": "dist/data/packs/japanese-g2-honorific-context-balance-001.json",
+    "question": {
+      "id": "japanese-g2-honorific-context-balance-001:q2",
+      "subject": "japanese",
+      "grade": 2,
+      "unitId": "japanese-honorific-context",
+      "type": "choice",
+      "prompt": "生徒が先生に「私が職員室に行きます」と伝える。「行きます」を自分の動作を低める語にするとどれか。",
+      "choices": [
+        "いらっしゃいます",
+        "参ります",
+        "おっしゃいます"
+      ],
+      "answer": 1,
+      "explanation": "自分が行く動作には「参ります」を使う。「いらっしゃいます」は相手側の動作を高める語。「おっしゃいます」は言う動作の尊敬語。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "尊敬語と謙譲語の区別"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "japanese-honorific-context",
+    "unit_title": "敬語：場面に合う表現",
+    "subject": "japanese",
+    "grade": 2,
+    "source_file": "dist/data/packs/japanese-g2-honorific-context-balance-001.json",
+    "question": {
+      "id": "japanese-g2-honorific-context-balance-001:q3",
+      "subject": "japanese",
+      "grade": 2,
+      "unitId": "japanese-honorific-context",
+      "type": "choice",
+      "prompt": "「校長先生が話の続きを言った」の「言った」を尊敬語にするとどれか。",
+      "choices": [
+        "申した",
+        "拝見した",
+        "おっしゃった"
+      ],
+      "answer": 2,
+      "explanation": "先生が言う動作は「おっしゃった」と高める。「申した」は言う動作の謙譲語。「拝見した」は見る動作の謙譲語。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "尊敬語と謙譲語の区別"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "japanese-honorific-context",
+    "unit_title": "敬語：場面に合う表現",
+    "subject": "japanese",
+    "grade": 2,
+    "source_file": "dist/data/packs/japanese-g2-honorific-context-balance-001.json",
+    "question": {
+      "id": "japanese-g2-honorific-context-balance-001:q4",
+      "subject": "japanese",
+      "grade": 2,
+      "unitId": "japanese-honorific-context",
+      "type": "choice",
+      "prompt": "生徒が先生に、自分が資料を見る許可を願う。「資料を（　）してもよろしいですか」の空欄はどれか。",
+      "choices": [
+        "拝見",
+        "ご覧",
+        "拝聴"
+      ],
+      "answer": 0,
+      "explanation": "自分が見る動作は「拝見する」。「ご覧になる」は相手側の見る動作を高める。「拝聴する」は聞く動作。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "尊敬語と謙譲語の区別"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "japanese-honorific-context",
+    "unit_title": "敬語：場面に合う表現",
+    "subject": "japanese",
+    "grade": 2,
+    "source_file": "dist/data/packs/japanese-g2-honorific-context-balance-001.json",
+    "question": {
+      "id": "japanese-g2-honorific-context-balance-001:q5",
+      "subject": "japanese",
+      "grade": 2,
+      "unitId": "japanese-honorific-context",
+      "type": "choice",
+      "prompt": "「先生が昼食を食べる」の「食べる」を尊敬語にするとどれか。",
+      "choices": [
+        "いただく",
+        "召し上がる",
+        "伺う"
+      ],
+      "answer": 1,
+      "explanation": "食べる動作の尊敬語は「召し上がる」。「いただく」は食べるなどの謙譲語。「伺う」は訪ねる・聞くなどの謙譲語。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "尊敬語と謙譲語の区別"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "japanese-honorific-context",
+    "unit_title": "敬語：場面に合う表現",
+    "subject": "japanese",
+    "grade": 2,
+    "source_file": "dist/data/packs/japanese-g2-honorific-context-balance-001.json",
+    "question": {
+      "id": "japanese-g2-honorific-context-balance-001:q6",
+      "subject": "japanese",
+      "grade": 2,
+      "unitId": "japanese-honorific-context",
+      "type": "choice",
+      "prompt": "先生から菓子を受け取った生徒が礼を言う。「お菓子を（　）ました」の空欄はどれか。",
+      "choices": [
+        "召し上がり",
+        "おっしゃい",
+        "いただき"
+      ],
+      "answer": 2,
+      "explanation": "自分がもらう動作を低めて「いただきました」とする。「召し上がる」は食べる相手側を高める語。「おっしゃる」は言う動作。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "尊敬語と謙譲語の区別"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "japanese-honorific-context",
+    "unit_title": "敬語：場面に合う表現",
+    "subject": "japanese",
+    "grade": 2,
+    "source_file": "dist/data/packs/japanese-g2-honorific-context-balance-001.json",
+    "question": {
+      "id": "japanese-g2-honorific-context-balance-001:q7",
+      "subject": "japanese",
+      "grade": 2,
+      "unitId": "japanese-honorific-context",
+      "type": "choice",
+      "prompt": "先生の説明を聞いた生徒が、自分が聞いたことを謙譲語で述べる表現はどれか。",
+      "choices": [
+        "説明を拝聴しました",
+        "説明をご覧になりました",
+        "説明をおっしゃいました"
+      ],
+      "answer": 0,
+      "explanation": "自分が聞くことは「拝聴する」。「ご覧になる」は見る動作。「おっしゃる」は言う動作で、どちらも今回の動作とは違う。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "尊敬語と謙譲語の区別"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "japanese-honorific-context",
+    "unit_title": "敬語：場面に合う表現",
+    "subject": "japanese",
+    "grade": 2,
+    "source_file": "dist/data/packs/japanese-g2-honorific-context-balance-001.json",
+    "question": {
+      "id": "japanese-g2-honorific-context-balance-001:q8",
+      "subject": "japanese",
+      "grade": 2,
+      "unitId": "japanese-honorific-context",
+      "type": "choice",
+      "prompt": "「先生が答案を見る」の「見る」を尊敬語にした文はどれか。",
+      "choices": [
+        "先生が答案を拝見する",
+        "先生が答案をご覧になる",
+        "先生が答案を参る"
+      ],
+      "answer": 1,
+      "explanation": "先生の見る動作には「ご覧になる」を使う。「拝見する」は自分側の見る動作を低める。「参る」は行く・来るの動作。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "尊敬語と謙譲語の区別"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "japanese-honorific-context",
+    "unit_title": "敬語：場面に合う表現",
+    "subject": "japanese",
+    "grade": 2,
+    "source_file": "dist/data/packs/japanese-g2-honorific-context-balance-001.json",
+    "question": {
+      "id": "japanese-g2-honorific-context-balance-001:q9",
+      "subject": "japanese",
+      "grade": 2,
+      "unitId": "japanese-honorific-context",
+      "type": "choice",
+      "prompt": "生徒が友達に、先生が今どこにいるかを伝える。「先生は今、教室に（　）」の空欄に入る、先生への敬意を表す言い方はどれか。",
+      "choices": [
+        "おります",
+        "ございます",
+        "いらっしゃいます"
+      ],
+      "answer": 2,
+      "explanation": "先生の「いる」を高める言い方は「いらっしゃいます」。「おります」は自分側に用いる丁重な言い方。「ございます」は人がいることへの尊敬表現には使わない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "尊敬語と謙譲語の区別"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "japanese-honorific-context",
+    "unit_title": "敬語：場面に合う表現",
+    "subject": "japanese",
+    "grade": 2,
+    "source_file": "dist/data/packs/japanese-g2-honorific-context-balance-001.json",
+    "question": {
+      "id": "japanese-g2-honorific-context-balance-001:q10",
+      "subject": "japanese",
+      "grade": 2,
+      "unitId": "japanese-honorific-context",
+      "type": "choice",
+      "prompt": "「私は近藤です」の「です」が聞き手に対して示す敬語の種類はどれか。",
+      "choices": [
+        "丁寧語",
+        "尊敬語",
+        "謙譲語"
+      ],
+      "answer": 0,
+      "explanation": "「です」は聞き手に丁寧に伝える丁寧語。相手の動作を高める尊敬語や、自分側の動作を低める謙譲語とは区別する。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "尊敬語と謙譲語の区別"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "japanese-auxiliary-context",
+    "unit_title": "文法：助動詞を文脈で区別",
+    "subject": "japanese",
+    "grade": 2,
+    "source_file": "dist/data/packs/japanese-g2-auxiliary-context-balance-001.json",
+    "question": {
+      "id": "japanese-g2-auxiliary-context-balance-001:q1",
+      "subject": "japanese",
+      "grade": 2,
+      "unitId": "japanese-auxiliary-context",
+      "type": "choice",
+      "prompt": "「弟は先生にほめられた」の「られ」が表す意味はどれか。",
+      "choices": [
+        "受け身",
+        "可能",
+        "自発"
+      ],
+      "answer": 0,
+      "explanation": "弟がほめる側ではなく、先生からほめられる側なので受け身。能力の可能や、自然に気持ちが起こる自発ではない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "受け身・可能・推量などの読み分け"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "japanese-auxiliary-context",
+    "unit_title": "文法：助動詞を文脈で区別",
+    "subject": "japanese",
+    "grade": 2,
+    "source_file": "dist/data/packs/japanese-g2-auxiliary-context-balance-001.json",
+    "question": {
+      "id": "japanese-g2-auxiliary-context-balance-001:q2",
+      "subject": "japanese",
+      "grade": 2,
+      "unitId": "japanese-auxiliary-context",
+      "type": "choice",
+      "prompt": "「私は辛い物も食べられる」の「られる」が、この文で表す意味はどれか。",
+      "choices": [
+        "受け身",
+        "可能",
+        "尊敬"
+      ],
+      "answer": 1,
+      "explanation": "食べる能力・可能性を述べている。誰かから食べられる受け身や、相手の動作を高める尊敬ではない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "受け身・可能・推量などの読み分け"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "japanese-auxiliary-context",
+    "unit_title": "文法：助動詞を文脈で区別",
+    "subject": "japanese",
+    "grade": 2,
+    "source_file": "dist/data/packs/japanese-g2-auxiliary-context-balance-001.json",
+    "question": {
+      "id": "japanese-g2-auxiliary-context-balance-001:q3",
+      "subject": "japanese",
+      "grade": 2,
+      "unitId": "japanese-auxiliary-context",
+      "type": "choice",
+      "prompt": "「写真を見ると故郷が思い出される」の「れる」が表す意味はどれか。",
+      "choices": [
+        "受け身",
+        "尊敬",
+        "自発"
+      ],
+      "answer": 2,
+      "explanation": "自然に思い出が浮かぶので自発。人から何かをされる受け身でも、他者を高める尊敬でもない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "受け身・可能・推量などの読み分け"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "japanese-auxiliary-context",
+    "unit_title": "文法：助動詞を文脈で区別",
+    "subject": "japanese",
+    "grade": 2,
+    "source_file": "dist/data/packs/japanese-g2-auxiliary-context-balance-001.json",
+    "question": {
+      "id": "japanese-g2-auxiliary-context-balance-001:q4",
+      "subject": "japanese",
+      "grade": 2,
+      "unitId": "japanese-auxiliary-context",
+      "type": "choice",
+      "prompt": "「先生が明日の予定を話される」の「れる」と同じ用法の文はどれか。",
+      "choices": [
+        "校長先生が玄関に立たれる",
+        "妹が犬に追いかけられる",
+        "昔の景色が自然と思い出される"
+      ],
+      "answer": 0,
+      "explanation": "「話される」と「立たれる」は、先生の動作への敬意を表す尊敬。「追いかけられる」は受け身、「思い出される」は自然に気持ちが起こる自発。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "受け身・可能・推量などの読み分け"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "japanese-auxiliary-context",
+    "unit_title": "文法：助動詞を文脈で区別",
+    "subject": "japanese",
+    "grade": 2,
+    "source_file": "dist/data/packs/japanese-g2-auxiliary-context-balance-001.json",
+    "question": {
+      "id": "japanese-g2-auxiliary-context-balance-001:q5",
+      "subject": "japanese",
+      "grade": 2,
+      "unitId": "japanese-auxiliary-context",
+      "type": "choice",
+      "prompt": "「先生は生徒に机を運ばせた」の「せ」が表す意味はどれか。",
+      "choices": [
+        "受け身",
+        "使役",
+        "打ち消し"
+      ],
+      "answer": 1,
+      "explanation": "生徒に運ぶ動作をさせるので使役。先生が動作を受ける受け身でも、動作を否定する打ち消しでもない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "受け身・可能・推量などの読み分け"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "japanese-auxiliary-context",
+    "unit_title": "文法：助動詞を文脈で区別",
+    "subject": "japanese",
+    "grade": 2,
+    "source_file": "dist/data/packs/japanese-g2-auxiliary-context-balance-001.json",
+    "question": {
+      "id": "japanese-g2-auxiliary-context-balance-001:q6",
+      "subject": "japanese",
+      "grade": 2,
+      "unitId": "japanese-auxiliary-context",
+      "type": "choice",
+      "prompt": "「私は明日こそ早く起きよう」の「よう」が表す意味はどれか。",
+      "choices": [
+        "伝聞",
+        "打ち消し",
+        "意志"
+      ],
+      "answer": 2,
+      "explanation": "「起き」に付く「よう」は、ここでは自分が早く起きるつもりだという意志を表す。伝聞や打ち消しではない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "受け身・可能・推量などの読み分け"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "japanese-auxiliary-context",
+    "unit_title": "文法：助動詞を文脈で区別",
+    "subject": "japanese",
+    "grade": 2,
+    "source_file": "dist/data/packs/japanese-g2-auxiliary-context-balance-001.json",
+    "question": {
+      "id": "japanese-g2-auxiliary-context-balance-001:q7",
+      "subject": "japanese",
+      "grade": 2,
+      "unitId": "japanese-auxiliary-context",
+      "type": "choice",
+      "prompt": "「空が暗い。もうすぐ雨が降るだろう」の「だろう」が表す意味はどれか。",
+      "choices": [
+        "推量",
+        "断定",
+        "使役"
+      ],
+      "answer": 0,
+      "explanation": "まだ確定しない将来を考えているので推量。確かなこととして言い切る断定や、人にさせる使役ではない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "受け身・可能・推量などの読み分け"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "japanese-auxiliary-context",
+    "unit_title": "文法：助動詞を文脈で区別",
+    "subject": "japanese",
+    "grade": 2,
+    "source_file": "dist/data/packs/japanese-g2-auxiliary-context-balance-001.json",
+    "question": {
+      "id": "japanese-g2-auxiliary-context-balance-001:q8",
+      "subject": "japanese",
+      "grade": 2,
+      "unitId": "japanese-auxiliary-context",
+      "type": "choice",
+      "prompt": "「天気予報によると、午後は雨だそうだ」の「そうだ」が表す意味はどれか。",
+      "choices": [
+        "様態",
+        "伝聞",
+        "希望"
+      ],
+      "answer": 1,
+      "explanation": "予報から聞いた内容を伝えるので伝聞。見た様子から判断する様態や、自分の希望ではない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "受け身・可能・推量などの読み分け"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "japanese-auxiliary-context",
+    "unit_title": "文法：助動詞を文脈で区別",
+    "subject": "japanese",
+    "grade": 2,
+    "source_file": "dist/data/packs/japanese-g2-auxiliary-context-balance-001.json",
+    "question": {
+      "id": "japanese-g2-auxiliary-context-balance-001:q9",
+      "subject": "japanese",
+      "grade": 2,
+      "unitId": "japanese-auxiliary-context",
+      "type": "choice",
+      "prompt": "「このケーキはおいしそうだ」の「そうだ」が表す意味はどれか。",
+      "choices": [
+        "伝聞",
+        "使役",
+        "様態"
+      ],
+      "answer": 2,
+      "explanation": "見た様子からおいしいと判断する様態。誰かから聞いた情報を示す語句はなく、動作をさせる使役でもない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "受け身・可能・推量などの読み分け"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "japanese-auxiliary-context",
+    "unit_title": "文法：助動詞を文脈で区別",
+    "subject": "japanese",
+    "grade": 2,
+    "source_file": "dist/data/packs/japanese-g2-auxiliary-context-balance-001.json",
+    "question": {
+      "id": "japanese-g2-auxiliary-context-balance-001:q10",
+      "subject": "japanese",
+      "grade": 2,
+      "unitId": "japanese-auxiliary-context",
+      "type": "choice",
+      "prompt": "「私は夏休みに海へ行きたい」の「たい」が表す意味はどれか。",
+      "choices": [
+        "希望",
+        "打ち消し",
+        "受け身"
+      ],
+      "answer": 0,
+      "explanation": "行くことを望むので希望。「行かない」という打ち消しや、他者から動作を受ける受け身ではない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "受け身・可能・推量などの読み分け"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "japanese-evidence-compare",
+    "unit_title": "読解：二つの情報を比べる",
+    "subject": "japanese",
+    "grade": 2,
+    "source_file": "dist/data/packs/japanese-g2-evidence-compare-balance-001.json",
+    "question": {
+      "id": "japanese-g2-evidence-compare-balance-001:q1",
+      "subject": "japanese",
+      "grade": 2,
+      "unitId": "japanese-evidence-compare",
+      "type": "choice",
+      "prompt": "二つの店はどちらも文房具とお菓子を売っている。店Aは「全品10％引き」、店Bは「文房具だけ20％引き」。この二つの案内から分かることは？",
+      "choices": [
+        "値引きの対象範囲が異なる",
+        "どの商品もBが安い",
+        "両店の元の値段は同じ"
+      ],
+      "answer": 0,
+      "explanation": "Aでは文房具もお菓子も値引きされる。Bで値引きされるのは文房具。元の値段が分からないので、どちらで安く買えるかは決められない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "共通点・条件・情報不足の判断"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "japanese-evidence-compare",
+    "unit_title": "読解：二つの情報を比べる",
+    "subject": "japanese",
+    "grade": 2,
+    "source_file": "dist/data/packs/japanese-g2-evidence-compare-balance-001.json",
+    "question": {
+      "id": "japanese-g2-evidence-compare-balance-001:q2",
+      "subject": "japanese",
+      "grade": 2,
+      "unitId": "japanese-evidence-compare",
+      "type": "choice",
+      "prompt": "図書館Aは月曜休館、図書館Bは火曜休館で、それ以外は開館する。両方が開く日はどれか。",
+      "choices": [
+        "月曜日",
+        "水曜日",
+        "火曜日"
+      ],
+      "answer": 1,
+      "explanation": "水曜はどちらの休館日でもない。月曜はA、火曜はBが休館する。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "共通点・条件・情報不足の判断"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "japanese-evidence-compare",
+    "unit_title": "読解：二つの情報を比べる",
+    "subject": "japanese",
+    "grade": 2,
+    "source_file": "dist/data/packs/japanese-g2-evidence-compare-balance-001.json",
+    "question": {
+      "id": "japanese-g2-evidence-compare-balance-001:q3",
+      "subject": "japanese",
+      "grade": 2,
+      "unitId": "japanese-evidence-compare",
+      "type": "choice",
+      "prompt": "資料Aは「参加者の半数が徒歩」、資料Bは「参加者の30人が徒歩」。徒歩の人数を比べるのに不足する情報はどれか。",
+      "choices": [
+        "Bの会場の広さ",
+        "両資料の文字数",
+        "Aの参加者の総数"
+      ],
+      "answer": 2,
+      "explanation": "Aの半数を人数に直すには総数が必要。会場の広さや文字数から徒歩の人数は計算できない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "共通点・条件・情報不足の判断"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "japanese-evidence-compare",
+    "unit_title": "読解：二つの情報を比べる",
+    "subject": "japanese",
+    "grade": 2,
+    "source_file": "dist/data/packs/japanese-g2-evidence-compare-balance-001.json",
+    "question": {
+      "id": "japanese-g2-evidence-compare-balance-001:q4",
+      "subject": "japanese",
+      "grade": 2,
+      "unitId": "japanese-evidence-compare",
+      "type": "choice",
+      "prompt": "太郎は「朝は静かだった」、花子は「昼はにぎやかだった」と同じ場所について述べた。読み取りとして適切なのはどれか。",
+      "choices": [
+        "観察した時間が異なる",
+        "必ずどちらかがうそをついている",
+        "二人は別の場所にいた"
+      ],
+      "answer": 0,
+      "explanation": "朝と昼なら同じ場所の様子が違っても両立する。うそや別の場所だという結論を出す根拠はない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "共通点・条件・情報不足の判断"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "japanese-evidence-compare",
+    "unit_title": "読解：二つの情報を比べる",
+    "subject": "japanese",
+    "grade": 2,
+    "source_file": "dist/data/packs/japanese-g2-evidence-compare-balance-001.json",
+    "question": {
+      "id": "japanese-g2-evidence-compare-balance-001:q5",
+      "subject": "japanese",
+      "grade": 2,
+      "unitId": "japanese-evidence-compare",
+      "type": "choice",
+      "prompt": "A案は費用を重視し、B案は安全を重視している。議論の整理にまず役立つのはどれか。",
+      "choices": [
+        "発言の長さだけで勝敗を決める",
+        "評価している基準を区別する",
+        "話した順に正誤を決める"
+      ],
+      "answer": 1,
+      "explanation": "重視する基準の違いを明らかにすると比較しやすい。発言の長さや順番だけでは案の良さを判断できない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "共通点・条件・情報不足の判断"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "japanese-evidence-compare",
+    "unit_title": "読解：二つの情報を比べる",
+    "subject": "japanese",
+    "grade": 2,
+    "source_file": "dist/data/packs/japanese-g2-evidence-compare-balance-001.json",
+    "question": {
+      "id": "japanese-g2-evidence-compare-balance-001:q6",
+      "subject": "japanese",
+      "grade": 2,
+      "unitId": "japanese-evidence-compare",
+      "type": "choice",
+      "prompt": "「毎日10分読むとよい」という意見に対し、「私は昨日30分読んだ」と答えた。毎日の実行を確かめるには何が必要か。",
+      "choices": [
+        "昨日読んだ本の色",
+        "発言した人の身長",
+        "ほかの日の読書記録"
+      ],
+      "answer": 2,
+      "explanation": "昨日だけの記録では毎日か判断できない。本の色や身長は継続日数を示さない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "共通点・条件・情報不足の判断"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "japanese-evidence-compare",
+    "unit_title": "読解：二つの情報を比べる",
+    "subject": "japanese",
+    "grade": 2,
+    "source_file": "dist/data/packs/japanese-g2-evidence-compare-balance-001.json",
+    "question": {
+      "id": "japanese-g2-evidence-compare-balance-001:q7",
+      "subject": "japanese",
+      "grade": 2,
+      "unitId": "japanese-evidence-compare",
+      "type": "choice",
+      "prompt": "資料Aは2010年、資料Bは2025年の同じ町の人口を示す。比較で直接分かることはどれか。",
+      "choices": [
+        "二つの時点の人口の増減",
+        "増減した原因のすべて",
+        "町民全員の職業"
+      ],
+      "answer": 0,
+      "explanation": "人口の数値があれば増減は比較できる。原因や個人の職業は別の資料が必要。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "共通点・条件・情報不足の判断"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "japanese-evidence-compare",
+    "unit_title": "読解：二つの情報を比べる",
+    "subject": "japanese",
+    "grade": 2,
+    "source_file": "dist/data/packs/japanese-g2-evidence-compare-balance-001.json",
+    "question": {
+      "id": "japanese-g2-evidence-compare-balance-001:q8",
+      "subject": "japanese",
+      "grade": 2,
+      "unitId": "japanese-evidence-compare",
+      "type": "choice",
+      "prompt": "「校庭は広い」という文と「校庭は縦40m、横30m」という文を比べる。後者の特徴はどれか。",
+      "choices": [
+        "書き手の好き嫌いだけを示す",
+        "大きさを数値で具体的に示す",
+        "校庭の使い方を命じる"
+      ],
+      "answer": 1,
+      "explanation": "後者は寸法を示している。好みの表明でも使用方法の命令でもない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "共通点・条件・情報不足の判断"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "japanese-evidence-compare",
+    "unit_title": "読解：二つの情報を比べる",
+    "subject": "japanese",
+    "grade": 2,
+    "source_file": "dist/data/packs/japanese-g2-evidence-compare-balance-001.json",
+    "question": {
+      "id": "japanese-g2-evidence-compare-balance-001:q9",
+      "subject": "japanese",
+      "grade": 2,
+      "unitId": "japanese-evidence-compare",
+      "type": "choice",
+      "prompt": "案Aは10人で2時間、案Bは5人で4時間の作業を予定している。資料にないため断定できないことはどれか。",
+      "choices": [
+        "Aの予定人数",
+        "Bの予定時間",
+        "実際にどちらが早く終わるか"
+      ],
+      "answer": 2,
+      "explanation": "実際の進み方は予定だけでは確定しない。Aの人数とBの時間は明記されている。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "共通点・条件・情報不足の判断"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "japanese-evidence-compare",
+    "unit_title": "読解：二つの情報を比べる",
+    "subject": "japanese",
+    "grade": 2,
+    "source_file": "dist/data/packs/japanese-g2-evidence-compare-balance-001.json",
+    "question": {
+      "id": "japanese-g2-evidence-compare-balance-001:q10",
+      "subject": "japanese",
+      "grade": 2,
+      "unitId": "japanese-evidence-compare",
+      "type": "choice",
+      "prompt": "同じ実験をA班は20℃、B班は30℃で行った。結果を比べる際に注意すべき点はどれか。",
+      "choices": [
+        "温度の条件が異なる",
+        "班名が違えば結果は比較不能",
+        "気温以外の条件も必ず全部違う"
+      ],
+      "answer": 0,
+      "explanation": "明記された違いは温度。班名だけで比較を否定したり、ほかの条件まで違うと決めつけたりはできない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "共通点・条件・情報不足の判断"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "japanese-argument-reading",
+    "unit_title": "論理読解：根拠と反例",
+    "subject": "japanese",
+    "grade": 3,
+    "source_file": "dist/data/packs/japanese-g3-argument-reading-balance-001.json",
+    "question": {
+      "id": "japanese-g3-argument-reading-balance-001:q1",
+      "subject": "japanese",
+      "grade": 3,
+      "unitId": "japanese-argument-reading",
+      "type": "choice",
+      "prompt": "「この傘は軽い。だから持ち運びに向いている。」主張を支える根拠はどれか。",
+      "choices": [
+        "傘が軽いこと",
+        "傘の値段が安いこと",
+        "傘が人気であること"
+      ],
+      "answer": 0,
+      "explanation": "本文で主張の理由になっているのは軽さ。値段や人気は書かれていない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "主張・限定・因果の吟味"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "japanese-argument-reading",
+    "unit_title": "論理読解：根拠と反例",
+    "subject": "japanese",
+    "grade": 3,
+    "source_file": "dist/data/packs/japanese-g3-argument-reading-balance-001.json",
+    "question": {
+      "id": "japanese-g3-argument-reading-balance-001:q2",
+      "subject": "japanese",
+      "grade": 3,
+      "unitId": "japanese-argument-reading",
+      "type": "choice",
+      "prompt": "「この学校の生徒は全員自転車で通う」に対する反例になる情報はどれか。",
+      "choices": [
+        "別の学校に徒歩通学の生徒がいる",
+        "この学校に徒歩通学の生徒が一人いる",
+        "この学校に自転車通学の生徒が一人いる"
+      ],
+      "answer": 1,
+      "explanation": "全員という主張は、同じ学校の一人でも徒歩なら成り立たない。別の学校や主張に合う一例では反例にならない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "主張・限定・因果の吟味"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "japanese-argument-reading",
+    "unit_title": "論理読解：根拠と反例",
+    "subject": "japanese",
+    "grade": 3,
+    "source_file": "dist/data/packs/japanese-g3-argument-reading-balance-001.json",
+    "question": {
+      "id": "japanese-g3-argument-reading-balance-001:q3",
+      "subject": "japanese",
+      "grade": 3,
+      "unitId": "japanese-argument-reading",
+      "type": "choice",
+      "prompt": "「雨の日は来客が少なかった。したがって雨だけが原因だ」と断定する際の問題はどれか。",
+      "choices": [
+        "雨の日の記録を使っていること自体が禁止される",
+        "少ないという言葉は使えない",
+        "ほかの条件の影響を調べていない"
+      ],
+      "answer": 2,
+      "explanation": "曜日や催しの有無なども原因になり得る。雨の日の記録や「少ない」という表現自体が問題なのではない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "主張・限定・因果の吟味"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "japanese-argument-reading",
+    "unit_title": "論理読解：根拠と反例",
+    "subject": "japanese",
+    "grade": 3,
+    "source_file": "dist/data/packs/japanese-g3-argument-reading-balance-001.json",
+    "question": {
+      "id": "japanese-g3-argument-reading-balance-001:q4",
+      "subject": "japanese",
+      "grade": 3,
+      "unitId": "japanese-argument-reading",
+      "type": "choice",
+      "prompt": "「全員に聞いたわけではないが、多くの人は賛成だ」とある。発言の範囲として適切なのはどれか。",
+      "choices": [
+        "全員が賛成とは断定していない",
+        "全員が反対だと断定している",
+        "誰にも質問していないと断定している"
+      ],
+      "answer": 0,
+      "explanation": "「全員に聞いたわけではない」は全員賛成の断定を避ける。全員反対や質問ゼロという意味ではない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "主張・限定・因果の吟味"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "japanese-argument-reading",
+    "unit_title": "論理読解：根拠と反例",
+    "subject": "japanese",
+    "grade": 3,
+    "source_file": "dist/data/packs/japanese-g3-argument-reading-balance-001.json",
+    "question": {
+      "id": "japanese-g3-argument-reading-balance-001:q5",
+      "subject": "japanese",
+      "grade": 3,
+      "unitId": "japanese-argument-reading",
+      "type": "choice",
+      "prompt": "「値段が安い」という理由だけで道具を選ぶ案に、安全性の視点を補う質問はどれか。",
+      "choices": [
+        "商品名は何文字か",
+        "安全基準を満たしているか",
+        "何番目に発言したか"
+      ],
+      "answer": 1,
+      "explanation": "安全基準を問うと不足している観点を補える。文字数や発言順は道具の安全性を示さない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "主張・限定・因果の吟味"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "japanese-argument-reading",
+    "unit_title": "論理読解：根拠と反例",
+    "subject": "japanese",
+    "grade": 3,
+    "source_file": "dist/data/packs/japanese-g3-argument-reading-balance-001.json",
+    "question": {
+      "id": "japanese-g3-argument-reading-balance-001:q6",
+      "subject": "japanese",
+      "grade": 3,
+      "unitId": "japanese-argument-reading",
+      "type": "choice",
+      "prompt": "「昨年は100人中50人、今年は200人中80人が参加した。」参加者の割合について正しいのはどれか。",
+      "choices": [
+        "人数も割合も下がった",
+        "人数も割合も増えた",
+        "人数は増えたが割合は下がった"
+      ],
+      "answer": 2,
+      "explanation": "人数は50人から80人へ増加。割合は50％から40％へ低下したので、人数と割合を分けて考える。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "主張・限定・因果の吟味"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "japanese-argument-reading",
+    "unit_title": "論理読解：根拠と反例",
+    "subject": "japanese",
+    "grade": 3,
+    "source_file": "dist/data/packs/japanese-g3-argument-reading-balance-001.json",
+    "question": {
+      "id": "japanese-g3-argument-reading-balance-001:q7",
+      "subject": "japanese",
+      "grade": 3,
+      "unitId": "japanese-argument-reading",
+      "type": "choice",
+      "prompt": "「もし会場が使えれば開催する」とだけ決まっている。会場が使えない場合に必ず言えることはどれか。",
+      "choices": [
+        "この文だけでは開催の有無を決められない",
+        "別会場でも必ず開催する",
+        "どのような方法でも絶対に開催しない"
+      ],
+      "answer": 0,
+      "explanation": "文は会場が使える場合だけを述べている。使えない場合に別会場にするか中止するかは決まっていない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "主張・限定・因果の吟味"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "japanese-argument-reading",
+    "unit_title": "論理読解：根拠と反例",
+    "subject": "japanese",
+    "grade": 3,
+    "source_file": "dist/data/packs/japanese-g3-argument-reading-balance-001.json",
+    "question": {
+      "id": "japanese-g3-argument-reading-balance-001:q8",
+      "subject": "japanese",
+      "grade": 3,
+      "unitId": "japanese-argument-reading",
+      "type": "choice",
+      "prompt": "「読書が好きな人の中には、歴史が好きな人もいる。」この文から言えるのはどれか。",
+      "choices": [
+        "読書好きは全員歴史好きだ",
+        "両方が好きな人がいる",
+        "歴史好きは全員読書が嫌いだ"
+      ],
+      "answer": 1,
+      "explanation": "「中には」は一部の存在を示す。全員への一般化や両者の否定はできない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "主張・限定・因果の吟味"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "japanese-argument-reading",
+    "unit_title": "論理読解：根拠と反例",
+    "subject": "japanese",
+    "grade": 3,
+    "source_file": "dist/data/packs/japanese-g3-argument-reading-balance-001.json",
+    "question": {
+      "id": "japanese-g3-argument-reading-balance-001:q9",
+      "subject": "japanese",
+      "grade": 3,
+      "unitId": "japanese-argument-reading",
+      "type": "choice",
+      "prompt": "「この方法は一度成功したので、どんな条件でも必ず成功する」という判断の弱点はどれか。",
+      "choices": [
+        "成功例を記録したこと",
+        "方法に名前を付けたこと",
+        "一つの事例から無条件に一般化している"
+      ],
+      "answer": 2,
+      "explanation": "一度の成功はすべての条件での成功を保証しない。記録や命名自体はこの判断の弱点ではない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "主張・限定・因果の吟味"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "japanese-argument-reading",
+    "unit_title": "論理読解：根拠と反例",
+    "subject": "japanese",
+    "grade": 3,
+    "source_file": "dist/data/packs/japanese-g3-argument-reading-balance-001.json",
+    "question": {
+      "id": "japanese-g3-argument-reading-balance-001:q10",
+      "subject": "japanese",
+      "grade": 3,
+      "unitId": "japanese-argument-reading",
+      "type": "choice",
+      "prompt": "「練習時間を増やす案」に対し「休養時間が減る可能性も調べよう」と述べた。この意見の役割はどれか。",
+      "choices": [
+        "案を評価する別の観点を加える",
+        "練習そのものを全面禁止する",
+        "全員の意見が同じだと証明する"
+      ],
+      "answer": 0,
+      "explanation": "休養への影響という観点を追加している。全面禁止や全員一致の証明は述べていない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "主張・限定・因果の吟味"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "english-passive-context",
+    "unit_title": "英文法：受け身を文で使う",
+    "subject": "english",
+    "grade": 3,
+    "source_file": "dist/data/packs/english-g3-passive-context-balance-001.json",
+    "question": {
+      "id": "english-g3-passive-context-balance-001:q1",
+      "subject": "english",
+      "grade": 3,
+      "unitId": "english-passive-context",
+      "type": "choice",
+      "prompt": "「この机は木で作られています」を表す文の空欄はどれか。This desk (　) made of wood.",
+      "choices": [
+        "is",
+        "are",
+        "does"
+      ],
+      "answer": 0,
+      "explanation": "主語This deskは単数なのでis。受け身はbe動詞＋過去分詞で、areや一般動詞の疑問に使うdoesは合わない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "be動詞と過去分詞"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "english-passive-context",
+    "unit_title": "英文法：受け身を文で使う",
+    "subject": "english",
+    "grade": 3,
+    "source_file": "dist/data/packs/english-g3-passive-context-balance-001.json",
+    "question": {
+      "id": "english-g3-passive-context-balance-001:q2",
+      "subject": "english",
+      "grade": 3,
+      "unitId": "english-passive-context",
+      "type": "choice",
+      "prompt": "「これらの本は多くの生徒に読まれています」の空欄はどれか。These books are (　) by many students.",
+      "choices": [
+        "reads",
+        "read",
+        "reading"
+      ],
+      "answer": 1,
+      "explanation": "受け身はare＋過去分詞。readの過去分詞の綴りはread。readsは現在形、readingは現在分詞。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "be動詞と過去分詞"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "english-passive-context",
+    "unit_title": "英文法：受け身を文で使う",
+    "subject": "english",
+    "grade": 3,
+    "source_file": "dist/data/packs/english-g3-passive-context-balance-001.json",
+    "question": {
+      "id": "english-g3-passive-context-balance-001:q3",
+      "subject": "english",
+      "grade": 3,
+      "unitId": "english-passive-context",
+      "type": "choice",
+      "prompt": "「その窓は昨日割られました」の空欄はどれか。The window (　) broken yesterday.",
+      "choices": [
+        "is",
+        "were",
+        "was"
+      ],
+      "answer": 2,
+      "explanation": "yesterdayで過去、主語が単数なのでwas。isは現在、wereはこの単数主語に合わない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "be動詞と過去分詞"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "english-passive-context",
+    "unit_title": "英文法：受け身を文で使う",
+    "subject": "english",
+    "grade": 3,
+    "source_file": "dist/data/packs/english-g3-passive-context-balance-001.json",
+    "question": {
+      "id": "english-g3-passive-context-balance-001:q4",
+      "subject": "english",
+      "grade": 3,
+      "unitId": "english-passive-context",
+      "type": "choice",
+      "prompt": "「これらの写真は去年撮られました」の空欄はどれか。These pictures were (　) last year.",
+      "choices": [
+        "taken",
+        "took",
+        "take"
+      ],
+      "answer": 0,
+      "explanation": "受け身にはtakeの過去分詞takenを使う。tookは過去形、takeは原形。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "be動詞と過去分詞"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "english-passive-context",
+    "unit_title": "英文法：受け身を文で使う",
+    "subject": "english",
+    "grade": 3,
+    "source_file": "dist/data/packs/english-g3-passive-context-balance-001.json",
+    "question": {
+      "id": "english-g3-passive-context-balance-001:q5",
+      "subject": "english",
+      "grade": 3,
+      "unitId": "english-passive-context",
+      "type": "choice",
+      "prompt": "「この手紙はユミによって書かれました」の空欄はどれか。This letter was written (　) Yumi.",
+      "choices": [
+        "at",
+        "by",
+        "under"
+      ],
+      "answer": 1,
+      "explanation": "受け身で動作をした人はbyで示す。atは場所・時点、underは下の位置などを表す。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "be動詞と過去分詞"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "english-passive-context",
+    "unit_title": "英文法：受け身を文で使う",
+    "subject": "english",
+    "grade": 3,
+    "source_file": "dist/data/packs/english-g3-passive-context-balance-001.json",
+    "question": {
+      "id": "english-g3-passive-context-balance-001:q6",
+      "subject": "english",
+      "grade": 3,
+      "unitId": "english-passive-context",
+      "type": "choice",
+      "prompt": "「英語はここで話されています」の正しい文はどれか。",
+      "choices": [
+        "English is speak here.",
+        "English does spoken here.",
+        "English is spoken here."
+      ],
+      "answer": 2,
+      "explanation": "受け身はis＋過去分詞spoken。is speakは過去分詞でなく、does spokenも受け身の形ではない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "be動詞と過去分詞"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "english-passive-context",
+    "unit_title": "英文法：受け身を文で使う",
+    "subject": "english",
+    "grade": 3,
+    "source_file": "dist/data/packs/english-g3-passive-context-balance-001.json",
+    "question": {
+      "id": "english-g3-passive-context-balance-001:q7",
+      "subject": "english",
+      "grade": 3,
+      "unitId": "english-passive-context",
+      "type": "choice",
+      "prompt": "「この部屋は毎日掃除されます」の正しい文はどれか。",
+      "choices": [
+        "This room is cleaned every day.",
+        "This room cleaned every day.",
+        "This room is cleaning every day."
+      ],
+      "answer": 0,
+      "explanation": "be動詞＋過去分詞のis cleanedが必要。cleanedだけでは現在の受け身にならず、is cleaningは進行形で部屋が掃除する意味になる。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "be動詞と過去分詞"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "english-passive-context",
+    "unit_title": "英文法：受け身を文で使う",
+    "subject": "english",
+    "grade": 3,
+    "source_file": "dist/data/packs/english-g3-passive-context-balance-001.json",
+    "question": {
+      "id": "english-g3-passive-context-balance-001:q8",
+      "subject": "english",
+      "grade": 3,
+      "unitId": "english-passive-context",
+      "type": "choice",
+      "prompt": "「その車はここでは作られていません」の空欄はどれか。The car is (　) made here.",
+      "choices": [
+        "no",
+        "not",
+        "don't"
+      ],
+      "answer": 1,
+      "explanation": "受け身の否定はbe動詞の後にnotを置く。noやdon'tはこの位置の否定語として使えない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "be動詞と過去分詞"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "english-passive-context",
+    "unit_title": "英文法：受け身を文で使う",
+    "subject": "english",
+    "grade": 3,
+    "source_file": "dist/data/packs/english-g3-passive-context-balance-001.json",
+    "question": {
+      "id": "english-g3-passive-context-balance-001:q9",
+      "subject": "english",
+      "grade": 3,
+      "unitId": "english-passive-context",
+      "type": "choice",
+      "prompt": "「その橋は1990年に建てられました」の空欄はどれか。The bridge was (　) in 1990.",
+      "choices": [
+        "build",
+        "building",
+        "built"
+      ],
+      "answer": 2,
+      "explanation": "buildの過去分詞はbuilt。受け身のwasに続くのは原形buildや現在分詞buildingではない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "be動詞と過去分詞"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "english-passive-context",
+    "unit_title": "英文法：受け身を文で使う",
+    "subject": "english",
+    "grade": 3,
+    "source_file": "dist/data/packs/english-g3-passive-context-balance-001.json",
+    "question": {
+      "id": "english-g3-passive-context-balance-001:q10",
+      "subject": "english",
+      "grade": 3,
+      "unitId": "english-passive-context",
+      "type": "choice",
+      "prompt": "「これらの机は日本で作られたのですか」の文頭はどれか。(　) these desks made in Japan?",
+      "choices": [
+        "Were",
+        "Was",
+        "Did"
+      ],
+      "answer": 0,
+      "explanation": "過去の受け身の疑問文ではbe動詞を前へ出す。複数のdesksにWereを使う。Wasは単数、Didはこの受け身に使わない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "be動詞と過去分詞"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "english-perfect-context",
+    "unit_title": "英文法：現在完了の意味を読む",
+    "subject": "english",
+    "grade": 3,
+    "source_file": "dist/data/packs/english-g3-perfect-context-balance-001.json",
+    "question": {
+      "id": "english-g3-perfect-context-balance-001:q1",
+      "subject": "english",
+      "grade": 3,
+      "unitId": "english-perfect-context",
+      "type": "choice",
+      "prompt": "「私は3年間ここに住んでいます」の空欄はどれか。I (　) lived here for three years.",
+      "choices": [
+        "have",
+        "has",
+        "am"
+      ],
+      "answer": 0,
+      "explanation": "現在までの継続はhave＋過去分詞。主語Iにはhaveを使う。hasやamはこの文に合わない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "継続・経験・完了の区別"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "english-perfect-context",
+    "unit_title": "英文法：現在完了の意味を読む",
+    "subject": "english",
+    "grade": 3,
+    "source_file": "dist/data/packs/english-g3-perfect-context-balance-001.json",
+    "question": {
+      "id": "english-g3-perfect-context-balance-001:q2",
+      "subject": "english",
+      "grade": 3,
+      "unitId": "english-perfect-context",
+      "type": "choice",
+      "prompt": "「彼女は宿題を終えたところです」の空欄はどれか。She has just (　) her homework.",
+      "choices": [
+        "finish",
+        "finished",
+        "finishing"
+      ],
+      "answer": 1,
+      "explanation": "現在完了はhas＋過去分詞finished。原形finishや現在分詞finishingは使わない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "継続・経験・完了の区別"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "english-perfect-context",
+    "unit_title": "英文法：現在完了の意味を読む",
+    "subject": "english",
+    "grade": 3,
+    "source_file": "dist/data/packs/english-g3-perfect-context-balance-001.json",
+    "question": {
+      "id": "english-g3-perfect-context-balance-001:q3",
+      "subject": "english",
+      "grade": 3,
+      "unitId": "english-perfect-context",
+      "type": "choice",
+      "prompt": "「私は二度京都を訪れたことがあります」の経験を表す文はどれか。",
+      "choices": [
+        "I am visiting Kyoto now.",
+        "I will visit Kyoto tomorrow.",
+        "I have visited Kyoto twice."
+      ],
+      "answer": 2,
+      "explanation": "have visitedとtwiceがこれまでの経験を示す。ほかは現在進行中と未来の予定で、経験ではない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "継続・経験・完了の区別"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "english-perfect-context",
+    "unit_title": "英文法：現在完了の意味を読む",
+    "subject": "english",
+    "grade": 3,
+    "source_file": "dist/data/packs/english-g3-perfect-context-balance-001.json",
+    "question": {
+      "id": "english-g3-perfect-context-balance-001:q4",
+      "subject": "english",
+      "grade": 3,
+      "unitId": "english-perfect-context",
+      "type": "choice",
+      "prompt": "「彼は2020年からずっと忙しい」の空欄はどれか。He has been busy (　) 2020.",
+      "choices": [
+        "since",
+        "for",
+        "during"
+      ],
+      "answer": 0,
+      "explanation": "継続の開始時点にはsince。forは期間の長さ、duringはこの現在完了で開始年を示す語ではない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "継続・経験・完了の区別"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "english-perfect-context",
+    "unit_title": "英文法：現在完了の意味を読む",
+    "subject": "english",
+    "grade": 3,
+    "source_file": "dist/data/packs/english-g3-perfect-context-balance-001.json",
+    "question": {
+      "id": "english-g3-perfect-context-balance-001:q5",
+      "subject": "english",
+      "grade": 3,
+      "unitId": "english-perfect-context",
+      "type": "choice",
+      "prompt": "「私たちは2時間待っています」の空欄はどれか。We have waited (　) two hours.",
+      "choices": [
+        "since",
+        "for",
+        "at"
+      ],
+      "answer": 1,
+      "explanation": "two hoursは期間の長さなのでfor。sinceは開始時点、atは時刻などに使う。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "継続・経験・完了の区別"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "english-perfect-context",
+    "unit_title": "英文法：現在完了の意味を読む",
+    "subject": "english",
+    "grade": 3,
+    "source_file": "dist/data/packs/english-g3-perfect-context-balance-001.json",
+    "question": {
+      "id": "english-g3-perfect-context-balance-001:q6",
+      "subject": "english",
+      "grade": 3,
+      "unitId": "english-perfect-context",
+      "type": "choice",
+      "prompt": "「あなたは今までに納豆を食べたことがありますか」の空欄はどれか。Have you (　) eaten natto?",
+      "choices": [
+        "yesterday",
+        "tomorrow",
+        "ever"
+      ],
+      "answer": 2,
+      "explanation": "経験を尋ねるeverを使う。yesterdayやtomorrowを入れると、この現在完了の経験を尋ねる文に合わない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "継続・経験・完了の区別"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "english-perfect-context",
+    "unit_title": "英文法：現在完了の意味を読む",
+    "subject": "english",
+    "grade": 3,
+    "source_file": "dist/data/packs/english-g3-perfect-context-balance-001.json",
+    "question": {
+      "id": "english-g3-perfect-context-balance-001:q7",
+      "subject": "english",
+      "grade": 3,
+      "unitId": "english-perfect-context",
+      "type": "choice",
+      "prompt": "「私はまだその本を読んでいません」の空欄はどれか。I have not read the book (　).",
+      "choices": [
+        "yet",
+        "already",
+        "tomorrow"
+      ],
+      "answer": 0,
+      "explanation": "否定文のyetは「まだ」を表す。alreadyは「すでに」、tomorrowは未来で、この意味に合わない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "継続・経験・完了の区別"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "english-perfect-context",
+    "unit_title": "英文法：現在完了の意味を読む",
+    "subject": "english",
+    "grade": 3,
+    "source_file": "dist/data/packs/english-g3-perfect-context-balance-001.json",
+    "question": {
+      "id": "english-g3-perfect-context-balance-001:q8",
+      "subject": "english",
+      "grade": 3,
+      "unitId": "english-perfect-context",
+      "type": "choice",
+      "prompt": "「彼女は一度も飛行機に乗ったことがありません」の空欄はどれか。She has (　) traveled by plane.",
+      "choices": [
+        "ever",
+        "never",
+        "just"
+      ],
+      "answer": 1,
+      "explanation": "neverが一度もない経験を表す。everだけでは否定にならず、justは「ちょうど」で経験ゼロを示さない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "継続・経験・完了の区別"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "english-perfect-context",
+    "unit_title": "英文法：現在完了の意味を読む",
+    "subject": "english",
+    "grade": 3,
+    "source_file": "dist/data/packs/english-g3-perfect-context-balance-001.json",
+    "question": {
+      "id": "english-g3-perfect-context-balance-001:q9",
+      "subject": "english",
+      "grade": 3,
+      "unitId": "english-perfect-context",
+      "type": "choice",
+      "prompt": "「どのくらいの間ここに住んでいますか」の空欄はどれか。(　) have you lived here?",
+      "choices": [
+        "How many",
+        "What time",
+        "How long"
+      ],
+      "answer": 2,
+      "explanation": "継続期間を尋ねるのはHow long。How manyは個数、What timeは時刻を尋ねる。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "継続・経験・完了の区別"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "english-perfect-context",
+    "unit_title": "英文法：現在完了の意味を読む",
+    "subject": "english",
+    "grade": 3,
+    "source_file": "dist/data/packs/english-g3-perfect-context-balance-001.json",
+    "question": {
+      "id": "english-g3-perfect-context-balance-001:q10",
+      "subject": "english",
+      "grade": 3,
+      "unitId": "english-perfect-context",
+      "type": "choice",
+      "prompt": "「私はもう昼食を食べました」の空欄はどれか。I have (　) eaten lunch.",
+      "choices": [
+        "already",
+        "yet",
+        "tomorrow"
+      ],
+      "answer": 0,
+      "explanation": "肯定文で「もう、すでに」はalready。yetは主に否定・疑問で使い、tomorrowはこの完了した出来事に合わない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "継続・経験・完了の区別"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "social-geography-data",
+    "unit_title": "地理資料：割合と変化を読む",
+    "subject": "social",
+    "grade": 1,
+    "source_file": "dist/data/packs/social-g1-geography-data-balance-001.json",
+    "question": {
+      "id": "social-g1-geography-data-balance-001:q1",
+      "subject": "social",
+      "grade": 1,
+      "unitId": "social-geography-data",
+      "type": "choice",
+      "prompt": "【架空の統計】A町の人口は1,000人、そのうち15歳未満は200人。15歳未満の割合はどれか。",
+      "choices": [
+        "20％",
+        "2％",
+        "50％"
+      ],
+      "answer": 0,
+      "explanation": "200÷1,000×100＝20％。2％は20人分、50％は500人分で資料と一致しない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "架空統計の計算と読み取り"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "social-geography-data",
+    "unit_title": "地理資料：割合と変化を読む",
+    "subject": "social",
+    "grade": 1,
+    "source_file": "dist/data/packs/social-g1-geography-data-balance-001.json",
+    "question": {
+      "id": "social-g1-geography-data-balance-001:q2",
+      "subject": "social",
+      "grade": 1,
+      "unitId": "social-geography-data",
+      "type": "choice",
+      "prompt": "【架空の統計】A町は面積20km²、人口4,000人。人口密度はどれか。",
+      "choices": [
+        "80,000人/km²",
+        "200人/km²",
+        "0.005人/km²"
+      ],
+      "answer": 1,
+      "explanation": "人口密度は人口÷面積で4,000÷20＝200。掛け算や面積÷人口では求められない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "架空統計の計算と読み取り"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "social-geography-data",
+    "unit_title": "地理資料：割合と変化を読む",
+    "subject": "social",
+    "grade": 1,
+    "source_file": "dist/data/packs/social-g1-geography-data-balance-001.json",
+    "question": {
+      "id": "social-g1-geography-data-balance-001:q3",
+      "subject": "social",
+      "grade": 1,
+      "unitId": "social-geography-data",
+      "type": "choice",
+      "prompt": "【架空の統計】B村の人口は10年前800人、現在600人。10年前から何人減ったか。",
+      "choices": [
+        "1,400人",
+        "600人",
+        "200人"
+      ],
+      "answer": 2,
+      "explanation": "800−600＝200人減少。1,400は二つの人口の合計、600は現在の人口。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "架空統計の計算と読み取り"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "social-geography-data",
+    "unit_title": "地理資料：割合と変化を読む",
+    "subject": "social",
+    "grade": 1,
+    "source_file": "dist/data/packs/social-g1-geography-data-balance-001.json",
+    "question": {
+      "id": "social-g1-geography-data-balance-001:q4",
+      "subject": "social",
+      "grade": 1,
+      "unitId": "social-geography-data",
+      "type": "choice",
+      "prompt": "【架空の統計】C市の観光客は4月100人、5月150人、6月120人。最も多い月はどれか。",
+      "choices": [
+        "5月",
+        "4月",
+        "6月"
+      ],
+      "answer": 0,
+      "explanation": "150人の5月が最多。4月100人、6月120人はそれより少ない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "架空統計の計算と読み取り"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "social-geography-data",
+    "unit_title": "地理資料：割合と変化を読む",
+    "subject": "social",
+    "grade": 1,
+    "source_file": "dist/data/packs/social-g1-geography-data-balance-001.json",
+    "question": {
+      "id": "social-g1-geography-data-balance-001:q5",
+      "subject": "social",
+      "grade": 1,
+      "unitId": "social-geography-data",
+      "type": "choice",
+      "prompt": "【架空の統計】D町の就業者100人中、第1次産業20人、第2次産業30人、第3次産業50人。割合が最も高いのはどれか。",
+      "choices": [
+        "第1次産業",
+        "第3次産業",
+        "第2次産業"
+      ],
+      "answer": 1,
+      "explanation": "総数が共通なので人数が最大の50人の第3次産業が最高。20人と30人はそれより少ない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "架空統計の計算と読み取り"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "social-geography-data",
+    "unit_title": "地理資料：割合と変化を読む",
+    "subject": "social",
+    "grade": 1,
+    "source_file": "dist/data/packs/social-g1-geography-data-balance-001.json",
+    "question": {
+      "id": "social-g1-geography-data-balance-001:q6",
+      "subject": "social",
+      "grade": 1,
+      "unitId": "social-geography-data",
+      "type": "choice",
+      "prompt": "【架空の統計】E市の人口は2,000人から2,200人へ増えた。増加前を基準にした増加率はどれか。",
+      "choices": [
+        "110％",
+        "200％",
+        "10％"
+      ],
+      "answer": 2,
+      "explanation": "増えた200人を元の2,000人で割って10％。110％は新しい人口の元に対する割合で、増加率そのものではない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "架空統計の計算と読み取り"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "social-geography-data",
+    "unit_title": "地理資料：割合と変化を読む",
+    "subject": "social",
+    "grade": 1,
+    "source_file": "dist/data/packs/social-g1-geography-data-balance-001.json",
+    "question": {
+      "id": "social-g1-geography-data-balance-001:q7",
+      "subject": "social",
+      "grade": 1,
+      "unitId": "social-geography-data",
+      "type": "choice",
+      "prompt": "【架空の気象記録】ある地点の月平均気温は1月5℃、8月28℃。この二つの月の気温差はどれか。",
+      "choices": [
+        "23℃",
+        "33℃",
+        "5℃"
+      ],
+      "answer": 0,
+      "explanation": "28−5＝23℃。33は合計、5は1月の値で気温差ではない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "架空統計の計算と読み取り"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "social-geography-data",
+    "unit_title": "地理資料：割合と変化を読む",
+    "subject": "social",
+    "grade": 1,
+    "source_file": "dist/data/packs/social-g1-geography-data-balance-001.json",
+    "question": {
+      "id": "social-g1-geography-data-balance-001:q8",
+      "subject": "social",
+      "grade": 1,
+      "unitId": "social-geography-data",
+      "type": "choice",
+      "prompt": "【架空の統計】F県の米の生産量は100t、G県は80t。資料だけでは判断できないことはどれか。",
+      "choices": [
+        "生産量が多い県",
+        "栽培面積当たりの生産量",
+        "両県の生産量の差"
+      ],
+      "answer": 1,
+      "explanation": "単位面積当たりの量には栽培面積が必要。生産量の大小と20tの差は分かる。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "架空統計の計算と読み取り"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "social-geography-data",
+    "unit_title": "地理資料：割合と変化を読む",
+    "subject": "social",
+    "grade": 1,
+    "source_file": "dist/data/packs/social-g1-geography-data-balance-001.json",
+    "question": {
+      "id": "social-g1-geography-data-balance-001:q9",
+      "subject": "social",
+      "grade": 1,
+      "unitId": "social-geography-data",
+      "type": "choice",
+      "prompt": "【架空の統計】H町の総人口は変わらず1,000人。高齢者は100人から150人になった。高齢者の割合はどう変わったか。",
+      "choices": [
+        "10％から5％へ下がった",
+        "15％から10％へ下がった",
+        "10％から15％へ上がった"
+      ],
+      "answer": 2,
+      "explanation": "100÷1,000＝10％、150÷1,000＝15％なので上昇。二つの下降の選択肢は資料と逆。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "架空統計の計算と読み取り"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "social-geography-data",
+    "unit_title": "地理資料：割合と変化を読む",
+    "subject": "social",
+    "grade": 1,
+    "source_file": "dist/data/packs/social-g1-geography-data-balance-001.json",
+    "question": {
+      "id": "social-g1-geography-data-balance-001:q10",
+      "subject": "social",
+      "grade": 1,
+      "unitId": "social-geography-data",
+      "type": "choice",
+      "prompt": "【架空の地図資料】縮尺は5万分の1。地図上の6cmは実際には何kmか。",
+      "choices": [
+        "3km",
+        "0.3km",
+        "30km"
+      ],
+      "answer": 0,
+      "explanation": "6×50,000＝300,000cm＝3km。1kmは100,000cmなので、300,000を100,000で割る。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "架空統計の計算と読み取り"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "social-history-sources",
+    "unit_title": "歴史資料：年代と史料を読む",
+    "subject": "social",
+    "grade": 2,
+    "source_file": "dist/data/packs/social-g2-history-sources-balance-001.json",
+    "question": {
+      "id": "social-g2-history-sources-balance-001:q1",
+      "subject": "social",
+      "grade": 2,
+      "unitId": "social-history-sources",
+      "type": "choice",
+      "prompt": "【架空の年表】村に橋ができたのは1800年、学校ができたのは1850年。橋から学校までの間隔はどれか。",
+      "choices": [
+        "50年",
+        "1,850年",
+        "3,650年"
+      ],
+      "answer": 0,
+      "explanation": "1850−1800＝50年。1850は学校ができた年、3650は二つの年の合計。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "史料から分かることと推測の区別"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "social-history-sources",
+    "unit_title": "歴史資料：年代と史料を読む",
+    "subject": "social",
+    "grade": 2,
+    "source_file": "dist/data/packs/social-g2-history-sources-balance-001.json",
+    "question": {
+      "id": "social-g2-history-sources-balance-001:q2",
+      "subject": "social",
+      "grade": 2,
+      "unitId": "social-history-sources",
+      "type": "choice",
+      "prompt": "【架空の年表】Aは1600年、Bは1700年、Cは1650年の出来事。古い順はどれか。",
+      "choices": [
+        "B→C→A",
+        "A→C→B",
+        "C→A→B"
+      ],
+      "answer": 1,
+      "explanation": "西暦は数の小さい方が古いので1600、1650、1700。逆順や途中を入れ替えた順序は合わない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "史料から分かることと推測の区別"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "social-history-sources",
+    "unit_title": "歴史資料：年代と史料を読む",
+    "subject": "social",
+    "grade": 2,
+    "source_file": "dist/data/packs/social-g2-history-sources-balance-001.json",
+    "question": {
+      "id": "social-g2-history-sources-balance-001:q3",
+      "subject": "social",
+      "grade": 2,
+      "unitId": "social-history-sources",
+      "type": "choice",
+      "prompt": "【架空の史料】ある日記には「今日は大雨で市が開かれなかった」とある。直接分かることはどれか。",
+      "choices": [
+        "一年中一度も市が開かなかった",
+        "すべての村が洪水になった",
+        "日記にはその日の市の中止が記されている"
+      ],
+      "answer": 2,
+      "explanation": "記述はその日の大雨と中止について。一年全体や全村の被害までは述べていない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "史料から分かることと推測の区別"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "social-history-sources",
+    "unit_title": "歴史資料：年代と史料を読む",
+    "subject": "social",
+    "grade": 2,
+    "source_file": "dist/data/packs/social-g2-history-sources-balance-001.json",
+    "question": {
+      "id": "social-g2-history-sources-balance-001:q4",
+      "subject": "social",
+      "grade": 2,
+      "unitId": "social-history-sources",
+      "type": "choice",
+      "prompt": "【架空の史料】村の帳簿に「米30俵を納めた」とある。村の収穫量全体を知るために必要なのはどれか。",
+      "choices": [
+        "納めた分以外の米の記録",
+        "帳簿の表紙の色",
+        "記録者の身長"
+      ],
+      "answer": 0,
+      "explanation": "納付分だけでは全収穫量にならない。残した分などが必要で、表紙や身長では計算できない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "史料から分かることと推測の区別"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "social-history-sources",
+    "unit_title": "歴史資料：年代と史料を読む",
+    "subject": "social",
+    "grade": 2,
+    "source_file": "dist/data/packs/social-g2-history-sources-balance-001.json",
+    "question": {
+      "id": "social-g2-history-sources-balance-001:q5",
+      "subject": "social",
+      "grade": 2,
+      "unitId": "social-history-sources",
+      "type": "choice",
+      "prompt": "【架空の史料】同じ工事を役人の日記は「順調」、村人の日記は「負担が重い」と記した。まず適切な読み方はどれか。",
+      "choices": [
+        "必ずどちらか一方を捨てる",
+        "書き手の立場の違いも考える",
+        "二つを同じ評価だとする"
+      ],
+      "answer": 1,
+      "explanation": "進み具合と負担感は異なる立場から述べられ、両立し得る。一方の破棄や評価の同一視は早計。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "史料から分かることと推測の区別"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "social-history-sources",
+    "unit_title": "歴史資料：年代と史料を読む",
+    "subject": "social",
+    "grade": 2,
+    "source_file": "dist/data/packs/social-g2-history-sources-balance-001.json",
+    "question": {
+      "id": "social-g2-history-sources-balance-001:q6",
+      "subject": "social",
+      "grade": 2,
+      "unitId": "social-history-sources",
+      "type": "choice",
+      "prompt": "【架空の年表】1850年を含む世紀はどれか。",
+      "choices": [
+        "18世紀",
+        "20世紀",
+        "19世紀"
+      ],
+      "answer": 2,
+      "explanation": "19世紀は1801〜1900年。18世紀は1701〜1800年、20世紀は1901〜2000年で1850年を含まない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "史料から分かることと推測の区別"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "social-history-sources",
+    "unit_title": "歴史資料：年代と史料を読む",
+    "subject": "social",
+    "grade": 2,
+    "source_file": "dist/data/packs/social-g2-history-sources-balance-001.json",
+    "question": {
+      "id": "social-g2-history-sources-balance-001:q7",
+      "subject": "social",
+      "grade": 2,
+      "unitId": "social-history-sources",
+      "type": "choice",
+      "prompt": "【架空の年表】ある建物は1900年に完成し、1950年に改修された。資料から言えることはどれか。",
+      "choices": [
+        "完成から50年後に改修された",
+        "改修は完成より前だった",
+        "2000年にも必ず改修された"
+      ],
+      "answer": 0,
+      "explanation": "1950−1900＝50年。前後関係を逆にしたり、記載のない改修を断定したりできない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "史料から分かることと推測の区別"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "social-history-sources",
+    "unit_title": "歴史資料：年代と史料を読む",
+    "subject": "social",
+    "grade": 2,
+    "source_file": "dist/data/packs/social-g2-history-sources-balance-001.json",
+    "question": {
+      "id": "social-g2-history-sources-balance-001:q8",
+      "subject": "social",
+      "grade": 2,
+      "unitId": "social-history-sources",
+      "type": "choice",
+      "prompt": "【架空の史料】古い写真に、川にかかる木製の橋が写っている。写真だけでは断定できないことはどれか。",
+      "choices": [
+        "橋が写っていること",
+        "橋を造った人全員の名前",
+        "橋の主な材料が木と読み取れること"
+      ],
+      "answer": 1,
+      "explanation": "写真の外見だけでは造った人全員の名前は分からない。橋と材料は設問で確認されている。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "史料から分かることと推測の区別"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "social-history-sources",
+    "unit_title": "歴史資料：年代と史料を読む",
+    "subject": "social",
+    "grade": 2,
+    "source_file": "dist/data/packs/social-g2-history-sources-balance-001.json",
+    "question": {
+      "id": "social-g2-history-sources-balance-001:q9",
+      "subject": "social",
+      "grade": 2,
+      "unitId": "social-history-sources",
+      "type": "choice",
+      "prompt": "【架空の史料】A文書は出来事当日に書かれ、B文書は50年後に当事者の孫が書いた。確認すべき点はどれか。",
+      "choices": [
+        "Bが後なので必ず全て正しいとすること",
+        "Aが古いので必ず全て誤りとすること",
+        "記録された時期や情報の伝わり方"
+      ],
+      "answer": 2,
+      "explanation": "記録時期と伝達の過程を比較する。新旧だけで内容全体の正誤を決めることはできない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "史料から分かることと推測の区別"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "social-history-sources",
+    "unit_title": "歴史資料：年代と史料を読む",
+    "subject": "social",
+    "grade": 2,
+    "source_file": "dist/data/packs/social-g2-history-sources-balance-001.json",
+    "question": {
+      "id": "social-g2-history-sources-balance-001:q10",
+      "subject": "social",
+      "grade": 2,
+      "unitId": "social-history-sources",
+      "type": "choice",
+      "prompt": "【架空の資料】発掘地点Xから道具と土器が出土した。利用方法を調べるときに役立つ行動はどれか。",
+      "choices": [
+        "形・材質・出土状況をほかの資料と照合する",
+        "見つけた順だけで用途を決める",
+        "大きい道具ほど必ず身分が高い人の物と決める"
+      ],
+      "answer": 0,
+      "explanation": "複数の特徴と状況から用途を検討する。発見順や大きさだけでは用途や身分を断定できない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "史料から分かることと推測の区別"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "social-civics-discussion",
+    "unit_title": "公民資料：合意とルールを考える",
+    "subject": "social",
+    "grade": 3,
+    "source_file": "dist/data/packs/social-g3-civics-discussion-balance-001.json",
+    "question": {
+      "id": "social-g3-civics-discussion-balance-001:q1",
+      "subject": "social",
+      "grade": 3,
+      "unitId": "social-civics-discussion",
+      "type": "choice",
+      "prompt": "【架空の会議】10人中6人がA案、4人がB案を支持した。多数決でA案を採用した後の姿勢として適切なのはどれか。",
+      "choices": [
+        "B案を支持した人の困り事も確認する",
+        "4人の意見を今後一切聞かない",
+        "反対した人の発言権を永久に失わせる"
+      ],
+      "answer": 0,
+      "explanation": "多数決後も少数者の意見や不利益を検討する。支持案が違うことだけで意見を聞かなくしたり発言を奪ったりはしない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "効率・公正・少数意見の検討"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "social-civics-discussion",
+    "unit_title": "公民資料：合意とルールを考える",
+    "subject": "social",
+    "grade": 3,
+    "source_file": "dist/data/packs/social-g3-civics-discussion-balance-001.json",
+    "question": {
+      "id": "social-g3-civics-discussion-balance-001:q2",
+      "subject": "social",
+      "grade": 3,
+      "unitId": "social-civics-discussion",
+      "type": "choice",
+      "prompt": "【架空の施設】階段しかなく、車いすでは入れない図書室がある。利用の機会を広げる案はどれか。",
+      "choices": [
+        "車いすの人だけ利用禁止にする",
+        "移動を助ける設備や方法を検討する",
+        "本の内容を全て暗記させて入室不要にする"
+      ],
+      "answer": 1,
+      "explanation": "障壁を減らす方法は利用機会を広げる。利用禁止は排除で、暗記の強制もアクセスの改善ではない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "効率・公正・少数意見の検討"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "social-civics-discussion",
+    "unit_title": "公民資料：合意とルールを考える",
+    "subject": "social",
+    "grade": 3,
+    "source_file": "dist/data/packs/social-g3-civics-discussion-balance-001.json",
+    "question": {
+      "id": "social-g3-civics-discussion-balance-001:q3",
+      "subject": "social",
+      "grade": 3,
+      "unitId": "social-civics-discussion",
+      "type": "choice",
+      "prompt": "【架空の当番】掃除の重い作業を同じ一人だけが毎回担当している。公正さを検討するための問いはどれか。",
+      "choices": [
+        "その人の好きな色は何か",
+        "名簿の文字数は何文字か",
+        "担当の負担や事情は考慮されているか"
+      ],
+      "answer": 2,
+      "explanation": "負担配分と個別事情が公正さに関係する。色や名簿の文字数では配分の妥当性を判断できない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "効率・公正・少数意見の検討"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "social-civics-discussion",
+    "unit_title": "公民資料：合意とルールを考える",
+    "subject": "social",
+    "grade": 3,
+    "source_file": "dist/data/packs/social-g3-civics-discussion-balance-001.json",
+    "question": {
+      "id": "social-g3-civics-discussion-balance-001:q4",
+      "subject": "social",
+      "grade": 3,
+      "unitId": "social-civics-discussion",
+      "type": "choice",
+      "prompt": "【架空の会議】議題は避難経路の安全性。これに直接答える資料はどれか。",
+      "choices": [
+        "通路の幅と段差の調査",
+        "教室の壁の色の一覧",
+        "給食の人気メニュー表"
+      ],
+      "answer": 0,
+      "explanation": "通路幅や段差は避難しやすさに関わる。壁色やメニューは経路の安全性を直接示さない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "効率・公正・少数意見の検討"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "social-civics-discussion",
+    "unit_title": "公民資料：合意とルールを考える",
+    "subject": "social",
+    "grade": 3,
+    "source_file": "dist/data/packs/social-g3-civics-discussion-balance-001.json",
+    "question": {
+      "id": "social-g3-civics-discussion-balance-001:q5",
+      "subject": "social",
+      "grade": 3,
+      "unitId": "social-civics-discussion",
+      "type": "choice",
+      "prompt": "【架空のルール】施設を借りた人は使用後に清掃すると合意した。一部の人だけ清掃を免除するなら、まず必要なのはどれか。",
+      "choices": [
+        "秘密で決めて理由を示さない",
+        "免除する理由と基準を説明する",
+        "担当者の好みだけで決める"
+      ],
+      "answer": 1,
+      "explanation": "扱いを変える理由と基準を明らかにし、公正さを検討できるようにする。秘密や好みだけでは検討できない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "効率・公正・少数意見の検討"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "social-civics-discussion",
+    "unit_title": "公民資料：合意とルールを考える",
+    "subject": "social",
+    "grade": 3,
+    "source_file": "dist/data/packs/social-g3-civics-discussion-balance-001.json",
+    "question": {
+      "id": "social-g3-civics-discussion-balance-001:q6",
+      "subject": "social",
+      "grade": 3,
+      "unitId": "social-civics-discussion",
+      "type": "choice",
+      "prompt": "【架空の投票】有権者80人の集まりで60人が投票した。この投票率はどれか。",
+      "choices": [
+        "60％",
+        "25％",
+        "75％"
+      ],
+      "answer": 2,
+      "explanation": "60÷80×100＝75％。60は投票人数、25％は投票しなかった20人の割合。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "効率・公正・少数意見の検討"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "social-civics-discussion",
+    "unit_title": "公民資料：合意とルールを考える",
+    "subject": "social",
+    "grade": 3,
+    "source_file": "dist/data/packs/social-g3-civics-discussion-balance-001.json",
+    "question": {
+      "id": "social-g3-civics-discussion-balance-001:q7",
+      "subject": "social",
+      "grade": 3,
+      "unitId": "social-civics-discussion",
+      "type": "choice",
+      "prompt": "【架空の意見募集】昼の説明会には「昼間なら来られる」という人も、「仕事で昼間は来られない」という人もいます。もっと参加しやすくするには？",
+      "choices": [
+        "別時間の回や書面提出も用意する",
+        "昼間に来られない人は意見がないと決める",
+        "会議を非公開にして質問を禁止する"
+      ],
+      "answer": 0,
+      "explanation": "別の時間にも説明会を開いたり、書面で意見を出せるようにしたりすると、参加できる人が増える。来られないことと、意見がないことは別。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "効率・公正・少数意見の検討"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "social-civics-discussion",
+    "unit_title": "公民資料：合意とルールを考える",
+    "subject": "social",
+    "grade": 3,
+    "source_file": "dist/data/packs/social-g3-civics-discussion-balance-001.json",
+    "question": {
+      "id": "social-g3-civics-discussion-balance-001:q8",
+      "subject": "social",
+      "grade": 3,
+      "unitId": "social-civics-discussion",
+      "type": "choice",
+      "prompt": "【架空の委員会】同じ目的の二つの案を比較する。効率の観点に直接対応するのはどれか。",
+      "choices": [
+        "提案者の誕生月",
+        "必要な費用や時間に対してどれだけ効果があるか",
+        "案の名前の五十音順"
+      ],
+      "answer": 1,
+      "explanation": "効率は費用や時間などと成果の関係で考える。誕生月や名前の順はその関係を示さない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "効率・公正・少数意見の検討"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "social-civics-discussion",
+    "unit_title": "公民資料：合意とルールを考える",
+    "subject": "social",
+    "grade": 3,
+    "source_file": "dist/data/packs/social-g3-civics-discussion-balance-001.json",
+    "question": {
+      "id": "social-g3-civics-discussion-balance-001:q9",
+      "subject": "social",
+      "grade": 3,
+      "unitId": "social-civics-discussion",
+      "type": "choice",
+      "prompt": "【架空の会議】発言を議事録に残す目的として適切なのはどれか。",
+      "choices": [
+        "出席者の意見を全て同じに変える",
+        "多数派の意見以外は存在しなかったことにする",
+        "決定までの経過を後で確認できるようにする"
+      ],
+      "answer": 2,
+      "explanation": "議事録は経過と内容の確認に役立つ。意見を改変したり少数意見を消したりするためではない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "効率・公正・少数意見の検討"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "social-civics-discussion",
+    "unit_title": "公民資料：合意とルールを考える",
+    "subject": "social",
+    "grade": 3,
+    "source_file": "dist/data/packs/social-g3-civics-discussion-balance-001.json",
+    "question": {
+      "id": "social-g3-civics-discussion-balance-001:q10",
+      "subject": "social",
+      "grade": 3,
+      "unitId": "social-civics-discussion",
+      "type": "choice",
+      "prompt": "【架空の制度】ルール変更の前に困る人を調べ、変更後も影響を確認する。この取り組みの説明はどれか。",
+      "choices": [
+        "複数の立場から影響を検討して見直す",
+        "一度決めた規則は検討を禁止する",
+        "影響を調べず全員同じ結果だと決める"
+      ],
+      "answer": 0,
+      "explanation": "前後の調査は影響を検討して改善するため。検討禁止や根拠のない同一視とは異なる。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "効率・公正・少数意見の検討"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "social-economy-data",
+    "unit_title": "公民資料：家計と市場を読む",
+    "subject": "social",
+    "grade": 3,
+    "source_file": "dist/data/packs/social-g3-economy-data-balance-001.json",
+    "question": {
+      "id": "social-g3-economy-data-balance-001:q1",
+      "subject": "social",
+      "grade": 3,
+      "unitId": "social-economy-data",
+      "type": "choice",
+      "prompt": "【架空の家計】一月の収入20万円、支出17万円。この月の収入から支出を引いた額はどれか。",
+      "choices": [
+        "3万円",
+        "37万円",
+        "17万円"
+      ],
+      "answer": 0,
+      "explanation": "20−17＝3万円。37は合計、17は支出額そのもの。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "架空家計・価格・需要の読み取り"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "social-economy-data",
+    "unit_title": "公民資料：家計と市場を読む",
+    "subject": "social",
+    "grade": 3,
+    "source_file": "dist/data/packs/social-g3-economy-data-balance-001.json",
+    "question": {
+      "id": "social-g3-economy-data-balance-001:q2",
+      "subject": "social",
+      "grade": 3,
+      "unitId": "social-economy-data",
+      "type": "choice",
+      "prompt": "【架空の商品】定価1,000円の品を20％引きで買う。支払う額はどれか。",
+      "choices": [
+        "200円",
+        "800円",
+        "1,200円"
+      ],
+      "answer": 1,
+      "explanation": "値引き額は1,000×0.2＝200円で、支払いは800円。200円は値引き額、1,200円は値上げの場合。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "架空家計・価格・需要の読み取り"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "social-economy-data",
+    "unit_title": "公民資料：家計と市場を読む",
+    "subject": "social",
+    "grade": 3,
+    "source_file": "dist/data/packs/social-g3-economy-data-balance-001.json",
+    "question": {
+      "id": "social-g3-economy-data-balance-001:q3",
+      "subject": "social",
+      "grade": 3,
+      "unitId": "social-economy-data",
+      "type": "choice",
+      "prompt": "【架空の家計】支出10万円のうち食費3万円。食費の割合はどれか。",
+      "choices": [
+        "3％",
+        "70％",
+        "30％"
+      ],
+      "answer": 2,
+      "explanation": "3÷10×100＝30％。3％では3千円相当、70％は食費以外の割合。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "架空家計・価格・需要の読み取り"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "social-economy-data",
+    "unit_title": "公民資料：家計と市場を読む",
+    "subject": "social",
+    "grade": 3,
+    "source_file": "dist/data/packs/social-g3-economy-data-balance-001.json",
+    "question": {
+      "id": "social-g3-economy-data-balance-001:q4",
+      "subject": "social",
+      "grade": 3,
+      "unitId": "social-economy-data",
+      "type": "choice",
+      "prompt": "【架空の商品】Aは500gで300円、Bは1,000gで500円。100g当たりで安いのはどれか。",
+      "choices": [
+        "B",
+        "A",
+        "どちらも同じ"
+      ],
+      "answer": 0,
+      "explanation": "Aは100g当たり60円、Bは50円なのでB。袋全体の値段だけならAが安く見えるが、比較量をそろえる。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "架空家計・価格・需要の読み取り"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "social-economy-data",
+    "unit_title": "公民資料：家計と市場を読む",
+    "subject": "social",
+    "grade": 3,
+    "source_file": "dist/data/packs/social-g3-economy-data-balance-001.json",
+    "question": {
+      "id": "social-g3-economy-data-balance-001:q5",
+      "subject": "social",
+      "grade": 3,
+      "unitId": "social-economy-data",
+      "type": "choice",
+      "prompt": "【架空の調査】同じ商品の希望購入数は、価格100円で50個、200円で30個だった。この資料から直接言えることはどれか。",
+      "choices": [
+        "全商品が必ず同じ動きをする",
+        "この調査では高い価格の方が希望購入数が少ない",
+        "価格以外の条件が全て判明した"
+      ],
+      "answer": 1,
+      "explanation": "二つの価格での調査結果は比較できる。ほかの商品や未記載の条件まで一般化できない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "架空家計・価格・需要の読み取り"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "social-economy-data",
+    "unit_title": "公民資料：家計と市場を読む",
+    "subject": "social",
+    "grade": 3,
+    "source_file": "dist/data/packs/social-g3-economy-data-balance-001.json",
+    "question": {
+      "id": "social-g3-economy-data-balance-001:q6",
+      "subject": "social",
+      "grade": 3,
+      "unitId": "social-economy-data",
+      "type": "choice",
+      "prompt": "【架空の家計】毎月の通信費が5,000円から4,000円に下がり、ほかは変わらない。一年で減る支出はいくらか。",
+      "choices": [
+        "1,000円",
+        "48,000円",
+        "12,000円"
+      ],
+      "answer": 2,
+      "explanation": "月1,000円減×12か月＝12,000円。1,000円は一月分、48,000円は変更後一年分の通信費。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "架空家計・価格・需要の読み取り"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "social-economy-data",
+    "unit_title": "公民資料：家計と市場を読む",
+    "subject": "social",
+    "grade": 3,
+    "source_file": "dist/data/packs/social-g3-economy-data-balance-001.json",
+    "question": {
+      "id": "social-g3-economy-data-balance-001:q7",
+      "subject": "social",
+      "grade": 3,
+      "unitId": "social-economy-data",
+      "type": "choice",
+      "prompt": "【架空の店】売上は5万円、材料費とそのほかの費用は合計4万円。売上からこの費用を引いた額はどれか。",
+      "choices": [
+        "1万円",
+        "9万円",
+        "4万円"
+      ],
+      "answer": 0,
+      "explanation": "5−4＝1万円。9万円は合計、4万円は費用そのもの。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "架空家計・価格・需要の読み取り"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "social-economy-data",
+    "unit_title": "公民資料：家計と市場を読む",
+    "subject": "social",
+    "grade": 3,
+    "source_file": "dist/data/packs/social-g3-economy-data-balance-001.json",
+    "question": {
+      "id": "social-g3-economy-data-balance-001:q8",
+      "subject": "social",
+      "grade": 3,
+      "unitId": "social-economy-data",
+      "type": "choice",
+      "prompt": "【架空の家計】一月の予算は12万円。家賃5万円、食費4万円、その他2万円を使った。予算の残りはどれか。",
+      "choices": [
+        "11万円",
+        "1万円",
+        "23万円"
+      ],
+      "answer": 1,
+      "explanation": "支出は5＋4＋2＝11万円なので残り1万円。11万円は支出合計、23万円は予算と支出の合計。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "架空家計・価格・需要の読み取り"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "social-economy-data",
+    "unit_title": "公民資料：家計と市場を読む",
+    "subject": "social",
+    "grade": 3,
+    "source_file": "dist/data/packs/social-g3-economy-data-balance-001.json",
+    "question": {
+      "id": "social-g3-economy-data-balance-001:q9",
+      "subject": "social",
+      "grade": 3,
+      "unitId": "social-economy-data",
+      "type": "choice",
+      "prompt": "【架空の商品】同じ品質の品をA店は1個200円、B店は3個540円で売る。B店の1個当たりの価格はどれか。",
+      "choices": [
+        "540円",
+        "1,620円",
+        "180円"
+      ],
+      "answer": 2,
+      "explanation": "540÷3＝180円。540円は3個分、1,620円はさらに3倍した誤り。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "架空家計・価格・需要の読み取り"
+    }
+  },
+  {
+    "batch": "balance",
+    "unit_id": "social-economy-data",
+    "unit_title": "公民資料：家計と市場を読む",
+    "subject": "social",
+    "grade": 3,
+    "source_file": "dist/data/packs/social-g3-economy-data-balance-001.json",
+    "question": {
+      "id": "social-g3-economy-data-balance-001:q10",
+      "subject": "social",
+      "grade": 3,
+      "unitId": "social-economy-data",
+      "type": "choice",
+      "prompt": "【架空の買い物】予算1,000円で必要な品は600円。別の不要な品500円も買うとどうなるか。",
+      "choices": [
+        "予算を100円超える",
+        "予算内で100円残る",
+        "必要な品が無料になる"
+      ],
+      "answer": 0,
+      "explanation": "合計600＋500＝1,100円で予算を100円超過。残金は出ず、必要品が無料になる根拠もない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "架空家計・価格・需要の読み取り"
+    }
+  },
+  {
+    "batch": "cozy",
+    "unit_id": "japanese-little-mysteries",
+    "unit_title": "小さな謎：手がかりをつなごう",
+    "subject": "japanese",
+    "grade": 2,
+    "source_file": "dist/data/packs/japanese-g2-little-mysteries-cozy-001.json",
+    "question": {
+      "id": "japanese-g2-little-mysteries-cozy-001:q1",
+      "subject": "japanese",
+      "grade": 2,
+      "unitId": "japanese-little-mysteries",
+      "type": "choice",
+      "prompt": "図書室のメモに「青い本は花子が返した。赤い本はまだ返っていない」とある。本文から確かに言えることは？",
+      "choices": [
+        "花子が赤い本を借りている",
+        "花子は青い本を返した",
+        "赤い本はなくなった"
+      ],
+      "answer": 1,
+      "explanation": "メモは青い本を返した人を示している。赤い本を借りた人や、紛失したかどうかは分からない。分かることだけを拾うのが手がかり探しのこつ。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "本文の根拠と断定できないことを分ける"
+    }
+  },
+  {
+    "batch": "cozy",
+    "unit_id": "japanese-little-mysteries",
+    "unit_title": "小さな謎：手がかりをつなごう",
+    "subject": "japanese",
+    "grade": 2,
+    "source_file": "dist/data/packs/japanese-g2-little-mysteries-cozy-001.json",
+    "question": {
+      "id": "japanese-g2-little-mysteries-cozy-001:q2",
+      "subject": "japanese",
+      "grade": 2,
+      "unitId": "japanese-little-mysteries",
+      "type": "choice",
+      "prompt": "「窓を開けると、机の紙が舞い上がった。太郎は急いで窓を閉めた。」太郎が窓を閉めた理由として、本文に最も合うものは？",
+      "choices": [
+        "本を借りたかった",
+        "明日の天気を変えたかった",
+        "紙が舞うのを止めたかった"
+      ],
+      "answer": 2,
+      "explanation": "窓を開けた直後に紙が舞っているので、その状況を止めるためと読める。本の貸し借りや翌日の天気は、この行動につながらない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "本文の根拠と断定できないことを分ける"
+    }
+  },
+  {
+    "batch": "cozy",
+    "unit_id": "japanese-little-mysteries",
+    "unit_title": "小さな謎：手がかりをつなごう",
+    "subject": "japanese",
+    "grade": 2,
+    "source_file": "dist/data/packs/japanese-g2-little-mysteries-cozy-001.json",
+    "question": {
+      "id": "japanese-g2-little-mysteries-cozy-001:q3",
+      "subject": "japanese",
+      "grade": 2,
+      "unitId": "japanese-little-mysteries",
+      "type": "choice",
+      "prompt": "落とし物箱に白い手袋がある。由美は「私の手袋は白いけれど、今日は持ってきていない」と話した。判断として適切なのは？",
+      "choices": [
+        "白いというだけでは由美の物と決められない",
+        "白いので必ず由美の物だ",
+        "白いので手袋ではない"
+      ],
+      "answer": 0,
+      "explanation": "色の一致だけでは持ち主を特定できない。今日は持参していないという情報もある。色から物の種類を否定することもできない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "本文の根拠と断定できないことを分ける"
+    }
+  },
+  {
+    "batch": "cozy",
+    "unit_id": "japanese-little-mysteries",
+    "unit_title": "小さな謎：手がかりをつなごう",
+    "subject": "japanese",
+    "grade": 2,
+    "source_file": "dist/data/packs/japanese-g2-little-mysteries-cozy-001.json",
+    "question": {
+      "id": "japanese-g2-little-mysteries-cozy-001:q4",
+      "subject": "japanese",
+      "grade": 2,
+      "unitId": "japanese-little-mysteries",
+      "type": "choice",
+      "prompt": "「二つの箱のうち、先に届いた箱には本が、後に届いた箱には紙が入っていた。こちらを先に開けた」とだけある。開けた箱を確定するには何を補う？",
+      "choices": [
+        "本の表紙の色",
+        "「こちら」がどちらの箱を指すか",
+        "紙の製造会社"
+      ],
+      "answer": 1,
+      "explanation": "「こちら」の指す対象が明らかになれば箱を区別できる。表紙の色や製造会社を知っても、指示対象は決まらない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "本文の根拠と断定できないことを分ける"
+    }
+  },
+  {
+    "batch": "cozy",
+    "unit_id": "japanese-little-mysteries",
+    "unit_title": "小さな謎：手がかりをつなごう",
+    "subject": "japanese",
+    "grade": 2,
+    "source_file": "dist/data/packs/japanese-g2-little-mysteries-cozy-001.json",
+    "question": {
+      "id": "japanese-g2-little-mysteries-cozy-001:q5",
+      "subject": "japanese",
+      "grade": 2,
+      "unitId": "japanese-little-mysteries",
+      "type": "choice",
+      "prompt": "「道はぬれていた。けれど、今朝は雨が降っていない。近くで係の人が水をまいていた。」ぬれた理由を考える手がかりは？",
+      "choices": [
+        "今朝が月曜かどうか",
+        "係の人の好きな本",
+        "近くで水をまいていたこと"
+      ],
+      "answer": 2,
+      "explanation": "水まきは道がぬれる原因の候補になる。曜日や本の好みは、この文章ではぬれた理由につながらない。候補と断定は区別しよう。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "本文の根拠と断定できないことを分ける"
+    }
+  },
+  {
+    "batch": "cozy",
+    "unit_id": "japanese-little-mysteries",
+    "unit_title": "小さな謎：手がかりをつなごう",
+    "subject": "japanese",
+    "grade": 2,
+    "source_file": "dist/data/packs/japanese-g2-little-mysteries-cozy-001.json",
+    "question": {
+      "id": "japanese-g2-little-mysteries-cozy-001:q6",
+      "subject": "japanese",
+      "grade": 2,
+      "unitId": "japanese-little-mysteries",
+      "type": "choice",
+      "prompt": "「兄は妹に傘を渡した。そのあと兄はかばんからもう一本の傘を出した。」兄について分かることは？",
+      "choices": [
+        "傘を一本渡した後にも、別の傘を持っていた",
+        "自分は必ず雨にぬれた",
+        "傘を一本も持っていなかった"
+      ],
+      "answer": 0,
+      "explanation": "別の傘を取り出したと明記されている。だから傘がなかったとは言えず、雨にぬれたかも本文だけでは確定しない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "本文の根拠と断定できないことを分ける"
+    }
+  },
+  {
+    "batch": "cozy",
+    "unit_id": "japanese-little-mysteries",
+    "unit_title": "小さな謎：手がかりをつなごう",
+    "subject": "japanese",
+    "grade": 2,
+    "source_file": "dist/data/packs/japanese-g2-little-mysteries-cozy-001.json",
+    "question": {
+      "id": "japanese-g2-little-mysteries-cozy-001:q7",
+      "subject": "japanese",
+      "grade": 2,
+      "unitId": "japanese-little-mysteries",
+      "type": "choice",
+      "prompt": "「橋は通行止めだった。そこで、三人は川沿いの別の道へ進んだ。」二つの出来事のつながりは？",
+      "choices": [
+        "別の道へ進んだので過去の橋が壊れた",
+        "橋を通れないので別の道を選んだ",
+        "三人が川そのものを動かした"
+      ],
+      "answer": 1,
+      "explanation": "「そこで」は前の状況を受けた対応を示す。原因と結果の順を逆にしたり、書かれていない川の移動を考えたりする必要はない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "本文の根拠と断定できないことを分ける"
+    }
+  },
+  {
+    "batch": "cozy",
+    "unit_id": "japanese-little-mysteries",
+    "unit_title": "小さな謎：手がかりをつなごう",
+    "subject": "japanese",
+    "grade": 2,
+    "source_file": "dist/data/packs/japanese-g2-little-mysteries-cozy-001.json",
+    "question": {
+      "id": "japanese-g2-little-mysteries-cozy-001:q8",
+      "subject": "japanese",
+      "grade": 2,
+      "unitId": "japanese-little-mysteries",
+      "type": "choice",
+      "prompt": "「棚には五冊の本があった。二冊を机に置き、残りをかばんへ入れた。」かばんに入れたものを言い換えると？",
+      "choices": [
+        "机に置いた二冊の本",
+        "棚とは別に買った五冊の本",
+        "机に置かなかった三冊の本"
+      ],
+      "answer": 2,
+      "explanation": "五冊から机の二冊を除くと三冊。この三冊が「残り」に当たる。新しく本を買ったとは書かれていない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "本文の根拠と断定できないことを分ける"
+    }
+  },
+  {
+    "batch": "cozy",
+    "unit_id": "japanese-little-mysteries",
+    "unit_title": "小さな謎：手がかりをつなごう",
+    "subject": "japanese",
+    "grade": 2,
+    "source_file": "dist/data/packs/japanese-g2-little-mysteries-cozy-001.json",
+    "question": {
+      "id": "japanese-g2-little-mysteries-cozy-001:q9",
+      "subject": "japanese",
+      "grade": 2,
+      "unitId": "japanese-little-mysteries",
+      "type": "choice",
+      "prompt": "「最初の案は安い。次の案は持ち運びやすい。両方のよさを取り入れて新しい案を作った。」新しい案の説明に合うものは？",
+      "choices": [
+        "費用と運びやすさをともに考えた",
+        "最初の二案を何も見ずに無視した",
+        "値段を必ず二倍にした"
+      ],
+      "answer": 0,
+      "explanation": "取り入れた二つのよさは安さと持ち運びやすさ。無視したという読みは逆で、値段を二倍にした情報もない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "本文の根拠と断定できないことを分ける"
+    }
+  },
+  {
+    "batch": "cozy",
+    "unit_id": "japanese-little-mysteries",
+    "unit_title": "小さな謎：手がかりをつなごう",
+    "subject": "japanese",
+    "grade": 2,
+    "source_file": "dist/data/packs/japanese-g2-little-mysteries-cozy-001.json",
+    "question": {
+      "id": "japanese-g2-little-mysteries-cozy-001:q10",
+      "subject": "japanese",
+      "grade": 2,
+      "unitId": "japanese-little-mysteries",
+      "type": "choice",
+      "prompt": "「昨日は図書室にいた」という証言と、「昨日の昼休みは校庭にいた」という証言がある。両立する可能性を確かめるには？",
+      "choices": [
+        "どちらかをすぐうそと決める",
+        "図書室にいた時刻を確かめる",
+        "校庭の広さだけを測る"
+      ],
+      "answer": 1,
+      "explanation": "時刻が違えば両方とも成り立ち得る。場所だけでうそとは決められず、校庭の広さも時刻の確認にはならない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "本文の根拠と断定できないことを分ける"
+    }
+  },
+  {
+    "batch": "cozy",
+    "unit_id": "japanese-story-feelings",
+    "unit_title": "物語のひとこま：言葉の温度を読む",
+    "subject": "japanese",
+    "grade": 2,
+    "source_file": "dist/data/packs/japanese-g2-story-feelings-cozy-001.json",
+    "question": {
+      "id": "japanese-g2-story-feelings-cozy-001:q1",
+      "subject": "japanese",
+      "grade": 2,
+      "unitId": "japanese-story-feelings",
+      "type": "choice",
+      "prompt": "「発表を終えた花子は、ふうっと息をつき、『やっと終わった』と肩の力を抜いた。」この場面の花子に最も合う言葉は？",
+      "choices": [
+        "相手を強く責めている",
+        "ほっとしている",
+        "次の発表を命じている"
+      ],
+      "answer": 1,
+      "explanation": "息をつき肩の力を抜く様子から、緊張が解けたと読める。非難や命令を示す言動はない。動作の描写も気持ちの手がかりになる。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "描写と発言を根拠に心情や表現を読む"
+    }
+  },
+  {
+    "batch": "cozy",
+    "unit_id": "japanese-story-feelings",
+    "unit_title": "物語のひとこま：言葉の温度を読む",
+    "subject": "japanese",
+    "grade": 2,
+    "source_file": "dist/data/packs/japanese-g2-story-feelings-cozy-001.json",
+    "question": {
+      "id": "japanese-g2-story-feelings-cozy-001:q2",
+      "subject": "japanese",
+      "grade": 2,
+      "unitId": "japanese-story-feelings",
+      "type": "choice",
+      "prompt": "「あと一枚で完成だ。太郎は時計を見て、『よし、間に合いそうだ』と笑った。」笑った理由に合うものは？",
+      "choices": [
+        "作品を全部捨てたから",
+        "時計が止まったから",
+        "完成の見込みが立ったから"
+      ],
+      "answer": 2,
+      "explanation": "残り一枚で間に合いそうだと本人が話している。作品を捨てたことや時計の故障は書かれていない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "描写と発言を根拠に心情や表現を読む"
+    }
+  },
+  {
+    "batch": "cozy",
+    "unit_id": "japanese-story-feelings",
+    "unit_title": "物語のひとこま：言葉の温度を読む",
+    "subject": "japanese",
+    "grade": 2,
+    "source_file": "dist/data/packs/japanese-g2-story-feelings-cozy-001.json",
+    "question": {
+      "id": "japanese-g2-story-feelings-cozy-001:q3",
+      "subject": "japanese",
+      "grade": 2,
+      "unitId": "japanese-story-feelings",
+      "type": "choice",
+      "prompt": "「友人の失敗を見て、由美は『私も最初はそうだったよ』と隣に座った。」由美の言葉の働きとして合うものは？",
+      "choices": [
+        "同じ経験を伝えて相手の気持ちに寄り添う",
+        "友人だけが失敗すると決めつける",
+        "相手に話す機会を与えず退席を命じる"
+      ],
+      "answer": 0,
+      "explanation": "自分も同じだったと伝える言葉は、失敗した相手への寄り添いとして読める。友人だけを責めたり退席を命じたりしていない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "描写と発言を根拠に心情や表現を読む"
+    }
+  },
+  {
+    "batch": "cozy",
+    "unit_id": "japanese-story-feelings",
+    "unit_title": "物語のひとこま：言葉の温度を読む",
+    "subject": "japanese",
+    "grade": 2,
+    "source_file": "dist/data/packs/japanese-g2-story-feelings-cozy-001.json",
+    "question": {
+      "id": "japanese-g2-story-feelings-cozy-001:q4",
+      "subject": "japanese",
+      "grade": 2,
+      "unitId": "japanese-story-feelings",
+      "type": "choice",
+      "prompt": "「帰り道、足音だけが長い廊下に響いた。」この一文から、どんな様子が伝わってくる？",
+      "choices": [
+        "大勢が合唱する様子",
+        "廊下の静かな様子",
+        "教室の温度の数値"
+      ],
+      "answer": 1,
+      "explanation": "足音だけが響く描写から、廊下の静けさが伝わる。合唱も温度の数値も書かれていない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "描写と発言を根拠に心情や表現を読む"
+    }
+  },
+  {
+    "batch": "cozy",
+    "unit_id": "japanese-story-feelings",
+    "unit_title": "物語のひとこま：言葉の温度を読む",
+    "subject": "japanese",
+    "grade": 2,
+    "source_file": "dist/data/packs/japanese-g2-story-feelings-cozy-001.json",
+    "question": {
+      "id": "japanese-g2-story-feelings-cozy-001:q5",
+      "subject": "japanese",
+      "grade": 2,
+      "unitId": "japanese-story-feelings",
+      "type": "choice",
+      "prompt": "「嬉しい知らせに、胸の中で小さな花が開いたようだった。」使われている表現は？",
+      "choices": [
+        "本物の花を胸に植えたという記録",
+        "花の育て方を命じる文",
+        "気持ちを花の開く様子にたとえる表現"
+      ],
+      "answer": 2,
+      "explanation": "「ようだった」が、気持ちを花にたとえていると示す。実際の栽培の記録や命令ではない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "描写と発言を根拠に心情や表現を読む"
+    }
+  },
+  {
+    "batch": "cozy",
+    "unit_id": "japanese-story-feelings",
+    "unit_title": "物語のひとこま：言葉の温度を読む",
+    "subject": "japanese",
+    "grade": 2,
+    "source_file": "dist/data/packs/japanese-g2-story-feelings-cozy-001.json",
+    "question": {
+      "id": "japanese-g2-story-feelings-cozy-001:q6",
+      "subject": "japanese",
+      "grade": 2,
+      "unitId": "japanese-story-feelings",
+      "type": "choice",
+      "prompt": "「行こう、と言いかけて言葉をのみこんだ。」ここでの「言葉をのみこんだ」の意味は？",
+      "choices": [
+        "言おうとしたことを口に出さずにやめた",
+        "紙に書いた言葉を実際に食べた",
+        "大声で何度も繰り返した"
+      ],
+      "answer": 0,
+      "explanation": "言いかけた流れから、発言を控えたと分かる。実際に食べる意味や、声に出し続ける意味ではない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "描写と発言を根拠に心情や表現を読む"
+    }
+  },
+  {
+    "batch": "cozy",
+    "unit_id": "japanese-story-feelings",
+    "unit_title": "物語のひとこま：言葉の温度を読む",
+    "subject": "japanese",
+    "grade": 2,
+    "source_file": "dist/data/packs/japanese-g2-story-feelings-cozy-001.json",
+    "question": {
+      "id": "japanese-g2-story-feelings-cozy-001:q7",
+      "subject": "japanese",
+      "grade": 2,
+      "unitId": "japanese-story-feelings",
+      "type": "choice",
+      "prompt": "「もう無理だ」と思ったあと、太郎は「でも、あと一度だけ」と立ち上がった。気持ちの変化として合うものは？",
+      "choices": [
+        "最初から最後まで挑戦を拒み続けた",
+        "あきらめかけたが、もう一度試そうとした",
+        "すべて完成したので休むだけになった"
+      ],
+      "answer": 1,
+      "explanation": "「でも」の前後で、あきらめから再挑戦へ向きが変わる。完成したという記述はなく、拒み続けてもいない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "描写と発言を根拠に心情や表現を読む"
+    }
+  },
+  {
+    "batch": "cozy",
+    "unit_id": "japanese-story-feelings",
+    "unit_title": "物語のひとこま：言葉の温度を読む",
+    "subject": "japanese",
+    "grade": 2,
+    "source_file": "dist/data/packs/japanese-g2-story-feelings-cozy-001.json",
+    "question": {
+      "id": "japanese-g2-story-feelings-cozy-001:q8",
+      "subject": "japanese",
+      "grade": 2,
+      "unitId": "japanese-story-feelings",
+      "type": "choice",
+      "prompt": "「返事はまだ来ない。花子は何度も入口を見た。」入口を見る行動から、最も自然に読み取れることは？",
+      "choices": [
+        "入口の材質を専門的に調査している",
+        "返事の内容をすでに全部知っている",
+        "返事が来るのを気にしている"
+      ],
+      "answer": 2,
+      "explanation": "返事がない状況と繰り返す動作を結び付けると、到着を気にする様子と読める。材質調査や内容の既知は根拠がない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "描写と発言を根拠に心情や表現を読む"
+    }
+  },
+  {
+    "batch": "cozy",
+    "unit_id": "japanese-story-feelings",
+    "unit_title": "物語のひとこま：言葉の温度を読む",
+    "subject": "japanese",
+    "grade": 2,
+    "source_file": "dist/data/packs/japanese-g2-story-feelings-cozy-001.json",
+    "question": {
+      "id": "japanese-g2-story-feelings-cozy-001:q9",
+      "subject": "japanese",
+      "grade": 2,
+      "unitId": "japanese-story-feelings",
+      "type": "choice",
+      "prompt": "「窓の外は雨。でも机の上の手紙を読んだ私は、心が晴れた。」ここでの対比は？",
+      "choices": [
+        "外の天気と、明るくなった心",
+        "机の縦と横の長さ",
+        "手紙を書いた人と紙の重さ"
+      ],
+      "answer": 0,
+      "explanation": "雨と「心が晴れた」が、天気と気持ちを対照させている。寸法や重さを比べる文章ではない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "描写と発言を根拠に心情や表現を読む"
+    }
+  },
+  {
+    "batch": "cozy",
+    "unit_id": "japanese-story-feelings",
+    "unit_title": "物語のひとこま：言葉の温度を読む",
+    "subject": "japanese",
+    "grade": 2,
+    "source_file": "dist/data/packs/japanese-g2-story-feelings-cozy-001.json",
+    "question": {
+      "id": "japanese-g2-story-feelings-cozy-001:q10",
+      "subject": "japanese",
+      "grade": 2,
+      "unitId": "japanese-story-feelings",
+      "type": "choice",
+      "prompt": "「明日は私の番だ。美咲は不安そうに台本を閉じたが、友人の『一緒に練習しよう』に小さくうなずいた。」本文から確かに言えることは？",
+      "choices": [
+        "不安が完全に消えたと断言できる",
+        "練習の誘いに応じる様子がある",
+        "すでに本番で優勝した"
+      ],
+      "answer": 1,
+      "explanation": "うなずく行動は誘いへの応答を示す。ただし不安が完全に消えたかは書かれず、本番の結果もまだ示されていない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "描写と発言を根拠に心情や表現を読む"
+    }
+  },
+  {
+    "batch": "cozy",
+    "unit_id": "english-little-notes",
+    "unit_title": "英語の小さなメモ：次はどこへ？",
+    "subject": "english",
+    "grade": 2,
+    "source_file": "dist/data/packs/english-g2-little-notes-cozy-001.json",
+    "question": {
+      "id": "english-g2-little-notes-cozy-001:q1",
+      "subject": "english",
+      "grade": 2,
+      "unitId": "english-little-notes",
+      "type": "choice",
+      "prompt": "メモ：Meet me at the library at four. 待ち合わせの場所は？",
+      "choices": [
+        "駅",
+        "図書館",
+        "公園"
+      ],
+      "answer": 1,
+      "explanation": "at the libraryが場所を示し、at fourは時刻。駅や公園は書かれていない。場所と時間を分けて見つけよう。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "短い英文から必要な情報を探す"
+    }
+  },
+  {
+    "batch": "cozy",
+    "unit_id": "english-little-notes",
+    "unit_title": "英語の小さなメモ：次はどこへ？",
+    "subject": "english",
+    "grade": 2,
+    "source_file": "dist/data/packs/english-g2-little-notes-cozy-001.json",
+    "question": {
+      "id": "english-g2-little-notes-cozy-001:q2",
+      "subject": "english",
+      "grade": 2,
+      "unitId": "english-little-notes",
+      "type": "choice",
+      "prompt": "メモ：I left your red bag under the desk. 赤いかばんはどこ？",
+      "choices": [
+        "机の上",
+        "ドアの後ろ",
+        "机の下"
+      ],
+      "answer": 2,
+      "explanation": "underは「下に」。onなら上、behindなら後ろだが、このメモには使われていない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "短い英文から必要な情報を探す"
+    }
+  },
+  {
+    "batch": "cozy",
+    "unit_id": "english-little-notes",
+    "unit_title": "英語の小さなメモ：次はどこへ？",
+    "subject": "english",
+    "grade": 2,
+    "source_file": "dist/data/packs/english-g2-little-notes-cozy-001.json",
+    "question": {
+      "id": "english-g2-little-notes-cozy-001:q3",
+      "subject": "english",
+      "grade": 2,
+      "unitId": "english-little-notes",
+      "type": "choice",
+      "prompt": "お店の表示：Soup: 300 yen. Bread: 200 yen. スープ一つとパン一つの合計は？",
+      "choices": [
+        "500円",
+        "100円",
+        "600円"
+      ],
+      "answer": 0,
+      "explanation": "300＋200＝500円。100円は差、600円はスープ二つの値段。必要な品の数字だけを集めよう。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "短い英文から必要な情報を探す"
+    }
+  },
+  {
+    "batch": "cozy",
+    "unit_id": "english-little-notes",
+    "unit_title": "英語の小さなメモ：次はどこへ？",
+    "subject": "english",
+    "grade": 2,
+    "source_file": "dist/data/packs/english-g2-little-notes-cozy-001.json",
+    "question": {
+      "id": "english-g2-little-notes-cozy-001:q4",
+      "subject": "english",
+      "grade": 2,
+      "unitId": "english-little-notes",
+      "type": "choice",
+      "prompt": "伝言：I can't come today. Let's meet tomorrow. 会う提案をしている日は？",
+      "choices": [
+        "今日",
+        "明日",
+        "昨日"
+      ],
+      "answer": 1,
+      "explanation": "tomorrowは明日。todayは来られない日で、yesterdayという昨日の情報はない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "短い英文から必要な情報を探す"
+    }
+  },
+  {
+    "batch": "cozy",
+    "unit_id": "english-little-notes",
+    "unit_title": "英語の小さなメモ：次はどこへ？",
+    "subject": "english",
+    "grade": 2,
+    "source_file": "dist/data/packs/english-g2-little-notes-cozy-001.json",
+    "question": {
+      "id": "english-g2-little-notes-cozy-001:q5",
+      "subject": "english",
+      "grade": 2,
+      "unitId": "english-little-notes",
+      "type": "choice",
+      "prompt": "メモ：Please bring a notebook, not a camera. 持ってきてほしい物は？",
+      "choices": [
+        "カメラ",
+        "両方とも必ず必要",
+        "ノート"
+      ],
+      "answer": 2,
+      "explanation": "bring a notebookが依頼で、not a cameraがカメラを除く。両方という読みにはならない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "短い英文から必要な情報を探す"
+    }
+  },
+  {
+    "batch": "cozy",
+    "unit_id": "english-little-notes",
+    "unit_title": "英語の小さなメモ：次はどこへ？",
+    "subject": "english",
+    "grade": 2,
+    "source_file": "dist/data/packs/english-g2-little-notes-cozy-001.json",
+    "question": {
+      "id": "english-g2-little-notes-cozy-001:q6",
+      "subject": "english",
+      "grade": 2,
+      "unitId": "english-little-notes",
+      "type": "choice",
+      "prompt": "案内：The museum is closed on Mondays. 月曜日の博物館について分かることは？",
+      "choices": [
+        "休館する",
+        "必ず夜だけ開く",
+        "入場料が無料になる"
+      ],
+      "answer": 0,
+      "explanation": "closedは閉まっている状態。夜の開館や料金についての記載はない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "短い英文から必要な情報を探す"
+    }
+  },
+  {
+    "batch": "cozy",
+    "unit_id": "english-little-notes",
+    "unit_title": "英語の小さなメモ：次はどこへ？",
+    "subject": "english",
+    "grade": 2,
+    "source_file": "dist/data/packs/english-g2-little-notes-cozy-001.json",
+    "question": {
+      "id": "english-g2-little-notes-cozy-001:q7",
+      "subject": "english",
+      "grade": 2,
+      "unitId": "english-little-notes",
+      "type": "choice",
+      "prompt": "伝言：I bought two tickets, one for you and one for me. 切符は誰の分？",
+      "choices": [
+        "自分の分だけ二枚",
+        "相手と自分の分",
+        "知らない二人の分"
+      ],
+      "answer": 1,
+      "explanation": "one for youとone for meで一枚ずつの相手が示される。自分だけや未知の二人とは書いていない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "短い英文から必要な情報を探す"
+    }
+  },
+  {
+    "batch": "cozy",
+    "unit_id": "english-little-notes",
+    "unit_title": "英語の小さなメモ：次はどこへ？",
+    "subject": "english",
+    "grade": 2,
+    "source_file": "dist/data/packs/english-g2-little-notes-cozy-001.json",
+    "question": {
+      "id": "english-g2-little-notes-cozy-001:q8",
+      "subject": "english",
+      "grade": 2,
+      "unitId": "english-little-notes",
+      "type": "choice",
+      "prompt": "メモ：Turn left at the flower shop. 花屋のところでどう進む？",
+      "choices": [
+        "右へ曲がる",
+        "必ず引き返す",
+        "左へ曲がる"
+      ],
+      "answer": 2,
+      "explanation": "leftは左。右ならright、引き返す指示なら別の表現が必要。目印はflower shop。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "短い英文から必要な情報を探す"
+    }
+  },
+  {
+    "batch": "cozy",
+    "unit_id": "english-little-notes",
+    "unit_title": "英語の小さなメモ：次はどこへ？",
+    "subject": "english",
+    "grade": 2,
+    "source_file": "dist/data/packs/english-g2-little-notes-cozy-001.json",
+    "question": {
+      "id": "english-g2-little-notes-cozy-001:q9",
+      "subject": "english",
+      "grade": 2,
+      "unitId": "english-little-notes",
+      "type": "choice",
+      "prompt": "伝言：It was rainy, so we stayed home. 家にいた理由は？",
+      "choices": [
+        "雨が降っていたから",
+        "学校が必ず休みだったから",
+        "家を売ったから"
+      ],
+      "answer": 0,
+      "explanation": "soの前に理由があり、rainyが天気を示す。休校や家の売却は書かれていない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "短い英文から必要な情報を探す"
+    }
+  },
+  {
+    "batch": "cozy",
+    "unit_id": "english-little-notes",
+    "unit_title": "英語の小さなメモ：次はどこへ？",
+    "subject": "english",
+    "grade": 2,
+    "source_file": "dist/data/packs/english-g2-little-notes-cozy-001.json",
+    "question": {
+      "id": "english-g2-little-notes-cozy-001:q10",
+      "subject": "english",
+      "grade": 2,
+      "unitId": "english-little-notes",
+      "type": "choice",
+      "prompt": "同じ日の午後についての招待状：The party starts at two and ends at five. パーティーの長さは？",
+      "choices": [
+        "7時間",
+        "3時間",
+        "2時間"
+      ],
+      "answer": 1,
+      "explanation": "午後2時から午後5時までなので5−2＝3時間。二つの時刻を足すのではなく、間の長さを求める。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "短い英文から必要な情報を探す"
+    }
+  },
+  {
+    "batch": "cozy",
+    "unit_id": "math-picnic-puzzles",
+    "unit_title": "おでかけ算数：ぴったりを見つけよう",
+    "subject": "math",
+    "grade": 1,
+    "source_file": "dist/data/packs/math-g1-picnic-puzzles-cozy-001.json",
+    "question": {
+      "id": "math-g1-picnic-puzzles-cozy-001:q1",
+      "subject": "math",
+      "grade": 1,
+      "unitId": "math-picnic-puzzles",
+      "type": "choice",
+      "prompt": "ピクニックに12枚のクッキーを持ってきた。4人で同じ枚数ずつ分けると、一人何枚？",
+      "choices": [
+        "4枚",
+        "3枚",
+        "8枚"
+      ],
+      "answer": 1,
+      "explanation": "12÷4＝3枚。4は人数、8は12から4を引いた数。同じ量に分けるときは割り算を使う。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "日常の数・比・時間・図形を計算する"
+    }
+  },
+  {
+    "batch": "cozy",
+    "unit_id": "math-picnic-puzzles",
+    "unit_title": "おでかけ算数：ぴったりを見つけよう",
+    "subject": "math",
+    "grade": 1,
+    "source_file": "dist/data/packs/math-g1-picnic-puzzles-cozy-001.json",
+    "question": {
+      "id": "math-g1-picnic-puzzles-cozy-001:q2",
+      "subject": "math",
+      "grade": 1,
+      "unitId": "math-picnic-puzzles",
+      "type": "choice",
+      "prompt": "ジュース600mLを、1杯150mLずつ注ぐ。何杯ぴったり注げる？",
+      "choices": [
+        "3杯",
+        "450杯",
+        "4杯"
+      ],
+      "answer": 2,
+      "explanation": "600÷150＝4杯。3杯では450mLで残りが出る。引き算の450は杯数ではない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "日常の数・比・時間・図形を計算する"
+    }
+  },
+  {
+    "batch": "cozy",
+    "unit_id": "math-picnic-puzzles",
+    "unit_title": "おでかけ算数：ぴったりを見つけよう",
+    "subject": "math",
+    "grade": 1,
+    "source_file": "dist/data/packs/math-g1-picnic-puzzles-cozy-001.json",
+    "question": {
+      "id": "math-g1-picnic-puzzles-cozy-001:q3",
+      "subject": "math",
+      "grade": 1,
+      "unitId": "math-picnic-puzzles",
+      "type": "choice",
+      "prompt": "9時40分に出発し、35分歩いて公園に着いた。到着時刻は？",
+      "choices": [
+        "10時15分",
+        "9時75分",
+        "10時35分"
+      ],
+      "answer": 0,
+      "explanation": "20分で10時、残り15分で10時15分。時刻では60分を越えた分を次の時へ繰り上げる。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "日常の数・比・時間・図形を計算する"
+    }
+  },
+  {
+    "batch": "cozy",
+    "unit_id": "math-picnic-puzzles",
+    "unit_title": "おでかけ算数：ぴったりを見つけよう",
+    "subject": "math",
+    "grade": 1,
+    "source_file": "dist/data/packs/math-g1-picnic-puzzles-cozy-001.json",
+    "question": {
+      "id": "math-g1-picnic-puzzles-cozy-001:q4",
+      "subject": "math",
+      "grade": 1,
+      "unitId": "math-picnic-puzzles",
+      "type": "choice",
+      "prompt": "赤いリボンと白いリボンを2：3の長さでつなぎ、全体を100cmにした。赤いリボンは？",
+      "choices": [
+        "60cm",
+        "40cm",
+        "50cm"
+      ],
+      "answer": 1,
+      "explanation": "全体の比は5。100÷5＝20cmが一つ分なので、赤は2×20＝40cm。60cmは白、50cmは等分した場合。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "日常の数・比・時間・図形を計算する"
+    }
+  },
+  {
+    "batch": "cozy",
+    "unit_id": "math-picnic-puzzles",
+    "unit_title": "おでかけ算数：ぴったりを見つけよう",
+    "subject": "math",
+    "grade": 1,
+    "source_file": "dist/data/packs/math-g1-picnic-puzzles-cozy-001.json",
+    "question": {
+      "id": "math-g1-picnic-puzzles-cozy-001:q5",
+      "subject": "math",
+      "grade": 1,
+      "unitId": "math-picnic-puzzles",
+      "type": "choice",
+      "prompt": "縦3m、横5mの長方形の花壇。一周を囲むひもの長さは？",
+      "choices": [
+        "15m",
+        "8m",
+        "16m"
+      ],
+      "answer": 2,
+      "explanation": "一周は3＋5＋3＋5＝16m。15は面積の数値、8は縦と横を一回ずつ足しただけ。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "日常の数・比・時間・図形を計算する"
+    }
+  },
+  {
+    "batch": "cozy",
+    "unit_id": "math-picnic-puzzles",
+    "unit_title": "おでかけ算数：ぴったりを見つけよう",
+    "subject": "math",
+    "grade": 1,
+    "source_file": "dist/data/packs/math-g1-picnic-puzzles-cozy-001.json",
+    "question": {
+      "id": "math-g1-picnic-puzzles-cozy-001:q6",
+      "subject": "math",
+      "grade": 1,
+      "unitId": "math-picnic-puzzles",
+      "type": "choice",
+      "prompt": "飾りのランプAは6秒ごと、Bは8秒ごとに光る。今同時に光ったあと、次に同時に光るのは何秒後？",
+      "choices": [
+        "24秒後",
+        "14秒後",
+        "48秒後"
+      ],
+      "answer": 0,
+      "explanation": "6と8の最小公倍数は24。14は足し算、48でも同時に光るが最初ではない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "日常の数・比・時間・図形を計算する"
+    }
+  },
+  {
+    "batch": "cozy",
+    "unit_id": "math-picnic-puzzles",
+    "unit_title": "おでかけ算数：ぴったりを見つけよう",
+    "subject": "math",
+    "grade": 1,
+    "source_file": "dist/data/packs/math-g1-picnic-puzzles-cozy-001.json",
+    "question": {
+      "id": "math-g1-picnic-puzzles-cozy-001:q7",
+      "subject": "math",
+      "grade": 1,
+      "unitId": "math-picnic-puzzles",
+      "type": "choice",
+      "prompt": "宝探しの地図で、出発点から東へ3歩、西へ5歩進んだ。出発点からどこにいる？",
+      "choices": [
+        "東へ8歩",
+        "西へ2歩",
+        "東へ2歩"
+      ],
+      "answer": 1,
+      "explanation": "東へ3歩を戻してさらに西へ2歩進む。歩いた合計8歩と、出発点からの位置は別。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "日常の数・比・時間・図形を計算する"
+    }
+  },
+  {
+    "batch": "cozy",
+    "unit_id": "math-picnic-puzzles",
+    "unit_title": "おでかけ算数：ぴったりを見つけよう",
+    "subject": "math",
+    "grade": 1,
+    "source_file": "dist/data/packs/math-g1-picnic-puzzles-cozy-001.json",
+    "question": {
+      "id": "math-g1-picnic-puzzles-cozy-001:q8",
+      "subject": "math",
+      "grade": 1,
+      "unitId": "math-picnic-puzzles",
+      "type": "choice",
+      "prompt": "同じ重さの箱3個と2kgのおもりで、全体が11kg。箱1個は何kg？",
+      "choices": [
+        "9kg",
+        "13kg",
+        "3kg"
+      ],
+      "answer": 2,
+      "explanation": "箱3個分は11−2＝9kg。9÷3＝3kg。9は3個分で、13はおもりを足した誤り。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "日常の数・比・時間・図形を計算する"
+    }
+  },
+  {
+    "batch": "cozy",
+    "unit_id": "math-picnic-puzzles",
+    "unit_title": "おでかけ算数：ぴったりを見つけよう",
+    "subject": "math",
+    "grade": 1,
+    "source_file": "dist/data/packs/math-g1-picnic-puzzles-cozy-001.json",
+    "question": {
+      "id": "math-g1-picnic-puzzles-cozy-001:q9",
+      "subject": "math",
+      "grade": 1,
+      "unitId": "math-picnic-puzzles",
+      "type": "choice",
+      "prompt": "おにぎりを5個ずつ袋に入れると2個余った。袋は3つできた。おにぎりは全部で何個？",
+      "choices": [
+        "17個",
+        "15個",
+        "10個"
+      ],
+      "answer": 0,
+      "explanation": "5×3＋2＝17個。15個は袋の中だけの数。余り2個も忘れずに足す。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "日常の数・比・時間・図形を計算する"
+    }
+  },
+  {
+    "batch": "cozy",
+    "unit_id": "math-picnic-puzzles",
+    "unit_title": "おでかけ算数：ぴったりを見つけよう",
+    "subject": "math",
+    "grade": 1,
+    "source_file": "dist/data/packs/math-g1-picnic-puzzles-cozy-001.json",
+    "question": {
+      "id": "math-g1-picnic-puzzles-cozy-001:q10",
+      "subject": "math",
+      "grade": 1,
+      "unitId": "math-picnic-puzzles",
+      "type": "choice",
+      "prompt": "昼と夜の気温が、昼8℃、夜−3℃だった。昼から夜に何℃下がった？",
+      "choices": [
+        "5℃",
+        "11℃",
+        "−11℃"
+      ],
+      "answer": 1,
+      "explanation": "8℃から0℃まで8℃、さらに−3℃まで3℃で11℃下がった。5は8と−3をそのまま足した値。下がった幅は正の数で表す。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "日常の数・比・時間・図形を計算する"
+    }
+  },
+  {
+    "batch": "cozy",
+    "unit_id": "science-kitchen-notebook",
+    "unit_title": "身近なふしぎ：観察ノート",
+    "subject": "science",
+    "grade": 1,
+    "source_file": "dist/data/packs/science-g1-kitchen-notebook-cozy-001.json",
+    "question": {
+      "id": "science-g1-kitchen-notebook-cozy-001:q1",
+      "subject": "science",
+      "grade": 1,
+      "unitId": "science-kitchen-notebook",
+      "type": "choice",
+      "prompt": "同じ体積20cm³のブロックAは40g、Bは60g。密度が大きいのはどちら？",
+      "choices": [
+        "A",
+        "B",
+        "同じ密度"
+      ],
+      "answer": 1,
+      "explanation": "Aは40÷20＝2、Bは60÷20＝3g/cm³。同じ体積なら質量が大きい方が密度も大きい。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "実験条件・質量・密度・状態変化を考える"
+    }
+  },
+  {
+    "batch": "cozy",
+    "unit_id": "science-kitchen-notebook",
+    "unit_title": "身近なふしぎ：観察ノート",
+    "subject": "science",
+    "grade": 1,
+    "source_file": "dist/data/packs/science-g1-kitchen-notebook-cozy-001.json",
+    "question": {
+      "id": "science-g1-kitchen-notebook-cozy-001:q2",
+      "subject": "science",
+      "grade": 1,
+      "unitId": "science-kitchen-notebook",
+      "type": "choice",
+      "prompt": "食塩10gを水90gに全部溶かした。こぼさず、蒸発もしなかったとき、食塩水は何g？",
+      "choices": [
+        "90g",
+        "80g",
+        "100g"
+      ],
+      "answer": 2,
+      "explanation": "溶けても食塩の質量は消えないので10＋90＝100g。90gは水だけ、80gは食塩を引いた誤り。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "実験条件・質量・密度・状態変化を考える"
+    }
+  },
+  {
+    "batch": "cozy",
+    "unit_id": "science-kitchen-notebook",
+    "unit_title": "身近なふしぎ：観察ノート",
+    "subject": "science",
+    "grade": 1,
+    "source_file": "dist/data/packs/science-g1-kitchen-notebook-cozy-001.json",
+    "question": {
+      "id": "science-g1-kitchen-notebook-cozy-001:q3",
+      "subject": "science",
+      "grade": 1,
+      "unitId": "science-kitchen-notebook",
+      "type": "choice",
+      "prompt": "質量100gの氷を密閉容器の中で全部溶かした。容器の外との物質の出入りがなければ、水の質量は？",
+      "choices": [
+        "100g",
+        "0g",
+        "200g"
+      ],
+      "answer": 0,
+      "explanation": "状態が氷から水へ変わっても質量は保存される。質量が消えたり倍になったりはしない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "実験条件・質量・密度・状態変化を考える"
+    }
+  },
+  {
+    "batch": "cozy",
+    "unit_id": "science-kitchen-notebook",
+    "unit_title": "身近なふしぎ：観察ノート",
+    "subject": "science",
+    "grade": 1,
+    "source_file": "dist/data/packs/science-g1-kitchen-notebook-cozy-001.json",
+    "question": {
+      "id": "science-g1-kitchen-notebook-cozy-001:q4",
+      "subject": "science",
+      "grade": 1,
+      "unitId": "science-kitchen-notebook",
+      "type": "choice",
+      "prompt": "同じ量の砂糖を、同じ温度の水に入れる。かき混ぜる効果だけを比べるなら、そろえるべき条件は？",
+      "choices": [
+        "片方だけ砂糖を二倍にする",
+        "水の量も同じにする",
+        "片方だけお湯にする"
+      ],
+      "answer": 1,
+      "explanation": "水の量などをそろえ、かき混ぜる条件だけを変える。砂糖量や温度まで変えると原因を区別しにくい。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "実験条件・質量・密度・状態変化を考える"
+    }
+  },
+  {
+    "batch": "cozy",
+    "unit_id": "science-kitchen-notebook",
+    "unit_title": "身近なふしぎ：観察ノート",
+    "subject": "science",
+    "grade": 1,
+    "source_file": "dist/data/packs/science-g1-kitchen-notebook-cozy-001.json",
+    "question": {
+      "id": "science-g1-kitchen-notebook-cozy-001:q5",
+      "subject": "science",
+      "grade": 1,
+      "unitId": "science-kitchen-notebook",
+      "type": "choice",
+      "prompt": "20gの石を水に沈めると、目盛りが30mLから38mLになった。石の体積は？",
+      "choices": [
+        "38cm³",
+        "68cm³",
+        "8cm³"
+      ],
+      "answer": 2,
+      "explanation": "水面の差は38−30＝8mLで、1mL＝1cm³だから8cm³。最終目盛りや二つの合計ではない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "実験条件・質量・密度・状態変化を考える"
+    }
+  },
+  {
+    "batch": "cozy",
+    "unit_id": "science-kitchen-notebook",
+    "unit_title": "身近なふしぎ：観察ノート",
+    "subject": "science",
+    "grade": 1,
+    "source_file": "dist/data/packs/science-g1-kitchen-notebook-cozy-001.json",
+    "question": {
+      "id": "science-g1-kitchen-notebook-cozy-001:q6",
+      "subject": "science",
+      "grade": 1,
+      "unitId": "science-kitchen-notebook",
+      "type": "choice",
+      "prompt": "ある物質の密度は2g/cm³。同じ条件で体積を10cm³から5cm³へ半分に切り分けると、密度は？",
+      "choices": [
+        "2g/cm³",
+        "1g/cm³",
+        "4g/cm³"
+      ],
+      "answer": 0,
+      "explanation": "同じ物質を同条件で切り分けると質量も体積も半分になり、比である密度は変わらない。密度だけを半分や二倍にはしない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "実験条件・質量・密度・状態変化を考える"
+    }
+  },
+  {
+    "batch": "cozy",
+    "unit_id": "science-kitchen-notebook",
+    "unit_title": "身近なふしぎ：観察ノート",
+    "subject": "science",
+    "grade": 1,
+    "source_file": "dist/data/packs/science-g1-kitchen-notebook-cozy-001.json",
+    "question": {
+      "id": "science-g1-kitchen-notebook-cozy-001:q7",
+      "subject": "science",
+      "grade": 1,
+      "unitId": "science-kitchen-notebook",
+      "type": "choice",
+      "prompt": "花の鉢を暗い場所から明るい場所へ移した。光の影響だけを比べたい。ほかにそろえるとよいものは？",
+      "choices": [
+        "片方だけ水を一切与えない条件",
+        "水の量や温度",
+        "植物の種類も毎回変える条件"
+      ],
+      "answer": 1,
+      "explanation": "光以外の水や温度をそろえると、光の影響を調べやすい。水や種類も変えると原因が増えてしまう。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "実験条件・質量・密度・状態変化を考える"
+    }
+  },
+  {
+    "batch": "cozy",
+    "unit_id": "science-kitchen-notebook",
+    "unit_title": "身近なふしぎ：観察ノート",
+    "subject": "science",
+    "grade": 1,
+    "source_file": "dist/data/packs/science-g1-kitchen-notebook-cozy-001.json",
+    "question": {
+      "id": "science-g1-kitchen-notebook-cozy-001:q8",
+      "subject": "science",
+      "grade": 1,
+      "unitId": "science-kitchen-notebook",
+      "type": "choice",
+      "prompt": "同じ材質・同じ形の容器を二つ用意した。それぞれに同じ種類・同じ量の液体を入れ、一方にだけふたをする。何の違いを比べる実験？",
+      "choices": [
+        "液体の種類の違い",
+        "容器の材質の違い",
+        "ふたの有無"
+      ],
+      "answer": 2,
+      "explanation": "容器の材質と形、中の液体の種類と量は同じ。変えるのは、ふたをするかどうか。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "実験条件・質量・密度・状態変化を考える"
+    }
+  },
+  {
+    "batch": "cozy",
+    "unit_id": "science-kitchen-notebook",
+    "unit_title": "身近なふしぎ：観察ノート",
+    "subject": "science",
+    "grade": 1,
+    "source_file": "dist/data/packs/science-g1-kitchen-notebook-cozy-001.json",
+    "question": {
+      "id": "science-g1-kitchen-notebook-cozy-001:q9",
+      "subject": "science",
+      "grade": 1,
+      "unitId": "science-kitchen-notebook",
+      "type": "choice",
+      "prompt": "水100gに食塩25gを全部溶かした。質量パーセント濃度は？",
+      "choices": [
+        "20％",
+        "25％",
+        "125％"
+      ],
+      "answer": 0,
+      "explanation": "食塩水全体は125g。25÷125×100＝20％。水だけの100gを分母にしないのがポイント。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "実験条件・質量・密度・状態変化を考える"
+    }
+  },
+  {
+    "batch": "cozy",
+    "unit_id": "science-kitchen-notebook",
+    "unit_title": "身近なふしぎ：観察ノート",
+    "subject": "science",
+    "grade": 1,
+    "source_file": "dist/data/packs/science-g1-kitchen-notebook-cozy-001.json",
+    "question": {
+      "id": "science-g1-kitchen-notebook-cozy-001:q10",
+      "subject": "science",
+      "grade": 1,
+      "unitId": "science-kitchen-notebook",
+      "type": "choice",
+      "prompt": "振り子の一往復の時間を調べる。10往復に20秒かかったら、一往復の平均時間は？",
+      "choices": [
+        "10秒",
+        "2秒",
+        "200秒"
+      ],
+      "answer": 1,
+      "explanation": "20÷10＝2秒。何回分の時間かを確かめて一回分に直す。回数そのものや時間との掛け算では求められない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "実験条件・質量・密度・状態変化を考える"
+    }
+  },
+  {
+    "batch": "cozy",
+    "unit_id": "social-town-workshop",
+    "unit_title": "まちの相談室：みんなの案を考えよう",
+    "subject": "social",
+    "grade": 3,
+    "source_file": "dist/data/packs/social-g3-town-workshop-cozy-001.json",
+    "question": {
+      "id": "social-g3-town-workshop-cozy-001:q1",
+      "subject": "social",
+      "grade": 3,
+      "unitId": "social-town-workshop",
+      "type": "choice",
+      "prompt": "【架空のまち】公園にベンチを置く。A案は入口近く、B案は奥の静かな場所。車いすで休憩する人の使いやすさを比べるには、どの追加情報が役立つ？",
+      "choices": [
+        "提案者の好きな歌",
+        "通路の幅や段差",
+        "ベンチの名前の文字数"
+      ],
+      "answer": 1,
+      "explanation": "通路の幅や段差は到達のしやすさに関係する。歌や名前の文字数では移動のしやすさを判断できない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "架空の資料から効率・公正と判断の限界を読む"
+    }
+  },
+  {
+    "batch": "cozy",
+    "unit_id": "social-town-workshop",
+    "unit_title": "まちの相談室：みんなの案を考えよう",
+    "subject": "social",
+    "grade": 3,
+    "source_file": "dist/data/packs/social-g3-town-workshop-cozy-001.json",
+    "question": {
+      "id": "social-g3-town-workshop-cozy-001:q2",
+      "subject": "social",
+      "grade": 3,
+      "unitId": "social-town-workshop",
+      "type": "choice",
+      "prompt": "【架空の会計】まつりの予算は6万円。照明に2万円、案内板に1万5千円を使った。残りは？",
+      "choices": [
+        "3万5千円",
+        "9万5千円",
+        "2万5千円"
+      ],
+      "answer": 2,
+      "explanation": "使った額は3万5千円なので6万−3万5千＝2万5千円。支出合計と残金を区別しよう。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "架空の資料から効率・公正と判断の限界を読む"
+    }
+  },
+  {
+    "batch": "cozy",
+    "unit_id": "social-town-workshop",
+    "unit_title": "まちの相談室：みんなの案を考えよう",
+    "subject": "social",
+    "grade": 3,
+    "source_file": "dist/data/packs/social-g3-town-workshop-cozy-001.json",
+    "question": {
+      "id": "social-g3-town-workshop-cozy-001:q3",
+      "subject": "social",
+      "grade": 3,
+      "unitId": "social-town-workshop",
+      "type": "choice",
+      "prompt": "【架空のバス】A便は20人乗りで3回、B便は30人乗りで2回、片道の運行をする。各回が満員なら、運ぶ延べ人数は？",
+      "choices": [
+        "どちらも60人",
+        "Aだけ90人",
+        "Bだけ20人"
+      ],
+      "answer": 0,
+      "explanation": "Aは20×3、Bは30×2でいずれも60人。ただし延べ人数の比較で、利用者が全員別人かは分からない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "架空の資料から効率・公正と判断の限界を読む"
+    }
+  },
+  {
+    "batch": "cozy",
+    "unit_id": "social-town-workshop",
+    "unit_title": "まちの相談室：みんなの案を考えよう",
+    "subject": "social",
+    "grade": 3,
+    "source_file": "dist/data/packs/social-g3-town-workshop-cozy-001.json",
+    "question": {
+      "id": "social-g3-town-workshop-cozy-001:q4",
+      "subject": "social",
+      "grade": 3,
+      "unitId": "social-town-workshop",
+      "type": "choice",
+      "prompt": "【架空の相談】高齢者は昼の催し、学生は夕方の催しを希望した。両方の参加機会を広げる案は？",
+      "choices": [
+        "片方の希望は記録から消す",
+        "時間を分けて複数回開く",
+        "年齢で発言を禁止する"
+      ],
+      "answer": 1,
+      "explanation": "別の時間の回を用意すれば選択肢を増やせる。意見を消すことや発言禁止は参加機会を広げない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "架空の資料から効率・公正と判断の限界を読む"
+    }
+  },
+  {
+    "batch": "cozy",
+    "unit_id": "social-town-workshop",
+    "unit_title": "まちの相談室：みんなの案を考えよう",
+    "subject": "social",
+    "grade": 3,
+    "source_file": "dist/data/packs/social-g3-town-workshop-cozy-001.json",
+    "question": {
+      "id": "social-g3-town-workshop-cozy-001:q5",
+      "subject": "social",
+      "grade": 3,
+      "unitId": "social-town-workshop",
+      "type": "choice",
+      "prompt": "【架空の投票】40票のうちA案18票、B案15票、C案7票。A案について正しいのは？",
+      "choices": [
+        "全票の過半数を得た",
+        "B案より票が少ない",
+        "最多だが過半数ではない"
+      ],
+      "answer": 2,
+      "explanation": "18票は最多だが、40の半分20を超えないので過半数ではない。最多と過半数は違う。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "架空の資料から効率・公正と判断の限界を読む"
+    }
+  },
+  {
+    "batch": "cozy",
+    "unit_id": "social-town-workshop",
+    "unit_title": "まちの相談室：みんなの案を考えよう",
+    "subject": "social",
+    "grade": 3,
+    "source_file": "dist/data/packs/social-g3-town-workshop-cozy-001.json",
+    "question": {
+      "id": "social-g3-town-workshop-cozy-001:q6",
+      "subject": "social",
+      "grade": 3,
+      "unitId": "social-town-workshop",
+      "type": "choice",
+      "prompt": "【架空の図書室】利用者は昨月50人、今月75人。増えた人数は？",
+      "choices": [
+        "25人",
+        "125人",
+        "75人"
+      ],
+      "answer": 0,
+      "explanation": "75−50＝25人。125は二月分の合計、75は今月の人数。何を尋ねられたかを先に確かめよう。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "架空の資料から効率・公正と判断の限界を読む"
+    }
+  },
+  {
+    "batch": "cozy",
+    "unit_id": "social-town-workshop",
+    "unit_title": "まちの相談室：みんなの案を考えよう",
+    "subject": "social",
+    "grade": 3,
+    "source_file": "dist/data/packs/social-g3-town-workshop-cozy-001.json",
+    "question": {
+      "id": "social-g3-town-workshop-cozy-001:q7",
+      "subject": "social",
+      "grade": 3,
+      "unitId": "social-town-workshop",
+      "type": "choice",
+      "prompt": "【架空の調査】駅前で昼だけ聞いたアンケートを、町の全員の意見だとした。注意したい点は？",
+      "choices": [
+        "回答数が一票でもあれば全員の意見になる",
+        "その時その場所にいない人の意見が入っていない",
+        "昼という時刻なら調査の偏りは絶対にない"
+      ],
+      "answer": 1,
+      "explanation": "場所と時間で回答者が偏る可能性がある。調査した人の意見と全員の意見は区別する必要がある。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "架空の資料から効率・公正と判断の限界を読む"
+    }
+  },
+  {
+    "batch": "cozy",
+    "unit_id": "social-town-workshop",
+    "unit_title": "まちの相談室：みんなの案を考えよう",
+    "subject": "social",
+    "grade": 3,
+    "source_file": "dist/data/packs/social-g3-town-workshop-cozy-001.json",
+    "question": {
+      "id": "social-g3-town-workshop-cozy-001:q8",
+      "subject": "social",
+      "grade": 3,
+      "unitId": "social-town-workshop",
+      "type": "choice",
+      "prompt": "【架空の避難所】一部屋の定員は30人。75人を全員、定員以内で受け入れるには最低何部屋必要？",
+      "choices": [
+        "2部屋",
+        "5部屋",
+        "3部屋"
+      ],
+      "answer": 2,
+      "explanation": "2部屋では60人までなので足りず、3部屋なら90人まで。最低の数を求めるため、割り算の余りを切り捨てない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "架空の資料から効率・公正と判断の限界を読む"
+    }
+  },
+  {
+    "batch": "cozy",
+    "unit_id": "social-town-workshop",
+    "unit_title": "まちの相談室：みんなの案を考えよう",
+    "subject": "social",
+    "grade": 3,
+    "source_file": "dist/data/packs/social-g3-town-workshop-cozy-001.json",
+    "question": {
+      "id": "social-g3-town-workshop-cozy-001:q9",
+      "subject": "social",
+      "grade": 3,
+      "unitId": "social-town-workshop",
+      "type": "choice",
+      "prompt": "【架空の公園】手入れの案Aは2万円で3区画、案Bは3万円で6区画を整備できる。ほかの条件が同じなら、一つの区画当たりの費用が低いのは？",
+      "choices": [
+        "B案",
+        "A案",
+        "同じ費用"
+      ],
+      "answer": 0,
+      "explanation": "Aは一つ約6,667円、Bは5,000円。Bの総費用は高くても、区画数でそろえて比べると一つ当たりは安い。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "架空の資料から効率・公正と判断の限界を読む"
+    }
+  },
+  {
+    "batch": "cozy",
+    "unit_id": "social-town-workshop",
+    "unit_title": "まちの相談室：みんなの案を考えよう",
+    "subject": "social",
+    "grade": 3,
+    "source_file": "dist/data/packs/social-g3-town-workshop-cozy-001.json",
+    "question": {
+      "id": "social-g3-town-workshop-cozy-001:q10",
+      "subject": "social",
+      "grade": 3,
+      "unitId": "social-town-workshop",
+      "type": "choice",
+      "prompt": "【架空の話し合い】新しい遊具を置いたら利用者が増えた。同時にバス便も増えていた。遊具だけの効果だと断言できる？",
+      "choices": [
+        "増えたので遊具だけが唯一の原因だ",
+        "ほかの変化もあり、この情報だけでは断言できない",
+        "バス便が増えたので遊具は存在しない"
+      ],
+      "answer": 1,
+      "explanation": "同時に変わった条件があるため、効果を分けて考える必要がある。唯一の原因や遊具の不存在は導けない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "架空の資料から効率・公正と判断の限界を読む"
+    }
+  },
+  {
+    "batch": "stretch",
+    "subject": "japanese",
+    "grade": 1,
+    "source_file": "dist/data/stretch-bank.json",
+    "question": {
+      "id": "stretch-japanese-20261103:q1",
+      "subject": "japanese",
+      "grade": 1,
+      "skill": "必要条件と十分条件",
+      "type": "choice",
+      "prompt": "読書会の案内には「参加するには、この本を読んでおく必要があります。ただし、定員を超えたときは抽選です」とある。本を読んだ人について、必ず言えるのは？",
+      "choices": [
+        "本を読んだので必ず参加できる",
+        "抽選に外れることが必ず決まった",
+        "参加の条件の一つは満たしたが、参加できるとは限らない"
+      ],
+      "answer": 2,
+      "hints": [
+        "「必要」と「それだけで必ず決まる」は同じかな。",
+        "本を読んだあとにも、抽選という条件が残っているよ。"
+      ],
+      "explanation": "読書は必要な条件だが、それだけで参加が確定するわけではない。抽選に当たるか外れるかもまだ分からない。条件を一つずつ分けると見通しがよくなる。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "difficulty": "stretch_design_not_empirically_calibrated"
+    }
+  },
+  {
+    "batch": "stretch",
+    "subject": "japanese",
+    "grade": 1,
+    "source_file": "dist/data/stretch-bank.json",
+    "question": {
+      "id": "stretch-japanese-20261103:q2",
+      "subject": "japanese",
+      "grade": 1,
+      "skill": "例外条件を文脈に適用する",
+      "type": "choice",
+      "prompt": "委員会の決まりに「雨の日は体育館を使う。ただし、舞台の準備がある日は別の場所を使う」とある。今日は雨で、舞台の準備がある。決まりに合う判断は？",
+      "choices": [
+        "別の場所を使う",
+        "雨なので体育館を使う",
+        "雨なので委員会の決まりを取り消す"
+      ],
+      "answer": 0,
+      "hints": [
+        "「ただし」の後に注目しよう。",
+        "舞台の準備がある日は、雨の日の決まりより例外を優先するよ。"
+      ],
+      "explanation": "「ただし」の後に例外の条件がある。今日はその条件に当てはまるので、雨でも別の場所を使う。決まり全体を取り消すとは書かれていない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "difficulty": "stretch_design_not_empirically_calibrated"
+    }
+  },
+  {
+    "batch": "stretch",
+    "subject": "japanese",
+    "grade": 1,
+    "source_file": "dist/data/stretch-bank.json",
+    "question": {
+      "id": "stretch-japanese-20261103:q3",
+      "subject": "japanese",
+      "grade": 1,
+      "skill": "話題の流れから指示語をたどる",
+      "type": "choice",
+      "prompt": "校庭に赤いボールと白いボールがあった。太郎は赤いボールを拾った。「それは昨日、先生が使っていた物だ」と言った。「それ」が指すものはどれか。",
+      "choices": [
+        "赤いボール",
+        "白いボール",
+        "校庭"
+      ],
+      "answer": 0,
+      "hints": [
+        "太郎が何を拾ったか、確かめよう。",
+        "「それ」の直前で話題になっている物を探そう。"
+      ],
+      "explanation": "太郎が拾って話題にしたのは赤いボール。その直後の「それ」は、話題になっている赤いボールを指す。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "difficulty": "stretch_design_not_empirically_calibrated"
+    }
+  },
+  {
+    "batch": "stretch",
+    "subject": "japanese",
+    "grade": 2,
+    "source_file": "dist/data/stretch-bank.json",
+    "question": {
+      "id": "stretch-japanese-20261103:q4",
+      "subject": "japanese",
+      "grade": 2,
+      "skill": "反例と一般化",
+      "type": "choice",
+      "prompt": "「この町の店は、すべて月曜に休む」という主張を調べたい。最も直接的な反例になる資料は？",
+      "choices": [
+        "隣町で月曜に営業している店の記録",
+        "この町で月曜に休む店一店の記録",
+        "この町で月曜に営業している一店の、同じ時期の営業記録"
+      ],
+      "answer": 2,
+      "hints": [
+        "「すべて」を崩すには、条件に当てはまらない例がいくつ必要かな。",
+        "同じ町・同じ時期の店であることも大切だよ。"
+      ],
+      "explanation": "同じ町で月曜に営業する店が一店でもあれば、「すべて休む」は成り立たない。隣町の記録は対象外で、休む一店の記録は主張に合う例である。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "difficulty": "stretch_design_not_empirically_calibrated"
+    }
+  },
+  {
+    "batch": "stretch",
+    "subject": "japanese",
+    "grade": 2,
+    "source_file": "dist/data/stretch-bank.json",
+    "question": {
+      "id": "stretch-japanese-20261103:q5",
+      "subject": "japanese",
+      "grade": 2,
+      "skill": "会話と心内の推測を区別する",
+      "type": "choice",
+      "prompt": "「先生は『発表する人は、明日決めます』と言った。私は、きっと自分が選ばれると思った。」本文の事実と推測を分けた説明として適切なのは？",
+      "choices": [
+        "先生が明日決めると話したことは事実で、私が選ばれるかはまだ推測である",
+        "先生が私を選んだことは事実で、明日決めるという発言は私の推測である",
+        "先生は誰も選ばないと決め、私は発表を断ったことが事実である"
+      ],
+      "answer": 0,
+      "hints": [
+        "先生のせりふと、「私」が思ったことを分けよう。",
+        "「きっと」という見込みと、決定済みの事実は同じかな。"
+      ],
+      "explanation": "先生の発言として書かれているのは「明日決める」こと。自分が選ばれるという見込みは「私」の考えで、まだ決定した事実ではない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "difficulty": "stretch_design_not_empirically_calibrated"
+    }
+  },
+  {
+    "batch": "stretch",
+    "subject": "math",
+    "grade": 1,
+    "source_file": "dist/data/stretch-bank.json",
+    "question": {
+      "id": "stretch-math-20261103:q1",
+      "subject": "math",
+      "grade": 1,
+      "skill": "割合の逆算",
+      "type": "choice",
+      "prompt": "ある品の値段をまず0.8倍にし、その後1.1倍にしたところ880円になった。初めの値段はいくら？",
+      "choices": [
+        "1,100円",
+        "960円",
+        "1,000円"
+      ],
+      "answer": 2,
+      "hints": [
+        "初めの値段を□円として、順に掛けてみよう。",
+        "0.8×1.1＝0.88。□×0.88＝880を逆算するよ。"
+      ],
+      "explanation": "初めの値段の0.88倍が880円なので、880÷0.88＝1,000円。二つの割合を単に足したり引いたりせず、順番に掛けるのがポイント。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "difficulty": "stretch_design_not_empirically_calibrated"
+    }
+  },
+  {
+    "batch": "stretch",
+    "subject": "math",
+    "grade": 1,
+    "source_file": "dist/data/stretch-bank.json",
+    "question": {
+      "id": "stretch-math-20261103:q2",
+      "subject": "math",
+      "grade": 1,
+      "skill": "方程式のモデル",
+      "type": "choice",
+      "prompt": "100円玉と10円玉が合わせて8枚あり、合計350円。100円玉は何枚？",
+      "choices": [
+        "3枚",
+        "5枚",
+        "7枚"
+      ],
+      "answer": 0,
+      "hints": [
+        "全部が10円玉だったとすると、合計はいくらかな。",
+        "8枚で80円。10円玉を100円玉に替えるたび90円増えるよ。"
+      ],
+      "explanation": "全部10円玉なら80円。差の350−80＝270円を、1枚替えるごとの90円で割ると3枚。3枚の100円玉と5枚の10円玉で確かめられる。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "difficulty": "stretch_design_not_empirically_calibrated"
+    }
+  },
+  {
+    "batch": "stretch",
+    "subject": "math",
+    "grade": 2,
+    "source_file": "dist/data/stretch-bank.json",
+    "question": {
+      "id": "stretch-math-20261103:q3",
+      "subject": "math",
+      "grade": 2,
+      "skill": "速さと全体の平均",
+      "type": "choice",
+      "prompt": "家から公園まで2km。行きは時速3km、帰りは同じ道を時速6kmで歩いた。休憩をしないとき、往復全体の平均の速さは？",
+      "choices": [
+        "時速4.5km",
+        "時速4km",
+        "時速3km"
+      ],
+      "answer": 1,
+      "hints": [
+        "平均の速さは、全体の道のり÷全体の時間だよ。",
+        "行きは2/3時間、帰りは1/3時間。合計の時間は？"
+      ],
+      "explanation": "往復の道のりは4km、時間は2/3＋1/3＝1時間だから時速4km。二つの速さを足して2で割ると、同じ時間ずつ歩いた場合の平均になってしまう。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "difficulty": "stretch_design_not_empirically_calibrated"
+    }
+  },
+  {
+    "batch": "stretch",
+    "subject": "math",
+    "grade": 1,
+    "source_file": "dist/data/stretch-bank.json",
+    "question": {
+      "id": "stretch-math-20261103:q4",
+      "subject": "math",
+      "grade": 1,
+      "skill": "周と面積",
+      "type": "choice",
+      "prompt": "一周40cmのひもで、一辺10cmの正方形と、縦4cm・横16cmの長方形をそれぞれ作る。面積は正方形の方が何cm²大きい？",
+      "choices": [
+        "0cm²",
+        "60cm²",
+        "36cm²"
+      ],
+      "answer": 2,
+      "hints": [
+        "一周が同じでも、面積が同じとは限らないよ。",
+        "正方形は10×10、長方形は4×16。その差を出そう。"
+      ],
+      "explanation": "正方形は100cm²、長方形は64cm²なので、差は36cm²。同じ長さの周でも、形によって囲む面積は変わる。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "difficulty": "stretch_design_not_empirically_calibrated"
+    }
+  },
+  {
+    "batch": "stretch",
+    "subject": "math",
+    "grade": 1,
+    "source_file": "dist/data/stretch-bank.json",
+    "question": {
+      "id": "stretch-math-20261103:q5",
+      "subject": "math",
+      "grade": 1,
+      "skill": "重複を除く数え方",
+      "type": "choice",
+      "prompt": "1から30までの整数のうち、2の倍数または3の倍数である数はいくつ？",
+      "choices": [
+        "20個",
+        "25個",
+        "15個"
+      ],
+      "answer": 0,
+      "hints": [
+        "2の倍数と3の倍数を数えると、両方に入る数があるよ。",
+        "2の倍数は15個、3の倍数は10個。6の倍数5個を二重に数えているね。"
+      ],
+      "explanation": "15＋10−5＝20個。両方に入る6、12、18、24、30を一回分引く。25個だと、この五つを二重に数えている。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "difficulty": "stretch_design_not_empirically_calibrated"
+    }
+  },
+  {
+    "batch": "stretch",
+    "subject": "english",
+    "grade": 1,
+    "source_file": "dist/data/stretch-bank.json",
+    "question": {
+      "id": "stretch-english-20261103:q1",
+      "subject": "english",
+      "grade": 1,
+      "skill": "予定の共通部分",
+      "type": "choice",
+      "prompt": "メモを読もう。The library is open on Tuesday and Thursday. Mika can go on Tuesday. Ken can go on Thursday. 二人がそれぞれ書かれた日にしか行けないなら、二人一緒に行ける日は？",
+      "choices": [
+        "火曜日",
+        "木曜日",
+        "この予定のままでは、一緒に行ける日はない"
+      ],
+      "answer": 2,
+      "hints": [
+        "図書館が開く日と、二人それぞれが行ける日を分けよう。",
+        "Mikaは火曜だけ、Kenは木曜だけ。この二つに同じ日はあるかな。"
+      ],
+      "explanation": "図書館は両日とも開くが、二人の行ける日が重ならない。開館日であることと、二人が一緒に行けることは別の条件。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "difficulty": "stretch_design_not_empirically_calibrated"
+    }
+  },
+  {
+    "batch": "stretch",
+    "subject": "english",
+    "grade": 1,
+    "source_file": "dist/data/stretch-bank.json",
+    "question": {
+      "id": "stretch-english-20261103:q2",
+      "subject": "english",
+      "grade": 1,
+      "skill": "物の移動と所有",
+      "type": "choice",
+      "prompt": "Tom lent his blue bag to Emi. Emi put a book in it and returned the bag to Tom. 本文から確かに言えることは？",
+      "choices": [
+        "青いかばんはトムからエミへ渡り、トムへ返された",
+        "青いかばんはエミの所有物になった",
+        "エミはかばんを返していない"
+      ],
+      "answer": 0,
+      "hints": [
+        "lentは貸した、returnedは返した、という動きだよ。",
+        "itとthe bagは同じ青いかばんを指しているね。"
+      ],
+      "explanation": "かばんは貸し借りされた後、トムへ返されている。貸したことだけで所有権が移ったとは読めず、返していないという選択肢も本文と反対。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "difficulty": "stretch_design_not_empirically_calibrated"
+    }
+  },
+  {
+    "batch": "stretch",
+    "subject": "english",
+    "grade": 2,
+    "source_file": "dist/data/stretch-bank.json",
+    "question": {
+      "id": "stretch-english-20261103:q3",
+      "subject": "english",
+      "grade": 2,
+      "skill": "時刻条件の重なり",
+      "type": "choice",
+      "prompt": "同じ日の午後の予定。The club room is open from two to six. I can come after three, but I must leave by five. この人が部室で活動できる時間帯に含まれるのは？",
+      "choices": [
+        "午後2時30分",
+        "午後4時",
+        "午後5時30分"
+      ],
+      "answer": 1,
+      "hints": [
+        "部室が開く時間だけでなく、この人の都合も確かめよう。",
+        "after threeは3時より後、by fiveは5時まで。両方を満たすのは？"
+      ],
+      "explanation": "午後4時は開室時間内で、この人の3時より後・5時までという条件にも合う。2時30分は来られる時間より前、5時30分は帰る期限より後。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "difficulty": "stretch_design_not_empirically_calibrated"
+    }
+  },
+  {
+    "batch": "stretch",
+    "subject": "english",
+    "grade": 2,
+    "source_file": "dist/data/stretch-bank.json",
+    "question": {
+      "id": "stretch-english-20261103:q4",
+      "subject": "english",
+      "grade": 2,
+      "skill": "部分否定",
+      "type": "choice",
+      "prompt": "Not all the students joined the trip. この文が表す内容として適切なのは？",
+      "choices": [
+        "生徒は一人も旅行に参加しなかった",
+        "すべての生徒が旅行に参加した",
+        "旅行に参加しなかった生徒がいる"
+      ],
+      "answer": 2,
+      "hints": [
+        "notがallと組み合わさると、「全員というわけではない」と考えよう。",
+        "参加した人の数をゼロと決める表現ではないよ。"
+      ],
+      "explanation": "Not allは全員ではないという意味で、不参加の生徒がいることを示す。参加者がゼロか一部いるかは、この文だけでは決まらない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "difficulty": "stretch_design_not_empirically_calibrated"
+    }
+  },
+  {
+    "batch": "stretch",
+    "subject": "english",
+    "grade": 2,
+    "source_file": "dist/data/stretch-bank.json",
+    "question": {
+      "id": "stretch-english-20261103:q5",
+      "subject": "english",
+      "grade": 2,
+      "skill": "経験と予定",
+      "type": "choice",
+      "prompt": "I have never visited Kyoto, but I will go there tomorrow. 話している時点で分かることは？",
+      "choices": [
+        "京都へ行った経験はなく、明日行く予定である",
+        "京都へ行った経験が何度もある",
+        "昨日すでに京都へ行った"
+      ],
+      "answer": 0,
+      "hints": [
+        "have never visitedは、これまでの経験についての否定だよ。",
+        "will goとtomorrowは、これからの予定を表しているね。"
+      ],
+      "explanation": "前半は経験がないこと、後半は明日の予定を示す。未来の予定があるからといって、すでに経験したことにはならない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "difficulty": "stretch_design_not_empirically_calibrated"
+    }
+  },
+  {
+    "batch": "stretch",
+    "subject": "science",
+    "grade": 1,
+    "source_file": "dist/data/stretch-bank.json",
+    "question": {
+      "id": "stretch-science-20261103:q1",
+      "subject": "science",
+      "grade": 1,
+      "skill": "濃度の混合",
+      "type": "choice",
+      "prompt": "質量パーセント濃度10％の食塩水100gと、20％の食塩水200gを混ぜた。こぼれも蒸発もないとき、混合後の濃度は約何％？ 小数第1位までで答える。",
+      "choices": [
+        "15.0％",
+        "30.0％",
+        "約16.7％"
+      ],
+      "answer": 2,
+      "hints": [
+        "濃度の平均だけを出さず、それぞれの食塩の質量を求めよう。",
+        "食塩は10gと40g。全体は300gだから、50÷300×100だよ。"
+      ],
+      "explanation": "食塩50gを食塩水300gで割るので約16.7％。二つの食塩水の質量が違うため、10％と20％の単純な平均15％にはならない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "difficulty": "stretch_design_not_empirically_calibrated"
+    }
+  },
+  {
+    "batch": "stretch",
+    "subject": "science",
+    "grade": 1,
+    "source_file": "dist/data/stretch-bank.json",
+    "question": {
+      "id": "stretch-science-20261103:q2",
+      "subject": "science",
+      "grade": 1,
+      "skill": "ばねの全長",
+      "type": "choice",
+      "prompt": "自然の長さ10cmのばねに0.5Nの力を加えると2cm伸びた。伸びが力に比例する範囲で1.5Nを加えたとき、ばね全体の長さは？",
+      "choices": [
+        "16cm",
+        "6cm",
+        "13cm"
+      ],
+      "answer": 0,
+      "hints": [
+        "力は0.5Nの何倍になったかな。伸びも同じ倍率になるよ。",
+        "伸びは2×3＝6cm。自然の長さを足すのを忘れないで。"
+      ],
+      "explanation": "1.5Nは0.5Nの3倍なので、伸びは6cm。全長は10＋6＝16cm。伸びと、ばね全体の長さを区別する。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "difficulty": "stretch_design_not_empirically_calibrated"
+    }
+  },
+  {
+    "batch": "stretch",
+    "subject": "science",
+    "grade": 2,
+    "source_file": "dist/data/stretch-bank.json",
+    "question": {
+      "id": "stretch-science-20261103:q3",
+      "subject": "science",
+      "grade": 2,
+      "skill": "電力とエネルギー",
+      "type": "choice",
+      "prompt": "6Vで0.3Aの電流が流れる機器を10秒使った。電力＝電圧×電流、電力量＝電力×時間（秒）とすると、電力量は何J？",
+      "choices": [
+        "1.8J",
+        "18J",
+        "180J"
+      ],
+      "answer": 1,
+      "hints": [
+        "まず1秒当たりに使うエネルギーに相当する電力を出そう。",
+        "6×0.3＝1.8W。それを10秒使うと？"
+      ],
+      "explanation": "電力は1.8W、電力量は1.8×10＝18J。1.8は電力の数値で、10秒分の電力量ではない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "difficulty": "stretch_design_not_empirically_calibrated"
+    }
+  },
+  {
+    "batch": "stretch",
+    "subject": "science",
+    "grade": 1,
+    "source_file": "dist/data/stretch-bank.json",
+    "question": {
+      "id": "stretch-science-20261103:q4",
+      "subject": "science",
+      "grade": 1,
+      "skill": "蒸発と濃度",
+      "type": "choice",
+      "prompt": "食塩10gと水90gからなる食塩水がある。食塩は残ったまま水だけ50g蒸発した。残った食塩水の濃度は？",
+      "choices": [
+        "10％",
+        "25％",
+        "20％"
+      ],
+      "answer": 2,
+      "hints": [
+        "食塩の質量は変わらず、水だけが減るよ。",
+        "残った全体は100−50＝50g。食塩10gを何で割るかな。"
+      ],
+      "explanation": "残った水は40g、食塩水全体は50gなので10÷50×100＝20％。水40gだけを分母にすると25％になり、食塩水全体に対する割合ではなくなる。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "difficulty": "stretch_design_not_empirically_calibrated"
+    }
+  },
+  {
+    "batch": "stretch",
+    "subject": "science",
+    "grade": 1,
+    "source_file": "dist/data/stretch-bank.json",
+    "question": {
+      "id": "stretch-science-20261103:q5",
+      "subject": "science",
+      "grade": 1,
+      "skill": "反射音の往復",
+      "type": "choice",
+      "prompt": "壁に向かって音を出すと、0.5秒後に反射音が戻った。音の速さを340m/sとし、音は同じ道を往復したとすると、壁までの距離は？",
+      "choices": [
+        "85m",
+        "170m",
+        "680m"
+      ],
+      "answer": 0,
+      "hints": [
+        "0.5秒は、壁へ行って戻るまでの時間だよ。",
+        "音が進んだ全体の道のりは340×0.5＝170m。その半分が片道だね。"
+      ],
+      "explanation": "往復170mの半分なので壁までは85m。170mは音が進んだ合計で、壁までの片道距離ではない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "difficulty": "stretch_design_not_empirically_calibrated"
+    }
+  },
+  {
+    "batch": "stretch",
+    "subject": "social",
+    "grade": 1,
+    "source_file": "dist/data/stretch-bank.json",
+    "question": {
+      "id": "stretch-social-20261103:q1",
+      "subject": "social",
+      "grade": 1,
+      "skill": "最多と過半数",
+      "type": "choice",
+      "prompt": "【架空の投票】45人が一人1票で投票し、A案22票、B案14票、C案9票だった。正しい読み取りは？",
+      "choices": [
+        "A案は過半数を得た",
+        "C案が最多だった",
+        "A案は最多だが、過半数は得ていない"
+      ],
+      "answer": 2,
+      "hints": [
+        "過半数は、全体の半分を「超える」数だよ。",
+        "45の半分は22.5。22は一番多いけれど、半分を超えているかな。"
+      ],
+      "explanation": "A案22票は最多だが、過半数の23票以上には届かない。最多と過半数は、異なる基準である。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "difficulty": "stretch_design_not_empirically_calibrated"
+    }
+  },
+  {
+    "batch": "stretch",
+    "subject": "social",
+    "grade": 2,
+    "source_file": "dist/data/stretch-bank.json",
+    "question": {
+      "id": "stretch-social-20261103:q2",
+      "subject": "social",
+      "grade": 2,
+      "skill": "集団全体の割合",
+      "type": "choice",
+      "prompt": "【架空の調査】A地区は10人中8人、B地区は90人中18人が徒歩通学。二地区を合わせた徒歩通学の割合は？",
+      "choices": [
+        "26％",
+        "50％",
+        "80％"
+      ],
+      "answer": 0,
+      "hints": [
+        "地区ごとの割合を足して2で割る前に、人数を合計してみよう。",
+        "徒歩は8＋18＝26人、全体は10＋90＝100人だよ。"
+      ],
+      "explanation": "合計26人が100人中なので26％。80％と20％の単純平均50％は、二地区の人数が大きく違うことを反映していない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "difficulty": "stretch_design_not_empirically_calibrated"
+    }
+  },
+  {
+    "batch": "stretch",
+    "subject": "social",
+    "grade": 1,
+    "source_file": "dist/data/stretch-bank.json",
+    "question": {
+      "id": "stretch-social-20261103:q3",
+      "subject": "social",
+      "grade": 1,
+      "skill": "費用と時刻の条件",
+      "type": "choice",
+      "prompt": "【架空の交通】午前9時40分に同時出発する。A路線は片道200円・所要20分、B路線は150円・所要35分。午前10時10分までに着く必要がある。選べるのは？",
+      "choices": [
+        "安いB路線だけ",
+        "A路線だけ",
+        "どちらも期限内に着く"
+      ],
+      "answer": 1,
+      "hints": [
+        "安さだけでなく、到着する時刻も計算してみよう。",
+        "Aは10時、Bは10時15分に着くよ。期限と比べよう。"
+      ],
+      "explanation": "Aは10時に着き期限に間に合う。Bは50円安いが、10時15分で期限を過ぎる。条件を満たす案の中で費用を比較する必要がある。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "difficulty": "stretch_design_not_empirically_calibrated"
+    }
+  },
+  {
+    "batch": "stretch",
+    "subject": "social",
+    "grade": 2,
+    "source_file": "dist/data/stretch-bank.json",
+    "question": {
+      "id": "stretch-social-20261103:q4",
+      "subject": "social",
+      "grade": 2,
+      "skill": "予算と整備量",
+      "type": "choice",
+      "prompt": "【架空の整備案】A案は1万2千円で2区画、B案は2万6千円で6区画を整備できる。同じ案を必要な回数だけ丸ごと使い、分割購入はしない。予算3万円以内で6区画以上にするには、どの方法が当てはまるか。",
+      "choices": [
+        "A案を2回使う",
+        "A案を3回使う",
+        "B案を1回使う"
+      ],
+      "answer": 2,
+      "hints": [
+        "予算と区画数を別々に確かめよう。",
+        "A案は2回なら4区画、3回なら3万6千円。B案はどうかな。"
+      ],
+      "explanation": "A案2回は2万4千円で4区画なので区画数が不足。A案3回は6区画だが3万6千円で予算を超える。B案1回なら2万6千円で6区画となり、両方の条件を満たす。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "difficulty": "stretch_design_not_empirically_calibrated"
+    }
+  },
+  {
+    "batch": "stretch",
+    "subject": "social",
+    "grade": 1,
+    "source_file": "dist/data/stretch-bank.json",
+    "question": {
+      "id": "stretch-social-20261103:q5",
+      "subject": "social",
+      "grade": 1,
+      "skill": "収容数と制約",
+      "type": "choice",
+      "prompt": "【架空の避難計画】70人が入る。定員24人の部屋は2部屋まで、定員15人の部屋は何部屋でも使える。必要な部屋数を最も少なくするには、全部で何部屋必要か。",
+      "choices": [
+        "3部屋",
+        "4部屋",
+        "5部屋"
+      ],
+      "answer": 1,
+      "hints": [
+        "3部屋で入れる人数を、いちばん多い組み合わせで考えよう。",
+        "24人用2部屋と15人用1部屋では63人。もう1部屋加えると？"
+      ],
+      "explanation": "3部屋の最大定員は24＋24＋15＝63人で不足する。4部屋なら24＋24＋15＋15＝78人まで入れるので、最小は4部屋。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "difficulty": "stretch_design_not_empirically_calibrated"
+    }
+  },
+  {
+    "batch": "stretch",
+    "subject": "social",
+    "grade": 2,
+    "source_file": "dist/data/stretch-bank.json",
+    "question": {
+      "id": "stretch-social-20261105:q6",
+      "subject": "social",
+      "grade": 2,
+      "skill": "地形図から経路の傾斜を比較する",
+      "type": "choice",
+      "prompt": "【架空の地形図の読み取り】同じ地形図で、山頂へ続くA道は等高線の間隔がせまく、B道は広い。なるべく緩やかな斜面の道を選びたい。この資料から選べるのは？",
+      "choices": [
+        "A道。等高線がせまいほど坂は緩やかだから",
+        "B道。等高線が広いほど坂は緩やかだから",
+        "どちらも同じ傾斜。山頂へ続く道だから"
+      ],
+      "answer": 1,
+      "hints": [
+        "同じ地形図なら、隣り合う等高線の高さの差は同じだよ。",
+        "同じ高さを、長い水平距離で上るのと短い距離で上るのでは、どちらが緩やかかな。"
+      ],
+      "explanation": "等高線の間隔が広いB道のほうが緩やかと読める。山頂が同じでも傾斜は同じとは限らない。この設問は傾斜の比較で、実際の道の安全性すべてを判断する資料ではない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "difficulty": "stretch_design_not_empirically_calibrated"
+    }
+  },
+  {
+    "batch": "stretch",
+    "subject": "social",
+    "grade": 2,
+    "source_file": "dist/data/stretch-bank.json",
+    "question": {
+      "id": "stretch-social-20261105:q7",
+      "subject": "social",
+      "grade": 2,
+      "skill": "新旧の地図から土地利用の変化を読む",
+      "type": "choice",
+      "prompt": "【架空の新旧地図】同じ縮尺で同じ範囲を表した地図を比べた。昔の地図で田の記号が広がっていた場所に、現在の地図では住宅が描かれている。この二つの地図から直接読み取れるのは？",
+      "choices": [
+        "その場所の人口が、町のどの場所よりも多いこと",
+        "現在の住宅が、どれも同じ年に建てられたこと",
+        "その場所の土地利用が、田から住宅地へ変わったこと"
+      ],
+      "answer": 2,
+      "hints": [
+        "同じ場所で、地図に描かれたものがどう変わったかな。",
+        "土地の使い方は分かるけれど、人口や建物ができた年も載っているかな。"
+      ],
+      "explanation": "同じ場所の田の記号が住宅の表示に変わったことから、土地利用の変化を読み取れる。人口の多さの順位や各住宅の建築年は、この資料に示されていない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "difficulty": "stretch_design_not_empirically_calibrated"
+    }
+  }
+]

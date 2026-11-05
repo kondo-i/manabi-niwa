@@ -1,0 +1,143 @@
+{
+  "app_added_ids": [
+    "stretch-social-20261105:q6",
+    "stretch-social-20261105:q7"
+  ],
+  "app_changed_fields_and_added_rows": 49,
+  "app_modified_ids": [
+    "japanese-g2-auxiliary-context-balance-001:q4",
+    "japanese-g2-auxiliary-context-balance-001:q6",
+    "japanese-g2-evidence-compare-balance-001:q1",
+    "japanese-g2-honorific-context-balance-001:q1",
+    "japanese-g2-honorific-context-balance-001:q9",
+    "japanese-g2-story-feelings-cozy-001:q4",
+    "science-g1-kitchen-notebook-cozy-001:q8",
+    "social-g1-geography-data-balance-001:q10",
+    "social-g3-civics-discussion-balance-001:q7",
+    "stretch-japanese-20261103:q2",
+    "stretch-japanese-20261103:q3",
+    "stretch-japanese-20261103:q5",
+    "stretch-social-20261103:q4",
+    "stretch-social-20261103:q5"
+  ],
+  "app_questions": 187,
+  "checks": [
+    {
+      "name": "32 social and 187 app questions with unique IDs",
+      "status": "PASS"
+    },
+    {
+      "name": "data\\social\\v3 JSON/CSV full-field equality",
+      "status": "PASS"
+    },
+    {
+      "name": "data\\social\\v3 choices and answer indices",
+      "status": "PASS"
+    },
+    {
+      "name": "data\\social\\v3 Markdown content",
+      "status": "PASS"
+    },
+    {
+      "name": "reports\\app_review\\v3 JSON/CSV full-field equality",
+      "status": "PASS"
+    },
+    {
+      "name": "reports\\app_review\\v3 choices and answer indices",
+      "status": "PASS"
+    },
+    {
+      "name": "reports\\app_review\\v3 Markdown content",
+      "status": "PASS"
+    },
+    {
+      "name": "Social answer strings match indices",
+      "status": "PASS"
+    },
+    {
+      "name": "Social distractor notes match wrong choices and explanations",
+      "status": "PASS"
+    },
+    {
+      "name": "Social source IDs resolve",
+      "status": "PASS"
+    },
+    {
+      "name": "Furigana absent and policy explicit",
+      "status": "PASS"
+    },
+    {
+      "name": "Social positions balanced within one question",
+      "status": "PASS"
+    },
+    {
+      "name": "No social answer-position periods of length 1 to 5",
+      "status": "PASS"
+    },
+    {
+      "name": "No only/always/all cues in social choices",
+      "status": "PASS"
+    },
+    {
+      "name": "Both change maps exact including full new-ID rows",
+      "status": "PASS"
+    },
+    {
+      "name": "HIS comparison moved to CIV explanation",
+      "status": "PASS"
+    },
+    {
+      "name": "CIV-008 all choices express rights",
+      "status": "PASS"
+    },
+    {
+      "name": "Auxiliary quote and matched-usage task fixed",
+      "status": "PASS"
+    },
+    {
+      "name": "Honorific candidates revised in full",
+      "status": "PASS"
+    },
+    {
+      "name": "New budget problem independently enumerated",
+      "status": "PASS"
+    },
+    {
+      "name": "New room-capacity problem independently enumerated",
+      "status": "PASS"
+    },
+    {
+      "name": "Changed scale data independently calculated",
+      "status": "PASS"
+    },
+    {
+      "name": "27 challenges have two hints and current audit flags",
+      "status": "PASS"
+    },
+    {
+      "name": "New non-calculation social tasks distinct in data",
+      "status": "PASS"
+    },
+    {
+      "name": "No exact normalized prompt duplicates across IDs, including prior drafts",
+      "status": "PASS"
+    }
+  ],
+  "claude_csv_provided": false,
+  "exact_normalized_duplicates": 0,
+  "near_prompt_candidates": 0,
+  "semantic_duplicate_zero_verified": false,
+  "social_added_ids": [
+    "SOC-GEO-011",
+    "SOC-HIS-011"
+  ],
+  "social_changed_fields_and_added_rows": 73,
+  "social_positions": {
+    "1": 11,
+    "2": 11,
+    "3": 10
+  },
+  "social_questions": 32,
+  "status": "MECHANICAL_PASS_SEMANTIC_AND_TEXTBOOK_REAUDIT_PENDING",
+  "textbook_edition_and_kanji_check": "pending_edition_specific_grade_tables"
+}
