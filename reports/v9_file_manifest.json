@@ -1,0 +1,58 @@
+{
+  "files": [
+    {
+      "status": "A",
+      "path": "data/v9/audit_focus.json"
+    },
+    {
+      "status": "A",
+      "path": "data/v9/canonical_definitions.json"
+    },
+    {
+      "status": "A",
+      "path": "data/v9/change_map_v8_v9.csv"
+    },
+    {
+      "status": "A",
+      "path": "data/v9/definition_changes.csv"
+    },
+    {
+      "status": "A",
+      "path": "data/v9/distractor_replacements.csv"
+    },
+    {
+      "status": "A",
+      "path": "data/v9/questions.csv"
+    },
+    {
+      "status": "A",
+      "path": "data/v9/questions.json"
+    },
+    {
+      "status": "A",
+      "path": "data/v9/textbook_policy.json"
+    },
+    {
+      "status": "A",
+      "path": "reports/v9_file_manifest.json"
+    },
+    {
+      "status": "A",
+      "path": "reports/v9_verification_report.md"
+    },
+    {
+      "status": "A",
+      "path": "reports/v9_verification_results.json"
+    },
+    {
+      "status": "A",
+      "path": "scripts/build_v9.py"
+    },
+    {
+      "status": "A",
+      "path": "scripts/verify_v9.py"
+    }
+  ],
+  "added": 13,
+  "modified": 0
+}

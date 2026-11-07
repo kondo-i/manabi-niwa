@@ -1,0 +1,7 @@
+id,choice_number,before_word,after_word,reason
+JVQ-111-01-M,1,隠蔽,事実,Claude_round8_requested_noncompeting_noun_distractor
+JVQ-111-01-M,3,伝達,出典,Claude_round8_requested_noncompeting_noun_distractor
+JVQ-111-02-C,1,捏造,精査,producer_linked_review_existing_exaggeration_false_content_overlap
+JVQ-111-02-C,3,虚偽,訂正,producer_linked_review_existing_exaggeration_false_content_overlap
+JVQ-113-04-M,1,論破,論拠,Claude_round8_requested_noncompeting_noun_distractor
+JVQ-113-04-M,2,すり替え,前提,Claude_round8_requested_noncompeting_noun_distractor
