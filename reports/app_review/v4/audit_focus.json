@@ -1,0 +1,209 @@
+{
+  "social_questions": [
+    {
+      "id": "SOC-HIS-010",
+      "subject": "社会",
+      "field": "history",
+      "grade": 2,
+      "grade_policy": "r7_2025_edition_confirmed_grade_progress_and_indexes_pending",
+      "question_type": "single_choice",
+      "prompt": "大日本帝国憲法のもとで、主権を持つとされたのは誰か。",
+      "choices": [
+        "国民",
+        "天皇",
+        "帝国議会"
+      ],
+      "correct_index": 1,
+      "correct_answer": "天皇",
+      "explanation": "大日本帝国憲法では、天皇が統治権を総攬する天皇主権の仕組みとされた。誤答の確認：「国民」：この憲法で主権者とされたのは国民ではない。「帝国議会」：帝国議会は法律案などの審議に関わったが、統治権の総攬者ではない。",
+      "distractor_notes": [
+        {
+          "choice": "国民",
+          "reason": "この憲法で主権者とされたのは国民ではない。"
+        },
+        {
+          "choice": "帝国議会",
+          "reason": "帝国議会は法律案などの審議に関わったが、統治権の総攬者ではない。"
+        }
+      ],
+      "source_ids": [
+        "MEIJI_TEXT",
+        "MEIJI_CONST"
+      ],
+      "review_status": "draft_awaiting_claude_independent_review",
+      "release_status": "not_published",
+      "furigana_policy": "none_by_user_request_20261105"
+    },
+    {
+      "id": "SOC-CIV-001",
+      "subject": "社会",
+      "field": "civics",
+      "grade": 3,
+      "grade_policy": "r7_2025_edition_confirmed_grade_progress_and_indexes_pending",
+      "question_type": "single_choice",
+      "prompt": "日本国憲法のもとで、主権を持つのは誰か。",
+      "choices": [
+        "天皇",
+        "内閣総理大臣",
+        "国民"
+      ],
+      "correct_index": 2,
+      "correct_answer": "国民",
+      "explanation": "日本国憲法の前文と第1条は、主権が国民にあることを示す。大日本帝国憲法の天皇主権と、日本国憲法の国民主権を比べて区別しよう。 誤答の確認：「天皇」：天皇は日本国の象徴として位置づけられている。 「内閣総理大臣」：総理大臣個人に主権が属する制度ではない。",
+      "distractor_notes": [
+        {
+          "choice": "天皇",
+          "reason": "天皇は日本国の象徴として位置づけられている。"
+        },
+        {
+          "choice": "内閣総理大臣",
+          "reason": "総理大臣個人に主権が属する制度ではない。"
+        }
+      ],
+      "source_ids": [
+        "CONST",
+        "MEIJI_TEXT"
+      ],
+      "review_status": "draft_awaiting_claude_independent_review",
+      "release_status": "not_published",
+      "furigana_policy": "none_by_user_request_20261105"
+    },
+    {
+      "id": "SOC-CIV-008",
+      "subject": "社会",
+      "field": "civics",
+      "grade": 3,
+      "grade_policy": "r7_2025_edition_confirmed_grade_progress_and_indexes_pending",
+      "question_type": "single_choice",
+      "prompt": "憲法が保障する生存権に最も直接関係する説明はどれか。",
+      "choices": [
+        "希望する品物を無料で受け取る権利がある",
+        "働かなくても同じ収入を受け取る権利がある",
+        "健康で文化的な最低限度の生活を営む権利がある"
+      ],
+      "correct_index": 2,
+      "correct_answer": "健康で文化的な最低限度の生活を営む権利がある",
+      "explanation": "日本国憲法第25条は、健康で文化的な最低限度の生活を営む権利を保障する。 誤答の確認：「希望する品物を無料で受け取る権利がある」：第25条はこのような権利を定めていない。 「働かなくても同じ収入を受け取る権利がある」：第25条は収入を同額にする権利を定めていない。",
+      "distractor_notes": [
+        {
+          "choice": "希望する品物を無料で受け取る権利がある",
+          "reason": "第25条はこのような権利を定めていない。"
+        },
+        {
+          "choice": "働かなくても同じ収入を受け取る権利がある",
+          "reason": "第25条は収入を同額にする権利を定めていない。"
+        }
+      ],
+      "source_ids": [
+        "CONST"
+      ],
+      "review_status": "draft_awaiting_claude_independent_review",
+      "release_status": "not_published",
+      "furigana_policy": "none_by_user_request_20261105"
+    },
+    {
+      "id": "SOC-HIS-011",
+      "subject": "社会",
+      "field": "history",
+      "grade": 2,
+      "grade_policy": "r7_2025_edition_confirmed_grade_progress_and_indexes_pending",
+      "furigana_policy": "none_by_user_request_20261105",
+      "question_type": "single_choice",
+      "prompt": "【制度の違いを学ぶための要約】資料A「寺子屋などで、身分や地域ごとに学びの機会が異なった」。資料B「国が学校の制度を定め、全国に学校を整えようとした」。AからBへの変化に関係する改革はどれか。",
+      "choices": [
+        "地租改正",
+        "廃藩置県",
+        "学制"
+      ],
+      "correct_index": 2,
+      "correct_answer": "学制",
+      "explanation": "国が学校の制度を定めて全国に学校を整えようとしたのが、1872年の学制。要約文は原史料からの直接引用ではない。 誤答の確認：「地租改正」：土地にかかる税の制度の改革で、学校の制度の改革ではない。 「廃藩置県」：藩を廃して県を置く地方制度の改革で、学校の制度の改革ではない。",
+      "distractor_notes": [
+        {
+          "choice": "地租改正",
+          "reason": "土地にかかる税の制度の改革で、学校の制度の改革ではない。"
+        },
+        {
+          "choice": "廃藩置県",
+          "reason": "藩を廃して県を置く地方制度の改革で、学校の制度の改革ではない。"
+        }
+      ],
+      "source_ids": [
+        "SCHOOL_ARCHIVES",
+        "SCHOOL_CONTEXT"
+      ],
+      "hints": [
+        "資料Aと資料Bでは、何の機会や制度が変わっているかな。",
+        "学校の制度を国が定めた改革を選ぼう。"
+      ],
+      "review_status": "draft_awaiting_claude_independent_review",
+      "release_status": "not_published"
+    }
+  ],
+  "app_questions": [
+    {
+      "id": "social-g1-geography-data-balance-001:q10",
+      "subject": "social",
+      "grade": 1,
+      "unitId": "social-geography-data",
+      "type": "choice",
+      "prompt": "5万分の1の地図で6cmの道のりを、2万5千分の1の地図にかくと何cmになるか。",
+      "choices": [
+        "3cm",
+        "12cm",
+        "24cm"
+      ],
+      "answer": 1,
+      "explanation": "同じ道のりを縮尺の異なる地図で比べる。実際の距離は6×50,000＝300,000cm。2万5千分の1では300,000÷25,000＝12cm。3cmは縮尺による拡大と縮小を逆にした値で、24cmは拡大率を4倍としている。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "skill": "同一道のりを異なる縮尺で表す長さを比較する"
+    },
+    {
+      "id": "stretch-japanese-20261103:q3",
+      "subject": "japanese",
+      "grade": 1,
+      "skill": "話題の流れから指示語をたどる",
+      "type": "choice",
+      "prompt": "校庭に赤いボールと白いボールがあった。太郎は赤いボールを拾った。「それは昨日、先生が使っていた物だ」と言った。「それ」が指すものはどれか。",
+      "choices": [
+        "赤いボール",
+        "白いボール",
+        "校庭"
+      ],
+      "answer": 0,
+      "hints": [
+        "太郎が何を拾ったか、確かめよう。",
+        "「それ」の直前で話題になっている物を探そう。"
+      ],
+      "explanation": "太郎が拾って話題にしたのは赤いボール。その直後の「それ」は、話題になっている赤いボールを指す。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "difficulty": "stretch_design_not_empirically_calibrated"
+    },
+    {
+      "id": "stretch-japanese-20261107:q6",
+      "subject": "japanese",
+      "grade": 1,
+      "skill": "話し手と聞き手の位置関係から指示語をたどる",
+      "type": "choice",
+      "prompt": "校庭に赤いボールと白いボールがあった。太郎は赤いボールを拾い、花子は白いボールを拾った。太郎は花子が持つボールを見て、「それは昨日、先生が使っていた物だよ」と言った。\n「それ」が指すものはどれか。",
+      "choices": [
+        "赤いボール",
+        "白いボール",
+        "校庭"
+      ],
+      "answer": 1,
+      "hints": [
+        "「それ」は、話し相手の近くにある物を指すことが多いよ",
+        "太郎は誰の持つボールを見て話したかな"
+      ],
+      "explanation": "太郎が見て話したのは花子が持つボールで、花子が拾ったのは白いボール。「それ」は白いボールを指す。赤いボールは太郎が持つ物であり、校庭はボールではなく場所なので当てはまらない。",
+      "status": "prototype",
+      "auditStatus": "independent_review_pending",
+      "difficulty": "stretch_design_not_empirically_calibrated"
+    }
+  ],
+  "independent_review": "pending",
+  "app_code_fix": "separate draft/app-strengths-v4-20261107 branch"
+}

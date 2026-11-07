@@ -1,4 +1,6 @@
 """Independent read-back of social v3 and app-review v3, including historical drafts."""
+import argparse
+import tempfile
 import collections
 import csv
 import difflib
@@ -43,6 +45,11 @@ def verify_change_map(before, after, path):
 
 
 def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--output-dir", type=Path)
+    args = parser.parse_args()
+    output_dir = args.output_dir or Path(tempfile.mkdtemp(prefix="manabi-social-v3-"))
+    output_dir.mkdir(parents=True, exist_ok=True)
     checks = []
 
     def check(name, condition):
@@ -140,7 +147,7 @@ def main():
                          'prompt': q['prompt'], 'other_prompt': other['prompt']}
                 if entry not in near:
                     near.append(entry)
-    (app_folder / 'duplicate_screening.json').write_text(json.dumps({
+    (output_dir / 'duplicate_screening.json').write_text(json.dumps({
         'exact_prompt_duplicates': exact_duplicates, 'near_prompt_candidates': near,
         'scope': 'Current social32 + app187 against socialv2 + app185. Different-ID comparisons only.',
         'limit': 'Character similarity is a screening aid. Semantic/skill identity is not decided automatically.'
@@ -157,7 +164,7 @@ def main():
         'textbook_edition_and_kanji_check': 'pending_edition_specific_grade_tables',
         'claude_csv_provided': False, 'checks': checks,
     }
-    (ROOT / 'reports/social_v3_verification_results.json').write_text(
+    (output_dir / 'social_v3_verification_results.json').write_text(
         json.dumps(result, ensure_ascii=False, indent=2, sort_keys=True) + '\n', encoding='utf-8', newline='\n')
     print(json.dumps({key: value for key, value in result.items() if key != 'checks'}, ensure_ascii=False))
 

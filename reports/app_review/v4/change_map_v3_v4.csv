@@ -1,0 +1,7 @@
+id,operation,field,before,after
+social-g1-geography-data-balance-001:q10,modify,prompt,"""【架空の地図資料】縮尺は5万分の1。地図上の6cmは実際には何kmか。""","""5万分の1の地図で6cmの道のりを、2万5千分の1の地図にかくと何cmになるか。"""
+social-g1-geography-data-balance-001:q10,modify,choices,"[""3km"",""0.3km"",""30km""]","[""3cm"",""12cm"",""24cm""]"
+social-g1-geography-data-balance-001:q10,modify,answer,0,1
+social-g1-geography-data-balance-001:q10,modify,explanation,"""6×50,000＝300,000cm＝3km。1kmは100,000cmなので、300,000を100,000で割る。""","""同じ道のりを縮尺の異なる地図で比べる。実際の距離は6×50,000＝300,000cm。2万5千分の1では300,000÷25,000＝12cm。3cmは縮尺による拡大と縮小を逆にした値で、24cmは拡大率を4倍としている。"""
+social-g1-geography-data-balance-001:q10,modify,skill,"""架空統計の計算と読み取り""","""同一道のりを異なる縮尺で表す長さを比較する"""
+stretch-japanese-20261107:q6,add,__item__,null,"{""id"":""stretch-japanese-20261107:q6"",""subject"":""japanese"",""grade"":1,""skill"":""話し手と聞き手の位置関係から指示語をたどる"",""type"":""choice"",""prompt"":""校庭に赤いボールと白いボールがあった。太郎は赤いボールを拾い、花子は白いボールを拾った。太郎は花子が持つボールを見て、「それは昨日、先生が使っていた物だよ」と言った。\n「それ」が指すものはどれか。"",""choices"":[""赤いボール"",""白いボール"",""校庭""],""answer"":1,""hints"":[""「それ」は、話し相手の近くにある物を指すことが多いよ"",""太郎は誰の持つボールを見て話したかな""],""explanation"":""太郎が見て話したのは花子が持つボールで、花子が拾ったのは白いボール。「それ」は白いボールを指す。赤いボールは太郎が持つ物であり、校庭はボールではなく場所なので当てはまらない。"",""status"":""prototype"",""auditStatus"":""independent_review_pending"",""difficulty"":""stretch_design_not_empirically_calibrated""}"

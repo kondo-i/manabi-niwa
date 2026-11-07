@@ -1,0 +1,102 @@
+{
+  "files": [
+    {
+      "status": "A",
+      "path": "data/social/v4/change_map_v3_v4.csv"
+    },
+    {
+      "status": "A",
+      "path": "data/social/v4/questions.csv"
+    },
+    {
+      "status": "A",
+      "path": "data/social/v4/questions.json"
+    },
+    {
+      "status": "A",
+      "path": "data/social/v4/questions.md"
+    },
+    {
+      "status": "A",
+      "path": "data/social/v4/sources.json"
+    },
+    {
+      "status": "A",
+      "path": "data/social/v4/textbook_policy.json"
+    },
+    {
+      "status": "A",
+      "path": "reports/app_review/v4/audit_focus.json"
+    },
+    {
+      "status": "A",
+      "path": "reports/app_review/v4/change_map_v3_v4.csv"
+    },
+    {
+      "status": "A",
+      "path": "reports/app_review/v4/checks/duplicate_screening.json"
+    },
+    {
+      "status": "A",
+      "path": "reports/app_review/v4/checks/verification_results.json"
+    },
+    {
+      "status": "A",
+      "path": "reports/app_review/v4/file_manifest.json"
+    },
+    {
+      "status": "A",
+      "path": "reports/app_review/v4/learning_progression.json"
+    },
+    {
+      "status": "A",
+      "path": "reports/app_review/v4/learning_simulation_results.json"
+    },
+    {
+      "status": "A",
+      "path": "reports/app_review/v4/questions.csv"
+    },
+    {
+      "status": "A",
+      "path": "reports/app_review/v4/questions.json"
+    },
+    {
+      "status": "A",
+      "path": "reports/app_review/v4/questions.md"
+    },
+    {
+      "status": "A",
+      "path": "reports/app_review/v4/review_items.json"
+    },
+    {
+      "status": "A",
+      "path": "reports/app_review/v4/sources.json"
+    },
+    {
+      "status": "A",
+      "path": "reports/social_v4_verification_report.md"
+    },
+    {
+      "status": "A",
+      "path": "scripts/build_social_v4.py"
+    },
+    {
+      "status": "A",
+      "path": "scripts/prepare_social_review_v4.py"
+    },
+    {
+      "status": "A",
+      "path": "scripts/simulate_social_content_v4.cjs"
+    },
+    {
+      "status": "M",
+      "path": "scripts/verify_social_v3.py"
+    },
+    {
+      "status": "A",
+      "path": "scripts/verify_social_v4.py"
+    }
+  ],
+  "added": 23,
+  "modified": 1
+}

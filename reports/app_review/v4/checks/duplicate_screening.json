@@ -1,0 +1,27 @@
+{
+  "exact": [],
+  "near": [
+    {
+      "id": "SOC-HIS-010",
+      "other_id": "SOC-CIV-001",
+      "similarity": 0.857,
+      "prompt": "大日本帝国憲法のもとで、主権を持つとされたのは誰か。",
+      "other_prompt": "日本国憲法のもとで、主権を持つのは誰か。"
+    },
+    {
+      "id": "SOC-CIV-001",
+      "other_id": "SOC-HIS-010",
+      "similarity": 0.857,
+      "prompt": "日本国憲法のもとで、主権を持つのは誰か。",
+      "other_prompt": "大日本帝国憲法のもとで、主権を持つとされたのは誰か。"
+    },
+    {
+      "id": "stretch-japanese-20261107:q6",
+      "other_id": "stretch-japanese-20261103:q3",
+      "similarity": 0.822,
+      "prompt": "校庭に赤いボールと白いボールがあった。太郎は赤いボールを拾い、花子は白いボールを拾った。太郎は花子が持つボールを見て、「それは昨日、先生が使っていた物だよ」と言った。\n「それ」が指すものはどれか。",
+      "other_prompt": "校庭に赤いボールと白いボールがあった。太郎は赤いボールを拾った。「それは昨日、先生が使っていた物だ」と言った。「それ」が指すものはどれか。"
+    }
+  ],
+  "limit": "Changed prompts against current and historical drafts; no semantic-zero claim"
+}

@@ -1,0 +1,16 @@
+{
+  "decided_on": "2026-11-05",
+  "furigana": "none",
+  "publishers": {
+    "geography": "帝国書院",
+    "history": "東京書籍",
+    "civics": "日本文教出版"
+  },
+  "edition_status": "confirmed_by_user_20261107",
+  "reference_edition_for_public_unit_plans": "令和7年度版（参考用。使用版と同一との確認は未了）",
+  "textbook_unit_mapping": "see reports/textbook_alignment_20261105.md",
+  "edition": "令和7年度版（2025年度）",
+  "indexes": "not_provided",
+  "grade_kanji_lists": "not_provided",
+  "full_alignment": "not_verified"
+}

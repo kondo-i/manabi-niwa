@@ -1,0 +1,27 @@
+{
+  "stretch-social-20261105:q6": {
+    "sources": [
+      "https://www.gsi.go.jp/common/000082924.pdf"
+    ],
+    "provenance": "Producer-created fictional route; contour rule checked against GSI"
+  },
+  "stretch-social-20261105:q7": {
+    "sources": [
+      "https://maps.gsi.go.jp/"
+    ],
+    "provenance": "Producer-created fictional maps described in text; no real regional change asserted"
+  },
+  "policy": {
+    "furigana": "none",
+    "japanese": "光村図書",
+    "geography": "帝国書院",
+    "history": "東京書籍",
+    "civics": "日本文教出版",
+    "edition": "unconfirmed"
+  },
+  "social-g1-geography-data-balance-001:q10": {
+    "url": "https://www.gsi.go.jp/KIDS/KIDS04.html",
+    "producer_checked_on": "2026-11-07",
+    "provenance": "Official scale rule; new fictional 6cm/50000/25000 calculation verified independently."
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "status": "MECHANICAL_PASS_INDEPENDENT_CONTENT_AUDIT_PENDING",
+  "social": {
+    "count": 32,
+    "change_rows": 46,
+    "content_changed_ids": [
+      "SOC-CIV-001",
+      "SOC-CIV-008",
+      "SOC-HIS-010",
+      "SOC-HIS-011"
+    ],
+    "new_ids": []
+  },
+  "app": {
+    "count": 188,
+    "change_rows": 6,
+    "content_changed_ids": [
+      "social-g1-geography-data-balance-001:q10",
+      "stretch-japanese-20261107:q6"
+    ],
+    "new_ids": [
+      "stretch-japanese-20261107:q6"
+    ]
+  },
+  "social_positions": {
+    "2": 10,
+    "1": 11,
+    "3": 11
+  },
+  "exact_duplicate_count": 0,
+  "near_candidates": 3,
+  "semantic_duplicate_zero_verified": false,
+  "checks": [
+    {
+      "name": "32 social and 188 app unique IDs",
+      "status": "PASS"
+    },
+    {
+      "name": "social CSV full-field equality",
+      "status": "PASS"
+    },
+    {
+      "name": "social 3 distinct choices valid index",
+      "status": "PASS"
+    },
+    {
+      "name": "social exact diff rows and no duplicates",
+      "status": "PASS"
+    },
+    {
+      "name": "social Markdown complete",
+      "status": "PASS"
+    },
+    {
+      "name": "app CSV full-field equality",
+      "status": "PASS"
+    },
+    {
+      "name": "app 3 distinct choices valid index",
+      "status": "PASS"
+    },
+    {
+      "name": "app exact diff rows and no duplicates",
+      "status": "PASS"
+    },
+    {
+      "name": "app Markdown complete",
+      "status": "PASS"
+    },
+    {
+      "name": "social correct answer text and distractor notes",
+      "status": "PASS"
+    },
+    {
+      "name": "sources IDs resolve",
+      "status": "PASS"
+    },
+    {
+      "name": "no repeated quoted subject grammar",
+      "status": "PASS"
+    },
+    {
+      "name": "no furigana all social policy explicit",
+      "status": "PASS"
+    },
+    {
+      "name": "no answer position period 1-5",
+      "status": "PASS"
+    },
+    {
+      "name": "position count difference <=1",
+      "status": "PASS"
+    },
+    {
+      "name": "no only always all cue in social choices",
+      "status": "PASS"
+    },
+    {
+      "name": "HIS011 institution change with 学制 answer",
+      "status": "PASS"
+    },
+    {
+      "name": "scale conversion independently recalculated",
+      "status": "PASS"
+    },
+    {
+      "name": "introduction retained byte-equivalent as JSON object",
+      "status": "PASS"
+    },
+    {
+      "name": "new dialogue correct answer and two requested hints",
+      "status": "PASS"
+    },
+    {
+      "name": "28 challenge questions remain prototype with two hints",
+      "status": "PASS"
+    },
+    {
+      "name": "inherited q4 q5 constraints recomputed",
+      "status": "PASS"
+    },
+    {
+      "name": "normalized exact duplicates across different IDs zero including old drafts",
+      "status": "PASS"
+    }
+  ]
+}
