@@ -1,0 +1,50 @@
+{
+  "files": [
+    {
+      "status": "A",
+      "path": "app_drafts/strengths-v4/app.js"
+    },
+    {
+      "status": "A",
+      "path": "app_drafts/strengths-v4/choose.test.cjs"
+    },
+    {
+      "status": "A",
+      "path": "app_drafts/strengths-v4/code_changes.patch"
+    },
+    {
+      "status": "A",
+      "path": "app_drafts/strengths-v4/patch_manifest.json"
+    },
+    {
+      "status": "A",
+      "path": "app_drafts/strengths-v4/strength-ui.js"
+    },
+    {
+      "status": "A",
+      "path": "app_drafts/strengths-v4/strengths.js"
+    },
+    {
+      "status": "A",
+      "path": "reports/app_code/v4/file_manifest.json"
+    },
+    {
+      "status": "A",
+      "path": "reports/app_code/v4/learning_simulation_results.json"
+    },
+    {
+      "status": "A",
+      "path": "reports/app_code/v4/verification_report.md"
+    },
+    {
+      "status": "A",
+      "path": "scripts/prepare_strengths_v4.py"
+    },
+    {
+      "status": "A",
+      "path": "scripts/simulate_learning_v4.cjs"
+    }
+  ],
+  "added": 11,
+  "modified": 0
+}

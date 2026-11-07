@@ -1,0 +1,20 @@
+{
+  "base_repo_commit": "fea74f767cd2467a2eda897a4ddc6cd4e7f371f3",
+  "baseline_runtime": "reports/app_review/v3/audit_runtime.zip",
+  "baseline_site_source": "b54cc88b362ee144a2ba013d920ed8bf41b4083a",
+  "files": {
+    "dist/strengths.js": {
+      "before_sha256": "5de19e44ea682cdd290b03858dd8bd74e905193f58f148e0b4df31d598b3f0c9",
+      "after_sha256": "06250c2c89d4e1dab3a63fef9cba657b9ba7e9b76ef9735d0c405ef3c4e6e57a"
+    },
+    "dist/strength-ui.js": {
+      "before_sha256": "d18eed716e3ae5324dfb56c51da328d178b7f58ab0d0dea59cbae856b033567f",
+      "after_sha256": "c8b493e0bc08158c507c9df64712badd97a8cbc9372bfb5b8658133adf246587"
+    },
+    "dist/app.js": {
+      "before_sha256": "1c6c15824de0a0e8aaa064d924af3ec5010a6c075bc9b9436dcef1da5592d6f5",
+      "after_sha256": "3dd314e940a821ad35ec2e8f35ebdf85d37174e5a0bf80ecf1f2f78af844eb2c"
+    }
+  },
+  "deployment": "not_deployed"
+}

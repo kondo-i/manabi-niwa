@@ -1,0 +1,256 @@
+{
+  "source_base_commit": "b54cc88b362ee144a2ba013d920ed8bf41b4083a",
+  "content_draft": "app_review/v3; separately patched app code v4",
+  "method": "Actual runtime handlers with simulated DOM/storage; no student trial",
+  "random_seed": 20261105,
+  "runtime_files_hash_checked": 131,
+  "revised_normal_cases": 9,
+  "challenge_cases": 27,
+  "checked_cases": [
+    {
+      "id": "japanese-g2-honorific-context-balance-001:q1",
+      "entry": "review_button",
+      "prompt_and_choices": "PASS",
+      "saved_correctness": "PASS"
+    },
+    {
+      "id": "japanese-g2-honorific-context-balance-001:q9",
+      "entry": "review_button",
+      "prompt_and_choices": "PASS",
+      "saved_correctness": "PASS"
+    },
+    {
+      "id": "japanese-g2-auxiliary-context-balance-001:q4",
+      "entry": "review_button",
+      "prompt_and_choices": "PASS",
+      "saved_correctness": "PASS"
+    },
+    {
+      "id": "japanese-g2-auxiliary-context-balance-001:q6",
+      "entry": "review_button",
+      "prompt_and_choices": "PASS",
+      "saved_correctness": "PASS"
+    },
+    {
+      "id": "japanese-g2-evidence-compare-balance-001:q1",
+      "entry": "review_button",
+      "prompt_and_choices": "PASS",
+      "saved_correctness": "PASS"
+    },
+    {
+      "id": "social-g1-geography-data-balance-001:q10",
+      "entry": "review_button",
+      "prompt_and_choices": "PASS",
+      "saved_correctness": "PASS"
+    },
+    {
+      "id": "social-g3-civics-discussion-balance-001:q7",
+      "entry": "review_button",
+      "prompt_and_choices": "PASS",
+      "saved_correctness": "PASS"
+    },
+    {
+      "id": "japanese-g2-story-feelings-cozy-001:q4",
+      "entry": "review_button",
+      "prompt_and_choices": "PASS",
+      "saved_correctness": "PASS"
+    },
+    {
+      "id": "science-g1-kitchen-notebook-cozy-001:q8",
+      "entry": "review_button",
+      "prompt_and_choices": "PASS",
+      "saved_correctness": "PASS"
+    },
+    {
+      "id": "stretch-japanese-20261103:q1",
+      "entry": "challenge_button",
+      "prompt_hints_explanation": "PASS",
+      "assisted_record": "PASS"
+    },
+    {
+      "id": "stretch-japanese-20261103:q2",
+      "entry": "challenge_button",
+      "prompt_hints_explanation": "PASS",
+      "assisted_record": "PASS"
+    },
+    {
+      "id": "stretch-japanese-20261103:q3",
+      "entry": "challenge_button",
+      "prompt_hints_explanation": "PASS",
+      "assisted_record": "PASS"
+    },
+    {
+      "id": "stretch-japanese-20261103:q4",
+      "entry": "challenge_button",
+      "prompt_hints_explanation": "PASS",
+      "assisted_record": "PASS"
+    },
+    {
+      "id": "stretch-japanese-20261103:q5",
+      "entry": "challenge_button",
+      "prompt_hints_explanation": "PASS",
+      "assisted_record": "PASS"
+    },
+    {
+      "id": "stretch-math-20261103:q1",
+      "entry": "challenge_button",
+      "prompt_hints_explanation": "PASS",
+      "assisted_record": "PASS"
+    },
+    {
+      "id": "stretch-math-20261103:q2",
+      "entry": "challenge_button",
+      "prompt_hints_explanation": "PASS",
+      "assisted_record": "PASS"
+    },
+    {
+      "id": "stretch-math-20261103:q3",
+      "entry": "challenge_button",
+      "prompt_hints_explanation": "PASS",
+      "assisted_record": "PASS"
+    },
+    {
+      "id": "stretch-math-20261103:q4",
+      "entry": "challenge_button",
+      "prompt_hints_explanation": "PASS",
+      "assisted_record": "PASS"
+    },
+    {
+      "id": "stretch-math-20261103:q5",
+      "entry": "challenge_button",
+      "prompt_hints_explanation": "PASS",
+      "assisted_record": "PASS"
+    },
+    {
+      "id": "stretch-english-20261103:q1",
+      "entry": "challenge_button",
+      "prompt_hints_explanation": "PASS",
+      "assisted_record": "PASS"
+    },
+    {
+      "id": "stretch-english-20261103:q2",
+      "entry": "challenge_button",
+      "prompt_hints_explanation": "PASS",
+      "assisted_record": "PASS"
+    },
+    {
+      "id": "stretch-english-20261103:q3",
+      "entry": "challenge_button",
+      "prompt_hints_explanation": "PASS",
+      "assisted_record": "PASS"
+    },
+    {
+      "id": "stretch-english-20261103:q4",
+      "entry": "challenge_button",
+      "prompt_hints_explanation": "PASS",
+      "assisted_record": "PASS"
+    },
+    {
+      "id": "stretch-english-20261103:q5",
+      "entry": "challenge_button",
+      "prompt_hints_explanation": "PASS",
+      "assisted_record": "PASS"
+    },
+    {
+      "id": "stretch-science-20261103:q1",
+      "entry": "challenge_button",
+      "prompt_hints_explanation": "PASS",
+      "assisted_record": "PASS"
+    },
+    {
+      "id": "stretch-science-20261103:q2",
+      "entry": "challenge_button",
+      "prompt_hints_explanation": "PASS",
+      "assisted_record": "PASS"
+    },
+    {
+      "id": "stretch-science-20261103:q3",
+      "entry": "challenge_button",
+      "prompt_hints_explanation": "PASS",
+      "assisted_record": "PASS"
+    },
+    {
+      "id": "stretch-science-20261103:q4",
+      "entry": "challenge_button",
+      "prompt_hints_explanation": "PASS",
+      "assisted_record": "PASS"
+    },
+    {
+      "id": "stretch-science-20261103:q5",
+      "entry": "challenge_button",
+      "prompt_hints_explanation": "PASS",
+      "assisted_record": "PASS"
+    },
+    {
+      "id": "stretch-social-20261103:q1",
+      "entry": "challenge_button",
+      "prompt_hints_explanation": "PASS",
+      "assisted_record": "PASS"
+    },
+    {
+      "id": "stretch-social-20261103:q2",
+      "entry": "challenge_button",
+      "prompt_hints_explanation": "PASS",
+      "assisted_record": "PASS"
+    },
+    {
+      "id": "stretch-social-20261103:q3",
+      "entry": "challenge_button",
+      "prompt_hints_explanation": "PASS",
+      "assisted_record": "PASS"
+    },
+    {
+      "id": "stretch-social-20261103:q4",
+      "entry": "challenge_button",
+      "prompt_hints_explanation": "PASS",
+      "assisted_record": "PASS"
+    },
+    {
+      "id": "stretch-social-20261103:q5",
+      "entry": "challenge_button",
+      "prompt_hints_explanation": "PASS",
+      "assisted_record": "PASS"
+    },
+    {
+      "id": "stretch-social-20261105:q6",
+      "entry": "challenge_button",
+      "prompt_hints_explanation": "PASS",
+      "assisted_record": "PASS"
+    },
+    {
+      "id": "stretch-social-20261105:q7",
+      "entry": "challenge_button",
+      "prompt_hints_explanation": "PASS",
+      "assisted_record": "PASS"
+    }
+  ],
+  "beginner_flow": {
+    "japanese_continues_after_wrong": true,
+    "other_subjects": 4,
+    "reassuring_message": true
+  },
+  "same_day_challenge_sequence": [
+    "stretch-social-20261103:q1",
+    "stretch-social-20261103:q2",
+    "stretch-social-20261103:q3",
+    "stretch-social-20261103:q4",
+    "stretch-social-20261103:q5",
+    "stretch-social-20261105:q6",
+    "stretch-social-20261105:q7",
+    "stretch-social-20261103:q1",
+    "stretch-social-20261103:q2",
+    "stretch-social-20261103:q3",
+    "stretch-social-20261103:q4",
+    "stretch-social-20261103:q5",
+    "stretch-social-20261105:q6",
+    "stretch-social-20261105:q7",
+    "stretch-social-20261103:q1",
+    "stretch-social-20261103:q2",
+    "stretch-social-20261103:q3",
+    "stretch-social-20261103:q4",
+    "stretch-social-20261103:q5",
+    "stretch-social-20261105:q6"
+  ],
+  "known_issue_same_question_after_cycle": false,
+  "reload_previous_id_preserved": true
+}
