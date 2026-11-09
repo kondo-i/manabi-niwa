@@ -1,0 +1,7 @@
+"""Apply round9's single context correction; preserve all other content and policies."""
+import csv,copy,json,sys
+from pathlib import Path
+sys.dont_write_bytecode=True
+from build_v8 import write_json,write_csv,encode
+R=Path(__file__).resolve().parents[1];O=R/'data/v10';old=json.loads((R/'data/v9/questions.json').read_text());data=copy.deepcopy(old);defs=json.loads((R/'data/v9/canonical_definitions.json').read_text());q=next(q for q in data if q['id']=='JVQ-114-03-C');q['choices']=['誤報','訂正','拡散'];q['explanation']=q['explanation'].split('「伝達」は')[0]+'「訂正」は間違いを正しく直すこと、「拡散」は情報などが広い範囲に広がることであり、この場面の内容とは合わない。'
+write_json(O/'questions.json',data);fields=list(dict.fromkeys(k for q in data for k in q));write_csv(O/'questions.csv',[{k:encode(q[k]) if k in q else '' for k in fields} for q in data],fields);changes=[{'id':b['id'],'field':k,'before':encode(a[k]),'after':encode(b[k]),'reason':'round9_context_distractor_excludes_valid_transmission_alternative'} for a,b in zip(old,data) for k in b if a[k]!=b[k]];write_csv(O/'change_map_v9_v10.csv',changes);write_json(O/'canonical_definitions.json',defs);write_json(O/'textbook_policy.json',json.loads((R/'data/v9/textbook_policy.json').read_text()));write_json(O/'audit_focus.json',{'changed_question':q,'protected_unchanged_ids':['JVQ-114-01-M','JVQ-114-01-C','JVQ-114-03-M'],'scope':'single-item difference audit; not a complete reapproval of 1040 items'});print(len(data),len(changes))

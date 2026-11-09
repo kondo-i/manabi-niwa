@@ -1,0 +1,16 @@
+{
+  "data/kanji_reference/20261109/third_party_character_reference.json": "5960599686da0844f0f4ab53ae5db01e8ca2e42e86c630bb6ca51e4312abd848",
+  "data/kanji_reference/20261109/v10_500_words_character_crosswalk.csv": "fdcd2e3aaff98d2bd0f8dc8a87435c19360fcfb4dc11c8745d4bfed51c93d15f",
+  "data/v10/audit_focus.json": "5e042d13b8dae183118447f3554702d60ab583518425c92a17db3b30523e1647",
+  "data/v10/canonical_definitions.json": "5228ef4cc3f4ecd1d5f68f0799fd2ec4c7b3ec20c811a58c0f9fc0ccdc4baab8",
+  "data/v10/change_map_v9_v10.csv": "e3c2d51fd55ed0243ebb3e1b4236bb9cd8ff4353d597e0db6f01b57e6b5b27aa",
+  "data/v10/questions.csv": "bd10d816b2f9e43938739773aefce74fb5e3c1a338141ba7545c2d50f413ecd9",
+  "data/v10/questions.json": "f84a54070d254a16a35416a58ef8a5111df12e739e0d3972fa8988ad8436749a",
+  "data/v10/textbook_policy.json": "3cb395c80b9c824c3ec9f9082c7af40ef59544e4dd5d54763a46032168e1ccc1",
+  "reports/kanji_reference_20261109.md": "75ab521f42b2d67be1dc5827816978110b45843488829c22815edefcde3ca571",
+  "reports/v10_verification_report.md": "4c427a463f490aed52d75047f1905bc3e320c034f580926d812dc374c094b13a",
+  "reports/v10_verification_results.json": "4851d32fc5e03c1fd46cbb7f34eab54c3444906260d30c86deb1faef7fcd8d19",
+  "scripts/build_kanji_reference.py": "f1db09b461d86c7bc9e796f425e3299c3d8d6c69752a96699f213baf4d52cdce",
+  "scripts/build_v10.py": "9a3f22e4da6f6dc841e329262d922c0bffd5d8d224863d0acdf871c499cbca8f",
+  "scripts/verify_v10.py": "a946fa672b6ed343da92e01035548ff485e08b1696eb0bf5f6a5ed6698b48915"
+}

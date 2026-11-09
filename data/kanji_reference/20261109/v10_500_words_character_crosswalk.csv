@@ -1,0 +1,501 @@
+lexeme_id,word,current_app_grade,character_reference,not_in_reference,judgment
+JV-001-01,観察,1,"{""観"": [], ""察"": []}",観 察,NOT_A_WORD_GRADE_DETERMINATION
+JV-001-02,推測,1,"{""推"": [], ""測"": []}",推 測,NOT_A_WORD_GRADE_DETERMINATION
+JV-001-03,確認,1,"{""確"": [], ""認"": []}",確 認,NOT_A_WORD_GRADE_DETERMINATION
+JV-001-04,比較,1,"{""比"": [], ""較"": [1]}",比,NOT_A_WORD_GRADE_DETERMINATION
+JV-002-01,即断,1,"{""即"": [1], ""断"": []}",断,NOT_A_WORD_GRADE_DETERMINATION
+JV-002-02,熟考,1,"{""熟"": [], ""考"": []}",熟 考,NOT_A_WORD_GRADE_DETERMINATION
+JV-002-03,保留,1,"{""保"": [], ""留"": []}",保 留,NOT_A_WORD_GRADE_DETERMINATION
+JV-002-04,撤回,1,"{""撤"": [2], ""回"": []}",回,NOT_A_WORD_GRADE_DETERMINATION
+JV-003-01,事実,1,"{""事"": [], ""実"": []}",事 実,NOT_A_WORD_GRADE_DETERMINATION
+JV-003-02,意見,1,"{""意"": [], ""見"": []}",意 見,NOT_A_WORD_GRADE_DETERMINATION
+JV-003-03,予想,1,"{""予"": [], ""想"": []}",予 想,NOT_A_WORD_GRADE_DETERMINATION
+JV-003-04,証拠,1,"{""証"": [], ""拠"": [1]}",証,NOT_A_WORD_GRADE_DETERMINATION
+JV-004-01,対処,1,"{""対"": [], ""処"": []}",対 処,NOT_A_WORD_GRADE_DETERMINATION
+JV-004-02,予防,1,"{""予"": [], ""防"": []}",予 防,NOT_A_WORD_GRADE_DETERMINATION
+JV-004-03,改善,1,"{""改"": [], ""善"": []}",改 善,NOT_A_WORD_GRADE_DETERMINATION
+JV-004-04,放置,1,"{""放"": [], ""置"": []}",放 置,NOT_A_WORD_GRADE_DETERMINATION
+JV-005-01,分類,1,"{""分"": [], ""類"": []}",分 類,NOT_A_WORD_GRADE_DETERMINATION
+JV-005-02,要約,1,"{""要"": [], ""約"": []}",要 約,NOT_A_WORD_GRADE_DETERMINATION
+JV-005-03,列挙,1,"{""列"": [], ""挙"": []}",列 挙,NOT_A_WORD_GRADE_DETERMINATION
+JV-005-04,省略,1,"{""省"": [], ""略"": []}",省 略,NOT_A_WORD_GRADE_DETERMINATION
+JV-006-01,納得,1,"{""納"": [], ""得"": []}",納 得,NOT_A_WORD_GRADE_DETERMINATION
+JV-006-02,疑問,1,"{""疑"": [], ""問"": []}",疑 問,NOT_A_WORD_GRADE_DETERMINATION
+JV-006-03,誤解,1,"{""誤"": [], ""解"": []}",誤 解,NOT_A_WORD_GRADE_DETERMINATION
+JV-006-04,発見,1,"{""発"": [], ""見"": []}",発 見,NOT_A_WORD_GRADE_DETERMINATION
+JV-007-01,全体,1,"{""全"": [], ""体"": []}",全 体,NOT_A_WORD_GRADE_DETERMINATION
+JV-007-02,部分,1,"{""部"": [], ""分"": []}",部 分,NOT_A_WORD_GRADE_DETERMINATION
+JV-007-03,共通点,1,"{""共"": [], ""通"": [], ""点"": []}",共 通 点,NOT_A_WORD_GRADE_DETERMINATION
+JV-007-04,相違点,1,"{""相"": [], ""違"": [1], ""点"": []}",相 点,NOT_A_WORD_GRADE_DETERMINATION
+JV-008-01,着想,1,"{""着"": [], ""想"": []}",着 想,NOT_A_WORD_GRADE_DETERMINATION
+JV-008-02,工夫,1,"{""工"": [], ""夫"": []}",工 夫,NOT_A_WORD_GRADE_DETERMINATION
+JV-008-03,模倣,1,"{""模"": [], ""倣"": [3]}",模,NOT_A_WORD_GRADE_DETERMINATION
+JV-008-04,独創,1,"{""独"": [], ""創"": []}",独 創,NOT_A_WORD_GRADE_DETERMINATION
+JV-009-01,決意,1,"{""決"": [], ""意"": []}",決 意,NOT_A_WORD_GRADE_DETERMINATION
+JV-009-02,迷い,1,"{""迷"": []}",迷,NOT_A_WORD_GRADE_DETERMINATION
+JV-009-03,断念,1,"{""断"": [], ""念"": []}",断 念,NOT_A_WORD_GRADE_DETERMINATION
+JV-009-04,継続,1,"{""継"": [1], ""続"": []}",続,NOT_A_WORD_GRADE_DETERMINATION
+JV-010-01,賛同,1,"{""賛"": [], ""同"": []}",賛 同,NOT_A_WORD_GRADE_DETERMINATION
+JV-010-02,反論,1,"{""反"": [], ""論"": []}",反 論,NOT_A_WORD_GRADE_DETERMINATION
+JV-010-03,補足,1,"{""補"": [], ""足"": []}",補 足,NOT_A_WORD_GRADE_DETERMINATION
+JV-010-04,訂正,1,"{""訂"": [1], ""正"": []}",正,NOT_A_WORD_GRADE_DETERMINATION
+JV-011-01,安堵,1,"{""安"": [], ""堵"": []}",安 堵,NOT_A_WORD_GRADE_DETERMINATION
+JV-011-02,不安,1,"{""不"": [], ""安"": []}",不 安,NOT_A_WORD_GRADE_DETERMINATION
+JV-011-03,期待,1,"{""期"": [], ""待"": []}",期 待,NOT_A_WORD_GRADE_DETERMINATION
+JV-011-04,落胆,1,"{""落"": [], ""胆"": [1]}",落,NOT_A_WORD_GRADE_DETERMINATION
+JV-012-01,歓喜,1,"{""歓"": [2], ""喜"": []}",喜,NOT_A_WORD_GRADE_DETERMINATION
+JV-012-02,満足,1,"{""満"": [], ""足"": []}",満 足,NOT_A_WORD_GRADE_DETERMINATION
+JV-012-03,感謝,1,"{""感"": [], ""謝"": []}",感 謝,NOT_A_WORD_GRADE_DETERMINATION
+JV-012-04,感動,1,"{""感"": [], ""動"": []}",感 動,NOT_A_WORD_GRADE_DETERMINATION
+JV-013-01,憤慨,1,"{""憤"": [3], ""慨"": [2]}",,NOT_A_WORD_GRADE_DETERMINATION
+JV-013-02,不満,1,"{""不"": [], ""満"": []}",不 満,NOT_A_WORD_GRADE_DETERMINATION
+JV-013-03,いら立ち,1,"{""立"": []}",立,NOT_A_WORD_GRADE_DETERMINATION
+JV-013-04,後悔,1,"{""後"": [], ""悔"": [3]}",後,NOT_A_WORD_GRADE_DETERMINATION
+JV-014-01,同情,1,"{""同"": [], ""情"": []}",同 情,NOT_A_WORD_GRADE_DETERMINATION
+JV-014-02,共感,1,"{""共"": [], ""感"": []}",共 感,NOT_A_WORD_GRADE_DETERMINATION
+JV-014-03,尊敬,1,"{""尊"": [], ""敬"": []}",尊 敬,NOT_A_WORD_GRADE_DETERMINATION
+JV-014-04,軽蔑,1,"{""軽"": [], ""蔑"": [1]}",軽,NOT_A_WORD_GRADE_DETERMINATION
+JV-015-01,謙虚,1,"{""謙"": [2], ""虚"": [2]}",,NOT_A_WORD_GRADE_DETERMINATION
+JV-015-02,傲慢,1,"{""傲"": [3], ""慢"": [1]}",,NOT_A_WORD_GRADE_DETERMINATION
+JV-015-03,誠実,1,"{""誠"": [], ""実"": []}",誠 実,NOT_A_WORD_GRADE_DETERMINATION
+JV-015-04,卑劣,1,"{""卑"": [2], ""劣"": [1]}",,NOT_A_WORD_GRADE_DETERMINATION
+JV-016-01,果敢,1,"{""果"": [], ""敢"": [2]}",果,NOT_A_WORD_GRADE_DETERMINATION
+JV-016-02,臆病,1,"{""臆"": [2], ""病"": []}",病,NOT_A_WORD_GRADE_DETERMINATION
+JV-016-03,慎重,1,"{""慎"": [2], ""重"": []}",重,NOT_A_WORD_GRADE_DETERMINATION
+JV-016-04,無謀,1,"{""無"": [], ""謀"": [2]}",無,NOT_A_WORD_GRADE_DETERMINATION
+JV-017-01,熱中,1,"{""熱"": [], ""中"": []}",熱 中,NOT_A_WORD_GRADE_DETERMINATION
+JV-017-02,退屈,1,"{""退"": [], ""屈"": [2]}",退,NOT_A_WORD_GRADE_DETERMINATION
+JV-017-03,好奇心,1,"{""好"": [], ""奇"": [1], ""心"": []}",好 心,NOT_A_WORD_GRADE_DETERMINATION
+JV-017-04,無関心,1,"{""無"": [], ""関"": [], ""心"": []}",無 関 心,NOT_A_WORD_GRADE_DETERMINATION
+JV-018-01,動揺,1,"{""動"": [], ""揺"": [1]}",動,NOT_A_WORD_GRADE_DETERMINATION
+JV-018-02,冷静,1,"{""冷"": [], ""静"": []}",冷 静,NOT_A_WORD_GRADE_DETERMINATION
+JV-018-03,興奮,1,"{""興"": [], ""奮"": []}",興 奮,NOT_A_WORD_GRADE_DETERMINATION
+JV-018-04,放心,1,"{""放"": [], ""心"": []}",放 心,NOT_A_WORD_GRADE_DETERMINATION
+JV-019-01,寛容,1,"{""寛"": [2], ""容"": []}",容,NOT_A_WORD_GRADE_DETERMINATION
+JV-019-02,厳格,1,"{""厳"": [], ""格"": []}",厳 格,NOT_A_WORD_GRADE_DETERMINATION
+JV-019-03,公平,1,"{""公"": [], ""平"": []}",公 平,NOT_A_WORD_GRADE_DETERMINATION
+JV-019-04,偏見,1,"{""偏"": [2], ""見"": []}",見,NOT_A_WORD_GRADE_DETERMINATION
+JV-020-01,親密,1,"{""親"": [], ""密"": []}",親 密,NOT_A_WORD_GRADE_DETERMINATION
+JV-020-02,疎遠,1,"{""疎"": [1], ""遠"": []}",遠,NOT_A_WORD_GRADE_DETERMINATION
+JV-020-03,警戒,1,"{""警"": [], ""戒"": [1]}",警,NOT_A_WORD_GRADE_DETERMINATION
+JV-020-04,信頼,1,"{""信"": [], ""頼"": [1]}",信,NOT_A_WORD_GRADE_DETERMINATION
+JV-021-01,説明,1,"{""説"": [], ""明"": []}",説 明,NOT_A_WORD_GRADE_DETERMINATION
+JV-021-02,質問,1,"{""質"": [], ""問"": []}",質 問,NOT_A_WORD_GRADE_DETERMINATION
+JV-021-03,報告,1,"{""報"": [], ""告"": []}",報 告,NOT_A_WORD_GRADE_DETERMINATION
+JV-021-04,相談,1,"{""相"": [], ""談"": []}",相 談,NOT_A_WORD_GRADE_DETERMINATION
+JV-022-01,議論,1,"{""議"": [], ""論"": []}",議 論,NOT_A_WORD_GRADE_DETERMINATION
+JV-022-02,口論,1,"{""口"": [], ""論"": []}",口 論,NOT_A_WORD_GRADE_DETERMINATION
+JV-022-03,交渉,1,"{""交"": [], ""渉"": [2]}",交,NOT_A_WORD_GRADE_DETERMINATION
+JV-022-04,雑談,1,"{""雑"": [], ""談"": []}",雑 談,NOT_A_WORD_GRADE_DETERMINATION
+JV-023-01,明示,1,"{""明"": [], ""示"": []}",明 示,NOT_A_WORD_GRADE_DETERMINATION
+JV-023-02,暗示,1,"{""暗"": [], ""示"": []}",暗 示,NOT_A_WORD_GRADE_DETERMINATION
+JV-023-03,強調,1,"{""強"": [], ""調"": []}",強 調,NOT_A_WORD_GRADE_DETERMINATION
+JV-023-04,婉曲,1,"{""婉"": [], ""曲"": []}",婉 曲,NOT_A_WORD_GRADE_DETERMINATION
+JV-024-01,傾聴,1,"{""傾"": [2], ""聴"": [1]}",,NOT_A_WORD_GRADE_DETERMINATION
+JV-024-02,黙認,1,"{""黙"": [1], ""認"": []}",認,NOT_A_WORD_GRADE_DETERMINATION
+JV-024-03,非難,1,"{""非"": [], ""難"": []}",非 難,NOT_A_WORD_GRADE_DETERMINATION
+JV-024-04,擁護,1,"{""擁"": [2], ""護"": []}",護,NOT_A_WORD_GRADE_DETERMINATION
+JV-025-01,主張,1,"{""主"": [], ""張"": []}",主 張,NOT_A_WORD_GRADE_DETERMINATION
+JV-025-02,提案,1,"{""提"": [], ""案"": []}",提 案,NOT_A_WORD_GRADE_DETERMINATION
+JV-025-03,要請,1,"{""要"": [], ""請"": [3]}",要,NOT_A_WORD_GRADE_DETERMINATION
+JV-025-04,命令,1,"{""命"": [], ""令"": []}",命 令,NOT_A_WORD_GRADE_DETERMINATION
+JV-026-01,合意,1,"{""合"": [], ""意"": []}",合 意,NOT_A_WORD_GRADE_DETERMINATION
+JV-026-02,対立,1,"{""対"": [], ""立"": []}",対 立,NOT_A_WORD_GRADE_DETERMINATION
+JV-026-03,妥協,1,"{""妥"": [2], ""協"": []}",協,NOT_A_WORD_GRADE_DETERMINATION
+JV-026-04,決裂,1,"{""決"": [], ""裂"": [2]}",決,NOT_A_WORD_GRADE_DETERMINATION
+JV-027-01,援助,1,"{""援"": [1], ""助"": []}",助,NOT_A_WORD_GRADE_DETERMINATION
+JV-027-02,指導,1,"{""指"": [], ""導"": []}",指 導,NOT_A_WORD_GRADE_DETERMINATION
+JV-027-03,監督,1,"{""監"": [3], ""督"": [3]}",,NOT_A_WORD_GRADE_DETERMINATION
+JV-027-04,委任,1,"{""委"": [], ""任"": []}",委 任,NOT_A_WORD_GRADE_DETERMINATION
+JV-028-01,配慮,1,"{""配"": [], ""慮"": [1]}",配,NOT_A_WORD_GRADE_DETERMINATION
+JV-028-02,遠慮,1,"{""遠"": [], ""慮"": [1]}",遠,NOT_A_WORD_GRADE_DETERMINATION
+JV-028-03,催促,1,"{""催"": [2], ""促"": [1]}",,NOT_A_WORD_GRADE_DETERMINATION
+JV-028-04,謝罪,1,"{""謝"": [], ""罪"": []}",謝 罪,NOT_A_WORD_GRADE_DETERMINATION
+JV-029-01,協調,1,"{""協"": [], ""調"": []}",協 調,NOT_A_WORD_GRADE_DETERMINATION
+JV-029-02,独断,1,"{""独"": [], ""断"": []}",独 断,NOT_A_WORD_GRADE_DETERMINATION
+JV-029-03,主導,1,"{""主"": [], ""導"": []}",主 導,NOT_A_WORD_GRADE_DETERMINATION
+JV-029-04,追随,1,"{""追"": [], ""随"": [1]}",追,NOT_A_WORD_GRADE_DETERMINATION
+JV-030-01,団結,1,"{""団"": [], ""結"": []}",団 結,NOT_A_WORD_GRADE_DETERMINATION
+JV-030-02,分裂,1,"{""分"": [], ""裂"": [2]}",分,NOT_A_WORD_GRADE_DETERMINATION
+JV-030-03,孤立,1,"{""孤"": [2], ""立"": []}",立,NOT_A_WORD_GRADE_DETERMINATION
+JV-030-04,連携,1,"{""連"": [], ""携"": [2]}",連,NOT_A_WORD_GRADE_DETERMINATION
+JV-031-01,具体化,2,"{""具"": [], ""体"": [], ""化"": []}",具 体 化,NOT_A_WORD_GRADE_DETERMINATION
+JV-031-02,抽象化,2,"{""抽"": [2], ""象"": [], ""化"": []}",象 化,NOT_A_WORD_GRADE_DETERMINATION
+JV-031-03,一般化,2,"{""一"": [], ""般"": [1], ""化"": []}",一 化,NOT_A_WORD_GRADE_DETERMINATION
+JV-031-04,図式化,2,"{""図"": [], ""式"": [], ""化"": []}",図 式 化,NOT_A_WORD_GRADE_DETERMINATION
+JV-032-01,序論,2,"{""序"": [], ""論"": []}",序 論,NOT_A_WORD_GRADE_DETERMINATION
+JV-032-02,本論,2,"{""本"": [], ""論"": []}",本 論,NOT_A_WORD_GRADE_DETERMINATION
+JV-032-03,結論,2,"{""結"": [], ""論"": []}",結 論,NOT_A_WORD_GRADE_DETERMINATION
+JV-032-04,余談,2,"{""余"": [], ""談"": []}",余 談,NOT_A_WORD_GRADE_DETERMINATION
+JV-033-01,描写,2,"{""描"": [1], ""写"": []}",写,NOT_A_WORD_GRADE_DETERMINATION
+JV-033-02,説明文,2,"{""説"": [], ""明"": [], ""文"": []}",説 明 文,NOT_A_WORD_GRADE_DETERMINATION
+JV-033-03,論説文,2,"{""論"": [], ""説"": [], ""文"": []}",論 説 文,NOT_A_WORD_GRADE_DETERMINATION
+JV-033-04,随筆,2,"{""随"": [1], ""筆"": []}",筆,NOT_A_WORD_GRADE_DETERMINATION
+JV-034-01,比喩,2,"{""比"": [], ""喩"": [1]}",比,NOT_A_WORD_GRADE_DETERMINATION
+JV-034-02,対比,2,"{""対"": [], ""比"": []}",対 比,NOT_A_WORD_GRADE_DETERMINATION
+JV-034-03,反復,2,"{""反"": [], ""復"": []}",反 復,NOT_A_WORD_GRADE_DETERMINATION
+JV-034-04,倒置,2,"{""倒"": [1], ""置"": []}",置,NOT_A_WORD_GRADE_DETERMINATION
+JV-035-01,精読,2,"{""精"": [], ""読"": []}",精 読,NOT_A_WORD_GRADE_DETERMINATION
+JV-035-02,速読,2,"{""速"": [], ""読"": []}",速 読,NOT_A_WORD_GRADE_DETERMINATION
+JV-035-03,斜め読み,2,"{""斜"": [1], ""読"": []}",読,NOT_A_WORD_GRADE_DETERMINATION
+JV-035-04,再読,2,"{""再"": [], ""読"": []}",再 読,NOT_A_WORD_GRADE_DETERMINATION
+JV-036-01,推敲,2,"{""推"": [], ""敲"": []}",推 敲,NOT_A_WORD_GRADE_DETERMINATION
+JV-036-02,校正,2,"{""校"": [], ""正"": []}",校 正,NOT_A_WORD_GRADE_DETERMINATION
+JV-036-03,加筆,2,"{""加"": [], ""筆"": []}",加 筆,NOT_A_WORD_GRADE_DETERMINATION
+JV-036-04,削除,2,"{""削"": [1], ""除"": []}",除,NOT_A_WORD_GRADE_DETERMINATION
+JV-037-01,前提,2,"{""前"": [], ""提"": []}",前 提,NOT_A_WORD_GRADE_DETERMINATION
+JV-037-02,論点,2,"{""論"": [], ""点"": []}",論 点,NOT_A_WORD_GRADE_DETERMINATION
+JV-037-03,論拠,2,"{""論"": [], ""拠"": [1]}",論,NOT_A_WORD_GRADE_DETERMINATION
+JV-037-04,反証,2,"{""反"": [], ""証"": []}",反 証,NOT_A_WORD_GRADE_DETERMINATION
+JV-038-01,多義語,2,"{""多"": [], ""義"": [], ""語"": []}",多 義 語,NOT_A_WORD_GRADE_DETERMINATION
+JV-038-02,同音異義語,2,"{""同"": [], ""音"": [], ""異"": [], ""義"": [], ""語"": []}",同 音 異 義 語,NOT_A_WORD_GRADE_DETERMINATION
+JV-038-03,類義語,2,"{""類"": [], ""義"": [], ""語"": []}",類 義 語,NOT_A_WORD_GRADE_DETERMINATION
+JV-038-04,対義語,2,"{""対"": [], ""義"": [], ""語"": []}",対 義 語,NOT_A_WORD_GRADE_DETERMINATION
+JV-039-01,因果,2,"{""因"": [], ""果"": []}",因 果,NOT_A_WORD_GRADE_DETERMINATION
+JV-039-02,逆接,2,"{""逆"": [], ""接"": []}",逆 接,NOT_A_WORD_GRADE_DETERMINATION
+JV-039-03,並列,2,"{""並"": [], ""列"": []}",並 列,NOT_A_WORD_GRADE_DETERMINATION
+JV-039-04,換言,2,"{""換"": [1], ""言"": []}",言,NOT_A_WORD_GRADE_DETERMINATION
+JV-040-01,読破,2,"{""読"": [], ""破"": []}",読 破,NOT_A_WORD_GRADE_DETERMINATION
+JV-040-02,熟読,2,"{""熟"": [], ""読"": []}",熟 読,NOT_A_WORD_GRADE_DETERMINATION
+JV-040-03,引用,2,"{""引"": [], ""用"": []}",引 用,NOT_A_WORD_GRADE_DETERMINATION
+JV-040-04,出典,2,"{""出"": [], ""典"": []}",出 典,NOT_A_WORD_GRADE_DETERMINATION
+JV-041-01,調査,2,"{""調"": [], ""査"": []}",調 査,NOT_A_WORD_GRADE_DETERMINATION
+JV-041-02,実験,2,"{""実"": [], ""験"": []}",実 験,NOT_A_WORD_GRADE_DETERMINATION
+JV-041-03,取材,2,"{""取"": [], ""材"": []}",取 材,NOT_A_WORD_GRADE_DETERMINATION
+JV-041-04,閲覧,2,"{""閲"": [1], ""覧"": []}",覧,NOT_A_WORD_GRADE_DETERMINATION
+JV-042-01,仮説,2,"{""仮"": [], ""説"": []}",仮 説,NOT_A_WORD_GRADE_DETERMINATION
+JV-042-02,検証,2,"{""検"": [], ""証"": []}",検 証,NOT_A_WORD_GRADE_DETERMINATION
+JV-042-03,考察,2,"{""考"": [], ""察"": []}",考 察,NOT_A_WORD_GRADE_DETERMINATION
+JV-042-04,結実,2,"{""結"": [], ""実"": []}",結 実,NOT_A_WORD_GRADE_DETERMINATION
+JV-043-01,傾向,2,"{""傾"": [2], ""向"": []}",向,NOT_A_WORD_GRADE_DETERMINATION
+JV-043-02,例外,2,"{""例"": [], ""外"": []}",例 外,NOT_A_WORD_GRADE_DETERMINATION
+JV-043-03,偏り,2,"{""偏"": [2]}",,NOT_A_WORD_GRADE_DETERMINATION
+JV-043-04,ばらつき,2,{},,NOT_A_WORD_GRADE_DETERMINATION
+JV-044-01,客観,2,"{""客"": [], ""観"": []}",客 観,NOT_A_WORD_GRADE_DETERMINATION
+JV-044-02,主観,2,"{""主"": [], ""観"": []}",主 観,NOT_A_WORD_GRADE_DETERMINATION
+JV-044-03,偏向,2,"{""偏"": [2], ""向"": []}",向,NOT_A_WORD_GRADE_DETERMINATION
+JV-044-04,中立,2,"{""中"": [], ""立"": []}",中 立,NOT_A_WORD_GRADE_DETERMINATION
+JV-045-01,確実,2,"{""確"": [], ""実"": []}",確 実,NOT_A_WORD_GRADE_DETERMINATION
+JV-045-02,不確実,2,"{""不"": [], ""確"": [], ""実"": []}",不 確 実,NOT_A_WORD_GRADE_DETERMINATION
+JV-045-03,偶然,2,"{""偶"": [1], ""然"": []}",然,NOT_A_WORD_GRADE_DETERMINATION
+JV-045-04,必然,2,"{""必"": [], ""然"": []}",必 然,NOT_A_WORD_GRADE_DETERMINATION
+JV-046-01,演繹,2,"{""演"": [], ""繹"": []}",演 繹,NOT_A_WORD_GRADE_DETERMINATION
+JV-046-02,帰納,2,"{""帰"": [], ""納"": []}",帰 納,NOT_A_WORD_GRADE_DETERMINATION
+JV-046-03,類推,2,"{""類"": [], ""推"": []}",類 推,NOT_A_WORD_GRADE_DETERMINATION
+JV-046-04,飛躍,2,"{""飛"": [], ""躍"": [1]}",飛,NOT_A_WORD_GRADE_DETERMINATION
+JV-047-01,断言,2,"{""断"": [], ""言"": []}",断 言,NOT_A_WORD_GRADE_DETERMINATION
+JV-047-02,留保,2,"{""留"": [], ""保"": []}",留 保,NOT_A_WORD_GRADE_DETERMINATION
+JV-047-03,示唆,2,"{""示"": [], ""唆"": [2]}",示,NOT_A_WORD_GRADE_DETERMINATION
+JV-047-04,疑念,2,"{""疑"": [], ""念"": []}",疑 念,NOT_A_WORD_GRADE_DETERMINATION
+JV-048-01,原因,2,"{""原"": [], ""因"": []}",原 因,NOT_A_WORD_GRADE_DETERMINATION
+JV-048-02,結果,2,"{""結"": [], ""果"": []}",結 果,NOT_A_WORD_GRADE_DETERMINATION
+JV-048-03,要因,2,"{""要"": [], ""因"": []}",要 因,NOT_A_WORD_GRADE_DETERMINATION
+JV-048-04,契機,2,"{""契"": [3], ""機"": []}",機,NOT_A_WORD_GRADE_DETERMINATION
+JV-049-01,矛盾,2,"{""矛"": [1], ""盾"": [1]}",,NOT_A_WORD_GRADE_DETERMINATION
+JV-049-02,曖昧,2,"{""曖"": [2], ""昧"": [2]}",,NOT_A_WORD_GRADE_DETERMINATION
+JV-049-03,混同,2,"{""混"": [], ""同"": []}",混 同,NOT_A_WORD_GRADE_DETERMINATION
+JV-049-04,誇張,2,"{""誇"": [2], ""張"": []}",張,NOT_A_WORD_GRADE_DETERMINATION
+JV-050-01,精査,2,"{""精"": [], ""査"": []}",精 査,NOT_A_WORD_GRADE_DETERMINATION
+JV-050-02,選別,2,"{""選"": [], ""別"": []}",選 別,NOT_A_WORD_GRADE_DETERMINATION
+JV-050-03,抽出,2,"{""抽"": [2], ""出"": []}",出,NOT_A_WORD_GRADE_DETERMINATION
+JV-050-04,集計,2,"{""集"": [], ""計"": []}",集 計,NOT_A_WORD_GRADE_DETERMINATION
+JV-051-01,法律,2,"{""法"": [], ""律"": []}",法 律,NOT_A_WORD_GRADE_DETERMINATION
+JV-051-02,条例,2,"{""条"": [], ""例"": []}",条 例,NOT_A_WORD_GRADE_DETERMINATION
+JV-051-03,規約,2,"{""規"": [], ""約"": []}",規 約,NOT_A_WORD_GRADE_DETERMINATION
+JV-051-04,慣習,2,"{""慣"": [], ""習"": []}",慣 習,NOT_A_WORD_GRADE_DETERMINATION
+JV-052-01,権利,2,"{""権"": [], ""利"": []}",権 利,NOT_A_WORD_GRADE_DETERMINATION
+JV-052-02,義務,2,"{""義"": [], ""務"": []}",義 務,NOT_A_WORD_GRADE_DETERMINATION
+JV-052-03,責務,2,"{""責"": [], ""務"": []}",責 務,NOT_A_WORD_GRADE_DETERMINATION
+JV-052-04,特権,2,"{""特"": [], ""権"": []}",特 権,NOT_A_WORD_GRADE_DETERMINATION
+JV-053-01,行政,2,"{""行"": [], ""政"": []}",行 政,NOT_A_WORD_GRADE_DETERMINATION
+JV-053-02,司法,2,"{""司"": [], ""法"": []}",司 法,NOT_A_WORD_GRADE_DETERMINATION
+JV-053-03,立法,2,"{""立"": [], ""法"": []}",立 法,NOT_A_WORD_GRADE_DETERMINATION
+JV-053-04,選挙,2,"{""選"": [], ""挙"": []}",選 挙,NOT_A_WORD_GRADE_DETERMINATION
+JV-054-01,奉仕,2,"{""奉"": [2], ""仕"": []}",仕,NOT_A_WORD_GRADE_DETERMINATION
+JV-054-02,寄付,2,"{""寄"": [], ""付"": []}",寄 付,NOT_A_WORD_GRADE_DETERMINATION
+JV-054-03,協賛,2,"{""協"": [], ""賛"": []}",協 賛,NOT_A_WORD_GRADE_DETERMINATION
+JV-054-04,陳情,2,"{""陳"": [2], ""情"": []}",情,NOT_A_WORD_GRADE_DETERMINATION
+JV-055-01,需要,2,"{""需"": [3], ""要"": []}",要,NOT_A_WORD_GRADE_DETERMINATION
+JV-055-02,供給,2,"{""供"": [], ""給"": []}",供 給,NOT_A_WORD_GRADE_DETERMINATION
+JV-055-03,消費,2,"{""消"": [], ""費"": []}",消 費,NOT_A_WORD_GRADE_DETERMINATION
+JV-055-04,生産,2,"{""生"": [], ""産"": []}",生 産,NOT_A_WORD_GRADE_DETERMINATION
+JV-056-01,移住,2,"{""移"": [], ""住"": []}",移 住,NOT_A_WORD_GRADE_DETERMINATION
+JV-056-02,通勤,2,"{""通"": [], ""勤"": []}",通 勤,NOT_A_WORD_GRADE_DETERMINATION
+JV-056-03,旅行,2,"{""旅"": [], ""行"": []}",旅 行,NOT_A_WORD_GRADE_DETERMINATION
+JV-056-04,帰省,2,"{""帰"": [], ""省"": []}",帰 省,NOT_A_WORD_GRADE_DETERMINATION
+JV-057-01,保全,2,"{""保"": [], ""全"": []}",保 全,NOT_A_WORD_GRADE_DETERMINATION
+JV-057-02,再生,2,"{""再"": [], ""生"": []}",再 生,NOT_A_WORD_GRADE_DETERMINATION
+JV-057-03,開発,2,"{""開"": [], ""発"": []}",開 発,NOT_A_WORD_GRADE_DETERMINATION
+JV-057-04,破壊,2,"{""破"": [], ""壊"": [1]}",破,NOT_A_WORD_GRADE_DETERMINATION
+JV-058-01,平等,2,"{""平"": [], ""等"": []}",平 等,NOT_A_WORD_GRADE_DETERMINATION
+JV-058-02,公正,2,"{""公"": [], ""正"": []}",公 正,NOT_A_WORD_GRADE_DETERMINATION
+JV-058-03,自由,2,"{""自"": [], ""由"": []}",自 由,NOT_A_WORD_GRADE_DETERMINATION
+JV-058-04,秩序,2,"{""秩"": [2], ""序"": []}",序,NOT_A_WORD_GRADE_DETERMINATION
+JV-059-01,地域,2,"{""地"": [], ""域"": []}",地 域,NOT_A_WORD_GRADE_DETERMINATION
+JV-059-02,国家,2,"{""国"": [], ""家"": []}",国 家,NOT_A_WORD_GRADE_DETERMINATION
+JV-059-03,国際,2,"{""国"": [], ""際"": []}",国 際,NOT_A_WORD_GRADE_DETERMINATION
+JV-059-04,地球規模,2,"{""地"": [], ""球"": [], ""規"": [], ""模"": []}",地 球 規 模,NOT_A_WORD_GRADE_DETERMINATION
+JV-060-01,事件,2,"{""事"": [], ""件"": []}",事 件,NOT_A_WORD_GRADE_DETERMINATION
+JV-060-02,事故,2,"{""事"": [], ""故"": []}",事 故,NOT_A_WORD_GRADE_DETERMINATION
+JV-060-03,災害,2,"{""災"": [], ""害"": []}",災 害,NOT_A_WORD_GRADE_DETERMINATION
+JV-060-04,紛争,2,"{""紛"": [3], ""争"": []}",争,NOT_A_WORD_GRADE_DETERMINATION
+JV-061-01,直前,2,"{""直"": [], ""前"": []}",直 前,NOT_A_WORD_GRADE_DETERMINATION
+JV-061-02,直後,2,"{""直"": [], ""後"": []}",直 後,NOT_A_WORD_GRADE_DETERMINATION
+JV-061-03,当面,2,"{""当"": [], ""面"": []}",当 面,NOT_A_WORD_GRADE_DETERMINATION
+JV-061-04,恒久,2,"{""恒"": [2], ""久"": []}",久,NOT_A_WORD_GRADE_DETERMINATION
+JV-062-01,漸増,2,"{""漸"": [3], ""増"": []}",増,NOT_A_WORD_GRADE_DETERMINATION
+JV-062-02,急増,2,"{""急"": [], ""増"": []}",急 増,NOT_A_WORD_GRADE_DETERMINATION
+JV-062-03,激減,2,"{""激"": [], ""減"": []}",激 減,NOT_A_WORD_GRADE_DETERMINATION
+JV-062-04,横ばい,2,"{""横"": []}",横,NOT_A_WORD_GRADE_DETERMINATION
+JV-063-01,発端,2,"{""発"": [], ""端"": [1]}",発,NOT_A_WORD_GRADE_DETERMINATION
+JV-063-02,再開,2,"{""再"": [], ""開"": []}",再 開,NOT_A_WORD_GRADE_DETERMINATION
+JV-063-03,発足,2,"{""発"": [], ""足"": []}",発 足,NOT_A_WORD_GRADE_DETERMINATION
+JV-063-04,解散,2,"{""解"": [], ""散"": []}",解 散,NOT_A_WORD_GRADE_DETERMINATION
+JV-064-01,終息,2,"{""終"": [], ""息"": []}",終 息,NOT_A_WORD_GRADE_DETERMINATION
+JV-064-02,終結,2,"{""終"": [], ""結"": []}",終 結,NOT_A_WORD_GRADE_DETERMINATION
+JV-064-03,中断,2,"{""中"": [], ""断"": []}",中 断,NOT_A_WORD_GRADE_DETERMINATION
+JV-064-04,完遂,2,"{""完"": [], ""遂"": [1]}",完,NOT_A_WORD_GRADE_DETERMINATION
+JV-065-01,反復的,2,"{""反"": [], ""復"": [], ""的"": []}",反 復 的,NOT_A_WORD_GRADE_DETERMINATION
+JV-065-02,周期的,2,"{""周"": [], ""期"": [], ""的"": []}",周 期 的,NOT_A_WORD_GRADE_DETERMINATION
+JV-065-03,断続的,2,"{""断"": [], ""続"": [], ""的"": []}",断 続 的,NOT_A_WORD_GRADE_DETERMINATION
+JV-065-04,一過性,2,"{""一"": [], ""過"": [], ""性"": []}",一 過 性,NOT_A_WORD_GRADE_DETERMINATION
+JV-066-01,順調,2,"{""順"": [], ""調"": []}",順 調,NOT_A_WORD_GRADE_DETERMINATION
+JV-066-02,停滞,2,"{""停"": [], ""滞"": [2]}",停,NOT_A_WORD_GRADE_DETERMINATION
+JV-066-03,進展,2,"{""進"": [], ""展"": []}",進 展,NOT_A_WORD_GRADE_DETERMINATION
+JV-066-04,後退,2,"{""後"": [], ""退"": []}",後 退,NOT_A_WORD_GRADE_DETERMINATION
+JV-067-01,予定,2,"{""予"": [], ""定"": []}",予 定,NOT_A_WORD_GRADE_DETERMINATION
+JV-067-02,見通し,2,"{""見"": [], ""通"": []}",見 通,NOT_A_WORD_GRADE_DETERMINATION
+JV-067-03,目標,2,"{""目"": [], ""標"": []}",目 標,NOT_A_WORD_GRADE_DETERMINATION
+JV-067-04,方針,2,"{""方"": [], ""針"": []}",方 針,NOT_A_WORD_GRADE_DETERMINATION
+JV-068-01,唐突,2,"{""唐"": [1], ""突"": [2]}",,NOT_A_WORD_GRADE_DETERMINATION
+JV-068-02,徐々に,2,"{""徐"": [2]}",,NOT_A_WORD_GRADE_DETERMINATION
+JV-068-03,突発的,2,"{""突"": [2], ""発"": [], ""的"": []}",発 的,NOT_A_WORD_GRADE_DETERMINATION
+JV-068-04,持続的,2,"{""持"": [], ""続"": [], ""的"": []}",持 続 的,NOT_A_WORD_GRADE_DETERMINATION
+JV-069-01,転換,2,"{""転"": [], ""換"": [1]}",転,NOT_A_WORD_GRADE_DETERMINATION
+JV-069-02,変容,2,"{""変"": [], ""容"": []}",変 容,NOT_A_WORD_GRADE_DETERMINATION
+JV-069-03,維持,2,"{""維"": [1], ""持"": []}",持,NOT_A_WORD_GRADE_DETERMINATION
+JV-069-04,復元,2,"{""復"": [], ""元"": []}",復 元,NOT_A_WORD_GRADE_DETERMINATION
+JV-070-01,先行,2,"{""先"": [], ""行"": []}",先 行,NOT_A_WORD_GRADE_DETERMINATION
+JV-070-02,先導,2,"{""先"": [], ""導"": []}",先 導,NOT_A_WORD_GRADE_DETERMINATION
+JV-070-03,同期,2,"{""同"": [], ""期"": []}",同 期,NOT_A_WORD_GRADE_DETERMINATION
+JV-070-04,延期,2,"{""延"": [], ""期"": []}",延 期,NOT_A_WORD_GRADE_DETERMINATION
+JV-071-01,節約,2,"{""節"": [], ""約"": []}",節 約,NOT_A_WORD_GRADE_DETERMINATION
+JV-071-02,浪費,2,"{""浪"": [2], ""費"": []}",費,NOT_A_WORD_GRADE_DETERMINATION
+JV-071-03,備蓄,2,"{""備"": [], ""蓄"": [1]}",備,NOT_A_WORD_GRADE_DETERMINATION
+JV-071-04,処分,2,"{""処"": [], ""分"": []}",処 分,NOT_A_WORD_GRADE_DETERMINATION
+JV-072-01,避難,2,"{""避"": [2], ""難"": []}",難,NOT_A_WORD_GRADE_DETERMINATION
+JV-072-02,救助,2,"{""救"": [], ""助"": []}",救 助,NOT_A_WORD_GRADE_DETERMINATION
+JV-072-03,復旧,2,"{""復"": [], ""旧"": []}",復 旧,NOT_A_WORD_GRADE_DETERMINATION
+JV-072-04,訓練,2,"{""訓"": [], ""練"": []}",訓 練,NOT_A_WORD_GRADE_DETERMINATION
+JV-073-01,優先,2,"{""優"": [], ""先"": []}",優 先,NOT_A_WORD_GRADE_DETERMINATION
+JV-073-02,代替,2,"{""代"": [], ""替"": [2]}",代,NOT_A_WORD_GRADE_DETERMINATION
+JV-073-03,併用,2,"{""併"": [3], ""用"": []}",用,NOT_A_WORD_GRADE_DETERMINATION
+JV-073-04,兼用,2,"{""兼"": [2], ""用"": []}",用,NOT_A_WORD_GRADE_DETERMINATION
+JV-074-01,遵守,2,"{""遵"": [1], ""守"": []}",守,NOT_A_WORD_GRADE_DETERMINATION
+JV-074-02,違反,2,"{""違"": [1], ""反"": []}",反,NOT_A_WORD_GRADE_DETERMINATION
+JV-074-03,徹底,2,"{""徹"": [1], ""底"": []}",底,NOT_A_WORD_GRADE_DETERMINATION
+JV-074-04,特例,2,"{""特"": [], ""例"": []}",特 例,NOT_A_WORD_GRADE_DETERMINATION
+JV-075-01,保管,2,"{""保"": [], ""管"": []}",保 管,NOT_A_WORD_GRADE_DETERMINATION
+JV-075-02,貸与,2,"{""貸"": [], ""与"": [1]}",貸,NOT_A_WORD_GRADE_DETERMINATION
+JV-075-03,譲渡,2,"{""譲"": [2], ""渡"": [1]}",,NOT_A_WORD_GRADE_DETERMINATION
+JV-075-04,返却,2,"{""返"": [], ""却"": [3]}",返,NOT_A_WORD_GRADE_DETERMINATION
+JV-076-01,公開,2,"{""公"": [], ""開"": []}",公 開,NOT_A_WORD_GRADE_DETERMINATION
+JV-076-02,秘匿,2,"{""秘"": [], ""匿"": [2]}",秘,NOT_A_WORD_GRADE_DETERMINATION
+JV-076-03,匿名化,2,"{""匿"": [2], ""名"": [], ""化"": []}",名 化,NOT_A_WORD_GRADE_DETERMINATION
+JV-076-04,漏えい,2,"{""漏"": [3]}",,NOT_A_WORD_GRADE_DETERMINATION
+JV-077-01,自主,2,"{""自"": [], ""主"": []}",自 主,NOT_A_WORD_GRADE_DETERMINATION
+JV-077-02,強制,2,"{""強"": [], ""制"": []}",強 制,NOT_A_WORD_GRADE_DETERMINATION
+JV-077-03,自制,2,"{""自"": [], ""制"": []}",自 制,NOT_A_WORD_GRADE_DETERMINATION
+JV-077-04,放任,2,"{""放"": [], ""任"": []}",放 任,NOT_A_WORD_GRADE_DETERMINATION
+JV-078-01,効率,2,"{""効"": [], ""率"": []}",効 率,NOT_A_WORD_GRADE_DETERMINATION
+JV-078-02,正確性,2,"{""正"": [], ""確"": [], ""性"": []}",正 確 性,NOT_A_WORD_GRADE_DETERMINATION
+JV-078-03,再現性,2,"{""再"": [], ""現"": [], ""性"": []}",再 現 性,NOT_A_WORD_GRADE_DETERMINATION
+JV-078-04,透明性,2,"{""透"": [1], ""明"": [], ""性"": []}",明 性,NOT_A_WORD_GRADE_DETERMINATION
+JV-079-01,簡略化,2,"{""簡"": [], ""略"": [], ""化"": []}",簡 略 化,NOT_A_WORD_GRADE_DETERMINATION
+JV-079-02,複雑化,2,"{""複"": [], ""雑"": [], ""化"": []}",複 雑 化,NOT_A_WORD_GRADE_DETERMINATION
+JV-079-03,自動化,2,"{""自"": [], ""動"": [], ""化"": []}",自 動 化,NOT_A_WORD_GRADE_DETERMINATION
+JV-079-04,標準化,2,"{""標"": [], ""準"": [], ""化"": []}",標 準 化,NOT_A_WORD_GRADE_DETERMINATION
+JV-080-01,再利用,2,"{""再"": [], ""利"": [], ""用"": []}",再 利 用,NOT_A_WORD_GRADE_DETERMINATION
+JV-080-02,再資源化,2,"{""再"": [], ""資"": [], ""源"": [], ""化"": []}",再 資 源 化,NOT_A_WORD_GRADE_DETERMINATION
+JV-080-03,減量,2,"{""減"": [], ""量"": []}",減 量,NOT_A_WORD_GRADE_DETERMINATION
+JV-080-04,分別,2,"{""分"": [], ""別"": []}",分 別,NOT_A_WORD_GRADE_DETERMINATION
+JV-081-01,薄明,2,"{""薄"": [1], ""明"": []}",明,NOT_A_WORD_GRADE_DETERMINATION
+JV-081-02,暗闇,2,"{""暗"": [], ""闇"": [1]}",暗,NOT_A_WORD_GRADE_DETERMINATION
+JV-081-03,逆光,2,"{""逆"": [], ""光"": []}",逆 光,NOT_A_WORD_GRADE_DETERMINATION
+JV-081-04,日差し,2,"{""日"": [], ""差"": []}",日 差,NOT_A_WORD_GRADE_DETERMINATION
+JV-082-01,静寂,2,"{""静"": [], ""寂"": [2]}",静,NOT_A_WORD_GRADE_DETERMINATION
+JV-082-02,喧騒,2,"{""喧"": [], ""騒"": [1]}",喧,NOT_A_WORD_GRADE_DETERMINATION
+JV-082-03,轟音,2,"{""轟"": [], ""音"": []}",轟 音,NOT_A_WORD_GRADE_DETERMINATION
+JV-082-04,ささやき,2,{},,NOT_A_WORD_GRADE_DETERMINATION
+JV-083-01,閑散,2,"{""閑"": [3], ""散"": []}",散,NOT_A_WORD_GRADE_DETERMINATION
+JV-083-02,繁華,2,"{""繁"": [1], ""華"": [2]}",,NOT_A_WORD_GRADE_DETERMINATION
+JV-083-03,荒廃,2,"{""荒"": [1], ""廃"": [3]}",,NOT_A_WORD_GRADE_DETERMINATION
+JV-083-04,整然,2,"{""整"": [], ""然"": []}",整 然,NOT_A_WORD_GRADE_DETERMINATION
+JV-084-01,霧雨,2,"{""霧"": [2], ""雨"": []}",雨,NOT_A_WORD_GRADE_DETERMINATION
+JV-084-02,豪雨,2,"{""豪"": [3], ""雨"": []}",雨,NOT_A_WORD_GRADE_DETERMINATION
+JV-084-03,小雨,2,"{""小"": [], ""雨"": []}",小 雨,NOT_A_WORD_GRADE_DETERMINATION
+JV-084-04,通り雨,2,"{""通"": [], ""雨"": []}",通 雨,NOT_A_WORD_GRADE_DETERMINATION
+JV-085-01,快晴,2,"{""快"": [], ""晴"": []}",快 晴,NOT_A_WORD_GRADE_DETERMINATION
+JV-085-02,曇天,2,"{""曇"": [1], ""天"": []}",天,NOT_A_WORD_GRADE_DETERMINATION
+JV-085-03,夕映え,2,"{""夕"": [], ""映"": []}",夕 映,NOT_A_WORD_GRADE_DETERMINATION
+JV-085-04,夜明け,2,"{""夜"": [], ""明"": []}",夜 明,NOT_A_WORD_GRADE_DETERMINATION
+JV-086-01,鮮明,2,"{""鮮"": [1], ""明"": []}",明,NOT_A_WORD_GRADE_DETERMINATION
+JV-086-02,朦朧,2,"{""朦"": [], ""朧"": []}",朦 朧,NOT_A_WORD_GRADE_DETERMINATION
+JV-086-03,淡い,2,"{""淡"": [2]}",,NOT_A_WORD_GRADE_DETERMINATION
+JV-086-04,濃厚,2,"{""濃"": [1], ""厚"": []}",厚,NOT_A_WORD_GRADE_DETERMINATION
+JV-087-01,俊敏,2,"{""俊"": [2], ""敏"": [2]}",,NOT_A_WORD_GRADE_DETERMINATION
+JV-087-02,緩慢,2,"{""緩"": [2], ""慢"": [1]}",,NOT_A_WORD_GRADE_DETERMINATION
+JV-087-03,ぎこちない,2,{},,NOT_A_WORD_GRADE_DETERMINATION
+JV-087-04,悠然,2,"{""悠"": [2], ""然"": []}",然,NOT_A_WORD_GRADE_DETERMINATION
+JV-088-01,壮大,2,"{""壮"": [3], ""大"": []}",大,NOT_A_WORD_GRADE_DETERMINATION
+JV-088-02,微細,2,"{""微"": [1], ""細"": []}",細,NOT_A_WORD_GRADE_DETERMINATION
+JV-088-03,膨大,2,"{""膨"": [2], ""大"": []}",大,NOT_A_WORD_GRADE_DETERMINATION
+JV-088-04,簡素,2,"{""簡"": [], ""素"": []}",簡 素,NOT_A_WORD_GRADE_DETERMINATION
+JV-089-01,優美,2,"{""優"": [], ""美"": []}",優 美,NOT_A_WORD_GRADE_DETERMINATION
+JV-089-02,華麗,2,"{""華"": [2], ""麗"": [1]}",,NOT_A_WORD_GRADE_DETERMINATION
+JV-089-03,素朴,2,"{""素"": [], ""朴"": [2]}",素,NOT_A_WORD_GRADE_DETERMINATION
+JV-089-04,荘厳,2,"{""荘"": [3], ""厳"": []}",厳,NOT_A_WORD_GRADE_DETERMINATION
+JV-090-01,粗い,2,"{""粗"": [2]}",,NOT_A_WORD_GRADE_DETERMINATION
+JV-090-02,滑らか,2,"{""滑"": [2]}",,NOT_A_WORD_GRADE_DETERMINATION
+JV-090-03,硬質,2,"{""硬"": [2], ""質"": []}",質,NOT_A_WORD_GRADE_DETERMINATION
+JV-090-04,柔軟,2,"{""柔"": [1], ""軟"": [2]}",,NOT_A_WORD_GRADE_DETERMINATION
+JV-091-01,険しい,2,"{""険"": []}",険,NOT_A_WORD_GRADE_DETERMINATION
+JV-091-02,朗らか,2,"{""朗"": []}",朗,NOT_A_WORD_GRADE_DETERMINATION
+JV-091-03,憂鬱,2,"{""憂"": [2], ""鬱"": [3]}",,NOT_A_WORD_GRADE_DETERMINATION
+JV-091-04,無表情,2,"{""無"": [], ""表"": [], ""情"": []}",無 表 情,NOT_A_WORD_GRADE_DETERMINATION
+JV-092-01,疲弊,2,"{""疲"": [1], ""弊"": [2]}",,NOT_A_WORD_GRADE_DETERMINATION
+JV-092-02,回復,2,"{""回"": [], ""復"": []}",回 復,NOT_A_WORD_GRADE_DETERMINATION
+JV-092-03,緊張,2,"{""緊"": [1], ""張"": []}",張,NOT_A_WORD_GRADE_DETERMINATION
+JV-092-04,充実,2,"{""充"": [2], ""実"": []}",実,NOT_A_WORD_GRADE_DETERMINATION
+JV-093-01,密集,2,"{""密"": [], ""集"": []}",密 集,NOT_A_WORD_GRADE_DETERMINATION
+JV-093-02,点在,2,"{""点"": [], ""在"": []}",点 在,NOT_A_WORD_GRADE_DETERMINATION
+JV-093-03,整列,2,"{""整"": [], ""列"": []}",整 列,NOT_A_WORD_GRADE_DETERMINATION
+JV-093-04,混在,2,"{""混"": [], ""在"": []}",混 在,NOT_A_WORD_GRADE_DETERMINATION
+JV-094-01,隣接,2,"{""隣"": [1], ""接"": []}",接,NOT_A_WORD_GRADE_DETERMINATION
+JV-094-02,近接,2,"{""近"": [], ""接"": []}",近 接,NOT_A_WORD_GRADE_DETERMINATION
+JV-094-03,隔絶,2,"{""隔"": [1], ""絶"": []}",絶,NOT_A_WORD_GRADE_DETERMINATION
+JV-094-04,遠隔,2,"{""遠"": [], ""隔"": [1]}",遠,NOT_A_WORD_GRADE_DETERMINATION
+JV-095-01,新緑,2,"{""新"": [], ""緑"": []}",新 緑,NOT_A_WORD_GRADE_DETERMINATION
+JV-095-02,紅葉,2,"{""紅"": [], ""葉"": []}",紅 葉,NOT_A_WORD_GRADE_DETERMINATION
+JV-095-03,落葉,2,"{""落"": [], ""葉"": []}",落 葉,NOT_A_WORD_GRADE_DETERMINATION
+JV-095-04,芽吹き,2,"{""芽"": [], ""吹"": [1]}",芽,NOT_A_WORD_GRADE_DETERMINATION
+JV-096-01,頭を抱える,2,"{""頭"": [], ""抱"": [1]}",頭,NOT_A_WORD_GRADE_DETERMINATION
+JV-096-02,腹をくくる,2,"{""腹"": []}",腹,NOT_A_WORD_GRADE_DETERMINATION
+JV-096-03,腰を据える,2,"{""腰"": [1], ""据"": [1]}",,NOT_A_WORD_GRADE_DETERMINATION
+JV-096-04,手をこまねく,2,"{""手"": []}",手,NOT_A_WORD_GRADE_DETERMINATION
+JV-097-01,胸が躍る,2,"{""胸"": [], ""躍"": [1]}",胸,NOT_A_WORD_GRADE_DETERMINATION
+JV-097-02,胸が痛む,2,"{""胸"": [], ""痛"": []}",胸 痛,NOT_A_WORD_GRADE_DETERMINATION
+JV-097-03,気が重い,2,"{""気"": [], ""重"": []}",気 重,NOT_A_WORD_GRADE_DETERMINATION
+JV-097-04,気が晴れる,2,"{""気"": [], ""晴"": []}",気 晴,NOT_A_WORD_GRADE_DETERMINATION
+JV-098-01,目を光らせる,2,"{""目"": [], ""光"": []}",目 光,NOT_A_WORD_GRADE_DETERMINATION
+JV-098-02,目を疑う,2,"{""目"": [], ""疑"": []}",目 疑,NOT_A_WORD_GRADE_DETERMINATION
+JV-098-03,目を通す,2,"{""目"": [], ""通"": []}",目 通,NOT_A_WORD_GRADE_DETERMINATION
+JV-098-04,目を背ける,2,"{""目"": [], ""背"": []}",目 背,NOT_A_WORD_GRADE_DETERMINATION
+JV-099-01,口を挟む,2,"{""口"": [], ""挟"": [1]}",口,NOT_A_WORD_GRADE_DETERMINATION
+JV-099-02,口を濁す,2,"{""口"": [], ""濁"": [3]}",口,NOT_A_WORD_GRADE_DETERMINATION
+JV-099-03,口を滑らす,2,"{""口"": [], ""滑"": [2]}",口,NOT_A_WORD_GRADE_DETERMINATION
+JV-099-04,口を割る,2,"{""口"": [], ""割"": []}",口 割,NOT_A_WORD_GRADE_DETERMINATION
+JV-100-01,手を打つ,2,"{""手"": [], ""打"": []}",手 打,NOT_A_WORD_GRADE_DETERMINATION
+JV-100-02,手を抜く,2,"{""手"": [], ""抜"": [1]}",手,NOT_A_WORD_GRADE_DETERMINATION
+JV-100-03,手を貸す,2,"{""手"": [], ""貸"": []}",手 貸,NOT_A_WORD_GRADE_DETERMINATION
+JV-100-04,手を引く,2,"{""手"": [], ""引"": []}",手 引,NOT_A_WORD_GRADE_DETERMINATION
+JV-101-01,足が遠のく,2,"{""足"": [], ""遠"": []}",足 遠,NOT_A_WORD_GRADE_DETERMINATION
+JV-101-02,足を引っ張る,2,"{""足"": [], ""引"": [], ""張"": []}",足 引 張,NOT_A_WORD_GRADE_DETERMINATION
+JV-101-03,足並みをそろえる,2,"{""足"": [], ""並"": []}",足 並,NOT_A_WORD_GRADE_DETERMINATION
+JV-101-04,足がつく,2,"{""足"": []}",足,NOT_A_WORD_GRADE_DETERMINATION
+JV-102-01,首をかしげる,2,"{""首"": []}",首,NOT_A_WORD_GRADE_DETERMINATION
+JV-102-02,知恵を絞る,2,"{""知"": [], ""恵"": [1], ""絞"": [1]}",知,NOT_A_WORD_GRADE_DETERMINATION
+JV-102-03,頭が切れる,2,"{""頭"": [], ""切"": []}",頭 切,NOT_A_WORD_GRADE_DETERMINATION
+JV-102-04,頭を冷やす,2,"{""頭"": [], ""冷"": []}",頭 冷,NOT_A_WORD_GRADE_DETERMINATION
+JV-103-01,喉から手が出る,2,"{""喉"": [1], ""手"": [], ""出"": []}",手 出,NOT_A_WORD_GRADE_DETERMINATION
+JV-103-02,食指が動く,2,"{""食"": [], ""指"": [], ""動"": []}",食 指 動,NOT_A_WORD_GRADE_DETERMINATION
+JV-103-03,鼻につく,2,"{""鼻"": []}",鼻,NOT_A_WORD_GRADE_DETERMINATION
+JV-103-04,耳が痛い,2,"{""耳"": [], ""痛"": []}",耳 痛,NOT_A_WORD_GRADE_DETERMINATION
+JV-104-01,水を差す,2,"{""水"": [], ""差"": []}",水 差,NOT_A_WORD_GRADE_DETERMINATION
+JV-104-02,場を和ませる,2,"{""場"": [], ""和"": []}",場 和,NOT_A_WORD_GRADE_DETERMINATION
+JV-104-03,波風を立てる,2,"{""波"": [], ""風"": [], ""立"": []}",波 風 立,NOT_A_WORD_GRADE_DETERMINATION
+JV-104-04,息をのむ,2,"{""息"": []}",息,NOT_A_WORD_GRADE_DETERMINATION
+JV-105-01,一朝一夕,2,"{""一"": [], ""朝"": [], ""夕"": []}",一 朝 夕,NOT_A_WORD_GRADE_DETERMINATION
+JV-105-02,試行錯誤,2,"{""試"": [], ""行"": [], ""錯"": [1], ""誤"": []}",試 行 誤,NOT_A_WORD_GRADE_DETERMINATION
+JV-105-03,切磋琢磨,2,"{""切"": [], ""磋"": [], ""琢"": [], ""磨"": [1]}",切 磋 琢,NOT_A_WORD_GRADE_DETERMINATION
+JV-105-04,一心不乱,2,"{""一"": [], ""心"": [], ""不"": [], ""乱"": []}",一 心 不 乱,NOT_A_WORD_GRADE_DETERMINATION
+JV-106-01,十人十色,2,"{""十"": [], ""人"": [], ""色"": []}",十 人 色,NOT_A_WORD_GRADE_DETERMINATION
+JV-106-02,異口同音,2,"{""異"": [], ""口"": [], ""同"": [], ""音"": []}",異 口 同 音,NOT_A_WORD_GRADE_DETERMINATION
+JV-106-03,意気投合,2,"{""意"": [], ""気"": [], ""投"": [], ""合"": []}",意 気 投 合,NOT_A_WORD_GRADE_DETERMINATION
+JV-106-04,以心伝心,2,"{""以"": [], ""心"": [], ""伝"": []}",以 心 伝,NOT_A_WORD_GRADE_DETERMINATION
+JV-107-01,温故知新,2,"{""温"": [], ""故"": [], ""知"": [], ""新"": []}",温 故 知 新,NOT_A_WORD_GRADE_DETERMINATION
+JV-107-02,自問自答,2,"{""自"": [], ""問"": [], ""答"": []}",自 問 答,NOT_A_WORD_GRADE_DETERMINATION
+JV-107-03,付和雷同,2,"{""付"": [], ""和"": [], ""雷"": [1], ""同"": []}",付 和 同,NOT_A_WORD_GRADE_DETERMINATION
+JV-107-04,優柔不断,2,"{""優"": [], ""柔"": [1], ""不"": [], ""断"": []}",優 不 断,NOT_A_WORD_GRADE_DETERMINATION
+JV-108-01,絶体絶命,2,"{""絶"": [], ""体"": [], ""命"": []}",絶 体 命,NOT_A_WORD_GRADE_DETERMINATION
+JV-108-02,四面楚歌,2,"{""四"": [], ""面"": [], ""楚"": [], ""歌"": []}",四 面 楚 歌,NOT_A_WORD_GRADE_DETERMINATION
+JV-108-03,前途多難,2,"{""前"": [], ""途"": [1], ""多"": [], ""難"": []}",前 多 難,NOT_A_WORD_GRADE_DETERMINATION
+JV-108-04,五里霧中,2,"{""五"": [], ""里"": [], ""霧"": [2], ""中"": []}",五 里 中,NOT_A_WORD_GRADE_DETERMINATION
+JV-109-01,起死回生,2,"{""起"": [], ""死"": [], ""回"": [], ""生"": []}",起 死 回 生,NOT_A_WORD_GRADE_DETERMINATION
+JV-109-02,一進一退,2,"{""一"": [], ""進"": [], ""退"": []}",一 進 退,NOT_A_WORD_GRADE_DETERMINATION
+JV-109-03,悪戦苦闘,2,"{""悪"": [], ""戦"": [], ""苦"": [], ""闘"": [1]}",悪 戦 苦,NOT_A_WORD_GRADE_DETERMINATION
+JV-109-04,紆余曲折,2,"{""紆"": [], ""余"": [], ""曲"": [], ""折"": []}",紆 余 曲 折,NOT_A_WORD_GRADE_DETERMINATION
+JV-110-01,妥当,3,"{""妥"": [2], ""当"": []}",当,NOT_A_WORD_GRADE_DETERMINATION
+JV-110-02,恣意的,3,"{""恣"": [3], ""意"": [], ""的"": []}",意 的,NOT_A_WORD_GRADE_DETERMINATION
+JV-110-03,合理的,3,"{""合"": [], ""理"": [], ""的"": []}",合 理 的,NOT_A_WORD_GRADE_DETERMINATION
+JV-110-04,不当,3,"{""不"": [], ""当"": []}",不 当,NOT_A_WORD_GRADE_DETERMINATION
+JV-111-01,虚偽,3,"{""虚"": [2], ""偽"": [3]}",,NOT_A_WORD_GRADE_DETERMINATION
+JV-111-02,誇大,3,"{""誇"": [2], ""大"": []}",大,NOT_A_WORD_GRADE_DETERMINATION
+JV-111-03,隠蔽,3,"{""隠"": [1], ""蔽"": [3]}",,NOT_A_WORD_GRADE_DETERMINATION
+JV-111-04,捏造,3,"{""捏"": [], ""造"": []}",捏 造,NOT_A_WORD_GRADE_DETERMINATION
+JV-112-01,意図,3,"{""意"": [], ""図"": []}",意 図,NOT_A_WORD_GRADE_DETERMINATION
+JV-112-02,動機,3,"{""動"": [], ""機"": []}",動 機,NOT_A_WORD_GRADE_DETERMINATION
+JV-112-03,影響,3,"{""影"": [1], ""響"": [1]}",,NOT_A_WORD_GRADE_DETERMINATION
+JV-112-04,帰結,3,"{""帰"": [], ""結"": []}",帰 結,NOT_A_WORD_GRADE_DETERMINATION
+JV-113-01,論破,3,"{""論"": [], ""破"": []}",論 破,NOT_A_WORD_GRADE_DETERMINATION
+JV-113-02,曲解,3,"{""曲"": [], ""解"": []}",曲 解,NOT_A_WORD_GRADE_DETERMINATION
+JV-113-03,すり替え,3,"{""替"": [2]}",,NOT_A_WORD_GRADE_DETERMINATION
+JV-113-04,詭弁,3,"{""詭"": [], ""弁"": []}",詭 弁,NOT_A_WORD_GRADE_DETERMINATION
+JV-114-01,伝達,3,"{""伝"": [], ""達"": []}",伝 達,NOT_A_WORD_GRADE_DETERMINATION
+JV-114-02,拡散,3,"{""拡"": [], ""散"": []}",拡 散,NOT_A_WORD_GRADE_DETERMINATION
+JV-114-03,誤報,3,"{""誤"": [], ""報"": []}",誤 報,NOT_A_WORD_GRADE_DETERMINATION
+JV-114-04,続報,3,"{""続"": [], ""報"": []}",続 報,NOT_A_WORD_GRADE_DETERMINATION
+JV-115-01,多様性,3,"{""多"": [], ""様"": [], ""性"": []}",多 様 性,NOT_A_WORD_GRADE_DETERMINATION
+JV-115-02,画一的,3,"{""画"": [], ""一"": [], ""的"": []}",画 一 的,NOT_A_WORD_GRADE_DETERMINATION
+JV-115-03,包摂,3,"{""包"": [], ""摂"": [3]}",包,NOT_A_WORD_GRADE_DETERMINATION
+JV-115-04,排除,3,"{""排"": [2], ""除"": []}",除,NOT_A_WORD_GRADE_DETERMINATION
+JV-116-01,短期的,3,"{""短"": [], ""期"": [], ""的"": []}",短 期 的,NOT_A_WORD_GRADE_DETERMINATION
+JV-116-02,長期的,3,"{""長"": [], ""期"": [], ""的"": []}",長 期 的,NOT_A_WORD_GRADE_DETERMINATION
+JV-116-03,局所的,3,"{""局"": [], ""所"": [], ""的"": []}",局 所 的,NOT_A_WORD_GRADE_DETERMINATION
+JV-116-04,包括的,3,"{""包"": [], ""括"": [1], ""的"": []}",包 的,NOT_A_WORD_GRADE_DETERMINATION
+JV-117-01,相対的,3,"{""相"": [], ""対"": [], ""的"": []}",相 対 的,NOT_A_WORD_GRADE_DETERMINATION
+JV-117-02,絶対的,3,"{""絶"": [], ""対"": [], ""的"": []}",絶 対 的,NOT_A_WORD_GRADE_DETERMINATION
+JV-117-03,顕著,3,"{""顕"": [2], ""著"": []}",著,NOT_A_WORD_GRADE_DETERMINATION
+JV-117-04,微妙,3,"{""微"": [1], ""妙"": [1]}",,NOT_A_WORD_GRADE_DETERMINATION
+JV-118-01,必須,3,"{""必"": [], ""須"": [2]}",必,NOT_A_WORD_GRADE_DETERMINATION
+JV-118-02,任意,3,"{""任"": [], ""意"": []}",任 意,NOT_A_WORD_GRADE_DETERMINATION
+JV-118-03,推奨,3,"{""推"": [], ""奨"": [2]}",推,NOT_A_WORD_GRADE_DETERMINATION
+JV-118-04,禁止,3,"{""禁"": [], ""止"": []}",禁 止,NOT_A_WORD_GRADE_DETERMINATION
+JV-119-01,応急,3,"{""応"": [], ""急"": []}",応 急,NOT_A_WORD_GRADE_DETERMINATION
+JV-119-02,抜本的,3,"{""抜"": [1], ""本"": [], ""的"": []}",本 的,NOT_A_WORD_GRADE_DETERMINATION
+JV-119-03,暫定的,3,"{""暫"": [3], ""定"": [], ""的"": []}",定 的,NOT_A_WORD_GRADE_DETERMINATION
+JV-119-04,恒常的,3,"{""恒"": [2], ""常"": [], ""的"": []}",常 的,NOT_A_WORD_GRADE_DETERMINATION
+JV-120-01,規制,3,"{""規"": [], ""制"": []}",規 制,NOT_A_WORD_GRADE_DETERMINATION
+JV-120-02,緩和,3,"{""緩"": [2], ""和"": []}",和,NOT_A_WORD_GRADE_DETERMINATION
+JV-120-03,撤廃,3,"{""撤"": [2], ""廃"": [3]}",,NOT_A_WORD_GRADE_DETERMINATION
+JV-120-04,新設,3,"{""新"": [], ""設"": []}",新 設,NOT_A_WORD_GRADE_DETERMINATION
+JV-121-01,一面的,3,"{""一"": [], ""面"": [], ""的"": []}",一 面 的,NOT_A_WORD_GRADE_DETERMINATION
+JV-121-02,多角的,3,"{""多"": [], ""角"": [], ""的"": []}",多 角 的,NOT_A_WORD_GRADE_DETERMINATION
+JV-121-03,独善的,3,"{""独"": [], ""善"": [], ""的"": []}",独 善 的,NOT_A_WORD_GRADE_DETERMINATION
+JV-121-04,批判的,3,"{""批"": [], ""判"": [], ""的"": []}",批 判 的,NOT_A_WORD_GRADE_DETERMINATION
+JV-122-01,理念,3,"{""理"": [], ""念"": []}",理 念,NOT_A_WORD_GRADE_DETERMINATION
+JV-122-02,願望,3,"{""願"": [], ""望"": []}",願 望,NOT_A_WORD_GRADE_DETERMINATION
+JV-122-03,価値観,3,"{""価"": [], ""値"": [], ""観"": []}",価 値 観,NOT_A_WORD_GRADE_DETERMINATION
+JV-122-04,信条,3,"{""信"": [], ""条"": []}",信 条,NOT_A_WORD_GRADE_DETERMINATION
+JV-123-01,表面的,3,"{""表"": [], ""面"": [], ""的"": []}",表 面 的,NOT_A_WORD_GRADE_DETERMINATION
+JV-123-02,本質的,3,"{""本"": [], ""質"": [], ""的"": []}",本 質 的,NOT_A_WORD_GRADE_DETERMINATION
+JV-123-03,形式的,3,"{""形"": [], ""式"": [], ""的"": []}",形 式 的,NOT_A_WORD_GRADE_DETERMINATION
+JV-123-04,実質的,3,"{""実"": [], ""質"": [], ""的"": []}",実 質 的,NOT_A_WORD_GRADE_DETERMINATION
+JV-124-01,暗黙,3,"{""暗"": [], ""黙"": [1]}",暗,NOT_A_WORD_GRADE_DETERMINATION
+JV-124-02,明文化,3,"{""明"": [], ""文"": [], ""化"": []}",明 文 化,NOT_A_WORD_GRADE_DETERMINATION
+JV-124-03,含意,3,"{""含"": [1], ""意"": []}",意,NOT_A_WORD_GRADE_DETERMINATION
+JV-124-04,字義,3,"{""字"": [], ""義"": []}",字 義,NOT_A_WORD_GRADE_DETERMINATION
+JV-125-01,電光石火,3,"{""電"": [], ""光"": [], ""石"": [], ""火"": []}",電 光 石 火,NOT_A_WORD_GRADE_DETERMINATION
+JV-125-02,大器晩成,3,"{""大"": [], ""器"": [], ""晩"": [], ""成"": []}",大 器 晩 成,NOT_A_WORD_GRADE_DETERMINATION
+JV-125-03,千載一遇,3,"{""千"": [], ""載"": [1], ""一"": [], ""遇"": [3]}",千 一,NOT_A_WORD_GRADE_DETERMINATION
+JV-125-04,前代未聞,3,"{""前"": [], ""代"": [], ""未"": [], ""聞"": []}",前 代 未 聞,NOT_A_WORD_GRADE_DETERMINATION

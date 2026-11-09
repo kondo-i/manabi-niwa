@@ -1,0 +1,36 @@
+{
+  "changed_question": {
+    "id": "JVQ-114-03-C",
+    "subject": "国語",
+    "grade": 3,
+    "unit_id": "japanese-vocab-critical-114",
+    "unit_title": "語彙の成長｜抽象語と批判的読解：情報の伝わり方",
+    "category": "抽象語と批判的読解",
+    "topic": "情報の伝わり方",
+    "lexeme_id": "JV-114-03",
+    "target_word": "誤報",
+    "question_type": "context",
+    "skill": "文脈から適切な語を選ぶ",
+    "prompt": "次の場面を表す言葉として、最も適切なものを一つ選びなさい。\n存在しない事故が起きたとニュースで伝えてしまった",
+    "choices": [
+      "誤報",
+      "訂正",
+      "拡散"
+    ],
+    "correct_index": 0,
+    "correct_answer": "誤報",
+    "explanation": "場面「存在しない事故が起きたとニュースで伝えてしまった」は「誤報」に当たる。この場面を「誤報」と判断できるのは、起きていない事故を起きたと誤って報じているためです。「誤報」は実際と違う内容を伝えてしまった報道を指すこと。「訂正」は間違いを正しく直すこと、「拡散」は情報などが広い範囲に広がることであり、この場面の内容とは合わない。",
+    "review_status": "v2_claude_pass_carried_over_unverified_in_v3",
+    "claude_audit": "third_round_pending",
+    "release_status": "not_published",
+    "audit_source_status": "Claude第1回:合格",
+    "grade_policy": "mitsumura_r7_2025_grade_and_kanji_tables_pending",
+    "furigana_policy": "none_by_user_request_20261105"
+  },
+  "protected_unchanged_ids": [
+    "JVQ-114-01-M",
+    "JVQ-114-01-C",
+    "JVQ-114-03-M"
+  ],
+  "scope": "single-item difference audit; not a complete reapproval of 1040 items"
+}
