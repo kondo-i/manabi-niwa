@@ -1,0 +1,11 @@
+--- a/dist/strengths.js
++++ b/dist/strengths.js
+@@ -26,7 +26,7 @@
+  const lastAt=q=>{const value=records[q.id]?.lastAt;if(Number.isFinite(value))return value;const parsed=typeof value==='string'?Date.parse(value):NaN;return Number.isFinite(parsed)?parsed:0;};
+  options.sort((a,b)=>Number(attempts(a)>0)-Number(attempts(b)>0)
+   ||String(records[a.id]?.lastDate||'').localeCompare(String(records[b.id]?.lastDate||''))
+-  ||attempts(a)-attempts(b)||lastAt(a)-lastAt(b)||a.id.localeCompare(b.id));
++  ||attempts(a)-attempts(b)||lastAt(a)-lastAt(b)||String(a.id).localeCompare(String(b.id),undefined,{numeric:true}));
+  return options[0]||null;
+ }
+ function nextAttemptAt(records,now=Date.now()){
