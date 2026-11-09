@@ -1,0 +1,13 @@
+{
+  "data/social/v5/audit_focus.json": "b640bbb3e3f3fa21fd51d59853ec60b3f2806147b8137e85d347155a638e3ff0",
+  "data/social/v5/change_map_v4_v5.csv": "530651b45a3d13cf1022d92e918e3f75fd9a02cf27d6f900862e53de8ad16630",
+  "data/social/v5/questions.csv": "996f2bfb6879193c38a8c992ee9aa1f84979904978c4dc8ad144953ead836d75",
+  "data/social/v5/questions.json": "5d7f14609e5d7c4c003152c489d753a9aba8459d4f9e47aa120ebc3bcf9c0d8a",
+  "data/social/v5/questions.md": "e2166b8f0645a6309ac0302a6a3ee6503a7694f3a8a121d94f3ed4370ea497a3",
+  "data/social/v5/sources.json": "ec04fbe9746c13088ff1068f71daf329a3e683906e6a8d9caffe52e98687af91",
+  "data/social/v5/textbook_policy.json": "294894b8a387b6e59002859df1384000970f05550b786041116966e2a2fc07f6",
+  "reports/social_v5_verification_report.md": "e9e9c6a7dcedec5a5d282504aba9ef62bdea25cda31dc2287a563dd3a3d8c4f9",
+  "reports/social_v5_verification_results.json": "09070bc61ca903898a7a16a412b84b42cffe37cdf2c6c94742bef49bab83e390",
+  "scripts/build_social_v5.py": "67d5fff820b346f1a49d5dead49b6f59411caadf57e2ab65c9c485cd390f2e0d",
+  "scripts/verify_social_v5.py": "3f2505ca9fed89e411f5af4ec6cf47b7541f57b018eb260cfd767e9d48e9b4a6"
+}

@@ -1,0 +1,41 @@
+{
+  "changed_question": {
+    "id": "SOC-HIS-011",
+    "subject": "社会",
+    "field": "history",
+    "grade": 2,
+    "grade_policy": "r7_2025_edition_confirmed_grade_progress_and_indexes_pending",
+    "furigana_policy": "none_by_user_request_20261105",
+    "question_type": "single_choice",
+    "prompt": "【制度の違いを学ぶための要約】資料A「寺子屋などで、身分や地域ごとに学びの機会が異なった」。資料B「国が学校の制度を定め、全国に学校を整えようとした」。AからBへの変化に関係する改革はどれか。",
+    "choices": [
+      "地租改正",
+      "廃藩置県",
+      "学制"
+    ],
+    "correct_index": 2,
+    "correct_answer": "学制",
+    "explanation": "国が学校の制度を定めて全国に学校を整えようとしたのが、学制。要約文は原史料からの直接引用ではない。 誤答の確認：「地租改正」：土地にかかる税の制度の改革で、学校の制度の改革ではない。 「廃藩置県」：藩を廃して県を置く地方制度の改革で、学校の制度の改革ではない。",
+    "distractor_notes": [
+      {
+        "choice": "地租改正",
+        "reason": "土地にかかる税の制度の改革で、学校の制度の改革ではない。"
+      },
+      {
+        "choice": "廃藩置県",
+        "reason": "藩を廃して県を置く地方制度の改革で、学校の制度の改革ではない。"
+      }
+    ],
+    "source_ids": [
+      "SCHOOL_ARCHIVES",
+      "SCHOOL_CONTEXT"
+    ],
+    "hints": [
+      "資料Aと資料Bでは、何の機会や制度が変わっているかな。",
+      "学校の制度を国が定めた改革を選ぼう。"
+    ],
+    "review_status": "draft_awaiting_claude_independent_review",
+    "release_status": "not_published"
+  },
+  "scope": "one explanation; other31 social and188 app items unchanged"
+}
