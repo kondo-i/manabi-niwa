@@ -1,0 +1,31 @@
+{
+  "status": "RUNTIME_STRUCTURE_AND_SCORING_PASS_NOT_CONTENT_APPROVAL",
+  "stored_normal_questions": 2118,
+  "playable_normal_questions": 2113,
+  "units": 154,
+  "playable_units": 152,
+  "hidden_questions": 5,
+  "by_subject_grade": {
+    "science_g2": 123,
+    "science_g1": 377,
+    "math_g1": 370,
+    "english_g1": 180,
+    "social_g1": 110,
+    "japanese_g1": 120,
+    "social_g2": 30,
+    "social_g3": 50,
+    "japanese_g2": 60,
+    "japanese_g3": 20,
+    "english_g3": 70,
+    "english_g2": 60,
+    "math_g2": 210,
+    "math_g3": 223,
+    "science_g3": 115
+  },
+  "exact_prompt_duplicate_pairs": 14,
+  "duplicates_scope_note": "Cross-bank identical strings only. Different wording with same knowledge is not detected.",
+  "sampled_each_ready_unit": true,
+  "browser_observation": "Desktop Chrome: math grade3 circle question input36 accepted, explanation36 shown; no mobile/student testing",
+  "exact_prompt_duplicate_pairs_involving_new_expansion": 0,
+  "all14_inherited_from_baseline": true
+}

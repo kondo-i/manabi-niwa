@@ -1,0 +1,8 @@
+{
+  "status": "INITIAL_PRODUCER_WORK_BREAKDOWN_NOT_EXHAUSTIVE_OFFICIAL_UNIT_CERTIFICATION",
+  "rows": 176,
+  "partial_seed_rows": 144,
+  "no_new_seed_rows": 32,
+  "existing900": "not mapped to every objective; zero new seed does not imply zero existing questions",
+  "source_fetch": "MEXT math/science/japanese PDFs obtained; math/science text inspected; English/social full mapping still pending"
+}

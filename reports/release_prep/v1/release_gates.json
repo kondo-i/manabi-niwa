@@ -1,0 +1,28 @@
+{
+  "release_decision": "BLOCKED_DRAFT_ONLY",
+  "main_unchanged": true,
+  "live_app_deployment_performed": false,
+  "passed": [
+    "JSON/CSV exact typed roundtrip",
+    "1218 unique new IDs and prompts",
+    "988 numeric/symbolic oracle checks",
+    "all app packs schema and scoring",
+    "5-question sample for each of152 ready units",
+    "desktop browser: one new math item graded correctly"
+  ],
+  "remaining": [
+    "230 authored-choice items need full semantic review; answer-index self-check is not independent validation",
+    "curriculum outline176 rows is producer work breakdown, not complete official subunit mapping",
+    "new seed absent in32 outline rows; existing900 not fully mapped",
+    "many covered rows have only one family: proofs, diagrams, listening/speaking and advanced transfer remain insufficient",
+    "textbook kanji/readings/indices and grade alignment",
+    "cross-bank semantic duplication including prior19th edition670",
+    "mobile device, student usability and accessibility tests",
+    "review inherited14 stored-prompt collisions and generator behavior"
+  ],
+  "review_allocation": {
+    "Codex": "production, sources, independent numerical solver, schema, diff, runtime integration, curriculum gaps and reports",
+    "Claude": "optional risk-focused content review of changed items and selected families, not all instances every iteration"
+  },
+  "scope": "middle school grades1-3, five main subjects first; practical subjects excluded by user choice"
+}

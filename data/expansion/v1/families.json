@@ -1,0 +1,1586 @@
+[
+  {
+    "family": "english-can",
+    "subject": "english",
+    "draft_grade": 1,
+    "instances": 10,
+    "unit_ids": [
+      "exp-english-g1-can"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "english-comparison",
+    "subject": "english",
+    "draft_grade": 2,
+    "instances": 10,
+    "unit_ids": [
+      "exp-english-g2-comparison"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "english-conjunction",
+    "subject": "english",
+    "draft_grade": 2,
+    "instances": 10,
+    "unit_ids": [
+      "exp-english-g2-conjunction"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "english-future",
+    "subject": "english",
+    "draft_grade": 1,
+    "instances": 10,
+    "unit_ids": [
+      "exp-english-g1-future"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "english-gerund",
+    "subject": "english",
+    "draft_grade": 2,
+    "instances": 10,
+    "unit_ids": [
+      "exp-english-g2-gerund"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "english-indirect",
+    "subject": "english",
+    "draft_grade": 3,
+    "instances": 10,
+    "unit_ids": [
+      "exp-english-g3-indirect"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "english-infinitive",
+    "subject": "english",
+    "draft_grade": 2,
+    "instances": 10,
+    "unit_ids": [
+      "exp-english-g2-infinitive"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "english-must",
+    "subject": "english",
+    "draft_grade": 2,
+    "instances": 10,
+    "unit_ids": [
+      "exp-english-g2-must"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "english-participle",
+    "subject": "english",
+    "draft_grade": 3,
+    "instances": 10,
+    "unit_ids": [
+      "exp-english-g3-participle"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "english-past",
+    "subject": "english",
+    "draft_grade": 1,
+    "instances": 10,
+    "unit_ids": [
+      "exp-english-g1-past"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "english-perfect-progressive",
+    "subject": "english",
+    "draft_grade": 3,
+    "instances": 10,
+    "unit_ids": [
+      "exp-english-g3-perfect-progressive"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "english-relative",
+    "subject": "english",
+    "draft_grade": 3,
+    "instances": 10,
+    "unit_ids": [
+      "exp-english-g3-relative"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "english-there",
+    "subject": "english",
+    "draft_grade": 1,
+    "instances": 10,
+    "unit_ids": [
+      "exp-english-g1-there"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "english-wish",
+    "subject": "english",
+    "draft_grade": 3,
+    "instances": 10,
+    "unit_ids": [
+      "exp-english-g3-wish"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "japanese-g1-classics",
+    "subject": "japanese",
+    "draft_grade": 1,
+    "instances": 1,
+    "unit_ids": [
+      "exp-japanese-g1-foundations"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "japanese-g1-expository",
+    "subject": "japanese",
+    "draft_grade": 1,
+    "instances": 1,
+    "unit_ids": [
+      "exp-japanese-g1-foundations"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "japanese-g1-information",
+    "subject": "japanese",
+    "draft_grade": 1,
+    "instances": 1,
+    "unit_ids": [
+      "exp-japanese-g1-foundations"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "japanese-g1-literature",
+    "subject": "japanese",
+    "draft_grade": 1,
+    "instances": 1,
+    "unit_ids": [
+      "exp-japanese-g1-foundations"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "japanese-g1-poetry",
+    "subject": "japanese",
+    "draft_grade": 1,
+    "instances": 1,
+    "unit_ids": [
+      "exp-japanese-g1-foundations"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "japanese-g1-sentence",
+    "subject": "japanese",
+    "draft_grade": 1,
+    "instances": 1,
+    "unit_ids": [
+      "exp-japanese-g1-foundations"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "japanese-g1-speaking",
+    "subject": "japanese",
+    "draft_grade": 1,
+    "instances": 1,
+    "unit_ids": [
+      "exp-japanese-g1-foundations"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "japanese-g1-vocabulary",
+    "subject": "japanese",
+    "draft_grade": 1,
+    "instances": 1,
+    "unit_ids": [
+      "exp-japanese-g1-foundations"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "japanese-g1-word-classes",
+    "subject": "japanese",
+    "draft_grade": 1,
+    "instances": 1,
+    "unit_ids": [
+      "exp-japanese-g1-foundations"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "japanese-g1-writing",
+    "subject": "japanese",
+    "draft_grade": 1,
+    "instances": 1,
+    "unit_ids": [
+      "exp-japanese-g1-foundations"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "japanese-g2-classics",
+    "subject": "japanese",
+    "draft_grade": 2,
+    "instances": 1,
+    "unit_ids": [
+      "exp-japanese-g2-foundations"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "japanese-g2-expository",
+    "subject": "japanese",
+    "draft_grade": 2,
+    "instances": 1,
+    "unit_ids": [
+      "exp-japanese-g2-foundations"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "japanese-g2-information",
+    "subject": "japanese",
+    "draft_grade": 2,
+    "instances": 1,
+    "unit_ids": [
+      "exp-japanese-g2-foundations"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "japanese-g2-literature",
+    "subject": "japanese",
+    "draft_grade": 2,
+    "instances": 1,
+    "unit_ids": [
+      "exp-japanese-g2-foundations"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "japanese-g2-poetry",
+    "subject": "japanese",
+    "draft_grade": 2,
+    "instances": 1,
+    "unit_ids": [
+      "exp-japanese-g2-foundations"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "japanese-g2-sentence",
+    "subject": "japanese",
+    "draft_grade": 2,
+    "instances": 1,
+    "unit_ids": [
+      "exp-japanese-g2-foundations"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "japanese-g2-speaking",
+    "subject": "japanese",
+    "draft_grade": 2,
+    "instances": 1,
+    "unit_ids": [
+      "exp-japanese-g2-foundations"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "japanese-g2-vocabulary",
+    "subject": "japanese",
+    "draft_grade": 2,
+    "instances": 1,
+    "unit_ids": [
+      "exp-japanese-g2-foundations"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "japanese-g2-word-classes",
+    "subject": "japanese",
+    "draft_grade": 2,
+    "instances": 1,
+    "unit_ids": [
+      "exp-japanese-g2-foundations"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "japanese-g2-writing",
+    "subject": "japanese",
+    "draft_grade": 2,
+    "instances": 1,
+    "unit_ids": [
+      "exp-japanese-g2-foundations"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "japanese-g3-classics",
+    "subject": "japanese",
+    "draft_grade": 3,
+    "instances": 1,
+    "unit_ids": [
+      "exp-japanese-g3-foundations"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "japanese-g3-expository",
+    "subject": "japanese",
+    "draft_grade": 3,
+    "instances": 1,
+    "unit_ids": [
+      "exp-japanese-g3-foundations"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "japanese-g3-information",
+    "subject": "japanese",
+    "draft_grade": 3,
+    "instances": 1,
+    "unit_ids": [
+      "exp-japanese-g3-foundations"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "japanese-g3-literature",
+    "subject": "japanese",
+    "draft_grade": 3,
+    "instances": 1,
+    "unit_ids": [
+      "exp-japanese-g3-foundations"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "japanese-g3-poetry",
+    "subject": "japanese",
+    "draft_grade": 3,
+    "instances": 1,
+    "unit_ids": [
+      "exp-japanese-g3-foundations"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "japanese-g3-sentence",
+    "subject": "japanese",
+    "draft_grade": 3,
+    "instances": 1,
+    "unit_ids": [
+      "exp-japanese-g3-foundations"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "japanese-g3-speaking",
+    "subject": "japanese",
+    "draft_grade": 3,
+    "instances": 1,
+    "unit_ids": [
+      "exp-japanese-g3-foundations"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "japanese-g3-vocabulary",
+    "subject": "japanese",
+    "draft_grade": 3,
+    "instances": 1,
+    "unit_ids": [
+      "exp-japanese-g3-foundations"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "japanese-g3-word-classes",
+    "subject": "japanese",
+    "draft_grade": 3,
+    "instances": 1,
+    "unit_ids": [
+      "exp-japanese-g3-foundations"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "japanese-g3-writing",
+    "subject": "japanese",
+    "draft_grade": 3,
+    "instances": 1,
+    "unit_ids": [
+      "exp-japanese-g3-foundations"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "math-boxplot",
+    "subject": "math",
+    "draft_grade": 2,
+    "instances": 30,
+    "unit_ids": [
+      "exp-math-g2-boxplot"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "math-circle",
+    "subject": "math",
+    "draft_grade": 3,
+    "instances": 30,
+    "unit_ids": [
+      "exp-math-g3-circle"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "math-data",
+    "subject": "math",
+    "draft_grade": 1,
+    "instances": 30,
+    "unit_ids": [
+      "exp-math-g1-data"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "math-expressions",
+    "subject": "math",
+    "draft_grade": 1,
+    "instances": 30,
+    "unit_ids": [
+      "exp-math-g1-expressions"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "math-factorization",
+    "subject": "math",
+    "draft_grade": 3,
+    "instances": 23,
+    "unit_ids": [
+      "exp-math-g3-factorization"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "math-linear-equation",
+    "subject": "math",
+    "draft_grade": 1,
+    "instances": 30,
+    "unit_ids": [
+      "exp-math-g1-linear-equation"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "math-linear-function",
+    "subject": "math",
+    "draft_grade": 2,
+    "instances": 30,
+    "unit_ids": [
+      "exp-math-g2-linear-function"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "math-parallel-angles",
+    "subject": "math",
+    "draft_grade": 2,
+    "instances": 30,
+    "unit_ids": [
+      "exp-math-g2-parallel-angles"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "math-plane-geometry",
+    "subject": "math",
+    "draft_grade": 1,
+    "instances": 30,
+    "unit_ids": [
+      "exp-math-g1-plane-geometry"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "math-polynomials",
+    "subject": "math",
+    "draft_grade": 2,
+    "instances": 30,
+    "unit_ids": [
+      "exp-math-g2-polynomials"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "math-probability",
+    "subject": "math",
+    "draft_grade": 2,
+    "instances": 30,
+    "unit_ids": [
+      "exp-math-g2-probability"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "math-proportion",
+    "subject": "math",
+    "draft_grade": 1,
+    "instances": 30,
+    "unit_ids": [
+      "exp-math-g1-proportion"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "math-pythagoras",
+    "subject": "math",
+    "draft_grade": 3,
+    "instances": 30,
+    "unit_ids": [
+      "exp-math-g3-pythagoras"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "math-quadratic-equation",
+    "subject": "math",
+    "draft_grade": 3,
+    "instances": 30,
+    "unit_ids": [
+      "exp-math-g3-quadratic-equation"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "math-quadratic-function",
+    "subject": "math",
+    "draft_grade": 3,
+    "instances": 20,
+    "unit_ids": [
+      "exp-math-g3-quadratic-function"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "math-sampling",
+    "subject": "math",
+    "draft_grade": 3,
+    "instances": 30,
+    "unit_ids": [
+      "exp-math-g3-sampling"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "math-signed",
+    "subject": "math",
+    "draft_grade": 1,
+    "instances": 30,
+    "unit_ids": [
+      "exp-math-g1-signed"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "math-similarity",
+    "subject": "math",
+    "draft_grade": 3,
+    "instances": 30,
+    "unit_ids": [
+      "exp-math-g3-similarity"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "math-simultaneous",
+    "subject": "math",
+    "draft_grade": 2,
+    "instances": 30,
+    "unit_ids": [
+      "exp-math-g2-simultaneous"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "math-solid-geometry",
+    "subject": "math",
+    "draft_grade": 1,
+    "instances": 30,
+    "unit_ids": [
+      "exp-math-g1-solid-geometry"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "math-square-roots",
+    "subject": "math",
+    "draft_grade": 3,
+    "instances": 30,
+    "unit_ids": [
+      "exp-math-g3-square-roots"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "math-triangle-properties",
+    "subject": "math",
+    "draft_grade": 2,
+    "instances": 30,
+    "unit_ids": [
+      "exp-math-g2-triangle-properties"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "science-astronomy",
+    "subject": "science",
+    "draft_grade": 3,
+    "instances": 6,
+    "unit_ids": [
+      "exp-science-g3-astronomy"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "science-chemical-mass",
+    "subject": "science",
+    "draft_grade": 2,
+    "instances": 30,
+    "unit_ids": [
+      "exp-science-g2-chemical-mass"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "science-concentration",
+    "subject": "science",
+    "draft_grade": 1,
+    "instances": 30,
+    "unit_ids": [
+      "exp-science-g1-concentration"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "science-current",
+    "subject": "science",
+    "draft_grade": 2,
+    "instances": 8,
+    "unit_ids": [
+      "exp-science-g2-current"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "science-density",
+    "subject": "science",
+    "draft_grade": 1,
+    "instances": 30,
+    "unit_ids": [
+      "exp-science-g1-density"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "science-earthquake",
+    "subject": "science",
+    "draft_grade": 1,
+    "instances": 8,
+    "unit_ids": [
+      "exp-science-g1-earthquake"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "science-energy",
+    "subject": "science",
+    "draft_grade": 3,
+    "instances": 30,
+    "unit_ids": [
+      "exp-science-g3-energy"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "science-g1-animals",
+    "subject": "science",
+    "draft_grade": 1,
+    "instances": 1,
+    "unit_ids": [
+      "exp-science-g1-concepts"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "science-g1-classification",
+    "subject": "science",
+    "draft_grade": 1,
+    "instances": 1,
+    "unit_ids": [
+      "exp-science-g1-concepts"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "science-g1-flower",
+    "subject": "science",
+    "draft_grade": 1,
+    "instances": 1,
+    "unit_ids": [
+      "exp-science-g1-concepts"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "science-g1-force",
+    "subject": "science",
+    "draft_grade": 1,
+    "instances": 1,
+    "unit_ids": [
+      "exp-science-g1-concepts"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "science-g1-gas",
+    "subject": "science",
+    "draft_grade": 1,
+    "instances": 1,
+    "unit_ids": [
+      "exp-science-g1-concepts"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "science-g1-matter",
+    "subject": "science",
+    "draft_grade": 1,
+    "instances": 1,
+    "unit_ids": [
+      "exp-science-g1-concepts"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "science-g1-observation",
+    "subject": "science",
+    "draft_grade": 1,
+    "instances": 1,
+    "unit_ids": [
+      "exp-science-g1-concepts"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "science-g1-state",
+    "subject": "science",
+    "draft_grade": 1,
+    "instances": 1,
+    "unit_ids": [
+      "exp-science-g1-concepts"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "science-g1-strata",
+    "subject": "science",
+    "draft_grade": 1,
+    "instances": 1,
+    "unit_ids": [
+      "exp-science-g1-concepts"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "science-g1-volcano",
+    "subject": "science",
+    "draft_grade": 1,
+    "instances": 1,
+    "unit_ids": [
+      "exp-science-g1-concepts"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "science-g2-atoms",
+    "subject": "science",
+    "draft_grade": 2,
+    "instances": 1,
+    "unit_ids": [
+      "exp-science-g2-concepts"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "science-g2-circulation",
+    "subject": "science",
+    "draft_grade": 2,
+    "instances": 1,
+    "unit_ids": [
+      "exp-science-g2-concepts"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "science-g2-cloud",
+    "subject": "science",
+    "draft_grade": 2,
+    "instances": 1,
+    "unit_ids": [
+      "exp-science-g2-concepts"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "science-g2-digestion",
+    "subject": "science",
+    "draft_grade": 2,
+    "instances": 1,
+    "unit_ids": [
+      "exp-science-g2-concepts"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "science-g2-fronts",
+    "subject": "science",
+    "draft_grade": 2,
+    "instances": 1,
+    "unit_ids": [
+      "exp-science-g2-concepts"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "science-g2-magnetism",
+    "subject": "science",
+    "draft_grade": 2,
+    "instances": 1,
+    "unit_ids": [
+      "exp-science-g2-concepts"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "science-g2-nervous",
+    "subject": "science",
+    "draft_grade": 2,
+    "instances": 1,
+    "unit_ids": [
+      "exp-science-g2-concepts"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "science-g2-oxidation",
+    "subject": "science",
+    "draft_grade": 2,
+    "instances": 1,
+    "unit_ids": [
+      "exp-science-g2-concepts"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "science-g2-photosynthesis",
+    "subject": "science",
+    "draft_grade": 2,
+    "instances": 1,
+    "unit_ids": [
+      "exp-science-g2-concepts"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "science-g2-transpiration",
+    "subject": "science",
+    "draft_grade": 2,
+    "instances": 1,
+    "unit_ids": [
+      "exp-science-g2-concepts"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "science-g3-acid",
+    "subject": "science",
+    "draft_grade": 3,
+    "instances": 1,
+    "unit_ids": [
+      "exp-science-g3-concepts"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "science-g3-battery",
+    "subject": "science",
+    "draft_grade": 3,
+    "instances": 1,
+    "unit_ids": [
+      "exp-science-g3-concepts"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "science-g3-celestial",
+    "subject": "science",
+    "draft_grade": 3,
+    "instances": 1,
+    "unit_ids": [
+      "exp-science-g3-concepts"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "science-g3-division",
+    "subject": "science",
+    "draft_grade": 3,
+    "instances": 1,
+    "unit_ids": [
+      "exp-science-g3-concepts"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "science-g3-ecosystem",
+    "subject": "science",
+    "draft_grade": 3,
+    "instances": 1,
+    "unit_ids": [
+      "exp-science-g3-concepts"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "science-g3-environment",
+    "subject": "science",
+    "draft_grade": 3,
+    "instances": 1,
+    "unit_ids": [
+      "exp-science-g3-concepts"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "science-g3-evolution",
+    "subject": "science",
+    "draft_grade": 3,
+    "instances": 1,
+    "unit_ids": [
+      "exp-science-g3-concepts"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "science-g3-neutralization",
+    "subject": "science",
+    "draft_grade": 3,
+    "instances": 1,
+    "unit_ids": [
+      "exp-science-g3-concepts"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "science-g3-reproduction",
+    "subject": "science",
+    "draft_grade": 3,
+    "instances": 1,
+    "unit_ids": [
+      "exp-science-g3-concepts"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "science-g3-seasons",
+    "subject": "science",
+    "draft_grade": 3,
+    "instances": 1,
+    "unit_ids": [
+      "exp-science-g3-concepts"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "science-humidity",
+    "subject": "science",
+    "draft_grade": 2,
+    "instances": 5,
+    "unit_ids": [
+      "exp-science-g2-humidity"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "science-inheritance",
+    "subject": "science",
+    "draft_grade": 3,
+    "instances": 1,
+    "unit_ids": [
+      "exp-science-g3-inheritance"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "science-ions",
+    "subject": "science",
+    "draft_grade": 3,
+    "instances": 8,
+    "unit_ids": [
+      "exp-science-g3-ions"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "science-light",
+    "subject": "science",
+    "draft_grade": 1,
+    "instances": 30,
+    "unit_ids": [
+      "exp-science-g1-light"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "science-motion",
+    "subject": "science",
+    "draft_grade": 3,
+    "instances": 30,
+    "unit_ids": [
+      "exp-science-g3-motion"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "science-power",
+    "subject": "science",
+    "draft_grade": 2,
+    "instances": 30,
+    "unit_ids": [
+      "exp-science-g2-power"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "science-solubility",
+    "subject": "science",
+    "draft_grade": 1,
+    "instances": 30,
+    "unit_ids": [
+      "exp-science-g1-solubility"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "science-sound",
+    "subject": "science",
+    "draft_grade": 1,
+    "instances": 5,
+    "unit_ids": [
+      "exp-science-g1-sound"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "science-spring",
+    "subject": "science",
+    "draft_grade": 1,
+    "instances": 4,
+    "unit_ids": [
+      "exp-science-g1-spring"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "science-weather",
+    "subject": "science",
+    "draft_grade": 2,
+    "instances": 30,
+    "unit_ids": [
+      "exp-science-g2-weather"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "science-work",
+    "subject": "science",
+    "draft_grade": 3,
+    "instances": 30,
+    "unit_ids": [
+      "exp-science-g3-work"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "social-g1-africa",
+    "subject": "social",
+    "draft_grade": 1,
+    "instances": 1,
+    "unit_ids": [
+      "exp-social-g1-foundations"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "social-g1-asia",
+    "subject": "social",
+    "draft_grade": 1,
+    "instances": 1,
+    "unit_ids": [
+      "exp-social-g1-foundations"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "social-g1-climate",
+    "subject": "social",
+    "draft_grade": 1,
+    "instances": 1,
+    "unit_ids": [
+      "exp-social-g1-foundations"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "social-g1-coordinates",
+    "subject": "social",
+    "draft_grade": 1,
+    "instances": 1,
+    "unit_ids": [
+      "exp-social-g1-foundations"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "social-g1-europe",
+    "subject": "social",
+    "draft_grade": 1,
+    "instances": 1,
+    "unit_ids": [
+      "exp-social-g1-foundations"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "social-g1-inquiry",
+    "subject": "social",
+    "draft_grade": 1,
+    "instances": 1,
+    "unit_ids": [
+      "exp-social-g1-foundations"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "social-g1-map",
+    "subject": "social",
+    "draft_grade": 1,
+    "instances": 1,
+    "unit_ids": [
+      "exp-social-g1-foundations"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "social-g1-north-america",
+    "subject": "social",
+    "draft_grade": 1,
+    "instances": 1,
+    "unit_ids": [
+      "exp-social-g1-foundations"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "social-g1-oceania",
+    "subject": "social",
+    "draft_grade": 1,
+    "instances": 1,
+    "unit_ids": [
+      "exp-social-g1-foundations"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "social-g1-south-america",
+    "subject": "social",
+    "draft_grade": 1,
+    "instances": 1,
+    "unit_ids": [
+      "exp-social-g1-foundations"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "social-g2-ancient",
+    "subject": "social",
+    "draft_grade": 2,
+    "instances": 1,
+    "unit_ids": [
+      "exp-social-g2-foundations"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "social-g2-chronology",
+    "subject": "social",
+    "draft_grade": 2,
+    "instances": 1,
+    "unit_ids": [
+      "exp-social-g2-foundations"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "social-g2-early-modern",
+    "subject": "social",
+    "draft_grade": 2,
+    "instances": 1,
+    "unit_ids": [
+      "exp-social-g2-foundations"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "social-g2-industrial",
+    "subject": "social",
+    "draft_grade": 2,
+    "instances": 1,
+    "unit_ids": [
+      "exp-social-g2-foundations"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "social-g2-japan-climate",
+    "subject": "social",
+    "draft_grade": 2,
+    "instances": 1,
+    "unit_ids": [
+      "exp-social-g2-foundations"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "social-g2-japan-industry",
+    "subject": "social",
+    "draft_grade": 2,
+    "instances": 1,
+    "unit_ids": [
+      "exp-social-g2-foundations"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "social-g2-japan-inquiry",
+    "subject": "social",
+    "draft_grade": 2,
+    "instances": 1,
+    "unit_ids": [
+      "exp-social-g2-foundations"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "social-g2-medieval",
+    "subject": "social",
+    "draft_grade": 2,
+    "instances": 1,
+    "unit_ids": [
+      "exp-social-g2-foundations"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "social-g2-meiji",
+    "subject": "social",
+    "draft_grade": 2,
+    "instances": 1,
+    "unit_ids": [
+      "exp-social-g2-foundations"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "social-g2-sources",
+    "subject": "social",
+    "draft_grade": 2,
+    "instances": 1,
+    "unit_ids": [
+      "exp-social-g2-foundations"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "social-g3-cabinet",
+    "subject": "social",
+    "draft_grade": 3,
+    "instances": 1,
+    "unit_ids": [
+      "exp-social-g3-foundations"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "social-g3-courts",
+    "subject": "social",
+    "draft_grade": 3,
+    "instances": 1,
+    "unit_ids": [
+      "exp-social-g3-foundations"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "social-g3-diet",
+    "subject": "social",
+    "draft_grade": 3,
+    "instances": 1,
+    "unit_ids": [
+      "exp-social-g3-foundations"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "social-g3-finance",
+    "subject": "social",
+    "draft_grade": 3,
+    "instances": 1,
+    "unit_ids": [
+      "exp-social-g3-foundations"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "social-g3-international",
+    "subject": "social",
+    "draft_grade": 3,
+    "instances": 1,
+    "unit_ids": [
+      "exp-social-g3-foundations"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "social-g3-labor",
+    "subject": "social",
+    "draft_grade": 3,
+    "instances": 1,
+    "unit_ids": [
+      "exp-social-g3-foundations"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "social-g3-local",
+    "subject": "social",
+    "draft_grade": 3,
+    "instances": 1,
+    "unit_ids": [
+      "exp-social-g3-foundations"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "social-g3-market",
+    "subject": "social",
+    "draft_grade": 3,
+    "instances": 1,
+    "unit_ids": [
+      "exp-social-g3-foundations"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "social-g3-rights",
+    "subject": "social",
+    "draft_grade": 3,
+    "instances": 1,
+    "unit_ids": [
+      "exp-social-g3-foundations"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  },
+  {
+    "family": "social-g3-sustainability",
+    "subject": "social",
+    "draft_grade": 3,
+    "instances": 1,
+    "unit_ids": [
+      "exp-social-g3-foundations"
+    ],
+    "status": "pending_content_review",
+    "qualification": "Instance count is not distinct skill count. Grade placement is provisional."
+  }
+]

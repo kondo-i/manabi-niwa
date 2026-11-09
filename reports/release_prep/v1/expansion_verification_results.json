@@ -1,0 +1,26 @@
+{
+  "status": "STRUCTURE_AND_ORACLE_PASS_NOT_RELEASE_APPROVED",
+  "instances": 1218,
+  "numerical_or_symbolic_checks": 988,
+  "authored_choice_structure_only": 230,
+  "by_subject_grade": {
+    "english_g1": 40,
+    "english_g2": 50,
+    "english_g3": 50,
+    "japanese_g1": 10,
+    "japanese_g2": 10,
+    "japanese_g3": 10,
+    "math_g1": 210,
+    "math_g2": 210,
+    "math_g3": 223,
+    "science_g1": 147,
+    "science_g2": 113,
+    "science_g3": 115,
+    "social_g1": 10,
+    "social_g2": 10,
+    "social_g3": 10
+  },
+  "unique_families": 144,
+  "semantic_review": "not a complete independent approval; publisher vocabulary and curriculum granularity not fully checked",
+  "all_subject_grade_cells_nonempty": true
+}

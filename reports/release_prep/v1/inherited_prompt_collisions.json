@@ -1,0 +1,198 @@
+[
+  {
+    "first_id": "math-g1-signed-addition-001:q4",
+    "second_id": "math-g1-signed-addition-001:q5",
+    "new_expansion_involved": false,
+    "generator_first": {
+      "kind": "signed-add",
+      "variant": 0
+    },
+    "generator_second": {
+      "kind": "signed-add",
+      "variant": 1
+    },
+    "status": "inherited_seed_text_collision_not_a_semantic_deduplication_verdict"
+  },
+  {
+    "first_id": "math-g1-signed-addition-001:q7",
+    "second_id": "math-g1-signed-addition-001:q8",
+    "new_expansion_involved": false,
+    "generator_first": {
+      "kind": "signed-subtract",
+      "variant": 0
+    },
+    "generator_second": {
+      "kind": "signed-subtract",
+      "variant": 1
+    },
+    "status": "inherited_seed_text_collision_not_a_semantic_deduplication_verdict"
+  },
+  {
+    "first_id": "math-g1-signed-meaning-001:q10",
+    "second_id": "math-g1-signed-addition-001:q10",
+    "new_expansion_involved": false,
+    "generator_first": {
+      "kind": "signed-temperature",
+      "variant": 0
+    },
+    "generator_second": {
+      "kind": "signed-temperature",
+      "variant": 1
+    },
+    "status": "inherited_seed_text_collision_not_a_semantic_deduplication_verdict"
+  },
+  {
+    "first_id": "math-g1-signed-products-001:q5",
+    "second_id": "math-g1-signed-products-001:q6",
+    "new_expansion_involved": false,
+    "generator_first": {
+      "kind": "signed-multiply",
+      "variant": 0
+    },
+    "generator_second": {
+      "kind": "signed-multiply",
+      "variant": 1
+    },
+    "status": "inherited_seed_text_collision_not_a_semantic_deduplication_verdict"
+  },
+  {
+    "first_id": "math-g1-signed-products-001:q8",
+    "second_id": "math-g1-signed-products-001:q9",
+    "new_expansion_involved": false,
+    "generator_first": {
+      "kind": "signed-divide",
+      "variant": 0
+    },
+    "generator_second": {
+      "kind": "signed-divide",
+      "variant": 1
+    },
+    "status": "inherited_seed_text_collision_not_a_semantic_deduplication_verdict"
+  },
+  {
+    "first_id": "math-g1-signed-mixed-001:q7",
+    "second_id": "math-g1-signed-mixed-001:q8",
+    "new_expansion_involved": false,
+    "generator_first": {
+      "kind": "signed-mixed",
+      "variant": 0
+    },
+    "generator_second": {
+      "kind": "signed-mixed",
+      "variant": 1
+    },
+    "status": "inherited_seed_text_collision_not_a_semantic_deduplication_verdict"
+  },
+  {
+    "first_id": "math-g1-substitution-001:q4",
+    "second_id": "math-g1-substitution-001:q5",
+    "new_expansion_involved": false,
+    "generator_first": {
+      "kind": "substitute-linear",
+      "variant": 0
+    },
+    "generator_second": {
+      "kind": "substitute-linear",
+      "variant": 1
+    },
+    "status": "inherited_seed_text_collision_not_a_semantic_deduplication_verdict"
+  },
+  {
+    "first_id": "math-g1-substitution-001:q8",
+    "second_id": "math-g1-substitution-001:q9",
+    "new_expansion_involved": false,
+    "generator_first": {
+      "kind": "substitute-square",
+      "variant": 0
+    },
+    "generator_second": {
+      "kind": "substitute-square",
+      "variant": 1
+    },
+    "status": "inherited_seed_text_collision_not_a_semantic_deduplication_verdict"
+  },
+  {
+    "first_id": "math-g1-like-terms-001:q7",
+    "second_id": "math-g1-like-terms-001:q8",
+    "new_expansion_involved": false,
+    "generator_first": {
+      "kind": "like-coefficient",
+      "variant": 0
+    },
+    "generator_second": {
+      "kind": "like-coefficient",
+      "variant": 1
+    },
+    "status": "inherited_seed_text_collision_not_a_semantic_deduplication_verdict"
+  },
+  {
+    "first_id": "math-g1-linear-equations-001:q6",
+    "second_id": "math-g1-linear-equations-001:q7",
+    "new_expansion_involved": false,
+    "generator_first": {
+      "kind": "equation-linear",
+      "variant": 0
+    },
+    "generator_second": {
+      "kind": "equation-linear",
+      "variant": 1
+    },
+    "status": "inherited_seed_text_collision_not_a_semantic_deduplication_verdict"
+  },
+  {
+    "first_id": "math-g1-linear-equations-001:q8",
+    "second_id": "math-g1-linear-equations-001:q9",
+    "new_expansion_involved": false,
+    "generator_first": {
+      "kind": "equation-both",
+      "variant": 0
+    },
+    "generator_second": {
+      "kind": "equation-both",
+      "variant": 1
+    },
+    "status": "inherited_seed_text_collision_not_a_semantic_deduplication_verdict"
+  },
+  {
+    "first_id": "math-g1-proportion-001:q5",
+    "second_id": "math-g1-proportion-001:q6",
+    "new_expansion_involved": false,
+    "generator_first": {
+      "kind": "proportion-value",
+      "variant": 0
+    },
+    "generator_second": {
+      "kind": "proportion-value",
+      "variant": 1
+    },
+    "status": "inherited_seed_text_collision_not_a_semantic_deduplication_verdict"
+  },
+  {
+    "first_id": "math-g1-proportion-001:q7",
+    "second_id": "math-g1-proportion-001:q8",
+    "new_expansion_involved": false,
+    "generator_first": {
+      "kind": "proportion-rate",
+      "variant": 0
+    },
+    "generator_second": {
+      "kind": "proportion-rate",
+      "variant": 1
+    },
+    "status": "inherited_seed_text_collision_not_a_semantic_deduplication_verdict"
+  },
+  {
+    "first_id": "math-g1-proportion-001:q9",
+    "second_id": "math-g1-proportion-001:q10",
+    "new_expansion_involved": false,
+    "generator_first": {
+      "kind": "inverse-value",
+      "variant": 0
+    },
+    "generator_second": {
+      "kind": "inverse-value",
+      "variant": 1
+    },
+    "status": "inherited_seed_text_collision_not_a_semantic_deduplication_verdict"
+  }
+]
