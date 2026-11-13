@@ -1,0 +1,14 @@
+.exam-controls,.exam-start{display:flex;flex-wrap:wrap;align-items:end;gap:.6rem;margin:1rem 0}
+.exam-controls label{display:grid;gap:.2rem}
+.exam-controls select,.exam-controls input{padding:.55rem;border:1px solid #819789;border-radius:.55rem;background:white;color:#183e30;font:inherit}
+.exam-controls form{display:flex;gap:.4rem;align-items:end}
+.exam-start{align-items:center;background:#e7f1e7;padding:.7rem;border-radius:.65rem}
+.exam-start strong{margin-right:auto}
+.exam-chapter{margin:.8rem 0}
+.exam-chapter h2{margin-top:0;font-size:1.15rem}
+.exam-section{display:grid;grid-template-columns:auto 1fr auto;gap:.7rem;align-items:center;padding:.6rem 0;border-top:1px solid #dce7de;cursor:pointer}
+.exam-section input{width:1.15rem;height:1.15rem;accent-color:#236849}
+.exam-section small{white-space:nowrap}
+.exam-results{border-top:1px solid #dce7de;margin:1rem auto;padding:.5rem;text-align:left;max-width:38rem}
+.exam-results p{display:flex;gap:.6rem;justify-content:space-between}
+.exam-results b{white-space:nowrap}

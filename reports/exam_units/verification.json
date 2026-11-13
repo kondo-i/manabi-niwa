@@ -1,0 +1,13 @@
+{
+  "sections": 236,
+  "min": 20,
+  "uniqueQuestions": 6463,
+  "scoringChecks": 12926,
+  "preservedLegacyQuestions": 4323,
+  "importedJapaneseExact": 1040,
+  "mixedElectricitySections": 5,
+  "allSectionsSampledAt": [
+    5,
+    20
+  ]
+}
