@@ -1,0 +1,43 @@
+{
+  "regular_units": 341,
+  "exam_sections": 270,
+  "unique_questions": 8698,
+  "new_questions": 2235,
+  "exam_questions": 6918,
+  "min_regular": 25,
+  "min_exam": 25,
+  "by_exam_grade_subject": {
+    "english_g1": 20,
+    "english_g2": 13,
+    "english_g3": 13,
+    "japanese_g1": 25,
+    "japanese_g2": 39,
+    "japanese_g3": 11,
+    "math_g1": 18,
+    "math_g2": 13,
+    "math_g3": 15,
+    "science_g1": 23,
+    "science_g2": 18,
+    "science_g3": 20,
+    "social_g1": 16,
+    "social_g2": 17,
+    "social_g3": 9
+  },
+  "by_regular_grade_subject": {
+    "english_g1": 28,
+    "english_g2": 15,
+    "english_g3": 17,
+    "japanese_g1": 28,
+    "japanese_g2": 41,
+    "japanese_g3": 12,
+    "math_g1": 31,
+    "math_g2": 15,
+    "math_g3": 17,
+    "science_g1": 36,
+    "science_g2": 24,
+    "science_g3": 23,
+    "social_g1": 21,
+    "social_g2": 19,
+    "social_g3": 14
+  }
+}

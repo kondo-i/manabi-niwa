@@ -4,9 +4,9 @@ from fractions import Fraction
 from unit20.common import choice, number
 
 
-def math_items(key):
+def math_items(key, count=20):
     items = []
-    for i in range(20):
+    for i in range(count):
         a, b = i % 5 + 2, i // 5 + 3
         x, y = i + 2, i % 7 + 1
         if key == 'sector':
@@ -71,7 +71,7 @@ def math_items(key):
     return items
 
 
-def english_items(key):
+def english_items(key, count=20):
     acts = [('the library','study'),('the pool','swim'),('the gym','practice'),('the station','meet my friend'),
             ('the shop','buy milk'),('the park','take pictures'),('the museum','see the paintings'),
             ('the kitchen','make lunch'),('the beach','watch the sunset'),('the bookstore','look for a dictionary')]
@@ -79,61 +79,67 @@ def english_items(key):
              ('video','watch'),('puzzle','solve'),('gift','send'),('room','clean'),('game','play')]
     people = ['Aki','Mika','Hana','Yuta','Ken','Nana','Ryo','Mei','Sora','Rio']
     out = []
-    for i in range(20):
+    for i in range(count):
         j=i%10
+        variant=i//10
         if key == 'infinitive-purpose':
             place,v=acts[j]
-            start=f'I went to {place}' if i<10 else f'We will go to {place}'
+            start=f'{["I went", "We will go", "They went", "You can go"][variant]} to {place}'
             out.append(choice(f'{start} (　). 「～するために」を表す語句は？','to '+v,v,'of '+v,
                               '目的を表す不定詞は to＋動詞の原形。「～するために」。'))
         elif key == 'infinitive-noun':
             noun,v=pairs[j]
-            out.append(choice(f'{"I have" if i<10 else "We need"} {"some" if noun=="food" else "a"} {noun} (　). 名詞を「～するための」と説明しよう。',
+            out.append(choice(f'{["I have", "We need", "She has", "They need"][variant]} {"some" if noun=="food" else "a"} {noun} (　). 名詞を「～するための」と説明しよう。',
                               'to '+v,v,'will '+v,'名詞の直後の to＋動詞の原形が、その名詞を説明する。'))
         elif key == 'comparison':
-            if i<10:
-                out.append(choice(f'{people[j]} is (　) of the three. 「3人の中で最も背が高い」', 'the tallest','taller','as tall',
+            if variant in (0,2):
+                context='the three' if variant==0 else 'all the students'
+                out.append(choice(f'{people[j]} is (　) of {context}. 「3人の中で最も背が高い」', 'the tallest','taller','as tall',
                                   '三者以上の中で最も～は the＋最上級で表す。'))
             else:
-                out.append(choice(f'{people[j]} is as (　) as {people[(j+1)%10]}. 「同じくらい背が高い」','tall','taller','tallest',
+                out.append(choice(f'{people[j]} is as (　) as {people[(j+variant)%10]}. 「同じくらい背が高い」','tall','taller','tallest',
                                   'as ～ as の間に形容詞の原級を置く。'))
         elif key == 'perfect-experience':
             destinations = ['Kyoto','Nara','Osaka','Hokkaido','Okinawa','Tokyo','Kobe','Sendai','Nagoya','Hiroshima']
             place = destinations[j]
-            if i<10:
-                out.append(choice(f'Have you (　) visited {place}? 「これまでに訪れたことがありますか」',
+            if variant in (0,2):
+                pronoun='you' if variant==0 else 'they'
+                out.append(choice(f'Have {pronoun} (　) visited {place}? 「これまでに訪れたことがありますか」',
                                   'ever','since','ago','経験を尋ねる疑問文では ever が「これまでに」を表す。'))
             else:
-                out.append(choice(f'{people[j]} has (　) to {place} twice. 「2回行ったことがある」',
+                out.append(choice(f'{people[j]} has (　) to {place} {'twice' if variant==1 else 'three times'}. 「{2 if variant==1 else 3}回行ったことがある」',
                                   'been','go','going','have been to＋場所で「行ったことがある」。'))
         elif key == 'perfect-duration':
             if i<10:
                 out.append(choice(f'{people[j]} has lived here (　) {j+2} years. 「{j+2}年間ずっと住んでいる」',
                                   'for','since','ago','期間を表す「～年間」には for を使う。'))
             else:
-                out.append(choice(f'{people[j]} has lived here (　) {2010+j}. 「{2010+j}年からずっと住んでいる」',
+                out.append(choice(f'{people[j]} has lived here (　) {2010+i-10}. 「{2010+i-10}年からずっと住んでいる」',
                                   'since','for','ago','継続の起点を示す「～から」には since を使う。'))
         elif key == 'perfect-result':
-            if i<10:
-                out.append(choice(f'{people[j]} has (　) finished the task. 「もう課題を終えた」',
+            if variant in (0,2):
+                task='task' if variant==0 else 'report'
+                out.append(choice(f'{people[j]} has (　) finished the {task}. 「もう課題を終えた」',
                                   'already','yet','since','肯定文の already は「もう、すでに」を表す。'))
             else:
-                out.append(choice(f'{people[j]} has not finished the work (　). 「まだその作業を終えていない」',
+                task='work' if variant==1 else 'project'
+                out.append(choice(f'{people[j]} has not finished the {task} (　). 「まだその作業を終えていない」',
                                   'yet','since','ago','否定文で「まだ」は文末の yet で表す。'))
         elif key == 'relative-object':
             noun,v=pairs[j]
-            relative=f'the {noun} that I {v}' if i<10 else f'the {noun} that we can {v}'
+            pronoun=['I','we','you','they'][variant]
+            relative=f'the {noun} that {pronoun} {"can " if variant%2 else ""}{v}'
             out.append(choice(f'「{relative}」で、that が後ろの節の中で果たす役割は？',
                               f'{v} の目的語','後ろの節の主語','動作が行われる場所を表す副詞',
-                              f'後ろの節の主語は {"I" if i<10 else "we"}。先行詞 {noun} は {v} の対象に当たる。'))
+                              f'後ろの節の主語は {pronoun}。先行詞 {noun} は {v} の対象に当たる。'))
         else:
             return []
     return out
 
 
-def science_items(key):
+def science_items(key, count=20):
     out=[]
-    for i in range(20):
+    for i in range(count):
         a,b=i+3,i%5+2
         if key=='balance':
             out.append(number(f'机に置いた物体に鉛直下向きに{a} Nの重力が働く。物体は静止し、ほかに働くのは机からの垂直抗力だけ。この力は何N？',a,

@@ -115,7 +115,7 @@ def generate(unit, i):
             'future':(v,vs,vi,f'{who} is going to {blank} {obj} tomorrow.','be going to の後ろは動詞の原形です。'),
             'imperative':(v.capitalize(),vs.capitalize(),vi.capitalize(),f'「{action}」という指示を英語で表そう。{blank} {obj}, {who}.','肯定の命令文は動詞の原形で始めます。'),
             'gerund':(vi,v,'to '+v,f'{who} finished {blank} {obj}.','finish の後ろに動作を続けるときは動名詞を使います。'),
-            'infinitive':('to '+v,v,vp,f'{who} decided {blank} {obj}.','decide to＋動詞の原形で「～することに決める」です。'),
+            'infinitive':('to '+v,v,vp if vp != v else vi,f'{who} decided {blank} {obj}.','decide to＋動詞の原形で「～することに決める」です。'),
             'participle':(vi,v,vs,f'The person {blank} {obj} is {who}. 「～している人」を表そう。','現在分詞が後ろから person を修飾します。'),
         }[key]
         return choice(p,a,b,c,e)
