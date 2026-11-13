@@ -1,0 +1,30 @@
+{
+  "units": 201,
+  "total": 4323,
+  "added": 1967,
+  "minimum": 20,
+  "maximum": 30,
+  "by_subject_grade": {
+    "science_g2": 210,
+    "science_g1": 720,
+    "math_g1": 570,
+    "english_g1": 560,
+    "social_g1": 240,
+    "japanese_g1": 280,
+    "social_g2": 120,
+    "social_g3": 180,
+    "japanese_g2": 160,
+    "japanese_g3": 80,
+    "english_g3": 240,
+    "english_g2": 240,
+    "math_g2": 250,
+    "math_g3": 263,
+    "science_g3": 210
+  },
+  "new_types": {
+    "number": 556,
+    "choice": 1249,
+    "text": 162
+  },
+  "added_audio": 45
+}

@@ -1,0 +1,14 @@
+{
+  "units": 201,
+  "questions": 4323,
+  "added": 1967,
+  "minimum": 20,
+  "maximum": 30,
+  "five_question_sampling_units": 201,
+  "unseen_priority_units": 201,
+  "twenty_question_sampling_units": 201,
+  "scoring_cases": 8646,
+  "embedded_audio_files": 60,
+  "added_normalized_exact_prompt_duplicates": 0,
+  "existing_question_packs_byte_identical": true
+}
