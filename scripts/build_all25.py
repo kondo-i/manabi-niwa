@@ -19,6 +19,36 @@ DATA = ROOT / 'data/all25'
 MINIMUM = 25
 
 
+def add_reviewed_material(dist, catalog, bank, existing, sections):
+    """Add bounded, source-reviewed supplements; keep original item IDs intact."""
+    materials = [
+        ('math_primes.json', 'repair-math-g1-primes', 1, 'math',
+         '数と式', '素数と素因数分解'),
+        ('english_obligation.json', 'repair-english-g2-obligation', 2, 'english',
+         '助動詞', '義務・禁止・不必要の使い分け'),
+        ('science_material.json', 'repair-science-g3-data', 3, 'science',
+         '実験・資料読解', '中3理科の実験・資料読解'),
+    ]
+    descriptions = {
+        'repair-math-g1-primes': '素数の意味、素因数分解の手順、誤りの直し方と活用を練習する25問。',
+        'repair-english-g2-obligation': 'must・have toの義務と、禁止・不必要を場面や案内から読み分ける25問。',
+        'repair-science-g3-data': '学習用に作成した記録表・グラフ・模型から、条件と理由を考える25問。',
+    }
+    for filename, uid, grade, subject, chapter, title in materials:
+        questions = read_json(ROOT / 'data/coverage_repair' / filename)
+        assert len(questions) >= MINIMUM, filename
+        assert all(q['unitId'] == uid and q['grade'] == grade and
+                   q['subject'] == subject for q in questions), filename
+        assert len({prompt_key(q['prompt']) for q in questions}) == len(questions), filename
+        ids = add_unit(dist, catalog, bank, uid, grade, subject, title, questions, descriptions[uid])
+        existing[uid] = [bank[qid] for qid in ids]
+        sections.append(section(uid, grade, subject, chapter, title, ids, [uid], 'reviewed-supplement'))
+    for source in (ROOT / 'data/coverage_repair').glob('*.svg'):
+        target = dist / 'data/figures' / source.name
+        target.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copyfile(source, target)
+
+
 def groups(file):
     result = defaultdict(list)
     for line in (DATA / file).read_text(encoding='utf-8').splitlines():
@@ -159,6 +189,10 @@ def update_interface(dist, sections, total, prompt_aliases, practice_ids):
                       "(query||selectedTopic||selectedUnit)?'条件に合う単元がありません':'この組み合わせの単元が見つかりません'")
     js = js.replace('href="?unit=', 'href="?page=subjects&unit=')
     js = js.replace('href="?topic=', 'href="?page=subjects&topic=')
+    js = replace_once(js, '<button class="primary" data-action="finish">ホームに戻る →</button></section>',
+        '${s.score<s.ids.length?\'<p>間違えた問題は「もう一度」に保存されます。解説を読んで、明日また練習しよう。</p><button class="secondary" data-page="review">間違えた問題を復習する →</button>\':\'\'}'
+        '<button class="primary" data-action="finish">ホームに戻る →</button></section>')
+    js += '\n' + (ROOT / 'scripts/coverage_repair/figure_zoom.js').read_text(encoding='utf-8')
     app.write_text(js, encoding='utf-8')
     index = dist/'index.html'
     html = index.read_text()
@@ -238,6 +272,7 @@ def main():
         ids = add_unit(dist, catalog, bank, uid, int(grade), subject, title, items, chapter)
         sections.append(section(uid, int(grade), subject, chapter, title, ids, [uid], 'new'))
         existing[uid] = [bank[qid] for qid in ids]
+    add_reviewed_material(dist, catalog, bank, existing, sections)
     unit_counts = {u['id']:len(existing[u['id']]) for u in catalog['units']}
     assert min(len({prompt_key(q['prompt']) for q in existing[u['id']]}) for u in catalog['units']) >= MINIMUM
     assert all(len({prompt_key(bank[qid]['prompt']) for qid in s['ids']}) >= MINIMUM for s in sections)

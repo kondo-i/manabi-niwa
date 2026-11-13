@@ -1,0 +1,456 @@
+[
+  {
+    "id": "CR-SCI3-001",
+    "unitId": "repair-science-g3-data",
+    "sourceUnit": "all25-motion-data",
+    "grade": 3,
+    "subject": "science",
+    "type": "choice",
+    "prompt": "【運動の記録】一直線を同じ向きに進む台車の位置を測った。\n時刻(s)：0／1／2／3\n位置(cm)：0／10／30／60\n1秒から2秒までの平均の速さは？",
+    "choices": [
+      "10 cm/s",
+      "20 cm/s",
+      "30 cm/s"
+    ],
+    "answer": 1,
+    "explanation": "速さには位置の差を使う。1〜2秒の移動距離は30−10＝20 cm、時間は1秒なので20 cm/s。30 cmは出発点からの位置であり、この区間だけの距離ではない。",
+    "skill": "位置の差と区間平均",
+    "source": "https://www.dainippon-tosho.co.jp/science/files/r7_science_HK3.pdf"
+  },
+  {
+    "id": "CR-SCI3-002",
+    "unitId": "repair-science-g3-data",
+    "sourceUnit": "all25-motion-data",
+    "grade": 3,
+    "subject": "science",
+    "type": "choice",
+    "prompt": "【記録タイマー】1秒間に50回打点する装置のテープを、5打点間隔ずつ（6個の点を含む区間）に区切った。各区間の長さは順に2 cm、4 cm、6 cmだった。各区間の平均の速さの変化として正しいものは？",
+    "choices": [
+      "後の区間ほど平均の速さが大きい",
+      "後の区間ほど平均の速さが小さい",
+      "区間が長いほどかかった時間も長い"
+    ],
+    "answer": 0,
+    "explanation": "5打点間隔は5÷50＝0.1秒。すべて同じ時間なので、区間の平均の速さは20、40、60 cm/sと増える。点の個数と間隔の個数を区別して数え直そう。",
+    "skill": "打点間隔・等時間の比較",
+    "source": "https://www.dainippon-tosho.co.jp/science/files/r7_science_HK3.pdf"
+  },
+  {
+    "id": "CR-SCI3-003",
+    "unitId": "repair-science-g3-data",
+    "sourceUnit": "all25-motion-data",
+    "grade": 3,
+    "subject": "science",
+    "type": "choice",
+    "prompt": "【距離と時間】直線上を一定の速さで進むAとBを同時に出発させた。\n経過時間(s)：0／2／4\nAの移動距離(m)：0／3／6\nBの移動距離(m)：0／2／4\n時間を横軸、移動距離を縦軸にしたグラフはどうなる？",
+    "choices": [
+      "Bの直線の方が傾きが大きい",
+      "AもBも同じ傾きの直線になる",
+      "Aの直線の方が傾きが大きい"
+    ],
+    "answer": 2,
+    "explanation": "距離と時間のグラフの傾きは速さを表す。Aは6÷4＝1.5 m/s、Bは4÷4＝1 m/s。まず同じ時間に進む距離を比べよう。",
+    "skill": "距離時間グラフの傾き",
+    "source": "https://www.dainippon-tosho.co.jp/science/files/r7_science_HK3.pdf",
+    "figure": {
+      "src": "data/figures/motion-distance.svg",
+      "alt": "時間を横軸、移動距離を縦軸にしたグラフ。Aは(0秒,0 m)・(2秒,3 m)・(4秒,6 m)を通る実線、Bは(0秒,0 m)・(2秒,2 m)・(4秒,4 m)を通る破線。"
+    }
+  },
+  {
+    "id": "CR-SCI3-004",
+    "unitId": "repair-science-g3-data",
+    "sourceUnit": "all25-motion-data",
+    "grade": 3,
+    "subject": "science",
+    "type": "choice",
+    "prompt": "【力と運動】水平な一直線上を右に進む台車を0.2秒ごとに撮影した。連続する位置の間隔がすべて8 cmで、この間ずっと等速直線運動をしていた。水平方向の力について正しい説明は？",
+    "choices": [
+      "右向きの合力が常に働いている",
+      "水平方向の合力は0である",
+      "左向きの合力が常に働いている"
+    ],
+    "answer": 1,
+    "explanation": "等速直線運動中は水平方向の合力が0。動いているから進行方向に合力があるとは限らない。抵抗と引く力がつり合う場合も含め、個々の力と合力を区別しよう。",
+    "skill": "等速直線運動と合力",
+    "source": "https://www.dainippon-tosho.co.jp/science/files/r7_science_HK3.pdf"
+  },
+  {
+    "id": "CR-SCI3-005",
+    "unitId": "repair-science-g3-data",
+    "sourceUnit": "all25-motion-data",
+    "grade": 3,
+    "subject": "science",
+    "type": "choice",
+    "prompt": "【移動の記録】生徒が家から図書館へ一直線に進んだ。\n最初の3分：180 m進む\n次の2分：その場で休む\n最後の5分：420 m進む\n休んだ時間も含む全行程の平均の速さは？",
+    "choices": [
+      "60 m/分",
+      "75 m/分",
+      "84 m/分"
+    ],
+    "answer": 0,
+    "explanation": "全移動距離は180＋420＝600 m、全時間は3＋2＋5＝10分。600÷10＝60 m/分。休んだ時間を除くと別の平均になるので、問われた時間の範囲を先に確認しよう。",
+    "skill": "停止時間を含む平均",
+    "source": "https://www.dainippon-tosho.co.jp/science/files/r7_science_HK3.pdf"
+  },
+  {
+    "id": "CR-SCI3-006",
+    "unitId": "repair-science-g3-data",
+    "sourceUnit": "all25-power",
+    "grade": 3,
+    "subject": "science",
+    "type": "choice",
+    "prompt": "【仕事率の比較】同じ重さの荷物を同じ高さまで一定の速さで持ち上げた。\nA：仕事120 J、時間4秒\nB：仕事120 J、時間6秒\nAとBの仕事率について正しいものは？",
+    "choices": [
+      "Aは20 W、Bは30 W",
+      "AもBも120 W",
+      "Aは30 W、Bは20 W"
+    ],
+    "answer": 2,
+    "explanation": "仕事率は仕事÷時間。Aは120÷4＝30 W、Bは120÷6＝20 W。同じ仕事でも、短い時間で行う方が仕事率は大きい。JとWを区別しよう。",
+    "skill": "同じ仕事と仕事率",
+    "source": "https://www.dainippon-tosho.co.jp/science/files/r7_science_HK3.pdf"
+  },
+  {
+    "id": "CR-SCI3-007",
+    "unitId": "repair-science-g3-data",
+    "sourceUnit": "all25-power",
+    "grade": 3,
+    "subject": "science",
+    "type": "choice",
+    "prompt": "【動滑車の測定】重さ10 Nの荷物を一定の速さで0.5 m上げた。ひもを引く力は一定で6 N、引いた距離は1 mだった。滑車自身の重さは無視でき、仕事の差は摩擦で熱になったとする。熱に移ったエネルギーは？",
+    "choices": [
+      "0 J",
+      "1 J",
+      "5 J"
+    ],
+    "answer": 1,
+    "explanation": "入力の仕事は6×1＝6 J、荷物を上げる仕事は10×0.5＝5 J。差の1 Jが摩擦によって熱に移る。まず入力側と荷物側の力・距離を別々に組み合わせよう。",
+    "skill": "摩擦のある道具の入力と出力",
+    "source": "https://www.dainippon-tosho.co.jp/science/files/r7_science_HK3.pdf"
+  },
+  {
+    "id": "CR-SCI3-008",
+    "unitId": "repair-science-g3-data",
+    "sourceUnit": "all25-power",
+    "grade": 3,
+    "subject": "science",
+    "type": "choice",
+    "prompt": "【力の向き】水平な床の上で荷物を右へ2 m動かした。手は荷物を鉛直上向きに20 Nで支え続け、荷物の高さは変わらなかった。この上向きの力が荷物にした仕事は？",
+    "choices": [
+      "0 J",
+      "10 J",
+      "40 J"
+    ],
+    "answer": 0,
+    "explanation": "力の向きに移動していないため、この上向きの力の仕事は0 J。20×2と計算する前に、力と移動の向きが同じか確認しよう。水平方向に加えた別の力の仕事とは区別する。",
+    "skill": "仕事をする力の方向",
+    "source": "https://www.dainippon-tosho.co.jp/science/files/r7_science_HK3.pdf"
+  },
+  {
+    "id": "CR-SCI3-009",
+    "unitId": "repair-science-g3-data",
+    "sourceUnit": "all25-power",
+    "grade": 3,
+    "subject": "science",
+    "type": "choice",
+    "prompt": "【作業の記録】モーターが荷物を上げた。\n最初の2秒間にした仕事：60 J\n次の4秒間にした仕事：60 J\nこの6秒間全体の平均の仕事率は？",
+    "choices": [
+      "15 W",
+      "22.5 W",
+      "20 W"
+    ],
+    "answer": 2,
+    "explanation": "全仕事は120 J、全時間は6秒なので120÷6＝20 W。各区間の仕事率30 Wと15 Wの単純平均は、区間の時間が違うので使えない。",
+    "skill": "平均仕事率と区間時間",
+    "source": "https://www.dainippon-tosho.co.jp/science/files/r7_science_HK3.pdf"
+  },
+  {
+    "id": "CR-SCI3-010",
+    "unitId": "repair-science-g3-data",
+    "sourceUnit": "all25-power",
+    "grade": 3,
+    "subject": "science",
+    "type": "choice",
+    "prompt": "【仕事の原理】摩擦も道具の重さも無視でき、変形しない道具で、重さ12 Nの荷物を一定の速さで1 m上げる。一定の力でひもを引くとき、実現できる力と距離の組は？",
+    "choices": [
+      "4 Nで2 m引く",
+      "4 Nで3 m引く",
+      "6 Nで3 m引く"
+    ],
+    "answer": 1,
+    "explanation": "必要な仕事は12×1＝12 J。4×3＝12 Jとなる組が正しい。4×2は8 J、6×3は18 Jで、指定された損失のない条件と合わない。力を小さくすると引く距離が長くなる。",
+    "skill": "道具の力と距離の交換",
+    "source": "https://www.dainippon-tosho.co.jp/science/files/r7_science_HK3.pdf"
+  },
+  {
+    "id": "CR-SCI3-011",
+    "unitId": "repair-science-g3-data",
+    "sourceUnit": "all25-mechanical",
+    "grade": 3,
+    "subject": "science",
+    "type": "choice",
+    "prompt": "【エネルギー表】摩擦・空気抵抗がないコースを進む小球について、同じ基準面からの位置エネルギーを記録した。\n地点A：位置30 J、運動0 J\n地点B：位置18 J、運動12 J\n地点C：位置5 J、運動□ J\n地点Cの運動エネルギーは？",
+    "choices": [
+      "25 J",
+      "13 J",
+      "35 J"
+    ],
+    "answer": 0,
+    "explanation": "AとBの位置＋運動の合計はいずれも30 J。Cも5＋運動＝30なので25 J。位置の減少分と運動の増加分を対応させよう。",
+    "skill": "表から力学的エネルギー保存",
+    "source": "https://www.dainippon-tosho.co.jp/science/files/r7_science_HK3.pdf"
+  },
+  {
+    "id": "CR-SCI3-012",
+    "unitId": "repair-science-g3-data",
+    "sourceUnit": "all25-mechanical",
+    "grade": 3,
+    "subject": "science",
+    "type": "choice",
+    "prompt": "【摩擦のあるコース】小球を静かに放した。基準面は一定とする。\n出発時：位置40 J、運動0 J\n途中：位置10 J、運動24 J\n減った力学的エネルギーはすべて摩擦による熱に移った。この間に熱に移ったエネルギーは？",
+    "choices": [
+      "16 J",
+      "30 J",
+      "6 J"
+    ],
+    "answer": 2,
+    "explanation": "最初の力学的エネルギーは40 J、途中は10＋24＝34 J。40−34＝6 Jが熱に移った。運動エネルギーだけを40 Jから引かず、途中の位置エネルギーも足そう。",
+    "skill": "保存量と熱への移り変わり",
+    "source": "https://www.dainippon-tosho.co.jp/science/files/r7_science_HK3.pdf"
+  },
+  {
+    "id": "CR-SCI3-013",
+    "unitId": "repair-science-g3-data",
+    "sourceUnit": "all25-mechanical",
+    "grade": 3,
+    "subject": "science",
+    "type": "choice",
+    "prompt": "【位置エネルギーの比較】同じ場所で、同じ床を基準面として物体を置いた。\nA：質量100 g、高さ20 cm\nB：質量200 g、高さ10 cm\nAとBの位置エネルギーを比べると？",
+    "choices": [
+      "Aの方が大きい",
+      "AとBは等しい",
+      "Bの方が大きい"
+    ],
+    "answer": 1,
+    "explanation": "位置エネルギーは質量と高さの積に比例する。100×20＝200×10なので等しい。質量か高さの一方だけで判断せず、両方を確認しよう。",
+    "skill": "質量と高さの統合比較",
+    "source": "https://www.dainippon-tosho.co.jp/science/files/r7_science_HK3.pdf"
+  },
+  {
+    "id": "CR-SCI3-014",
+    "unitId": "repair-science-g3-data",
+    "sourceUnit": "all25-mechanical",
+    "grade": 3,
+    "subject": "science",
+    "type": "choice",
+    "prompt": "【斜面の比較実験】同じ小球を同じ高さから静かに放し、形の異なる斜面A、Bで同じ高さの最下点まで下らせる。摩擦・空気抵抗・小球の回転の影響は無視する。最下点の速さについて正しい予想は？",
+    "choices": [
+      "AとBで等しい",
+      "距離の長い斜面の方が必ず速い",
+      "傾きの急な斜面の方が必ず速い"
+    ],
+    "answer": 0,
+    "explanation": "失う位置エネルギーが同じで、すべて運動エネルギーになる。小球の質量も同じなので最下点の速さは等しい。道の長さや途中の速さと、同じ高さでの速さを区別しよう。",
+    "skill": "道筋によらないエネルギー変換",
+    "source": "https://www.dainippon-tosho.co.jp/science/files/r7_science_HK3.pdf"
+  },
+  {
+    "id": "CR-SCI3-015",
+    "unitId": "repair-science-g3-data",
+    "sourceUnit": "all25-mechanical",
+    "grade": 3,
+    "subject": "science",
+    "type": "choice",
+    "prompt": "【運動エネルギーの実験】同じ小球を水平に木片へ当て、木片の移動距離を測った。他の条件はそろえ、各値は繰り返し測定の平均とする。\n衝突直前の速さ(m/s)：1／2／3\n木片の移動距離(cm)：2／8／18\nこの資料が示す関係として適切なのは？",
+    "choices": [
+      "速さを2倍にすると移動距離も2倍",
+      "速さが増すほど移動距離が短くなる",
+      "1 m/sから2 m/sにすると、移動距離は4倍"
+    ],
+    "answer": 2,
+    "explanation": "1 m/sから2 m/sにすると、木片の移動距離は2 cmから8 cmへ4倍になる。同じ小球では速さが大きいほど仕事をする能力が大きい。速さと距離をそれぞれ何倍か比べよう。",
+    "skill": "実験値と速さの関係",
+    "source": "https://www.dainippon-tosho.co.jp/science/files/r7_science_HK3.pdf"
+  },
+  {
+    "id": "CR-SCI3-016",
+    "unitId": "repair-science-g3-data",
+    "sourceUnit": "all25-electrolysis",
+    "grade": 3,
+    "subject": "science",
+    "type": "choice",
+    "prompt": "【水溶液の比較】同じ電圧・同じ電極・同じ液量で調べた。電極は測定ごとに洗った。\n蒸留水：電流はほぼ流れない\n砂糖水：電流はほぼ流れない\n食塩水：電流が流れる\nこの結果と合う説明は？",
+    "choices": [
+      "水に溶ける物質はすべて電離する",
+      "食塩水中には電流を運ぶイオンがある",
+      "砂糖水には水の分子が含まれない"
+    ],
+    "answer": 1,
+    "explanation": "食塩は水中でナトリウムイオンと塩化物イオンに分かれる。砂糖は溶けてもイオンに分かれない。溶けることと電離することを区別し、比較条件をそろえた表を読み直そう。",
+    "skill": "対照実験と電解質",
+    "source": "https://www.dainippon-tosho.co.jp/science/files/r7_science_HK3.pdf"
+  },
+  {
+    "id": "CR-SCI3-017",
+    "unitId": "repair-science-g3-data",
+    "sourceUnit": "all25-electrolysis",
+    "grade": 3,
+    "subject": "science",
+    "type": "choice",
+    "prompt": "【塩化銅水溶液の電気分解】炭素電極Pは電源のマイナス極、Qはプラス極につないだ。Pには赤褐色の固体が付着し、Qから気体が出た。Pで起きた変化は？",
+    "choices": [
+      "銅イオンが電子を受け取って銅になった",
+      "銅原子が電子を失って銅イオンになった",
+      "塩化物イオンが電子を受け取って銅になった"
+    ],
+    "answer": 0,
+    "explanation": "マイナス極につながる陰極Pでは銅イオンが電子を受け取り銅になる。Cu²⁺＋2e⁻→Cu。電極の接続先、移動するイオン、できた物質の順に確認しよう。",
+    "skill": "観察と陰極のモデル",
+    "source": "https://www.dainippon-tosho.co.jp/science/files/r7_science_HK3.pdf"
+  },
+  {
+    "id": "CR-SCI3-018",
+    "unitId": "repair-science-g3-data",
+    "sourceUnit": "all25-electrolysis",
+    "grade": 3,
+    "subject": "science",
+    "type": "choice",
+    "prompt": "【色の変化】青色の塩化銅水溶液を、炭素電極で電気分解した。液量はほぼ一定で、陰極に銅が付着し、水溶液の青色が薄くなった。色の変化の主な理由は？",
+    "choices": [
+      "水中の銅イオンが増えたため",
+      "すべての水分子がなくなったため",
+      "水中の銅イオンが減ったため"
+    ],
+    "answer": 2,
+    "explanation": "青色に関係する銅イオンが陰極で銅に変わって減るため、色が薄くなる。銅の付着と溶液の色を一つの変化として結び付けよう。無色になっただけで全イオンが消えたとはいえない。",
+    "skill": "色の変化とイオンの減少",
+    "source": "https://www.dainippon-tosho.co.jp/science/files/r7_science_HK3.pdf"
+  },
+  {
+    "id": "CR-SCI3-019",
+    "unitId": "repair-science-g3-data",
+    "sourceUnit": "all25-electrolysis",
+    "grade": 3,
+    "subject": "science",
+    "type": "choice",
+    "prompt": "【水の電気分解の資料】少量の水酸化ナトリウムを溶かした水を電気分解し、同じ温度・圧力で気体を集めた。\n陰極側：20 mL\n陽極側：10 mL\n空気の混入や気体の溶解は無視する。陽極側の気体の性質は？",
+    "choices": [
+      "火を近づけると音を立てて燃える",
+      "火の消えかかった線香を入れると激しく燃える",
+      "石灰水に通すと白くにごる"
+    ],
+    "answer": 1,
+    "explanation": "水の電気分解では陰極に水素、陽極に酸素が生じ、体積比は2：1。陽極の酸素には燃焼を助ける性質がある。体積比だけでなく電極の極性と確認法を組み合わせて復習しよう。",
+    "skill": "気体の量・極性・確認法",
+    "source": "https://www.dainippon-tosho.co.jp/science/files/r7_science_HK3.pdf"
+  },
+  {
+    "id": "CR-SCI3-020",
+    "unitId": "repair-science-g3-data",
+    "sourceUnit": "all25-electrolysis",
+    "grade": 3,
+    "subject": "science",
+    "type": "choice",
+    "prompt": "【極性を反対にする】塩化銅水溶液中の炭素電極P、Qを電源につなぐ。はじめはPがマイナス、Qがプラスだった。電源を切り、新しい炭素電極に取り替えて、接続をPがプラス、Qがマイナスに逆転した。再び電流を流すと、銅イオンが引き寄せられるのは？",
+    "choices": [
+      "マイナス極につながったQ",
+      "プラス極につながったP",
+      "電極の極性によらず、その場にとどまる"
+    ],
+    "answer": 0,
+    "explanation": "銅イオンCu²⁺は正の電気を帯びるため、マイナス極につながるQへ引き寄せられる。P・Qという名前ではなく、現在の接続先で陰極を判断しよう。新しい電極を使うので以前の付着物の変化は考えない。",
+    "skill": "極性とイオンの移動",
+    "source": "https://www.dainippon-tosho.co.jp/science/files/r7_science_HK3.pdf"
+  },
+  {
+    "id": "CR-SCI3-021",
+    "unitId": "repair-science-g3-data",
+    "sourceUnit": "all25-solar-system",
+    "grade": 3,
+    "subject": "science",
+    "type": "choice",
+    "prompt": "【金星の観察記録】同じ倍率で、異なる日に金星を撮影した。\nA：見かけの直径20秒角、明るい部分は円の約5分の3\nB：見かけの直径40秒角、明るい部分は円の約4分の1\n金星そのものの直径は一定とする。この資料から分かることは？",
+    "choices": [
+      "Aのときの方が地球に近い",
+      "Bのときの方が地球に近い",
+      "明るい部分の割合だけで直径が変わる"
+    ],
+    "answer": 1,
+    "explanation": "同じ天体の見かけの直径が大きいBの方が地球に近い。光って見える割合と見かけの直径は別の量。明るい面積だけで判断せず、直径の欄を確認しよう。",
+    "skill": "金星の見かけの大きさと距離",
+    "source": "https://www.dainippon-tosho.co.jp/science/files/r7_science_HK3.pdf"
+  },
+  {
+    "id": "CR-SCI3-022",
+    "unitId": "repair-science-g3-data",
+    "sourceUnit": "all25-solar-system",
+    "grade": 3,
+    "subject": "science",
+    "type": "choice",
+    "prompt": "【金星の模型】同じ平面上で、太陽を(0,0)、地球を(10,0)、金星を(6,0)に置いた。座標の単位は共通で、大きさは無視する。金星は太陽光を反射する。この配置で地球から主に見える金星の面は？",
+    "choices": [
+      "太陽光を受けた昼の面",
+      "昼と夜がちょうど半分ずつの面",
+      "太陽光を受けない夜の面"
+    ],
+    "answer": 2,
+    "explanation": "並びは太陽→金星→地球。金星の昼の面は太陽側を向き、地球からは主に夜の面を見る。紙に3天体を並べ、太陽側を明るく塗ってから地球の視線を引こう。",
+    "skill": "位置模型と満ち欠け",
+    "source": "https://www.dainippon-tosho.co.jp/science/files/r7_science_HK3.pdf"
+  },
+  {
+    "id": "CR-SCI3-023",
+    "unitId": "repair-science-g3-data",
+    "sourceUnit": "all25-solar-system",
+    "grade": 3,
+    "subject": "science",
+    "type": "choice",
+    "prompt": "【見える時刻】ある日の夕方、日没直後の西の空で、金星が沈んだ太陽より高い位置に見えた。太陽が先に沈み、金星もその後、西へ沈んだ。この日の金星について適切なのは？",
+    "choices": [
+      "太陽より後に沈む金星を見ている",
+      "真夜中に南の空で必ず見える金星を見ている",
+      "日の出より前の東の空で見ている"
+    ],
+    "answer": 0,
+    "explanation": "夕方の西の空で太陽が先に沈み、その上に残った金星は後で沈む。この日の観察時刻と方角を組み合わせよう。金星は太陽から大きく離れて見えないため、真夜中の南の空では見えない。",
+    "skill": "観察時刻と天体の位置",
+    "source": "https://www.dainippon-tosho.co.jp/science/files/r7_science_HK3.pdf"
+  },
+  {
+    "id": "CR-SCI3-024",
+    "unitId": "repair-science-g3-data",
+    "sourceUnit": "all25-solar-system",
+    "grade": 3,
+    "subject": "science",
+    "type": "choice",
+    "prompt": "【太陽系の資料】太陽からの平均距離を、地球の距離を1として示す。\n水星0.39／金星0.72／地球1.00／火星1.52\nこの資料から、金星が内惑星に分類される理由として適切なのは？",
+    "choices": [
+      "地球より直径が小さいから",
+      "地球より内側を公転しているから",
+      "地球より自転が速いから"
+    ],
+    "answer": 1,
+    "explanation": "内惑星は地球より太陽に近い軌道を公転する惑星。0.72＜1.00なので金星は内惑星に当たる。距離の資料から分かることと、直径や自転の資料が必要なことを分けよう。",
+    "skill": "距離資料と分類の根拠",
+    "source": "https://www.dainippon-tosho.co.jp/science/files/r7_science_HK3.pdf"
+  },
+  {
+    "id": "CR-SCI3-025",
+    "unitId": "repair-science-g3-data",
+    "sourceUnit": "all25-solar-system",
+    "grade": 3,
+    "subject": "science",
+    "type": "choice",
+    "prompt": "【恒星と惑星】観察記録と調べた性質を、次のようにまとめた。\n天体A：遠くにあり、自ら光を出している\n天体B：火星。太陽を公転し、主に太陽光を反射して見える\nA、Bの分類として適切なのは？",
+    "choices": [
+      "Aは惑星、Bは恒星",
+      "AもBも恒星",
+      "Aは恒星、Bは惑星"
+    ],
+    "answer": 2,
+    "explanation": "自ら光を出すAは恒星。太陽を公転し反射光で見えるBは惑星。明るさや点に見えるかだけではなく、光の出どころと運動を根拠に分類しよう。",
+    "skill": "観察記録と天体分類",
+    "source": "https://www.dainippon-tosho.co.jp/science/files/r7_science_HK3.pdf"
+  }
+]
