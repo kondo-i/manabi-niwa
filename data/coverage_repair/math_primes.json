@@ -1,0 +1,427 @@
+[
+  {
+    "id": "CR-MATH1-001",
+    "unitId": "repair-math-g1-primes",
+    "grade": 1,
+    "subject": "math",
+    "type": "choice",
+    "prompt": "素数の説明として正しいものを選ぼう。",
+    "choices": [
+      "正の約数の個数が、ちょうど一つである自然数",
+      "正の約数の個数が、ちょうど三つである自然数",
+      "正の約数の個数が、ちょうど二つである自然数"
+    ],
+    "answer": 2,
+    "explanation": "正答は、正の約数が1とその数自身の二つだけである自然数。例えば5の正の約数は1と5だけ。まず約数を小さい順に並べ、個数を確かめよう。",
+    "status": "prototype",
+    "learningContent": "definition"
+  },
+  {
+    "id": "CR-MATH1-002",
+    "unitId": "repair-math-g1-primes",
+    "grade": 1,
+    "subject": "math",
+    "type": "choice",
+    "prompt": "1が素数ではない理由として正しいものを選ぼう。",
+    "choices": [
+      "正の約数が無限にあるから",
+      "正の約数が1の一つだけだから",
+      "正の約数が1と2の二つだから"
+    ],
+    "answer": 1,
+    "explanation": "1の正の約数は1だけ。素数には正の約数が二つ必要なので、1は素数に含めない。1を素因数分解に加える必要もない。",
+    "status": "prototype",
+    "learningContent": "one-exclusion"
+  },
+  {
+    "id": "CR-MATH1-003",
+    "unitId": "repair-math-g1-primes",
+    "grade": 1,
+    "subject": "math",
+    "type": "choice",
+    "prompt": "偶数である素数はどれ？",
+    "choices": [
+      "2",
+      "4",
+      "6"
+    ],
+    "answer": 0,
+    "explanation": "2の正の約数は1と2。2より大きい偶数は2でも割り切れるため、1・2・その数自身の三つ以上の正の約数をもち、素数ではない。",
+    "status": "prototype",
+    "learningContent": "even-prime"
+  },
+  {
+    "id": "CR-MATH1-004",
+    "unitId": "repair-math-g1-primes",
+    "grade": 1,
+    "subject": "math",
+    "type": "choice",
+    "prompt": "次のうち素数はどれ？",
+    "choices": [
+      "21",
+      "27",
+      "29"
+    ],
+    "answer": 2,
+    "explanation": "29は2・3・5で割り切れず、1と29以外の正の約数をもたない。21＝3×7、27＝3×9。判定に迷ったら、積がその数になる正の整数の組を調べよう。",
+    "status": "prototype",
+    "learningContent": "prime-test"
+  },
+  {
+    "id": "CR-MATH1-005",
+    "unitId": "repair-math-g1-primes",
+    "grade": 1,
+    "subject": "math",
+    "type": "choice",
+    "prompt": "91について正しい説明を選ぼう。",
+    "choices": [
+      "2で割り切れないので、必ず素数である",
+      "7×13と表せるので、素数ではない",
+      "奇数であるので、必ず素数である"
+    ],
+    "answer": 1,
+    "explanation": "91＝7×13なので、1と91以外に7と13も正の約数にもつ。奇数かどうか、2で割れるかどうかだけでは素数と決められない。他の約数も調べよう。",
+    "status": "prototype",
+    "learningContent": "odd-composite"
+  },
+  {
+    "id": "CR-MATH1-006",
+    "unitId": "repair-math-g1-primes",
+    "grade": 1,
+    "subject": "math",
+    "type": "choice",
+    "prompt": "12の正の約数を、すべて並べたものはどれ？",
+    "choices": [
+      "1、2、3、4、6、12",
+      "1、2、3、6、12",
+      "1、2、3、4、6、8、12"
+    ],
+    "answer": 0,
+    "explanation": "1×12、2×6、3×4という組から、正の約数は1、2、3、4、6、12。二つずつ組にして調べると抜けを防げる。8では12を割り切れない。",
+    "status": "prototype",
+    "learningContent": "factor-pairs"
+  },
+  {
+    "id": "CR-MATH1-007",
+    "unitId": "repair-math-g1-primes",
+    "grade": 1,
+    "subject": "math",
+    "type": "choice",
+    "prompt": "60を素因数分解した式はどれ？",
+    "choices": [
+      "2×3²×5",
+      "2²×3×7",
+      "2²×3×5"
+    ],
+    "answer": 2,
+    "explanation": "60＝2×30＝2×2×15＝2²×3×5。積を計算して60に戻ることと、並ぶ因数がすべて素数であることを確かめよう。",
+    "status": "prototype",
+    "learningContent": "decomposition-60"
+  },
+  {
+    "id": "CR-MATH1-008",
+    "unitId": "repair-math-g1-primes",
+    "grade": 1,
+    "subject": "math",
+    "type": "choice",
+    "prompt": "72を素因数分解した式はどれ？",
+    "choices": [
+      "2³×3",
+      "2³×3²",
+      "2²×3³"
+    ],
+    "answer": 1,
+    "explanation": "72＝8×9＝2³×3²。指数は同じ素数をかける個数を表す。2²×3³は108、2³×3は24となり、72に戻らない。",
+    "status": "prototype",
+    "learningContent": "decomposition-72"
+  },
+  {
+    "id": "CR-MATH1-009",
+    "unitId": "repair-math-g1-primes",
+    "grade": 1,
+    "subject": "math",
+    "type": "choice",
+    "prompt": "84を2、2、3で順に割ると、残りは7になった。素因数分解を完成させる式はどれ？",
+    "choices": [
+      "2²×3×7",
+      "2²×3×3",
+      "2×3×7"
+    ],
+    "answer": 0,
+    "explanation": "84÷2＝42、42÷2＝21、21÷3＝7。最後に残った7も素数なので因数に入れる。割るのに使った素数と最後の素数を、漏れなくかけよう。",
+    "status": "prototype",
+    "learningContent": "division-procedure"
+  },
+  {
+    "id": "CR-MATH1-010",
+    "unitId": "repair-math-g1-primes",
+    "grade": 1,
+    "subject": "math",
+    "type": "choice",
+    "prompt": "36＝4×3²まで計算した。「素因数分解が終わった」とはまだ言えない理由は？",
+    "choices": [
+      "3は素数ではなく、さらに1×3に分ける必要があるから",
+      "因数に指数を使うと、素因数分解ではなくなるから",
+      "4は素数ではなく、さらに2×2に分けられるから"
+    ],
+    "answer": 2,
+    "explanation": "4×3²は36と等しいが、4は素数ではない。4を2×2に分けて2²×3²にする。素因数分解では「積が合う」だけでなく「因数がすべて素数」も確認しよう。",
+    "status": "prototype",
+    "learningContent": "incomplete-factorization"
+  },
+  {
+    "id": "CR-MATH1-011",
+    "unitId": "repair-math-g1-primes",
+    "grade": 1,
+    "subject": "math",
+    "type": "choice",
+    "prompt": "90を9×10に分けた。両方の数をさらに素数の積に直した式はどれ？",
+    "choices": [
+      "2²×3×5",
+      "2×3²×5",
+      "2×3×5"
+    ],
+    "answer": 1,
+    "explanation": "9＝3×3、10＝2×5だから、90＝2×3²×5。枝分かれさせて調べるときは、9と10の両方を最後まで分け、すべての素数を集めよう。",
+    "status": "prototype",
+    "learningContent": "factor-tree"
+  },
+  {
+    "id": "CR-MATH1-012",
+    "unitId": "repair-math-g1-primes",
+    "grade": 1,
+    "subject": "math",
+    "type": "choice",
+    "prompt": "72について、Aさんは2×2×2×3×3、Bさんは3×2×3×2×2と書いた。この二つについて正しい説明は？",
+    "choices": [
+      "両方とも72の素因数分解で、因数の順番が違うだけ",
+      "Aさんだけが素因数分解で、素数は必ず小さい順に書く",
+      "Bさんだけが素因数分解で、同じ素数を続けて書いてはいけない"
+    ],
+    "answer": 0,
+    "explanation": "どちらも2が3個、3が2個で、積は72。かけ算の順序を変えても積は同じ。小さい順や指数で整理すると見やすいが、順序だけで誤りにはならない。",
+    "status": "prototype",
+    "learningContent": "commutativity"
+  },
+  {
+    "id": "CR-MATH1-013",
+    "unitId": "repair-math-g1-primes",
+    "grade": 1,
+    "subject": "math",
+    "type": "choice",
+    "prompt": "45＝3²×5と表した。3²の意味として正しいものはどれ？",
+    "choices": [
+      "3に2をかけること",
+      "3に2を加えること",
+      "3を2個かけること"
+    ],
+    "answer": 2,
+    "explanation": "3²＝3×3＝9なので、3²×5＝45。指数2は3をかける個数であり、3×2でも3＋2でもない。指数をいったん積に書き直して確認しよう。",
+    "status": "prototype",
+    "learningContent": "exponent-meaning"
+  },
+  {
+    "id": "CR-MATH1-014",
+    "unitId": "repair-math-g1-primes",
+    "grade": 1,
+    "subject": "math",
+    "type": "choice",
+    "prompt": "2³×5を計算した値はどれ？",
+    "choices": [
+      "80",
+      "40",
+      "30"
+    ],
+    "answer": 1,
+    "explanation": "2³×5＝2×2×2×5＝8×5＝40。素因数分解の答えを元の数に戻して確かめる練習。指数と底を掛けて2×3にしないようにしよう。",
+    "status": "prototype",
+    "learningContent": "reconstruction"
+  },
+  {
+    "id": "CR-MATH1-015",
+    "unitId": "repair-math-g1-primes",
+    "grade": 1,
+    "subject": "math",
+    "type": "choice",
+    "prompt": "「48＝2⁴×3²」と書いた生徒がいた。48の正しい素因数分解はどれ？",
+    "choices": [
+      "2⁴×3",
+      "2³×3",
+      "2⁴×3²"
+    ],
+    "answer": 0,
+    "explanation": "48を2で順に割ると24、12、6、3となる。2を4回使い、最後に3が一つ残るので2⁴×3。元の式は16×9＝144となる。積を戻して誤りを見つけよう。",
+    "status": "prototype",
+    "learningContent": "exponent-error"
+  },
+  {
+    "id": "CR-MATH1-016",
+    "unitId": "repair-math-g1-primes",
+    "grade": 1,
+    "subject": "math",
+    "type": "choice",
+    "prompt": "150＝2×3×5²。この式から分かる、素因数分解に現れる5の個数は？",
+    "choices": [
+      "1個",
+      "5個",
+      "2個"
+    ],
+    "answer": 2,
+    "explanation": "5²は5×5を表すので、素因数5は2個ある。150＝2×3×5×5と展開して数えよう。5という数の値と、因数として現れる個数を区別する。",
+    "status": "prototype",
+    "learningContent": "multiplicity"
+  },
+  {
+    "id": "CR-MATH1-017",
+    "unitId": "repair-math-g1-primes",
+    "grade": 1,
+    "subject": "math",
+    "type": "choice",
+    "prompt": "84＝2²×3×7。この式を使って、84の正の約数だと分かるものはどれ？",
+    "choices": [
+      "8",
+      "21",
+      "15"
+    ],
+    "answer": 1,
+    "explanation": "21＝3×7なので、84＝4×21と表せる。15には素因数5が必要で、8には2が3個必要だが84にはどちらも足りない。約数かどうかは因数を取り出せるかで考えよう。",
+    "status": "prototype",
+    "learningContent": "divisibility"
+  },
+  {
+    "id": "CR-MATH1-018",
+    "unitId": "repair-math-g1-primes",
+    "grade": 1,
+    "subject": "math",
+    "type": "choice",
+    "prompt": "24＝2³×3、36＝2²×3²。二つの数の最大公約数はどれ？",
+    "choices": [
+      "12",
+      "6",
+      "72"
+    ],
+    "answer": 0,
+    "explanation": "両方に共通して含まれる因数を最大限集めると2²×3＝12。24÷12＝2、36÷12＝3でも確かめられる。6も公約数だが最大ではなく、72は公倍数。",
+    "status": "prototype",
+    "learningContent": "gcd"
+  },
+  {
+    "id": "CR-MATH1-019",
+    "unitId": "repair-math-g1-primes",
+    "grade": 1,
+    "subject": "math",
+    "type": "choice",
+    "prompt": "8分ごとに鳴るベルAと12分ごとに鳴るベルBが、今同時に鳴った。次に同時に鳴るのは何分後？",
+    "choices": [
+      "4分後",
+      "96分後",
+      "24分後"
+    ],
+    "answer": 2,
+    "explanation": "8＝2³、12＝2²×3なので、両方の倍数になる最小の正の数は2³×3＝24。8の倍数8、16、24と12の倍数12、24を並べても確認できる。4は最大公約数、96は最初ではない。",
+    "status": "prototype",
+    "learningContent": "lcm-application"
+  },
+  {
+    "id": "CR-MATH1-020",
+    "unitId": "repair-math-g1-primes",
+    "grade": 1,
+    "subject": "math",
+    "type": "choice",
+    "prompt": "12にできるだけ小さい自然数をかけて、ある自然数の2乗にしたい。かける数はどれ？",
+    "choices": [
+      "6",
+      "3",
+      "2"
+    ],
+    "answer": 1,
+    "explanation": "12＝2²×3なので、3を一つ補うと2²×3²＝36＝6²。1をかけても12、2をかけても24で2乗の数にならない。対になる素因数がそろうかを見よう。",
+    "status": "prototype",
+    "learningContent": "square-multiply"
+  },
+  {
+    "id": "CR-MATH1-021",
+    "unitId": "repair-math-g1-primes",
+    "grade": 1,
+    "subject": "math",
+    "type": "choice",
+    "prompt": "18をある自然数で割ると、商は自然数の2乗になった。そのような割る数のうち、最も小さいものはどれ？",
+    "choices": [
+      "2",
+      "3",
+      "6"
+    ],
+    "answer": 0,
+    "explanation": "18＝2×3²。2で割れば9＝3²になる。1で割ると18のままで、自然数の2乗ではないので最小は2。3で割った6と、6で割った3も2乗ではない。",
+    "status": "prototype",
+    "learningContent": "square-divide"
+  },
+  {
+    "id": "CR-MATH1-022",
+    "unitId": "repair-math-g1-primes",
+    "grade": 1,
+    "subject": "math",
+    "type": "choice",
+    "prompt": "次のうち、ある自然数の2乗になっている数はどれ？",
+    "choices": [
+      "2³×3²",
+      "2⁴×3³",
+      "2⁴×3²"
+    ],
+    "answer": 2,
+    "explanation": "2⁴×3²＝(2²×3)²＝12²。2乗では素因数が同じ組で二組そろうので、各素因数の個数は偶数になる。他の二つは、ある素因数の個数が3個（奇数）となり、すべてを二つずつ組にできない。",
+    "status": "prototype",
+    "learningContent": "square-exponents"
+  },
+  {
+    "id": "CR-MATH1-023",
+    "unitId": "repair-math-g1-primes",
+    "grade": 1,
+    "subject": "math",
+    "type": "choice",
+    "prompt": "221＝13×17と分かった。221の素因数として正しいものはどれ？",
+    "choices": [
+      "19",
+      "13",
+      "11"
+    ],
+    "answer": 1,
+    "explanation": "221＝13×17で、13と17はいずれも素数だから、この二つが素因数。11では221を割り切れず、19でも割り切れない。求めた因数の積が221に戻ることを確かめよう。",
+    "status": "prototype",
+    "learningContent": "larger-prime-factors"
+  },
+  {
+    "id": "CR-MATH1-024",
+    "unitId": "repair-math-g1-primes",
+    "grade": 1,
+    "subject": "math",
+    "type": "choice",
+    "prompt": "39を調べた。39が素数ではないことを示す説明はどれ？",
+    "choices": [
+      "3×13と表せて、1と39以外の正の約数がある",
+      "奇数なので、約数を調べなくても素数ではない",
+      "2で割り切れず、2で割り切れない数は素数ではない"
+    ],
+    "answer": 0,
+    "explanation": "39＝3×13なので、3と13も正の約数であり、素数ではない。奇数には3や5のような素数もある。「素数ではない」と示すには1とその数自身以外の約数を一つ見つければよい。",
+    "status": "prototype",
+    "learningContent": "counterexample-proof"
+  },
+  {
+    "id": "CR-MATH1-025",
+    "unitId": "repair-math-g1-primes",
+    "grade": 1,
+    "subject": "math",
+    "type": "choice",
+    "prompt": "2以上10以下の素数を、すべて並べたものはどれ？",
+    "choices": [
+      "2、3、5、7、9",
+      "3、5、7",
+      "2、3、5、7"
+    ],
+    "answer": 2,
+    "explanation": "2、3、5、7は正の約数が二つ。4、6、8、10は2で割れ、9は3で割れるので除く。2も素数であることを忘れず、範囲内の数を一つずつ確認しよう。",
+    "status": "prototype",
+    "learningContent": "range-enumeration"
+  }
+]

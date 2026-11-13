@@ -1,0 +1,377 @@
+[
+  {
+    "id": "CR-ENG2-001",
+    "unitId": "repair-english-g2-obligation",
+    "grade": 2,
+    "subject": "english",
+    "type": "choice",
+    "prompt": "【校内の決まり】You must wear your name tag at school.\nこの決まりが求めていることは？",
+    "choices": [
+      "学校で名札を着けてはいけない",
+      "学校で名札を着ける必要はない",
+      "学校で名札を着ける必要がある"
+    ],
+    "answer": 2,
+    "explanation": "must＋動詞の原形は、ここでは義務を表す。「学校で名札を着けなければならない」という意味。着けてはいけないなら must not、必要がないなら do not have to を使う。"
+  },
+  {
+    "id": "CR-ENG2-002",
+    "unitId": "repair-english-g2-obligation",
+    "grade": 2,
+    "subject": "english",
+    "type": "choice",
+    "prompt": "【乗船案内】You have to buy a ticket before you get on the boat.\n乗船する人に必要なことは？",
+    "choices": [
+      "船に乗る前に券を買うこと",
+      "船を降りてから券を買うこと",
+      "船に乗る前に券を捨てること"
+    ],
+    "answer": 0,
+    "explanation": "have to は「～しなければならない」。before you get on the boat が「船に乗る前に」を表す。動作 buy と時を表す before の両方を確認しよう。"
+  },
+  {
+    "id": "CR-ENG2-003",
+    "unitId": "repair-english-g2-obligation",
+    "grade": 2,
+    "subject": "english",
+    "type": "choice",
+    "prompt": "【美術館】You must not take pictures in this room.\nこの部屋での撮影について、案内に合うものは？",
+    "choices": [
+      "撮影する必要がある",
+      "撮影してはいけない",
+      "撮影する必要はない"
+    ],
+    "answer": 1,
+    "explanation": "must not は禁止を表す。「撮影してはいけない」という意味なので、撮影は認められていない。「必要がない」と「してはいけない」を区別しよう。"
+  },
+  {
+    "id": "CR-ENG2-004",
+    "unitId": "repair-english-g2-obligation",
+    "grade": 2,
+    "subject": "english",
+    "type": "choice",
+    "prompt": "【遠足の連絡】Lunch will be provided. You don't have to bring lunch.\n昼食の持参について、連絡が伝えているのは？",
+    "choices": [
+      "昼食を持参してはいけない",
+      "昼食を持参する必要はない",
+      "昼食を必ず持参する必要がある"
+    ],
+    "answer": 1,
+    "explanation": "don't have to は「～する必要はない」。昼食が用意されるため、持参を求めていない。この英文だけで持参が禁止されているとは判断しない。"
+  },
+  {
+    "id": "CR-ENG2-005",
+    "unitId": "repair-english-g2-obligation",
+    "grade": 2,
+    "subject": "english",
+    "type": "choice",
+    "prompt": "Mika doesn't have to wear a uniform on Saturday.\nこの英文に合う意味は？",
+    "choices": [
+      "ミカは土曜日に制服を着てはいけない",
+      "ミカは土曜日に制服を着なければならない",
+      "ミカは土曜日に制服を着る必要はない"
+    ],
+    "answer": 2,
+    "explanation": "主語が三人称単数の Mika なので doesn't have to となる。意味は「着る必要はない」。doesn't を見ても禁止と決めつけず、doesn't have to をひとまとまりで読もう。"
+  },
+  {
+    "id": "CR-ENG2-006",
+    "unitId": "repair-english-g2-obligation",
+    "grade": 2,
+    "subject": "english",
+    "type": "choice",
+    "prompt": "You mustn't leave your bike here.\nmustn't が伝えていることは？",
+    "choices": [
+      "自転車をここに置いてはいけない",
+      "自転車をここに置く必要はない",
+      "自転車をここに置く必要がある"
+    ],
+    "answer": 0,
+    "explanation": "mustn't は must not の短縮形で、ここでは禁止を表す。「ここに自転車を置いてはいけない」。短縮形でも not の働きは変わらない。"
+  },
+  {
+    "id": "CR-ENG2-007",
+    "unitId": "repair-english-g2-obligation",
+    "grade": 2,
+    "subject": "english",
+    "type": "choice",
+    "prompt": "【任意の練習】Today's practice is optional. You don't have to come.\n参加について正しく読み取ったものは？",
+    "choices": [
+      "参加は禁止されている",
+      "全員の参加が必要である",
+      "参加は義務ではない"
+    ],
+    "answer": 2,
+    "explanation": "optional は「任意の」。don't have to come も「来る必要はない」と伝えている。参加の義務がないことと、参加を禁止することは異なる。"
+  },
+  {
+    "id": "CR-ENG2-008",
+    "unitId": "repair-english-g2-obligation",
+    "grade": 2,
+    "subject": "english",
+    "type": "choice",
+    "prompt": "【プール】You must wear a swimming cap. You must not run by the pool.\n二つの決まりに合う組み合わせは？",
+    "choices": [
+      "帽子は不要・プールサイドは走ってよい",
+      "帽子は必要・プールサイドは走ってはいけない",
+      "帽子は禁止・プールサイドは走る必要がある"
+    ],
+    "answer": 1,
+    "explanation": "must wear は着用の義務、must not run は走ることの禁止。肯定の must と否定の must not では、求められる行動が逆になる。"
+  },
+  {
+    "id": "CR-ENG2-009",
+    "unitId": "repair-english-g2-obligation",
+    "grade": 2,
+    "subject": "english",
+    "type": "choice",
+    "prompt": "「私は今日、その申込書を出さなければならない」という義務を表す文の組は？",
+    "choices": [
+      "I must send the form today. ／ I have to send the form today.",
+      "I must send the form today. ／ I must not send the form today.",
+      "I have to send the form today. ／ I don't have to send the form today."
+    ],
+    "answer": 0,
+    "explanation": "この文脈では must と have to はどちらも義務を表せる。must not は禁止、don't have to は不必要を表すので、義務を表す二文の組には入らない。"
+  },
+  {
+    "id": "CR-ENG2-010",
+    "unitId": "repair-english-g2-obligation",
+    "grade": 2,
+    "subject": "english",
+    "type": "choice",
+    "prompt": "「ケンは明日早く起きなければならない」に合う文を選ぼう。have to を使う。",
+    "choices": [
+      "Ken has to get up early tomorrow.",
+      "Ken have to get up early tomorrow.",
+      "Ken has to gets up early tomorrow."
+    ],
+    "answer": 0,
+    "explanation": "主語 Ken は三人称単数なので has to。その後の動詞は原形 get を使う。has の s を後ろの動詞にも付けないようにしよう。"
+  },
+  {
+    "id": "CR-ENG2-011",
+    "unitId": "repair-english-g2-obligation",
+    "grade": 2,
+    "subject": "english",
+    "type": "choice",
+    "prompt": "「エミは今日働かなければなりませんか」に合う疑問文は？have to を使う。",
+    "choices": [
+      "Does Emi has to work today?",
+      "Do Emi has to work today?",
+      "Does Emi have to work today?"
+    ],
+    "answer": 2,
+    "explanation": "三人称単数の疑問文は Does＋主語＋have to＋動詞の原形。Does を使うと has は原形 have に戻る。"
+  },
+  {
+    "id": "CR-ENG2-012",
+    "unitId": "repair-english-g2-obligation",
+    "grade": 2,
+    "subject": "english",
+    "type": "choice",
+    "prompt": "I didn't have to cook dinner yesterday.\nこの英文だけから分かることは？",
+    "choices": [
+      "昨日は夕食を作ってはいけなかった",
+      "昨日は夕食を作る必要がなかった",
+      "昨日は夕食を作る義務があった"
+    ],
+    "answer": 1,
+    "explanation": "didn't have to は過去の「～する必要がなかった」。実際に夕食を作ったかどうかまでは、この一文では決まらない。不必要を表す文から、実行の有無まで決めつけないようにしよう。"
+  },
+  {
+    "id": "CR-ENG2-013",
+    "unitId": "repair-english-g2-obligation",
+    "grade": 2,
+    "subject": "english",
+    "type": "choice",
+    "prompt": "【宿題の指示】You have to answer questions 1 to 5. You don't have to answer question 6.\n指示に合うものは？",
+    "choices": [
+      "1〜6をすべて解く必要がある",
+      "1〜5は必須で、6は必須ではない",
+      "1〜5は禁止で、6だけが必須である"
+    ],
+    "answer": 1,
+    "explanation": "have to answer が必須の範囲、don't have to answer が必須ではない範囲。問題6を解くこと自体は禁止されていない。"
+  },
+  {
+    "id": "CR-ENG2-014",
+    "unitId": "repair-english-g2-obligation",
+    "grade": 2,
+    "subject": "english",
+    "type": "choice",
+    "prompt": "「ここでは飲食禁止」と伝える掲示に合う英文は？",
+    "choices": [
+      "You must not eat or drink here.",
+      "You don't have to eat or drink here.",
+      "You have to eat or drink here."
+    ],
+    "answer": 0,
+    "explanation": "「してはいけない」という禁止には must not を使う。don't have to だと「飲食する必要はない」となり、禁止の掲示にはならない。"
+  },
+  {
+    "id": "CR-ENG2-015",
+    "unitId": "repair-english-g2-obligation",
+    "grade": 2,
+    "subject": "english",
+    "type": "choice",
+    "prompt": "生徒が「この線を越えてはいけない」を You don't must cross this line. と書いた。意図に合う正しい直し方は？",
+    "choices": [
+      "You don't have to cross this line.",
+      "You must cross this line.",
+      "You must not cross this line."
+    ],
+    "answer": 2,
+    "explanation": "must の否定は don't must ではなく must not。禁止を表すには You must not cross this line. とする。don't have to は「越える必要はない」で、意図が変わる。"
+  },
+  {
+    "id": "CR-ENG2-016",
+    "unitId": "repair-english-g2-obligation",
+    "grade": 2,
+    "subject": "english",
+    "type": "choice",
+    "prompt": "「ユウタは明日来る必要はない」に合う正しい英文は？",
+    "choices": [
+      "Yuta doesn't has to come tomorrow.",
+      "Yuta mustn't come tomorrow.",
+      "Yuta doesn't have to come tomorrow."
+    ],
+    "answer": 2,
+    "explanation": "「必要はない」は doesn't have to。doesn't の後は has ではなく原形 have にする。mustn't come は「来てはいけない」という禁止になる。"
+  },
+  {
+    "id": "CR-ENG2-017",
+    "unitId": "repair-english-g2-obligation",
+    "grade": 2,
+    "subject": "english",
+    "type": "choice",
+    "prompt": "You don't have to buy a new dictionary. You can use mine.\nこの発言に合う読み取りは？",
+    "choices": [
+      "新しい辞書を買うことは禁止されている",
+      "私の辞書を使えるので、新しく買う必要はない",
+      "私の辞書を使わずに、新しく買う必要がある"
+    ],
+    "answer": 1,
+    "explanation": "don't have to buy は「買う必要はない」。後の文が、その理由として話し手の辞書を使えることを伝えている。購入禁止という意味にはならない。"
+  },
+  {
+    "id": "CR-ENG2-018",
+    "unitId": "repair-english-g2-obligation",
+    "grade": 2,
+    "subject": "english",
+    "type": "choice",
+    "prompt": "【バス旅行】The bus leaves at eight. You have to be at the station by seven fifty.\n案内が求める集合時刻は？",
+    "choices": [
+      "7時50分までに駅に着く",
+      "8時までに駅に着く",
+      "7時50分より後に駅に着く"
+    ],
+    "answer": 0,
+    "explanation": "have to be が集合の義務を、by seven fifty が「7時50分までに」を表す。バスの出発時刻8時と、自分の集合期限7時50分を分けて読もう。"
+  },
+  {
+    "id": "CR-ENG2-019",
+    "unitId": "repair-english-g2-obligation",
+    "grade": 2,
+    "subject": "english",
+    "type": "choice",
+    "prompt": "【試験の案内】You must bring a pencil. You don't have to bring an eraser.\n用意しなければならない物は？",
+    "choices": [
+      "消しゴム",
+      "鉛筆",
+      "鉛筆と消しゴムの両方"
+    ],
+    "answer": 1,
+    "explanation": "must bring a pencil は鉛筆の持参が必須であることを表す。消しゴムは don't have to bring なので持参が必須ではない。"
+  },
+  {
+    "id": "CR-ENG2-020",
+    "unitId": "repair-english-g2-obligation",
+    "grade": 2,
+    "subject": "english",
+    "type": "choice",
+    "prompt": "A: Do I have to bring my own racket?\nB: No, you don't. We can lend you one.\nBの返答の意味は？",
+    "choices": [
+      "自分のラケットを持参してはいけない",
+      "自分のラケットを必ず持参しなさい",
+      "自分のラケットを持参する必要はない"
+    ],
+    "answer": 2,
+    "explanation": "Do I have to ...? は必要があるかを尋ねる。No, you don't. は、その必要がないという答え。We can lend you one. が貸し出せることを伝えている。"
+  },
+  {
+    "id": "CR-ENG2-021",
+    "unitId": "repair-english-g2-obligation",
+    "grade": 2,
+    "subject": "english",
+    "type": "choice",
+    "prompt": "【立入禁止の場所】係員が「客はこのドアを開けてはいけません」と注意する。注意の意味に合う文は？",
+    "choices": [
+      "Visitors must not open this door.",
+      "Visitors have to open this door.",
+      "Visitors don't have to open this door."
+    ],
+    "answer": 0,
+    "explanation": "開けることの禁止なので must not open。have to open は開ける義務、don't have to open は開ける必要がないことを表す。"
+  },
+  {
+    "id": "CR-ENG2-022",
+    "unitId": "repair-english-g2-obligation",
+    "grade": 2,
+    "subject": "english",
+    "type": "choice",
+    "prompt": "You must finish the report today.\nこの指示を受けた生徒が確認すべきことは？",
+    "choices": [
+      "報告書を今日中に仕上げる必要はない",
+      "報告書を今日中に仕上げる必要がある",
+      "報告書を今日中に仕上げてはいけない"
+    ],
+    "answer": 1,
+    "explanation": "must finish は「仕上げなければならない」という義務。today が期限を示す。must not や don't have to と取り違えると、必要な行動が変わってしまう。"
+  },
+  {
+    "id": "CR-ENG2-023",
+    "unitId": "repair-english-g2-obligation",
+    "grade": 2,
+    "subject": "english",
+    "type": "choice",
+    "prompt": "You must not use your phone during the test. を You don't have to use your phone during the test. に変えると、意味はどう変わる？",
+    "choices": [
+      "不必要から禁止に変わる",
+      "禁止から義務に変わる",
+      "禁止から不必要に変わる"
+    ],
+    "answer": 2,
+    "explanation": "must not use は「使ってはいけない」。don't have to use は「使う必要はない」。not が含まれていても、否定する表現のまとまりによって意味は異なる。"
+  },
+  {
+    "id": "CR-ENG2-024",
+    "unitId": "repair-english-g2-obligation",
+    "grade": 2,
+    "subject": "english",
+    "type": "choice",
+    "prompt": "【入場口】All visitors have to show their tickets.\nこの案内に合う説明は？",
+    "choices": [
+      "どの客も券を見せる必要がある",
+      "どの客も券を見せる必要はない",
+      "どの客も券を見せてはいけない"
+    ],
+    "answer": 0,
+    "explanation": "have to show は提示の義務。All visitors はすべての客を指す。一部の客だけの義務や、提示の禁止・不必要を表す案内ではない。"
+  },
+  {
+    "id": "CR-ENG2-025",
+    "unitId": "repair-english-g2-obligation",
+    "grade": 2,
+    "subject": "english",
+    "type": "choice",
+    "prompt": "【体育館の利用】You must wear indoor shoes. You don't have to bring a ball. You must not enter the storage room.\n案内全体に合う行動は？",
+    "choices": [
+      "室内用の靴を履き、球は持参せず、倉庫には入らない",
+      "室内用の靴を履かず、球は持参せず、倉庫には入らない",
+      "室内用の靴を履き、球は持参せず、倉庫から用具を取る"
+    ],
+    "answer": 0,
+    "explanation": "靴の着用は must なので必要。球の持参は don't have to なので必須ではない。倉庫への立入りは must not なので禁止。三つの表現を行動と一つずつ照合しよう。"
+  }
+]

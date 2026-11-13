@@ -1,0 +1,213 @@
+{
+  "baseline_questions": 8698,
+  "current_questions": 8773,
+  "added_count": 75,
+  "changed_count": 5,
+  "deleted_count": 0,
+  "unchanged_count": 8693,
+  "added_ids": [
+    "CR-ENG2-001",
+    "CR-ENG2-002",
+    "CR-ENG2-003",
+    "CR-ENG2-004",
+    "CR-ENG2-005",
+    "CR-ENG2-006",
+    "CR-ENG2-007",
+    "CR-ENG2-008",
+    "CR-ENG2-009",
+    "CR-ENG2-010",
+    "CR-ENG2-011",
+    "CR-ENG2-012",
+    "CR-ENG2-013",
+    "CR-ENG2-014",
+    "CR-ENG2-015",
+    "CR-ENG2-016",
+    "CR-ENG2-017",
+    "CR-ENG2-018",
+    "CR-ENG2-019",
+    "CR-ENG2-020",
+    "CR-ENG2-021",
+    "CR-ENG2-022",
+    "CR-ENG2-023",
+    "CR-ENG2-024",
+    "CR-ENG2-025",
+    "CR-MATH1-001",
+    "CR-MATH1-002",
+    "CR-MATH1-003",
+    "CR-MATH1-004",
+    "CR-MATH1-005",
+    "CR-MATH1-006",
+    "CR-MATH1-007",
+    "CR-MATH1-008",
+    "CR-MATH1-009",
+    "CR-MATH1-010",
+    "CR-MATH1-011",
+    "CR-MATH1-012",
+    "CR-MATH1-013",
+    "CR-MATH1-014",
+    "CR-MATH1-015",
+    "CR-MATH1-016",
+    "CR-MATH1-017",
+    "CR-MATH1-018",
+    "CR-MATH1-019",
+    "CR-MATH1-020",
+    "CR-MATH1-021",
+    "CR-MATH1-022",
+    "CR-MATH1-023",
+    "CR-MATH1-024",
+    "CR-MATH1-025",
+    "CR-SCI3-001",
+    "CR-SCI3-002",
+    "CR-SCI3-003",
+    "CR-SCI3-004",
+    "CR-SCI3-005",
+    "CR-SCI3-006",
+    "CR-SCI3-007",
+    "CR-SCI3-008",
+    "CR-SCI3-009",
+    "CR-SCI3-010",
+    "CR-SCI3-011",
+    "CR-SCI3-012",
+    "CR-SCI3-013",
+    "CR-SCI3-014",
+    "CR-SCI3-015",
+    "CR-SCI3-016",
+    "CR-SCI3-017",
+    "CR-SCI3-018",
+    "CR-SCI3-019",
+    "CR-SCI3-020",
+    "CR-SCI3-021",
+    "CR-SCI3-022",
+    "CR-SCI3-023",
+    "CR-SCI3-024",
+    "CR-SCI3-025"
+  ],
+  "deleted_ids": [],
+  "changed_questions": [
+    {
+      "id": "exam-section-093-all25:q01",
+      "fields": {
+        "answer": {
+          "before": 0,
+          "after": 1
+        },
+        "choices": {
+          "before": [
+            "the tallest",
+            "taller",
+            "as tall"
+          ],
+          "after": [
+            "as tall",
+            "the tallest",
+            "taller"
+          ]
+        },
+        "prompt": {
+          "before": "Aki is (　) of all the students. 「3人の中で最も背が高い」",
+          "after": "Aki is (　) of all the students. 「全生徒の中で最も背が高い」"
+        }
+      }
+    },
+    {
+      "id": "exam-section-093-all25:q02",
+      "fields": {
+        "answer": {
+          "before": 2,
+          "after": 0
+        },
+        "choices": {
+          "before": [
+            "taller",
+            "as tall",
+            "the tallest"
+          ],
+          "after": [
+            "the tallest",
+            "taller",
+            "as tall"
+          ]
+        },
+        "prompt": {
+          "before": "Mika is (　) of all the students. 「3人の中で最も背が高い」",
+          "after": "Mika is (　) of all the students. 「全生徒の中で最も背が高い」"
+        }
+      }
+    },
+    {
+      "id": "exam-section-093-all25:q03",
+      "fields": {
+        "answer": {
+          "before": 0,
+          "after": 2
+        },
+        "choices": {
+          "before": [
+            "the tallest",
+            "taller",
+            "as tall"
+          ],
+          "after": [
+            "taller",
+            "as tall",
+            "the tallest"
+          ]
+        },
+        "prompt": {
+          "before": "Hana is (　) of all the students. 「3人の中で最も背が高い」",
+          "after": "Hana is (　) of all the students. 「全生徒の中で最も背が高い」"
+        }
+      }
+    },
+    {
+      "id": "exam-section-093-all25:q04",
+      "fields": {
+        "answer": {
+          "before": 0,
+          "after": 2
+        },
+        "choices": {
+          "before": [
+            "the tallest",
+            "taller",
+            "as tall"
+          ],
+          "after": [
+            "taller",
+            "as tall",
+            "the tallest"
+          ]
+        },
+        "prompt": {
+          "before": "Yuta is (　) of all the students. 「3人の中で最も背が高い」",
+          "after": "Yuta is (　) of all the students. 「全生徒の中で最も背が高い」"
+        }
+      }
+    },
+    {
+      "id": "exam-section-093-all25:q05",
+      "fields": {
+        "answer": {
+          "before": 2,
+          "after": 0
+        },
+        "choices": {
+          "before": [
+            "taller",
+            "as tall",
+            "the tallest"
+          ],
+          "after": [
+            "the tallest",
+            "taller",
+            "as tall"
+          ]
+        },
+        "prompt": {
+          "before": "Ken is (　) of all the students. 「3人の中で最も背が高い」",
+          "after": "Ken is (　) of all the students. 「全生徒の中で最も背が高い」"
+        }
+      }
+    }
+  ]
+}

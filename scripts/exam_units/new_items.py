@@ -94,7 +94,8 @@ def english_items(key, count=20):
         elif key == 'comparison':
             if variant in (0,2):
                 context='the three' if variant==0 else 'all the students'
-                out.append(choice(f'{people[j]} is (　) of {context}. 「3人の中で最も背が高い」', 'the tallest','taller','as tall',
+                meaning='3人の中で最も背が高い' if variant==0 else '全生徒の中で最も背が高い'
+                out.append(choice(f'{people[j]} is (　) of {context}. 「{meaning}」', 'the tallest','taller','as tall',
                                   '三者以上の中で最も～は the＋最上級で表す。'))
             else:
                 out.append(choice(f'{people[j]} is as (　) as {people[(j+variant)%10]}. 「同じくらい背が高い」','tall','taller','tallest',
