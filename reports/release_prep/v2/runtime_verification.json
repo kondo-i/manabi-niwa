@@ -1,0 +1,29 @@
+{
+  "status": "RUNTIME_STRUCTURE_AND_SCORING_PASS_NOT_CONTENT_APPROVAL",
+  "stored_normal_questions": 2356,
+  "playable_normal_questions": 2351,
+  "units": 201,
+  "playable_units": 199,
+  "hidden_questions": 5,
+  "by_subject_grade": {
+    "science_g2": 133,
+    "science_g1": 387,
+    "math_g1": 380,
+    "english_g1": 230,
+    "social_g1": 115,
+    "japanese_g1": 131,
+    "social_g2": 45,
+    "social_g3": 70,
+    "japanese_g2": 71,
+    "japanese_g3": 31,
+    "english_g3": 95,
+    "english_g2": 90,
+    "math_g2": 220,
+    "math_g3": 233,
+    "science_g3": 125
+  },
+  "exact_prompt_duplicate_pairs": 14,
+  "duplicates_scope_note": "Cross-bank identical strings only. Different wording with same knowledge is not detected.",
+  "sampled_each_ready_unit": true,
+  "browser_observation": "Not performed by this script; see separate browser screenshot and README."
+}

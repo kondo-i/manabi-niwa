@@ -1,0 +1,126 @@
+@english|1|be|be動詞と主語
+I (　) in the tennis club.|am|is|are|主語が I のときは am を使います。
+My two sisters (　) at home now.|are|is|am|two sisters は複数なので are を使います。
+次の文を疑問文にすると？ You are ready.|Are you ready?|Do you are ready?|You are ready?|be動詞 are を主語の前に出します。
+That bag (　) mine. 「あのかばんは私のものではありません」|is not|are not|do not|That bag は単数です。is の後ろに not を置きます。
+Is Ken your brother? に「いいえ」と答えるなら？|No, he isn't.|No, he doesn't.|No, I am not.|Ken を he に置き換え、質問の is に合わせます。
+@english|1|present|一般動詞の現在形
+Yui (　) soccer after school on Fridays.|plays|play|playing|Yui は三人称単数です。現在の習慣には plays を使います。
+My parents (　) coffee every morning.|drink|drinks|drinking|My parents は複数なので drink に s は付きません。
+(　) your brother like music?|Does|Do|Is|一般動詞 like の疑問文で主語が your brother なので Does を使います。
+Aya doesn't (　) a bike.|have|has|having|doesn't の後ろは動詞の原形 have です。
+「私たちは日曜日には学校に行きません」に合う文は？|We don't go to school on Sundays.|We aren't go to school on Sundays.|We doesn't go to school on Sundays.|主語が We の一般動詞の否定文には don't を使います。
+@english|1|questions|疑問詞で尋ねる
+(　) do you live? — I live in Tsu.|Where|When|Who|in Tsu は場所を表すので Where を使います。
+(　) is your birthday? — It's in May.|When|What|Where|in May は時を表すので When を使います。
+(　) is that boy? — He's my cousin.|Who|How|When|人がだれかを尋ねる語は Who です。
+(　) do you go to school? — By bike.|How|Where|Who|By bike は手段です。手段を尋ねる語は How です。
+(　) books do you have? — I have three.|How many|How old|What time|数えられるものの数を How many で尋ねます。
+@english|1|progressive|現在進行形
+Look! The dog is (　) in the park.|running|run|runs|今していることは be動詞＋動詞の ing 形で表します。run は running になります。
+We (　) lunch now.|are eating|is eating|eating|主語が We なので are を使い、eating を続けます。
+「今、彼女は手紙を書いています」に合う文は？|She is writing a letter now.|She is write a letter now.|She writing a letter now.|write は末尾の e を取って writing にし、is を添えます。
+Is Tom studying now? に「はい」と答えるなら？|Yes, he is.|Yes, he does.|Yes, he studies.|現在進行形の疑問文では be動詞で短く答えます。
+I am (　) TV now. 「今、テレビを見ていません」|not watching|don't watch|not watch|am の後ろに not を置き、watching を続けます。
+@english|1|imperative|命令文と誘い
+「このドアを開けてください」に合う文は？|Please open this door.|Please opens this door.|Please opening this door.|命令文では動詞の原形を使います。Please を添えると丁寧になります。
+「ここで走らないで」に合う文は？|Don't run here.|Doesn't run here.|Don't running here.|否定の命令文は Don't＋動詞の原形です。
+「静かにしなさい」に合う文は？|Be quiet.|Are quiet.|Do quiet.|状態を表す quiet の前には原形の Be を置きます。
+「一緒に昼食を食べよう」に合う文は？|Let's have lunch together.|Let's having lunch together.|Let's has lunch together.|Let's の後ろに動詞の原形を置いて誘います。
+次の指示に従うと、何をする？ Write your name here.|ここに名前を書く|ここで名前を呼ぶ|ここに日付を書く|Write は「書く」、your name は「あなたの名前」です。
+@english|1|pronouns|代名詞の使い分け
+This is my sister. (　) is a student.|She|Her|Hers|主語に使う形は She です。
+Ken is my friend. I play tennis with (　).|him|he|his|前置詞 with の後ろには目的格 him を使います。
+These are (　) shoes. 「これは私たちの靴です」|our|us|we|名詞 shoes の前に「私たちの」を表す our を置きます。
+This bike is (　). 「この自転車は私のものです」|mine|my|me|後ろに名詞を置かず「私のもの」と言う形は mine です。
+I have two dogs. I walk (　) every morning.|them|they|their|two dogs を指す目的語には them を使います。
+@english|1|reading|短い英文と案内を読む
+【案内】The library is open from nine to five on Saturdays. It is closed on Sundays.\n日曜日に図書館は利用できる？|利用できない|午後5時まで利用できる|午前9時から利用できる|closed on Sundays が「日曜日は閉まっている」という意味です。
+【メモ】I'm at the station now. Please meet me in front of the bookstore at three. — Emi\nどこに行けばよい？|本屋の前|駅の改札|本屋の中|待ち合わせの指示は in front of the bookstore です。
+【日記】I wanted to play soccer, but it rained. I played chess with my sister at home.\n筆者が実際にしたことは？|家で姉か妹とチェスをした|雨の中でサッカーをした|家で一人でチェスをした|played chess with my sister が実際にしたことです。
+【案内】Please bring a notebook. You can use our pencils. The class starts at ten.\n自分で用意するよう指示された物は？|ノート|鉛筆|時計|Please bring a notebook が持ち物の指示です。
+【会話】A: Do you have any oranges? B: No, but we have apples and bananas. A: Two apples, please.\nAが注文したものは？|りんごを2個|オレンジを2個|バナナを2本|最後の Two apples, please. が注文です。
+@english|1|listening|聞いて時刻・場所・持ち物をつかむ
+音声を聞いて、集合時刻を選ぼう。|8時30分|8時|9時30分|eight thirty は8時30分です。~Let's meet at eight thirty tomorrow.
+音声を聞いて、かぎがどこにあるか選ぼう。|かばんの中|机の下|机の上|in my bag が「私のかばんの中」です。~My key is in my bag.
+音声を聞いて、持ってくる物を選ぼう。|青いノート|青いペン|赤いノート|a blue notebook が「青いノート」です。~Please bring a blue notebook.
+音声を聞いて、兄か弟が普段乗るものを選ぼう。|バス|電車|自転車|by bus が「バスで」という意味です。~My brother usually goes to school by bus.
+音声を聞いて、午後にすることを選ぼう。|祖母に会いに行く|図書館に行く|妹と料理する|visit my grandmother が「祖母に会いに行く」という意味です。~I'm going to visit my grandmother this afternoon.
+@english|1|speaking|場面に合う一言を話す
+まず英語で言ってみよう。友達に「窓を閉めてくれる？」と頼む。|Can you close the window?|Can I open the window?|Do you like the window?|Can you＋動詞の原形？ で相手に頼めます。正解の文を一度声に出しましょう。
+まず英語で言ってみよう。相手の名前を尋ねる。|What's your name?|How old are you?|Where are you from?|What's your name? は名前を尋ねる表現です。正解の文を一度声に出しましょう。
+まず英語で言ってみよう。「一緒に遊ぼう」と誘う。|Let's play together.|Do you play alone?|I'm playing now.|Let's で誘い、together で「一緒に」を表します。正解の文を一度声に出しましょう。
+まず英語で言ってみよう。「もう一度言ってください」と頼む。|Please say that again.|Please sit down.|Please write your name.|again は「もう一度」です。正解の文を一度声に出しましょう。
+まず英語で言ってみよう。「私は泳げません」と伝える。|I can't swim.|I can swim well.|I don't like swimming.|can't swim は泳ぐことができないという意味です。正解の文を一度声に出しましょう。
+@english|1|writing|英語で文の一部を書く
+「私は毎朝音楽を聞きます」 I (　) to music every morning. 空欄に英語1語を書こう。|=listen|listen to music で「音楽を聞く」です。
+「彼女は今忙しくありません」 She (　) not busy now. 空欄に英語1語を書こう。|=is|She に対応する be動詞は is です。
+「あなたのペンはどこですか」 (　) is your pen? 空欄に英語1語を書こう。|=Where|場所を聞く疑問詞 Where を文頭に置きます。
+「健は放課後よく野球をします」 Ken often (　) baseball after school. 空欄に play を適切な形で書こう。|=plays|主語の Ken は三人称単数です。現在の習慣を表すので plays になります。
+「私は2匹の猫を飼っています」 I have two (　). 空欄に cat を適切な形で書こう。|=cats|two の後ろでは複数形 cats を使います。
+@english|2|past-progressive|過去進行形
+At seven last night, I (　) dinner.|was eating|am eating|were eating|過去のある時点でしていたことは was／were＋ing形です。主語 I には was を使います。
+The children (　) in the yard when it started to rain.|were playing|was playing|are playing|children は複数で、過去の出来事なので were playing です。
+「電話が鳴ったとき、私は寝ていませんでした」に合う文は？|I wasn't sleeping when the phone rang.|I don't sleep when the phone rang.|I weren't sleeping when the phone rang.|I の過去進行形の否定は wasn't＋ing形です。
+(　) you studying at nine last night?|Were|Did|Are|過去進行形の疑問文で主語が you なので Were を先頭に出します。
+When I saw Mai, she was (　) across the street.|walking|walked|walk|was の後に ing形を続け、見た時に進行中の動作を示します。
+@english|2|passive|受け身の形と意味
+This book was (　) by a student.|written|wrote|writing|受け身は be動詞＋過去分詞です。write の過去分詞は written です。
+These windows (　) cleaned every Friday.|are|is|was|windows は複数です。毎週の習慣を表すので are cleaned です。
+「この橋は2000年に建てられました」に合う文は？|This bridge was built in 2000.|This bridge built in 2000.|This bridge is building in 2000.|過去に建てられた橋が主語なので was built です。
+They use this room for music. と同じ内容を表す文は？|This room is used for music.|This room uses music.|This room was using music.|能動文の目的語 this room が受け身の主語になります。
+Is English spoken in that class? の意味は？|その授業で英語が話されますか。|あなたはその授業で英語を教えますか。|その授業は英語だけですか。|Is＋主語＋過去分詞？ は受け身の疑問文です。only は含まれていません。
+@english|2|reading|メール・説明文の要点
+【メール】I bought two tickets for Friday. If you cannot come, please tell me by Thursday evening.\n来られない場合に連絡する期限は？|木曜日の夕方まで|金曜日の夕方まで|木曜日の朝まで|by Thursday evening が連絡の締切です。
+【紹介】Our town has a small museum. It used to be a school. The old classrooms now show tools from the past.\n現在の博物館で見られるものは？|昔の道具|現在使われている教科書|学校の給食|now show tools from the past が現在の展示です。
+【会話】Aya wanted a new bag, but she fixed her old one because she wanted to save money.\n古いかばんを直した理由は？|お金を節約するため|新しいかばんをなくしたため|学校で直す宿題が出たため|because の後ろの she wanted to save money が理由です。
+【案内】The first bus leaves at eight. The next one leaves thirty minutes later.\n2本目のバスは何時に出る？|8時30分|7時30分|9時|later は「後に」。8時の30分後は8時30分です。
+【日記】I was nervous before the game. When I heard my friends cheering, I felt better.\n気持ちが楽になったきっかけは？|友達の応援を聞いたこと|試合が中止になったこと|自分が勝ったと知ったこと|When I heard my friends cheering が気持ちの変化のきっかけです。
+@english|2|listening|聞いて理由・変更・条件をつかむ
+音声を聞いて、予定が変更された理由を選ぼう。|雨だったから|暑かったから|会場が満員だったから|because it was raining が理由です。~We played inside because it was raining.
+音声を聞いて、変更後の集合場所を選ぼう。|図書館|公園|駅|at the library, not at the park が変更後の場所です。~Let's meet at the library, not at the park.
+音声を聞いて、持ってくる必要がない物を選ぼう。|水|昼食|帽子|You don't need to bring water. は水を持参しなくてよいという意味です。~Bring lunch and a hat. You don't need to bring water.
+音声を聞いて、貸し出しが無料になる条件を選ぼう。|学生証を見せる|正午までに来る|友人と一緒に来る|if you show your student card が条件です。~You can rent a bike for free if you show your student card.
+音声を聞いて、昨夜の8時にしていたことを選ぼう。|夕食を作っていた|宿題をしていた|夕食を食べていた|was making dinner は夕食を作っていたという意味です。~I was making dinner at eight last night.
+@english|2|speaking|理由を伝え、頼み、誘う
+まず英語で言ってみよう。遅れた理由を「バスに乗り遅れたから」と伝える。|I was late because I missed the bus.|I missed the bus because I was early.|The bus was late because I drove it.|because の後ろに理由を置きます。正解の文を一度声に出しましょう。
+まず英語で言ってみよう。「写真を撮っていただけますか」と頼む。|Could you take a picture for us?|Could I see your picture?|Could we give you a picture?|Could you ...? は相手への丁寧な依頼です。正解の文を一度声に出しましょう。
+まず英語で言ってみよう。「窓を開けてもいいですか」と許可を求める。|May I open the window?|May you open the window?|Can you close the window?|May I ...? で自分がしてもよいかを尋ねます。正解の文を一度声に出しましょう。
+まず英語で言ってみよう。「放課後、一緒に練習しない？」と誘う。|Why don't we practice after school?|Why did we practice at school?|Where do we practice before school?|Why don't we ...? は一緒にする提案です。正解の文を一度声に出しましょう。
+まず英語で言ってみよう。手伝いを申し出る。|Can I help you?|Can you help me?|Did you help her?|Can I help you? は自分が手伝う申し出です。正解の文を一度声に出しましょう。
+@english|2|writing|つなぎ言葉と動詞の形を書く
+「暗かったので帰宅した」 I went home (　) it was dark. 空欄に理由を表す英語1語を書こう。|=because|because の後ろに理由を表す文を置きます。
+「その手紙は彼女に書かれた」 The letter was (　) by her. 空欄に write を適切な形で書こう。|=written|was に続ける write の過去分詞は written です。
+「私は読書を楽しみます」 I enjoy (　) books. 空欄に read を適切な形で書こう。|=reading|enjoy の後ろで動作を表す場合は動名詞を用います。
+「この箱はあの箱より重い」 This box is (　) than that one. 空欄に heavy の比較級を書こう。|=heavier|heavy の y を i に変えて er を付けます。
+「彼女は泳いでいました」 She was (　). 空欄に swim の ing形を書こう。|=swimming|短い母音の後に子音1字で終わる swim は m を重ねます。
+@english|3|present-perfect|現在完了の意味と形
+I have lived here (　) 2020.|since|for|ago|2020 は継続の起点なので since を使います。
+Have you (　) visited Kyoto? 「京都を訪れたことはありますか」|ever|ago|since|経験を尋ねる現在完了で「これまでに」を表す ever を使います。
+She has already (　) lunch.|eaten|ate|eat|has の後ろに eat の過去分詞 eaten を置きます。
+I haven't finished the report (　). 「まだ報告書を終えていません」|yet|already|ever|否定文で「まだ」を表す yet を文末に置きます。
+「彼は5年間ずっとその犬を飼っています」に合う文は？|He has had the dog for five years.|He had the dog five years ago.|He has the dog since five years.|今も続く状態を has had で表し、期間には for を使います。
+@english|3|reading|英文の対比・主張・根拠
+【意見】Many students like using tablets. However, some say that reading long stories on paper is easier. We should choose the tool that fits the task.\n筆者の提案は？|課題に合う道具を選ぶ|長い文章は全員が紙で読む|紙を使う授業をすべてやめる|最後の文で、目的に応じて道具を選ぼうと述べています。
+【記録】We counted 120 bikes on a sunny day and 40 on a rainy day. We checked only two days, so we need more data.\nさらに調べる必要がある理由は？|調べた日が2日だけだから|晴れの日に自転車を数えなかったから|天気を記録しなかったから|We checked only two days がデータを追加する理由です。
+【案内】The talk is free, but each visitor must reserve a seat online. Walk-in visitors cannot enter.\n入場するために必要なことは？|オンラインで席を予約する|当日に料金を払う|会場で当日券を買う|free は無料ですが、must reserve a seat online と予約条件が示されています。
+【手紙】I thought the clean-up would be boring. After working with my neighbors, I realized that it was a good way to get to know them.\n筆者が活動を通して気づいたことは？|近所の人を知るきっかけになる|近所の人とは一緒に働けない|掃除を早く終える道具が必要だ|get to know them の them は近所の人たちを指します。
+【説明】Some birds fly south for the winter. They do not leave only because of the cold. Food is also harder to find in winter.\n本文が寒さ以外の理由として挙げているものは？|冬には食べ物が見つかりにくい|冬には飛ぶ距離が短くなる|冬には南で巣が増える|Food is also harder to find が寒さ以外の理由です。
+@english|3|listening|聞いて提案・比較・要点をつかむ
+音声を聞いて、話し手が提案する出発時刻を選ぼう。|6時30分|7時|7時30分|後半の I think we should leave at six thirty. が提案です。~The bus leaves at seven. I think we should leave at six thirty.
+音声を聞いて、話し手が選ぶ店を選ぼう。|駅に近い店|安い方の店|最も大きい店|I'll go to the one near the station. が最終判断です。~The other store is cheaper, but I'll go to the one near the station.
+音声を聞いて、まだ終わっていないことを選ぼう。|写真を送ること|レポートを書くこと|レポートを印刷すること|haven't sent the photos yet が未完了の作業です。~I've finished the report, but I haven't sent the photos yet.
+音声を聞いて、部員に必要な行動を選ぼう。|道具を倉庫へ戻す|道具を家へ持ち帰る|道具を買い直す|put all the tools back in the shed はすべての道具を倉庫に戻すことです。~Before you go home, put all the tools back in the shed.
+音声を聞いて、話し手が自転車を使う主な理由を選ぼう。|駅に早く着くから|バスが運休しているから|雨が降っているから|it takes less time to get to the station が所要時間の短さを表します。~I take my bike because it takes less time to get to the station.
+@english|3|speaking|意見・説明・提案を話す
+まず英語で言ってみよう。「費用が少ないのでA案がよいと思う」と伝える。|I think Plan A is better because it costs less.|I chose Plan A although it costs more.|I think Plan B is cheaper than Plan A.|意見の後に because で費用の理由を添えます。正解の文を一度声に出しましょう。
+まず英語で言ってみよう。「もう少しゆっくり話していただけますか」と頼む。|Could you speak a little more slowly?|Could you speak a little louder?|Could I speak first?|more slowly は「もっとゆっくり」です。正解の文を一度声に出しましょう。
+まず英語で言ってみよう。「その本を読んだことがある？」と尋ねる。|Have you ever read that book?|Have you bought that book today?|Are you reading that book now?|Have you ever ...? は経験を尋ねる表現です。正解の文を一度声に出しましょう。
+まず英語で言ってみよう。「雨なら会議をオンラインにしよう」と提案する。|If it rains, let's meet online.|When it stops raining, let's go outside.|It rained while we were online.|If it rains が条件、let's meet online が提案です。正解の文を一度声に出しましょう。
+まず英語で言ってみよう。反対意見を切り出す前に「言いたいことは分かります」と伝える。|I see what you mean.|I don't know where you are.|I agree with every idea.|I see what you mean. は相手の言いたい内容を理解したと伝える表現です。正解の文を一度声に出しましょう。
+@english|3|writing|経験・条件・説明を書く
+「私はこの町に3年間住んでいます」 I've lived in this town (　) three years. 空欄に英語1語を書こう。|=for|three years は期間なので for を使います。
+「私はまだ昼食を食べていません」 I haven't (　) lunch yet. 空欄に eat の過去分詞を書こう。|=eaten|eat の過去分詞は eaten です。
+「机の上であなたが見つけた鍵」 the key (　) you found on the desk. 空欄に関係代名詞を1語書こう。|=that/which|先行詞は物を表す the key です。目的格に that または which を使えます。
+「もし明日雨なら、私は家にいます」 (　) it rains tomorrow, I'll stay home. 空欄に条件を表す英語1語を書こう。|=If|条件を表す節を If で始めます。
+「私は彼女がどこに住んでいるか知っています」 I know where she (　). 空欄に live を現在形で適切に変えて書こう。|=lives|間接疑問では where＋主語＋動詞の順です。she に合わせて lives にします。
