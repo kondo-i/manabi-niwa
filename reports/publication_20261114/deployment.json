@@ -1,0 +1,14 @@
+{
+  "project_id": "appgprj_6adf49333e2081918804182bd0af840b",
+  "version_number": 25,
+  "version_id": "appgprj_6adf49333e2081918804182bd0af840b~appgver_5ac8e2cb74888191be55ba08ac383b72",
+  "deployment_id": "appgdep_6af873171e688191af03169879e7a947",
+  "status": "succeeded",
+  "url": "https://kondo-study-lab.vast-stone-7426.chatgpt.site",
+  "site_source_sha": "2514cc015ebe4cf38775e08cf2a01174666a4b40",
+  "curriculum_source_sha": "387e03a7518a0ab6c0af780464bdc4942e4d71cd",
+  "published_at": "2026-11-14T14:41:41.383560+00:00",
+  "access_mode": "public",
+  "access_mode_changed": false,
+  "chat_public_share_created": false
+}

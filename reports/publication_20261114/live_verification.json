@@ -1,0 +1,79 @@
+{
+  "url": "https://kondo-study-lab.vast-stone-7426.chatgpt.site",
+  "status": "verified by native deployment and HTTP file reads",
+  "version_number": 25,
+  "site_source_sha": "2514cc015ebe4cf38775e08cf2a01174666a4b40",
+  "curriculum_source_sha": "387e03a7518a0ab6c0af780464bdc4942e4d71cd",
+  "regular_units": 347,
+  "exam_sections": 276,
+  "question_ids": 8848,
+  "files_verified": [
+    {
+      "file": "index.html",
+      "sha256": "4539736c89986e4c83a1e79a041ed9bff2c7dc7be4f35c42755eacc16d363ce6",
+      "matches_promoted_source": true
+    },
+    {
+      "file": "release.json",
+      "sha256": "178d80ffe8b6f012d388e4b24d2165a6e8b434c8c0dcb47dade5b393b62d16c1",
+      "matches_promoted_source": true
+    },
+    {
+      "file": "data/catalog.json",
+      "sha256": "219c09145fd487675989fa189a55121124aa7fe008e23b32feb20ef592a0a1ec",
+      "matches_promoted_source": true
+    },
+    {
+      "file": "app.js",
+      "sha256": "c9bc08ff0d7d59bdcf49e4e0741726d194c52c1eb85da3d0898aff1073c8e05a",
+      "matches_promoted_source": true
+    },
+    {
+      "file": "content.js",
+      "sha256": "df522024f0fd09735a713a0abddf5c06ced10a06b96e69ec9473705418dfa620",
+      "matches_promoted_source": true
+    },
+    {
+      "file": "data/packs/repair-science-g3-buoyancy-p1.json",
+      "sha256": "e3348ee056253763108d3f1770486961caae9eee628e6485782fb88eb18ed318",
+      "matches_promoted_source": true
+    },
+    {
+      "file": "data/packs/repair-math-g2-boxplots-p1.json",
+      "sha256": "2569d68e7dd5218a1f32a0d7f55d0970ca7401ff43ae24dcc21e9356025ee270",
+      "matches_promoted_source": true
+    },
+    {
+      "file": "data/packs/japanese-g2-auxiliary-context-balance-001.json",
+      "sha256": "baad19bc2be11293bc0c2513820ec59b31fcc7e20a4d2193dec55635874828c4",
+      "matches_promoted_source": true
+    },
+    {
+      "file": "data/figures/buoyancy-forces.svg",
+      "sha256": "5400f8a8bfb3a1816493b5590b17497874ecfd43de9930872be720b7c04f6be2",
+      "matches_promoted_source": true
+    },
+    {
+      "file": "data/figures/boxplot-reading.svg",
+      "sha256": "a1f5407455edbcbd22c58ca25bf5cc920f41735e32355997d3dc14015e5c7db8",
+      "matches_promoted_source": true
+    },
+    {
+      "file": "data/figures/boxplot-scores.svg",
+      "sha256": "9e4507eae3be3491e198c44713b224320738e892fde073a7012f4bc2b238ad00",
+      "matches_promoted_source": true
+    },
+    {
+      "file": "data/figures/boxplot-waiting.svg",
+      "sha256": "6a814bdaaca7f0a7a1db6e2ed9dd8774ea4bad3892983114c23d7dc171cb8671",
+      "matches_promoted_source": true
+    },
+    {
+      "file": "data/figures/boxplot-same.svg",
+      "sha256": "bfb99f498996eab4c1eb769f78088a175bb6e7f665120aec10e8e629a7225fbc",
+      "matches_promoted_source": true
+    }
+  ],
+  "browser_qa": false,
+  "iphone_qa": false
+}
