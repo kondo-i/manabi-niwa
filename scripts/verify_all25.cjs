@@ -5,7 +5,10 @@ const fs = require('node:fs');
 const path = require('node:path');
 const vm = require('node:vm');
 
-const [runtime, previous] = process.argv.slice(2).map(p => path.resolve(p));
+const [runtimeArg, previousArg, ...flags] = process.argv.slice(2);
+const [runtime, previous] = [runtimeArg, previousArg].map(p => path.resolve(p));
+const allowClarification = flags.includes('--allow-clarification');
+let clarified = 0;
 const dist = path.join(runtime, 'dist');
 const read = file => fs.readFileSync(path.join(dist, file), 'utf8');
 const json = file => JSON.parse(read(file));
@@ -69,7 +72,18 @@ async function main() {
     assert.deepEqual(embedded.data['data/catalog.json'], catalog);
     for (const u of prior.units) for (const p of u.packs) {
         const old = fs.readFileSync(path.join(previous,'dist',p.file),'utf8');
-        assert.deepEqual(JSON.parse(read(p.file)), JSON.parse(old), p.file);
+        const current = JSON.parse(read(p.file));
+        const originals = JSON.parse(old);
+        const comparable = current.map(q => {
+            if (!allowClarification || q.id !== 'japanese-g2-auxiliary-context-balance-001:q4') return q;
+            const before = originals.find(x => x.id === q.id);
+            assert(before, q.id);
+            assert.equal(q.prompt, '「先生が明日の予定を話される」の「れる」を、先生の動作への敬意を表す用法として読む。次のうち、同じように動作をする人への敬意を表す用法の文はどれか。');
+            assert.equal(q.explanation, '設問で敬意を表すと指定した「話される」は尊敬。「校長先生が玄関に立たれる」も、校長先生の立つ動作への敬意を表す。「追いかけられる」は受け身、「思い出される」は自然に気持ちが起こる自発。');
+            clarified++;
+            return {...q, prompt:before.prompt, explanation:before.explanation};
+        });
+        assert.deepEqual(comparable, originals, p.file);
         for (const q of JSON.parse(old)) {
             priorIds.add(q.id);
             priorPrompts.add(key(q));
@@ -183,9 +197,34 @@ async function main() {
     harness.click({action:'exam-return'});
     assert.match(harness.app.innerHTML,/3小単元を選択中/);
 
-    const report = { uniqueQuestions:bank.size, priorQuestionsPreserved:priorIds.size,
+    const publicationRuns = [];
+    for (const [uid, grade, subject, companion] of [
+        ['repair-science-g3-buoyancy', 3, 'science', 'all25-forces'],
+        ['repair-math-g2-boxplots', 2, 'math', 'exam-section-051'],
+    ]) {
+        if (!ready.some(u => u.id === uid)) continue;
+        harness.click({action:'finish'});
+        await harness.run(`start('practice',${JSON.stringify(uid)},25)`);
+        verifySession(25);
+        for (let i=0; i<25; i++) harness.run("answer(state.session.questions[state.session.index].type==='choice' ? state.session.questions[state.session.index].answer : String(state.session.questions[state.session.index].answer)); next()");
+        assert.equal(harness.run('state.session.score'),25);
+        assert(harness.run('state.session.finished'));
+        harness.click({action:'finish'});
+        await harness.run(`examGrade=${grade}; examSubject=${JSON.stringify(subject)}; examSelection=new Set(${JSON.stringify([uid,companion])}); startExam(25)`);
+        verifySession(25);
+        for (let i=0; i<25; i++) harness.run("answer(state.session.questions[state.session.index].type==='choice' ? state.session.questions[state.session.index].answer : String(state.session.questions[state.session.index].answer)); next()");
+        assert.equal(harness.run('state.session.score'),25);
+        assert.match(harness.app.innerHTML,/小単元別の結果/);
+        assert.deepEqual(JSON.parse(harness.run('JSON.stringify(Object.values(state.session.examResults).map(x=>x.total).sort((a,b)=>a-b))')),[12,13]);
+        publicationRuns.push({unit:uid, practiceScore:25, mixedExamScore:25, distribution:[12,13]});
+    }
+
+    if (allowClarification) assert.equal(clarified, 1);
+    const report = { uniqueQuestions:bank.size, priorQuestionsPreserved:priorIds.size - clarified,
+        questionsClarified:clarified,
         newUniquePromptQuestions:addedPrompts.size, audioFiles:audio, practiceStarts, examStarts, regular25, exam25,
-        gradeSubject, completedG3ScienceRuns:[{mode:'practice',score:25},{mode:'exam',score:25,distribution:[8,8,9]}] };
+        gradeSubject, completedG3ScienceRuns:[{mode:'practice',score:25},{mode:'exam',score:25,distribution:[8,8,9]}],
+        completedPublicationRuns:publicationRuns };
     fs.writeFileSync(path.join(runtime,'verification.json'), JSON.stringify(report,null,2)+'\n');
     console.log(JSON.stringify(report));
 }

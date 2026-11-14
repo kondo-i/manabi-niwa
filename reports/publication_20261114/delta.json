@@ -1,0 +1,76 @@
+{
+  "baseline_questions": 8798,
+  "current_questions": 8848,
+  "added_count": 50,
+  "changed_count": 1,
+  "deleted_count": 0,
+  "unchanged_count": 8797,
+  "added_ids": [
+    "CR-MATH2B-001",
+    "CR-MATH2B-002",
+    "CR-MATH2B-003",
+    "CR-MATH2B-004",
+    "CR-MATH2B-005",
+    "CR-MATH2B-006",
+    "CR-MATH2B-007",
+    "CR-MATH2B-008",
+    "CR-MATH2B-009",
+    "CR-MATH2B-010",
+    "CR-MATH2B-011",
+    "CR-MATH2B-012",
+    "CR-MATH2B-013",
+    "CR-MATH2B-014",
+    "CR-MATH2B-015",
+    "CR-MATH2B-016",
+    "CR-MATH2B-017",
+    "CR-MATH2B-018",
+    "CR-MATH2B-019",
+    "CR-MATH2B-020",
+    "CR-MATH2B-021",
+    "CR-MATH2B-022",
+    "CR-MATH2B-023",
+    "CR-MATH2B-024",
+    "CR-MATH2B-025",
+    "CR-SCI3B-001",
+    "CR-SCI3B-002",
+    "CR-SCI3B-003",
+    "CR-SCI3B-004",
+    "CR-SCI3B-005",
+    "CR-SCI3B-006",
+    "CR-SCI3B-007",
+    "CR-SCI3B-008",
+    "CR-SCI3B-009",
+    "CR-SCI3B-010",
+    "CR-SCI3B-011",
+    "CR-SCI3B-012",
+    "CR-SCI3B-013",
+    "CR-SCI3B-014",
+    "CR-SCI3B-015",
+    "CR-SCI3B-016",
+    "CR-SCI3B-017",
+    "CR-SCI3B-018",
+    "CR-SCI3B-019",
+    "CR-SCI3B-020",
+    "CR-SCI3B-021",
+    "CR-SCI3B-022",
+    "CR-SCI3B-023",
+    "CR-SCI3B-024",
+    "CR-SCI3B-025"
+  ],
+  "deleted_ids": [],
+  "changed_questions": [
+    {
+      "id": "japanese-g2-auxiliary-context-balance-001:q4",
+      "fields": {
+        "explanation": {
+          "before": "「話される」と「立たれる」は、先生の動作への敬意を表す尊敬。「追いかけられる」は受け身、「思い出される」は自然に気持ちが起こる自発。",
+          "after": "設問で敬意を表すと指定した「話される」は尊敬。「校長先生が玄関に立たれる」も、校長先生の立つ動作への敬意を表す。「追いかけられる」は受け身、「思い出される」は自然に気持ちが起こる自発。"
+        },
+        "prompt": {
+          "before": "「先生が明日の予定を話される」の「れる」と同じ用法の文はどれか。",
+          "after": "「先生が明日の予定を話される」の「れる」を、先生の動作への敬意を表す用法として読む。次のうち、同じように動作をする人への敬意を表す用法の文はどれか。"
+        }
+      }
+    }
+  ]
+}

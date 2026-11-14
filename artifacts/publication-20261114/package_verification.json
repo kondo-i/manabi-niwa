@@ -1,0 +1,19 @@
+{
+  "zip_sha256": "369d9fd65e2141c5ca3065c8c86397de14a6b390e91a1419407d940e42460d7c",
+  "zip_bytes": 5623709,
+  "files_verified_after_extraction": 944,
+  "extracted_pack_paths_verified": true,
+  "standalone_sha256": {
+    "manabi_25.html": "e84ad6bb02a07b97c5377888a2833c1ae5512b56e6c1d7d99b9a6eda358e9c2d",
+    "teacher_answers.csv": "5c7b3fcfa299a428f5fa06f6e782f075016389faaf265e22dc89e846fa516c96",
+    "unit_counts.csv": "9e8330e495ce20703c24d2f589ac25b3fb6edc4833c9de7a699822ee9a034c64",
+    "unit_quality.csv": "4b18d04f9dd06b3b012cc700c6589c83cf8b6ac98362254d7de06e95e3c90a9c",
+    "summary.json": "7adbf576e01eeed5063ee3f3210d42adec5f8f02c026ccd3375d995fe526a0c5",
+    "verification.json": "036989bcbf0304d1bb09123297d2ec5c4d1797039d653d250521d091630f24f0",
+    "quality.json": "fc0afb021653459c494afe12436d8e64f0575ab58be535587dbf0eeabb2dbe29",
+    "delta.json": "42e96e1d5d14c5bad83ddfa99c0a16dd8100edc32eb58e6a10719a38431b8e2c",
+    "coverage_matrix.csv": "a24f44078da0b8d9941f490f0cd010638c07da571280d3c1a14d4a144fbf16ab",
+    "coverage_summary.json": "63786f8f304291e90be441d4330684f69a17027565bd82ef5bfeb8e4a6c18b99"
+  },
+  "note": "展開した全ファイルのハッシュ、入口HTML、catalogからの全pack参照を確認。"
+}

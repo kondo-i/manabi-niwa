@@ -181,6 +181,21 @@ def expect_conjugation(delta, bank, previous):
                 f'Unexpected conjugation assignment: {qid}')
 
 
+def expect_publication(delta, bank, previous):
+    expected = {f'{prefix}-{i:03}' for prefix in ('CR-SCI3B', 'CR-MATH2B') for i in range(1, 26)}
+    require(len(previous) == 8798, 'Publication baseline must have 8,798 questions')
+    require(set(delta['added_ids']) == expected and not delta['deleted_ids'],
+            'Unexpected publication additions or deletions')
+    require(len(delta['changed_questions']) == 1, 'Exactly one clarification is expected')
+    change = delta['changed_questions'][0]
+    require(change['id'] == 'japanese-g2-auxiliary-context-balance-001:q4' and
+            set(change['fields']) == {'prompt', 'explanation'}, 'Unexpected changed fields')
+    for qid in expected:
+        q = bank[qid]
+        assignment = (3, 'science', 'repair-science-g3-buoyancy') if qid.startswith('CR-SCI3B') else (2, 'math', 'repair-math-g2-boxplots')
+        require((q['grade'], q['subject'], q['unitId']) == assignment, f'Unexpected added assignment: {qid}')
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('runtime_dir', type=Path)
@@ -188,6 +203,7 @@ def main():
     acceptance = parser.add_mutually_exclusive_group()
     acceptance.add_argument('--expect-repair', action='store_true', help='Require exactly the reviewed 75 additions and five translation fixes')
     acceptance.add_argument('--expect-conjugation', action='store_true', help='Require 25 conjugation additions and preserve all previous 8,773 questions')
+    acceptance.add_argument('--expect-publication', action='store_true', help='Require 50 publication additions and one clarification')
     args = parser.parse_args()
     runtime, baseline = args.runtime_dir.resolve(), args.baseline_dir.resolve()
     catalog, bank, unit_ids, packs = load_runtime(runtime)
@@ -198,6 +214,8 @@ def main():
         expect_repair(delta, bank, previous)
     if args.expect_conjugation:
         expect_conjugation(delta, bank, previous)
+    if args.expect_publication:
+        expect_publication(delta, bank, previous)
     by_combination = []
     for grade in (1, 2, 3):
         for subject in SUBJECTS:
@@ -216,6 +234,7 @@ def main():
         'exports_verified': exports,
         'repair_delta_acceptance': 'passed' if args.expect_repair else 'not requested',
         'conjugation_delta_acceptance': 'passed' if args.expect_conjugation else 'not requested',
+        'publication_delta_acceptance': 'passed' if args.expect_publication else 'not requested',
     }
     with (runtime / 'unit_quality.csv').open('w', encoding='utf-8-sig', newline='') as file:
         writer = csv.writer(file, lineterminator='\n')
@@ -236,7 +255,8 @@ def main():
     print(json.dumps({'all_questions': report['all_questions'], 'exports_verified': exports,
                       'added': delta['added_count'], 'changed': delta['changed_count'],
                       'deleted': delta['deleted_count'], 'repair_delta_acceptance': report['repair_delta_acceptance'],
-                      'conjugation_delta_acceptance': report['conjugation_delta_acceptance']},
+                      'conjugation_delta_acceptance': report['conjugation_delta_acceptance'],
+                      'publication_delta_acceptance': report['publication_delta_acceptance']},
                      ensure_ascii=False))
 
 

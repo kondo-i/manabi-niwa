@@ -1,0 +1,138 @@
+{
+  "uniqueQuestions": 8848,
+  "priorQuestionsPreserved": 8797,
+  "questionsClarified": 1,
+  "newUniquePromptQuestions": 50,
+  "audioFiles": 75,
+  "practiceStarts": 694,
+  "examStarts": 552,
+  "regular25": 347,
+  "exam25": 276,
+  "gradeSubject": [
+    {
+      "grade": 1,
+      "subject": "science",
+      "regular": 36,
+      "exam": 23
+    },
+    {
+      "grade": 1,
+      "subject": "math",
+      "regular": 32,
+      "exam": 19
+    },
+    {
+      "grade": 1,
+      "subject": "english",
+      "regular": 28,
+      "exam": 20
+    },
+    {
+      "grade": 1,
+      "subject": "japanese",
+      "regular": 28,
+      "exam": 25
+    },
+    {
+      "grade": 1,
+      "subject": "social",
+      "regular": 21,
+      "exam": 16
+    },
+    {
+      "grade": 2,
+      "subject": "science",
+      "regular": 24,
+      "exam": 18
+    },
+    {
+      "grade": 2,
+      "subject": "math",
+      "regular": 16,
+      "exam": 14
+    },
+    {
+      "grade": 2,
+      "subject": "english",
+      "regular": 16,
+      "exam": 14
+    },
+    {
+      "grade": 2,
+      "subject": "japanese",
+      "regular": 42,
+      "exam": 40
+    },
+    {
+      "grade": 2,
+      "subject": "social",
+      "regular": 19,
+      "exam": 17
+    },
+    {
+      "grade": 3,
+      "subject": "science",
+      "regular": 25,
+      "exam": 22
+    },
+    {
+      "grade": 3,
+      "subject": "math",
+      "regular": 17,
+      "exam": 15
+    },
+    {
+      "grade": 3,
+      "subject": "english",
+      "regular": 17,
+      "exam": 13
+    },
+    {
+      "grade": 3,
+      "subject": "japanese",
+      "regular": 12,
+      "exam": 11
+    },
+    {
+      "grade": 3,
+      "subject": "social",
+      "regular": 14,
+      "exam": 9
+    }
+  ],
+  "completedG3ScienceRuns": [
+    {
+      "mode": "practice",
+      "score": 25
+    },
+    {
+      "mode": "exam",
+      "score": 25,
+      "distribution": [
+        8,
+        8,
+        9
+      ]
+    }
+  ],
+  "completedPublicationRuns": [
+    {
+      "unit": "repair-science-g3-buoyancy",
+      "practiceScore": 25,
+      "mixedExamScore": 25,
+      "distribution": [
+        12,
+        13
+      ]
+    },
+    {
+      "unit": "repair-math-g2-boxplots",
+      "practiceScore": 25,
+      "mixedExamScore": 25,
+      "distribution": [
+        12,
+        13
+      ]
+    }
+  ]
+}

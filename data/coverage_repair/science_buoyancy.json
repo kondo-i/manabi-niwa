@@ -1,0 +1,431 @@
+[
+  {
+    "id": "CR-SCI3B-001",
+    "unitId": "repair-science-g3-buoyancy",
+    "grade": 3,
+    "subject": "science",
+    "type": "choice",
+    "prompt": "同じ水そうで、同じ向きに向けたゴム膜を水面から5 cmと20 cmの深さに置いた。水は静止している。水圧について正しい予想は？",
+    "choices": [
+      "深さによらず等しい",
+      "20 cmの位置の方が大きい",
+      "5 cmの位置の方が大きい"
+    ],
+    "answer": 1,
+    "explanation": "水圧は水の重さによって生じ、同じ水では深いほど大きくなる。水面からの深さを比べよう。容器の底からの高さとの取り違えに注意する。",
+    "status": "prototype",
+    "learningContent": "水圧と深さ"
+  },
+  {
+    "id": "CR-SCI3B-002",
+    "unitId": "repair-science-g3-buoyancy",
+    "grade": 3,
+    "subject": "science",
+    "type": "choice",
+    "prompt": "ゴム膜を張った円筒を、空気が漏れない状態で水中に入れた。膜を上向き、横向き、下向きにして、それぞれ同じ深さで調べる。水は静止している。水圧の働き方として適切なのは？",
+    "choices": [
+      "いずれの向きでも膜は水から押される",
+      "膜を上向きにしたときだけ水から押される",
+      "膜を下向きにすると水からは押されない"
+    ],
+    "answer": 0,
+    "explanation": "水圧は上からだけでなく、あらゆる向きから面を押す。下向きの膜にも、水は下から押す力を及ぼす。膜のへこみの向きと、水が力を加える向きを対応させよう。",
+    "status": "prototype",
+    "learningContent": "水圧が働く向き"
+  },
+  {
+    "id": "CR-SCI3B-003",
+    "unitId": "repair-science-g3-buoyancy",
+    "grade": 3,
+    "subject": "science",
+    "type": "choice",
+    "prompt": "一つの水そうの左右の壁に、同じ形・面積・性質のゴム膜A、Bを、水面に垂直に取り付けた。両方の膜の中心は水面から同じ深さで、水は静止している。膜の中心での水圧の比較は？",
+    "choices": [
+      "左の壁のAの方が必ず大きい",
+      "右の壁のBの方が必ず大きい",
+      "AとBで等しい"
+    ],
+    "answer": 2,
+    "explanation": "同じ液体で水面からの深さが同じなら、水圧は等しい。左右の位置そのものでは決まらない。比較の基準を水面にそろえよう。",
+    "status": "prototype",
+    "learningContent": "同じ深さの水圧"
+  },
+  {
+    "id": "CR-SCI3B-004",
+    "unitId": "repair-science-g3-buoyancy",
+    "grade": 3,
+    "subject": "science",
+    "type": "choice",
+    "prompt": "上部が開いた広い容器Aと細い容器Bに同じ種類の水を入れた。水量はAの方が多い。水面には同じ大気圧が加わり、水は静止し、調べる点はどちらも水面から10 cmの深さにある。この2点の水圧は？",
+    "choices": [
+      "容器が細いBの方が必ず大きい",
+      "水量が違っても等しい",
+      "全体の水量が多いAの方が大きい"
+    ],
+    "answer": 1,
+    "explanation": "同じ水では水圧は水面からの深さで決まる。容器全体の水量や幅だけでは比較しない。水面から10 cmという条件が共通であることを確かめよう。",
+    "status": "prototype",
+    "learningContent": "容器内の水量と水圧"
+  },
+  {
+    "id": "CR-SCI3B-005",
+    "unitId": "repair-science-g3-buoyancy",
+    "grade": 3,
+    "subject": "science",
+    "type": "choice",
+    "prompt": "図は静止した水中に完全に沈んだ直方体に、水が加える力の模式図である。上面を押す力は下向き2 N、下面を押す力は上向き3 N。左右など側面の力は打ち消し合う。水が直方体に加える力の合力は？",
+    "choices": [
+      "上向き1 N",
+      "下向き1 N",
+      "上向き5 N"
+    ],
+    "answer": 0,
+    "explanation": "上向き3 Nと下向き2 Nの差は1 Nで、合力は上向き。この水から受ける上向きの合力が浮力。反対向きの力なので、3＋2ではなく3−2で考えよう。重力は今回問う「水が加える力」には含めない。",
+    "status": "prototype",
+    "learningContent": "上下面の水圧差と浮力",
+    "figure": {
+      "src": "data/figures/buoyancy-forces.svg",
+      "alt": "静止した水中の直方体。水面は物体より上。上面には下向き2 N、下面には上向き3 Nの力が働く。側面の力は打ち消し合う。"
+    }
+  },
+  {
+    "id": "CR-SCI3B-006",
+    "unitId": "repair-science-g3-buoyancy",
+    "grade": 3,
+    "subject": "science",
+    "type": "choice",
+    "prompt": "物体をばねばかりにつるして静止させた。\n空気中の値：3.0 N\n物体全体を水中に入れた値：2.2 N\n水中では物体は容器に触れず、糸の体積と空気の浮力は無視する。物体が受ける浮力は？",
+    "choices": [
+      "2.2 N",
+      "5.2 N",
+      "0.8 N"
+    ],
+    "answer": 2,
+    "explanation": "空気中の重力3.0 Nから、水中の糸が引く力2.2 Nを引く。3.0−2.2＝0.8 N。水中では重力を、糸の張力と浮力が分担して支えている。",
+    "status": "prototype",
+    "learningContent": "ばねばかりによる浮力測定"
+  },
+  {
+    "id": "CR-SCI3B-007",
+    "unitId": "repair-science-g3-buoyancy",
+    "grade": 3,
+    "subject": "science",
+    "type": "choice",
+    "prompt": "物体を空気中から水中へ移すと、つるしたばねばかりの値が小さくなった。空気中でも水中でも物体を静止させ、容器に触れない。物体の質量や場所の重力の強さは変わらない。正しい説明は？",
+    "choices": [
+      "水中で物体の質量が必ず小さくなった",
+      "上向きの浮力が加わり、糸が支える力が小さくなった",
+      "水中では物体に働く重力そのものがなくなった"
+    ],
+    "answer": 1,
+    "explanation": "水中でも物体の質量と重力は変わらない。浮力が上向きに働くため、ばねばかりの値が小さくなる。ばねばかりの値と、物体に働く重力そのものを区別しよう。",
+    "status": "prototype",
+    "learningContent": "重力とばねばかりの値の区別"
+  },
+  {
+    "id": "CR-SCI3B-008",
+    "unitId": "repair-science-g3-buoyancy",
+    "grade": 3,
+    "subject": "science",
+    "type": "choice",
+    "prompt": "形が変わらない同じ物体を水へ少しずつ沈め、静止させた。容器に触れていない。\n水中部分の体積(cm³)：50／100／150\n浮力(N)：0.5／1.0／1.5\nこの資料から読み取れる関係は？",
+    "choices": [
+      "水中部分の体積が増すと浮力が増す",
+      "物体全体の質量が増すと浮力が増す",
+      "水中部分の体積が増しても浮力は変わらない"
+    ],
+    "answer": 0,
+    "explanation": "同じ物体なので質量は変えていない。変えたのは水中部分の体積で、体積が50 cm³ずつ増すと浮力は0.5 Nずつ増えている。何を変えた実験かを先に確かめよう。",
+    "status": "prototype",
+    "learningContent": "水中部分の体積と浮力"
+  },
+  {
+    "id": "CR-SCI3B-009",
+    "unitId": "repair-science-g3-buoyancy",
+    "grade": 3,
+    "subject": "science",
+    "type": "choice",
+    "prompt": "形と体積が変わらない物体を、同じ水中で完全に沈めたまま下げた。初めも後も物体を静止させ、容器には触れない。水中の体積も液体の密度も変わらない。浮力はどうなる？",
+    "choices": [
+      "深い位置ほど大きくなる",
+      "深い位置ほど小さくなる",
+      "変わらない"
+    ],
+    "answer": 2,
+    "explanation": "完全に沈んでいるので、水中部分の体積は一定。浮力は変わらない。深くなると上面も下面も水圧が大きくなるが、その差による上向きの合力はこの条件では変わらない。",
+    "status": "prototype",
+    "learningContent": "完全に沈んだ後の深さと浮力"
+  },
+  {
+    "id": "CR-SCI3B-010",
+    "unitId": "repair-science-g3-buoyancy",
+    "grade": 3,
+    "subject": "science",
+    "type": "choice",
+    "prompt": "体積が同じ50 cm³で、重さが異なる金属A、Bを同じ水に完全に沈めた。どちらも形が変わらず、容器に触れず、糸でつるして静止している。AとBが受ける浮力は？",
+    "choices": [
+      "軽い物体の方が必ず大きい",
+      "重さが違っても等しい",
+      "重い物体の方が必ず大きい"
+    ],
+    "answer": 1,
+    "explanation": "同じ水に完全に沈んだ体積が同じなら浮力は等しい。重さが異なると糸が支える力は異なるが、水が押しのけられる体積は同じ。重力と浮力の比較条件を分けよう。",
+    "status": "prototype",
+    "learningContent": "物体の重さと浮力の比較"
+  },
+  {
+    "id": "CR-SCI3B-011",
+    "unitId": "repair-science-g3-buoyancy",
+    "grade": 3,
+    "subject": "science",
+    "type": "choice",
+    "prompt": "同じ水で調べると、水中の体積100 cm³につき1.0 Nの浮力が働いた。形が変わらない物体Aは50 cm³、Bは150 cm³で、どちらも完全に水中にある。AとBの浮力の比A：Bは？",
+    "choices": [
+      "1：3",
+      "3：1",
+      "1：1"
+    ],
+    "answer": 0,
+    "explanation": "同じ水では、水中部分の体積の比が浮力の比になる。50：150＝1：3。Aは0.5 N、Bは1.5 Nと求めて比べても確かめられる。",
+    "status": "prototype",
+    "learningContent": "体積の違いと浮力の比較"
+  },
+  {
+    "id": "CR-SCI3B-012",
+    "unitId": "repair-science-g3-buoyancy",
+    "grade": 3,
+    "subject": "science",
+    "type": "choice",
+    "prompt": "形と体積が変わらない直方体を、同じ水中で縦向きと横向きにして調べた。どちらも完全に沈め、静止させ、容器に触れない。付着する気泡はない。受ける浮力は？",
+    "choices": [
+      "上面の面積が大きい向きの方が必ず大きい",
+      "縦の長さが長い向きの方が必ず大きい",
+      "向きを変えても等しい"
+    ],
+    "answer": 2,
+    "explanation": "同じ水中にある物体の体積は、向きを変えても同じ。したがって浮力も等しい。上面の面積だけを取り出さず、上下面の水圧の差と、水中部分の体積を合わせて考えよう。",
+    "status": "prototype",
+    "learningContent": "向きを変えた物体の浮力"
+  },
+  {
+    "id": "CR-SCI3B-013",
+    "unitId": "repair-science-g3-buoyancy",
+    "grade": 3,
+    "subject": "science",
+    "type": "choice",
+    "prompt": "ある物体を水中へ入れ、押しのけた水を集めると80 cm³だった。この水の密度は1.0 g/cm³、100 gの物体に働く重力を1 Nとする。浮力は押しのけた水の重さに等しいものとして、物体が受ける浮力を求めよう。",
+    "choices": [
+      "8 N",
+      "0.8 N",
+      "0.08 N"
+    ],
+    "answer": 1,
+    "explanation": "押しのけた水の質量は80×1.0＝80 g。100 gで1 Nなので80 gでは0.8 N。体積から質量へ、質量から重力へと単位を一つずつ確認しよう。",
+    "status": "prototype",
+    "learningContent": "押しのけた水と浮力"
+  },
+  {
+    "id": "CR-SCI3B-014",
+    "unitId": "repair-science-g3-buoyancy",
+    "grade": 3,
+    "subject": "science",
+    "type": "choice",
+    "prompt": "注ぎ口のある容器で、物体が押しのけた水の体積を、あふれた水を集めて調べたい。物体を入れる前の準備として適切なのは？",
+    "choices": [
+      "注ぎ口の高さまで水を入れ、流出が止まってから空の受け容器を置く",
+      "水面を注ぎ口より下にして、空の受け容器を置く",
+      "注ぎ口から流れ続けている間に、物体を入れ始める"
+    ],
+    "answer": 0,
+    "explanation": "水位を注ぎ口までそろえ、余分な水の流出が止まってから測定する。低い水位では押しのけても一部はあふれず、流出中では最初から出ていた水まで集めてしまう。",
+    "status": "prototype",
+    "learningContent": "あふれた水の測定手順"
+  },
+  {
+    "id": "CR-SCI3B-015",
+    "unitId": "repair-science-g3-buoyancy",
+    "grade": 3,
+    "subject": "science",
+    "type": "choice",
+    "prompt": "重さ0.6 Nの木片が、静かな水に一部だけ沈んで浮いて静止している。糸で引いたり容器に触れたりしていない。木片が受ける浮力の大きさは？",
+    "choices": [
+      "0 N",
+      "0.3 N",
+      "0.6 N"
+    ],
+    "answer": 2,
+    "explanation": "木片は静止しており、重力と浮力がつり合うため浮力は0.6 N。水面より上に出た体積の割合を、そのまま重力にかけて浮力を決めるのではない。",
+    "status": "prototype",
+    "learningContent": "浮いて静止する物体の力のつり合い"
+  },
+  {
+    "id": "CR-SCI3B-016",
+    "unitId": "repair-science-g3-buoyancy",
+    "grade": 3,
+    "subject": "science",
+    "type": "choice",
+    "prompt": "重さ1.0 Nの容器が水に浮いて静止していた。水を吸わず重さ0.2 Nの荷物を容器内に載せると、荷物は水に触れず、容器は沈み込んで再び浮いて静止した。容器と荷物を合わせた全体が受ける浮力は？",
+    "choices": [
+      "0.8 N",
+      "1.2 N",
+      "1.0 N"
+    ],
+    "answer": 1,
+    "explanation": "静止して浮く全体には、重さ1.0＋0.2＝1.2 Nとつり合う浮力が働く。荷物を載せると押しのける水の体積が増える。浮いている限り浮力がいつも一定というわけではない。",
+    "status": "prototype",
+    "learningContent": "浮く物体に荷物を載せた変化"
+  },
+  {
+    "id": "CR-SCI3B-017",
+    "unitId": "repair-science-g3-buoyancy",
+    "grade": 3,
+    "subject": "science",
+    "type": "choice",
+    "prompt": "密度が0.8 g/cm³で、水を吸わず形が変わらない一様な物体を、密度1.0 g/cm³の十分深い水に静かに入れた。容器に触れず、表面張力の影響は無視する。最後に静止した状態として適切なのは？",
+    "choices": [
+      "物体の一部が水面より上に出て浮く",
+      "物体全体が水中にあるまま、底へ沈む",
+      "水中のどの深さでも、完全に沈んだまま静止する"
+    ],
+    "answer": 0,
+    "explanation": "物体の密度は水より小さいので、全体が沈む前に重力と浮力がつり合い、一部を水面上に出して浮く。水と物体の密度を同じ単位で比べよう。",
+    "status": "prototype",
+    "learningContent": "浮き沈みと密度"
+  },
+  {
+    "id": "CR-SCI3B-018",
+    "unitId": "repair-science-g3-buoyancy",
+    "grade": 3,
+    "subject": "science",
+    "type": "choice",
+    "prompt": "水中に完全に沈んだ物体に、下向きの重力2.0 N、上向きの浮力0.7 Nが働いている。他の力を無視して、静止させていた手を放した直後の説明として適切なのは？",
+    "choices": [
+      "沈み始めるときは、浮力が0 Nになる",
+      "上向きの浮力だけが残り、重力はなくなる",
+      "浮力は働いているが、下向きの合力がある"
+    ],
+    "answer": 2,
+    "explanation": "下向き2.0 Nと上向き0.7 Nの合力は下向き1.3 N。浮力があっても重力の方が大きければ沈み始める。「浮力が働く」と「浮いて静止する」を区別しよう。",
+    "status": "prototype",
+    "learningContent": "沈む物体にも働く浮力"
+  },
+  {
+    "id": "CR-SCI3B-019",
+    "unitId": "repair-science-g3-buoyancy",
+    "grade": 3,
+    "subject": "science",
+    "type": "choice",
+    "prompt": "水中に完全に沈んだ物体が、容器に触れず、糸も付けずに静止している。水は静止し、物体の形と体積は変わらない。働く力は重力と浮力だけとする。このときの力について適切なのは？",
+    "choices": [
+      "浮力は重力より必ず小さい",
+      "浮力と重力の大きさが等しい",
+      "浮力は重力より必ず大きい"
+    ],
+    "answer": 1,
+    "explanation": "静止していて、働く力が重力と浮力だけなので、両者の大きさは等しい。完全に沈んでいるからといって、必ず下向きの合力があるわけではない。",
+    "status": "prototype",
+    "learningContent": "完全水没でのつり合い"
+  },
+  {
+    "id": "CR-SCI3B-020",
+    "unitId": "repair-science-g3-buoyancy",
+    "grade": 3,
+    "subject": "science",
+    "type": "choice",
+    "prompt": "粘土の質量と材料自体の体積を変えず、塊にすると水に沈み、ふちのある船形にすると水が入らず浮いて静止した。容器の底や壁には触れていない。船形が浮く理由として適切なのは？",
+    "choices": [
+      "粘土と中の空間を含む形で押しのける水が増え、重力につり合う浮力を得る",
+      "粘土の材料自体の密度が小さくなり、重力につり合う浮力を得る",
+      "粘土に働く重力が小さくなり、塊のときより小さな浮力で支えられる"
+    ],
+    "answer": 0,
+    "explanation": "質量を変えていないので重力は変わらない。船形は内部に水が入らなければ多くの水を押しのけられ、全体の重力に等しい浮力を受けて浮く。粘土の材料自体の体積と質量は変わらないので、材料そのものの密度も変わらない。",
+    "status": "prototype",
+    "learningContent": "容器の形と浮く理由"
+  },
+  {
+    "id": "CR-SCI3B-021",
+    "unitId": "repair-science-g3-buoyancy",
+    "grade": 3,
+    "subject": "science",
+    "type": "choice",
+    "prompt": "同じ100 cm³の物体を完全に沈め、容器に触れないように静止させて調べた。\n水：浮力1.0 N\n食塩水：浮力1.2 N\nこの実験に合う説明は？",
+    "choices": [
+      "物体の体積だけで決まり、液体が違っても浮力は必ず等しい",
+      "食塩水中では物体の質量そのものが増えたので浮力が増えた",
+      "同じ体積でも、液体の種類によって浮力が異なる"
+    ],
+    "answer": 2,
+    "explanation": "物体の体積をそろえても浮力が違うので、液体の性質も関係する。この実験の食塩水は水より密度が大きく、同じ体積で押しのけられる液体の重さも大きい。物体の質量が変わったとは読めない。",
+    "status": "prototype",
+    "learningContent": "液体の違いと浮力"
+  },
+  {
+    "id": "CR-SCI3B-022",
+    "unitId": "repair-science-g3-buoyancy",
+    "grade": 3,
+    "subject": "science",
+    "type": "choice",
+    "prompt": "「物体を深く沈めるほど浮力が増すか」を調べたい。形と体積が変わらない同じ物体を使い、同じ水中で容器に触れず静止させる。深さだけの影響を調べる適切な比較は？",
+    "choices": [
+      "浅い水中の状態と、完全に空気中にある状態を比べる",
+      "全体が水中にある状態で、浅い位置と深い位置を比べる",
+      "半分だけ水中にある状態と、全体が水中にある状態を比べる"
+    ],
+    "answer": 1,
+    "explanation": "水中部分の体積を同じにして深さだけを変える。半分水中から全体水中へ変えると、体積の影響も混ざり、深さだけの影響を区別できない。",
+    "status": "prototype",
+    "learningContent": "深さの影響を調べる対照実験"
+  },
+  {
+    "id": "CR-SCI3B-023",
+    "unitId": "repair-science-g3-buoyancy",
+    "grade": 3,
+    "subject": "science",
+    "type": "choice",
+    "prompt": "体積の等しい物体A、Bを同じ水に完全に沈め、ばねばかりに糸でつるして静止させた。容器には触れず、空気の浮力と糸の体積は無視する。\nばねばかりで測定した値：\nA：空気中2.0 N、水中1.5 N\nB：空気中3.0 N、水中2.5 N\n浮力の比較として正しいものは？",
+    "choices": [
+      "AもBも0.5 Nで等しい",
+      "水中の値が大きいBの浮力が大きい",
+      "空気中の値が小さいAの浮力が大きい"
+    ],
+    "answer": 0,
+    "explanation": "Aは2.0−1.5＝0.5 N、Bは3.0−2.5＝0.5 N。水中のばねばかりの値そのものを浮力としない。各物体で空気中からの減少分を求めて比べよう。",
+    "status": "prototype",
+    "learningContent": "重さが異なる物体の測定値から比較"
+  },
+  {
+    "id": "CR-SCI3B-024",
+    "unitId": "repair-science-g3-buoyancy",
+    "grade": 3,
+    "subject": "science",
+    "type": "choice",
+    "prompt": "重さ0.8 Nの物体が水面に浮いて静止し、容器に触れていない。物体の上側の糸をばねばかりにつないでいるが、糸はたるんでおり、ばねばかりの値は0 Nだった。空気の浮力と糸の重さは無視する。この物体の浮力は？",
+    "choices": [
+      "0 N",
+      "0.4 N",
+      "0.8 N"
+    ],
+    "answer": 2,
+    "explanation": "糸がたるんでいるので糸の張力は0 N。それでも物体は浮いて静止しており、浮力0.8 Nが重力0.8 Nとつり合う。ばねばかりが0 Nだから浮力も0 N、とはいえない。",
+    "status": "prototype",
+    "learningContent": "糸がたるむ浮体とばねばかり"
+  },
+  {
+    "id": "CR-SCI3B-025",
+    "unitId": "repair-science-g3-buoyancy",
+    "grade": 3,
+    "subject": "science",
+    "type": "choice",
+    "prompt": "同じ直方体を、同じ静かな水中で完全に沈めたまま下げた。初めも後も容器に触れず静止させ、水中の体積は一定である。深い位置での上面の水圧と、物体全体への浮力を比べると？",
+    "choices": [
+      "上面の水圧も浮力も変わらない",
+      "上面の水圧は増し、浮力は変わらない",
+      "上面の水圧も浮力も増す"
+    ],
+    "answer": 1,
+    "explanation": "上面の水圧は深いほど大きい。一方、下面の水圧も増すため、体積が一定なら水圧差による浮力は変わらない。ある面への水圧と、物体全体への合力を区別して考えよう。",
+    "status": "prototype",
+    "learningContent": "水圧と浮力の同時比較"
+  }
+]
