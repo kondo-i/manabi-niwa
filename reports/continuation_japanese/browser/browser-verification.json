@@ -1,0 +1,340 @@
+{
+  "browser": "Chromium",
+  "realIPhone": false,
+  "transport": "localhost HTTP, single bundled HTML",
+  "fileProtocol": {
+    "opened": false,
+    "reason": "page.goto: net::ERR_BLOCKED_BY_ADMINISTRATOR at file:///tmp/manabi-japanese-20261114/manabi_25.html",
+    "limitation": "Managed Chromium policy blocks file URLs. Local HTTP checks the exact same HTML bytes."
+  },
+  "scenarios": [
+    {
+      "viewport": "375px",
+      "mode": "normal5",
+      "unit": "all25-motion-data",
+      "score": "5/5"
+    },
+    {
+      "viewport": "375px",
+      "mode": "newUnit25",
+      "unit": "repair-math-g1-primes",
+      "score": "25/25"
+    },
+    {
+      "viewport": "375px",
+      "mode": "newUnit25",
+      "unit": "repair-english-g2-obligation",
+      "score": "25/25"
+    },
+    {
+      "viewport": "375px",
+      "mode": "newUnit25",
+      "unit": "repair-science-g3-data",
+      "score": "25/25"
+    },
+    {
+      "viewport": "375px",
+      "mode": "newUnit25",
+      "unit": "repair-japanese-g2-conjugation",
+      "score": "25/25"
+    },
+    {
+      "viewport": "375px",
+      "mode": "newUnitExam25",
+      "unit": "repair-japanese-g2-conjugation",
+      "score": "25/25",
+      "perUnit": [
+        "用言の活用（形と文脈）\n25 / 25問"
+      ]
+    },
+    {
+      "viewport": "375px",
+      "mode": "mixedExam25",
+      "score": "25/25",
+      "perUnit": [
+        "力と運動・記録タイマー 9 / 9問",
+        "仕事率と仕事の原理 8 / 8問",
+        "力の合成・分解と作用反作用 8 / 8問"
+      ]
+    },
+    {
+      "viewport": "375px",
+      "mode": "normal25AndNextDayReview",
+      "score": "24/25",
+      "reviewedQuestion": "all25-motion-data-p1:q23",
+      "resultsReviewLink": true,
+      "storageSurvivedReload": true,
+      "wrongDate": "2026-11-13",
+      "reviewDate": "2026-11-14"
+    },
+    {
+      "viewport": "1280px",
+      "mode": "normal5",
+      "unit": "all25-motion-data",
+      "score": "5/5"
+    },
+    {
+      "viewport": "1280px",
+      "mode": "newUnit25",
+      "unit": "repair-math-g1-primes",
+      "score": "25/25"
+    },
+    {
+      "viewport": "1280px",
+      "mode": "newUnit25",
+      "unit": "repair-english-g2-obligation",
+      "score": "25/25"
+    },
+    {
+      "viewport": "1280px",
+      "mode": "newUnit25",
+      "unit": "repair-science-g3-data",
+      "score": "25/25"
+    },
+    {
+      "viewport": "1280px",
+      "mode": "newUnit25",
+      "unit": "repair-japanese-g2-conjugation",
+      "score": "25/25"
+    },
+    {
+      "viewport": "1280px",
+      "mode": "newUnitExam25",
+      "unit": "repair-japanese-g2-conjugation",
+      "score": "25/25",
+      "perUnit": [
+        "用言の活用（形と文脈）\n25 / 25問"
+      ]
+    },
+    {
+      "viewport": "1280px",
+      "mode": "mixedExam25",
+      "score": "25/25",
+      "perUnit": [
+        "仕事率と仕事の原理 9 / 9問",
+        "力の合成・分解と作用反作用 8 / 8問",
+        "力と運動・記録タイマー 8 / 8問"
+      ]
+    },
+    {
+      "viewport": "1280px",
+      "mode": "normal25AndNextDayReview",
+      "score": "24/25",
+      "reviewedQuestion": "all25-motion-data-p1:q10",
+      "resultsReviewLink": true,
+      "storageSurvivedReload": true,
+      "wrongDate": "2026-11-13",
+      "reviewDate": "2026-11-14"
+    }
+  ],
+  "errors": [],
+  "layout": [
+    {
+      "viewport": 375,
+      "screen": "normal-menu",
+      "document": 375,
+      "overflowing": []
+    },
+    {
+      "viewport": 375,
+      "screen": "five-feedback",
+      "document": 375,
+      "overflowing": []
+    },
+    {
+      "viewport": 375,
+      "screen": "repair-math-g1-primes-feedback",
+      "document": 375,
+      "overflowing": []
+    },
+    {
+      "viewport": 375,
+      "screen": "repair-english-g2-obligation-feedback",
+      "document": 375,
+      "overflowing": []
+    },
+    {
+      "viewport": 375,
+      "screen": "repair-science-g3-data-feedback",
+      "document": 375,
+      "overflowing": []
+    },
+    {
+      "viewport": 375,
+      "screen": "CR-SCI3-003-figure",
+      "document": 375,
+      "overflowing": []
+    },
+    {
+      "viewport": 375,
+      "screen": "CR-SCI3-003-enlarged",
+      "document": 375,
+      "overflowing": []
+    },
+    {
+      "viewport": 375,
+      "screen": "repair-japanese-g2-conjugation-feedback",
+      "document": 375,
+      "overflowing": []
+    },
+    {
+      "viewport": 375,
+      "screen": "repair-japanese-g2-conjugation-results",
+      "document": 375,
+      "overflowing": []
+    },
+    {
+      "viewport": 375,
+      "screen": "repair-japanese-g2-conjugation-exam-selection",
+      "document": 375,
+      "overflowing": []
+    },
+    {
+      "viewport": 375,
+      "screen": "repair-japanese-g2-conjugation-exam-feedback",
+      "document": 375,
+      "overflowing": []
+    },
+    {
+      "viewport": 375,
+      "screen": "repair-japanese-g2-conjugation-exam-results",
+      "document": 375,
+      "overflowing": []
+    },
+    {
+      "viewport": 375,
+      "screen": "exam-selection",
+      "document": 375,
+      "overflowing": []
+    },
+    {
+      "viewport": 375,
+      "screen": "exam-results",
+      "document": 375,
+      "overflowing": []
+    },
+    {
+      "viewport": 375,
+      "screen": "wrong-feedback",
+      "document": 375,
+      "overflowing": []
+    },
+    {
+      "viewport": 375,
+      "screen": "normal25-results",
+      "document": 375,
+      "overflowing": []
+    },
+    {
+      "viewport": 375,
+      "screen": "next-day-review",
+      "document": 375,
+      "overflowing": []
+    },
+    {
+      "viewport": 1280,
+      "screen": "normal-menu",
+      "document": 1280,
+      "overflowing": []
+    },
+    {
+      "viewport": 1280,
+      "screen": "five-feedback",
+      "document": 1280,
+      "overflowing": []
+    },
+    {
+      "viewport": 1280,
+      "screen": "repair-math-g1-primes-feedback",
+      "document": 1280,
+      "overflowing": []
+    },
+    {
+      "viewport": 1280,
+      "screen": "repair-english-g2-obligation-feedback",
+      "document": 1280,
+      "overflowing": []
+    },
+    {
+      "viewport": 1280,
+      "screen": "repair-science-g3-data-feedback",
+      "document": 1280,
+      "overflowing": []
+    },
+    {
+      "viewport": 1280,
+      "screen": "CR-SCI3-003-figure",
+      "document": 1280,
+      "overflowing": []
+    },
+    {
+      "viewport": 1280,
+      "screen": "CR-SCI3-003-enlarged",
+      "document": 1280,
+      "overflowing": []
+    },
+    {
+      "viewport": 1280,
+      "screen": "repair-japanese-g2-conjugation-feedback",
+      "document": 1280,
+      "overflowing": []
+    },
+    {
+      "viewport": 1280,
+      "screen": "repair-japanese-g2-conjugation-results",
+      "document": 1280,
+      "overflowing": []
+    },
+    {
+      "viewport": 1280,
+      "screen": "repair-japanese-g2-conjugation-exam-selection",
+      "document": 1280,
+      "overflowing": []
+    },
+    {
+      "viewport": 1280,
+      "screen": "repair-japanese-g2-conjugation-exam-feedback",
+      "document": 1280,
+      "overflowing": []
+    },
+    {
+      "viewport": 1280,
+      "screen": "repair-japanese-g2-conjugation-exam-results",
+      "document": 1280,
+      "overflowing": []
+    },
+    {
+      "viewport": 1280,
+      "screen": "exam-selection",
+      "document": 1280,
+      "overflowing": []
+    },
+    {
+      "viewport": 1280,
+      "screen": "exam-results",
+      "document": 1280,
+      "overflowing": []
+    },
+    {
+      "viewport": 1280,
+      "screen": "wrong-feedback",
+      "document": 1280,
+      "overflowing": []
+    },
+    {
+      "viewport": 1280,
+      "screen": "normal25-results",
+      "document": 1280,
+      "overflowing": []
+    },
+    {
+      "viewport": 1280,
+      "screen": "next-day-review",
+      "document": 1280,
+      "overflowing": []
+    }
+  ],
+  "browserVersion": "156.0.8078.79",
+  "horizontalOverflow": [],
+  "passed": true
+}

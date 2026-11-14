@@ -135,6 +135,7 @@ async function main() {
                 ['math', 1, 'repair-math-g1-primes'],
                 ['english', 2, 'repair-english-g2-obligation'],
                 ['science', 3, 'repair-science-g3-data'],
+                ['japanese', 2, 'repair-japanese-g2-conjugation'],
             ]) {
                 await selectMenu(subject, grade);
                 const start = page.locator(`[data-action="practice25"][data-unit="${unit}"]`);
@@ -142,7 +143,31 @@ async function main() {
                 await start.click();
                 await solve(25, false, `${unit}-feedback`);
                 report.scenarios.push({ viewport: tag, mode: 'newUnit25', unit, score: '25/25' });
+                if (unit === 'repair-japanese-g2-conjugation') await snapshot(`${unit}-results`);
                 await page.locator('[data-action="finish"]').click();
+                if (unit === 'repair-japanese-g2-conjugation') {
+                    await selectMenu(subject, grade);
+                    await page.locator('[data-action="exam-from-units"]').click();
+                    const checkbox = page.locator(`[data-exam-section="${unit}"]`);
+                    const title = await checkbox.locator('..').locator('span').innerText();
+                    await checkbox.check();
+                    assert.match(await page.locator('.exam-start strong').innerText(), /1小単元/);
+                    await snapshot(`${unit}-exam-selection`);
+                    await page.locator('[data-action="exam-start"][data-size="25"]').click();
+                    await solve(25, false, `${unit}-exam-feedback`);
+                    assert.equal(await page.locator('.exam-results p').count(), 1);
+                    const result = await page.locator('.exam-results p').innerText();
+                    assert(result.includes(title));
+                    assert.match(result, /25\s*\/\s*25問/);
+                    await snapshot(`${unit}-exam-results`);
+                    report.scenarios.push({ viewport: tag, mode: 'newUnitExam25', unit,
+                        score: '25/25', perUnit: [result] });
+                    await page.locator('[data-action="exam-return"]').click();
+                    assert.match(await page.locator('.exam-start strong').innerText(), /1小単元/);
+                    assert(await checkbox.isChecked());
+                    await selectMenu(subject, grade);
+                    assert(await page.locator(`[data-action="practice25"][data-unit="${unit}"]`).isVisible());
+                }
             }
 
             await normalMenu();

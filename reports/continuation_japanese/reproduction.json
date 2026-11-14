@@ -1,0 +1,16 @@
+{
+  "baseline_sha": "839d39db1326d7c810600b62dc704c868ebd9a58",
+  "baseline_html_sha256": "22645e81c5d4e5422563e16841f7d38aafa276242b18fe14c178a0e4f55f8725",
+  "output_html_sha256": "cd95b217d7b0817bc3c40d2c2cfbbf4635ba5ebeb9cb3c0cd5060bcdfbd50ab6",
+  "vocabulary_commit": "733c50ca5d46aea2b5367a90f8f06e62d23b746e",
+  "vocabulary_sha256": "f84a54070d254a16a35416a58ef8a5111df12e739e0d3972fa8988ad8436749a",
+  "source_sha256": {
+    "data/coverage_repair/japanese_conjugation.json": "ea49fd27d5dc97ecad0d92e883ad4c0eecfd801b22789a740242b05c89e9ffdb",
+    "scripts/build_all25.py": "1ec6b83d32920006d08e8bc3cc334dc9760083dcaa9310b5ebc12261bf264d9a",
+    "scripts/analyze_classroom.py": "7553635777503fd7de2fa01d2e3b41616ce72f95b1542d54236dcd7a8b4f4ced",
+    "scripts/build_coverage_report.py": "8666fa385650778cc16fd8f2438a31b085110f2ab343c4df17568f5fa9047a53",
+    "scripts/package_classroom.py": "b921a6f0400795270e3fad3624006327bb9e1f72626ec7ee9b20cb75791ca79b",
+    "scripts/verify_classroom_browser.cjs": "275575b93844c04ee741b0c2af3edd60881709800a9ae9c176e60f1cc81faa74"
+  },
+  "browser_real_iphone": false
+}

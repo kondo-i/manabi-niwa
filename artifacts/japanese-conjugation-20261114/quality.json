@@ -1,0 +1,238 @@
+{
+  "caution_ja": "正規化問題文数はNFKC化と空白除去後の表面上の種類数。数値マスク種類数は数字列（小数等を含む）を#に置換した問題文の種類数で、数値違い反復の偏りを探すための参考値。人名・語句違いは統合せず、年代・単位・問題の条件として重要な数字も統合する。いずれも学習内容数、理解の深さ、正答の正しさ、指導要領の収録率を表さない。",
+  "normalization": "NFKC then remove Unicode whitespace",
+  "numeric_mask_regex": "\\d+(?:[.,]\\d+)*",
+  "all_questions": {
+    "question_ids": 8798,
+    "normalized_prompts": 8784,
+    "numeric_mask_prompts": 6409,
+    "prompts_with_digits": 3344,
+    "types": {
+      "choice": 5832,
+      "number": 2471,
+      "text": 495
+    }
+  },
+  "by_grade_subject": [
+    {
+      "grade": 1,
+      "subject": "japanese",
+      "regular_units": 28,
+      "exam_sections": 25,
+      "question_ids": 700,
+      "normalized_prompts": 700,
+      "numeric_mask_prompts": 700,
+      "prompts_with_digits": 2,
+      "types": {
+        "choice": 626,
+        "text": 74
+      }
+    },
+    {
+      "grade": 1,
+      "subject": "math",
+      "regular_units": 32,
+      "exam_sections": 19,
+      "question_ids": 848,
+      "normalized_prompts": 834,
+      "numeric_mask_prompts": 251,
+      "prompts_with_digits": 800,
+      "types": {
+        "choice": 149,
+        "number": 699
+      }
+    },
+    {
+      "grade": 1,
+      "subject": "english",
+      "regular_units": 28,
+      "exam_sections": 20,
+      "question_ids": 700,
+      "normalized_prompts": 700,
+      "numeric_mask_prompts": 682,
+      "prompts_with_digits": 160,
+      "types": {
+        "choice": 560,
+        "text": 140
+      }
+    },
+    {
+      "grade": 1,
+      "subject": "science",
+      "regular_units": 36,
+      "exam_sections": 23,
+      "question_ids": 920,
+      "normalized_prompts": 920,
+      "numeric_mask_prompts": 535,
+      "prompts_with_digits": 490,
+      "types": {
+        "choice": 431,
+        "number": 450,
+        "text": 39
+      }
+    },
+    {
+      "grade": 1,
+      "subject": "social",
+      "regular_units": 21,
+      "exam_sections": 16,
+      "question_ids": 525,
+      "normalized_prompts": 525,
+      "numeric_mask_prompts": 458,
+      "prompts_with_digits": 115,
+      "types": {
+        "choice": 409,
+        "number": 78,
+        "text": 38
+      }
+    },
+    {
+      "grade": 2,
+      "subject": "japanese",
+      "regular_units": 42,
+      "exam_sections": 40,
+      "question_ids": 1057,
+      "normalized_prompts": 1057,
+      "numeric_mask_prompts": 1042,
+      "prompts_with_digits": 45,
+      "types": {
+        "choice": 1033,
+        "text": 24
+      }
+    },
+    {
+      "grade": 2,
+      "subject": "math",
+      "regular_units": 15,
+      "exam_sections": 13,
+      "question_ids": 410,
+      "normalized_prompts": 410,
+      "numeric_mask_prompts": 83,
+      "prompts_with_digits": 364,
+      "types": {
+        "choice": 61,
+        "number": 349
+      }
+    },
+    {
+      "grade": 2,
+      "subject": "english",
+      "regular_units": 16,
+      "exam_sections": 14,
+      "question_ids": 400,
+      "normalized_prompts": 400,
+      "numeric_mask_prompts": 399,
+      "prompts_with_digits": 42,
+      "types": {
+        "choice": 375,
+        "text": 25
+      }
+    },
+    {
+      "grade": 2,
+      "subject": "science",
+      "regular_units": 24,
+      "exam_sections": 18,
+      "question_ids": 615,
+      "normalized_prompts": 615,
+      "numeric_mask_prompts": 362,
+      "prompts_with_digits": 291,
+      "types": {
+        "choice": 289,
+        "number": 275,
+        "text": 51
+      }
+    },
+    {
+      "grade": 2,
+      "subject": "social",
+      "regular_units": 19,
+      "exam_sections": 17,
+      "question_ids": 475,
+      "normalized_prompts": 475,
+      "numeric_mask_prompts": 475,
+      "prompts_with_digits": 76,
+      "types": {
+        "choice": 443,
+        "text": 32
+      }
+    },
+    {
+      "grade": 3,
+      "subject": "japanese",
+      "regular_units": 12,
+      "exam_sections": 11,
+      "question_ids": 303,
+      "normalized_prompts": 303,
+      "numeric_mask_prompts": 273,
+      "prompts_with_digits": 58,
+      "types": {
+        "choice": 279,
+        "text": 24
+      }
+    },
+    {
+      "grade": 3,
+      "subject": "math",
+      "regular_units": 17,
+      "exam_sections": 15,
+      "question_ids": 455,
+      "normalized_prompts": 455,
+      "numeric_mask_prompts": 35,
+      "prompts_with_digits": 454,
+      "types": {
+        "choice": 102,
+        "number": 353
+      }
+    },
+    {
+      "grade": 3,
+      "subject": "english",
+      "regular_units": 17,
+      "exam_sections": 13,
+      "question_ids": 425,
+      "normalized_prompts": 425,
+      "numeric_mask_prompts": 420,
+      "prompts_with_digits": 83,
+      "types": {
+        "choice": 400,
+        "text": 25
+      }
+    },
+    {
+      "grade": 3,
+      "subject": "science",
+      "regular_units": 24,
+      "exam_sections": 21,
+      "question_ids": 615,
+      "normalized_prompts": 615,
+      "numeric_mask_prompts": 361,
+      "prompts_with_digits": 304,
+      "types": {
+        "choice": 364,
+        "number": 251
+      }
+    },
+    {
+      "grade": 3,
+      "subject": "social",
+      "regular_units": 14,
+      "exam_sections": 9,
+      "question_ids": 350,
+      "normalized_prompts": 350,
+      "numeric_mask_prompts": 335,
+      "prompts_with_digits": 60,
+      "types": {
+        "choice": 311,
+        "number": 16,
+        "text": 23
+      }
+    }
+  ],
+  "exports_verified": {
+    "teacher_rows_checked": 8798,
+    "embedded_json_files_checked": 794
+  },
+  "repair_delta_acceptance": "not requested",
+  "conjugation_delta_acceptance": "passed"
+}

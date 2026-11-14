@@ -1,0 +1,23 @@
+[
+  {
+    "file": "01_science_audit.pdf",
+    "pages": 13,
+    "questions": 25,
+    "all_source_text_extractable": true,
+    "bytes": 30459
+  },
+  {
+    "file": "02_math_audit.pdf",
+    "pages": 11,
+    "questions": 25,
+    "all_source_text_extractable": true,
+    "bytes": 21979
+  },
+  {
+    "file": "03_english_audit.pdf",
+    "pages": 13,
+    "questions": 30,
+    "all_source_text_extractable": true,
+    "bytes": 27442
+  }
+]
