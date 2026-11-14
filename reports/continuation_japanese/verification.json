@@ -1,0 +1,117 @@
+{
+  "uniqueQuestions": 8798,
+  "priorQuestionsPreserved": 8773,
+  "newUniquePromptQuestions": 25,
+  "audioFiles": 75,
+  "practiceStarts": 690,
+  "examStarts": 548,
+  "regular25": 345,
+  "exam25": 274,
+  "gradeSubject": [
+    {
+      "grade": 1,
+      "subject": "science",
+      "regular": 36,
+      "exam": 23
+    },
+    {
+      "grade": 1,
+      "subject": "math",
+      "regular": 32,
+      "exam": 19
+    },
+    {
+      "grade": 1,
+      "subject": "english",
+      "regular": 28,
+      "exam": 20
+    },
+    {
+      "grade": 1,
+      "subject": "japanese",
+      "regular": 28,
+      "exam": 25
+    },
+    {
+      "grade": 1,
+      "subject": "social",
+      "regular": 21,
+      "exam": 16
+    },
+    {
+      "grade": 2,
+      "subject": "science",
+      "regular": 24,
+      "exam": 18
+    },
+    {
+      "grade": 2,
+      "subject": "math",
+      "regular": 15,
+      "exam": 13
+    },
+    {
+      "grade": 2,
+      "subject": "english",
+      "regular": 16,
+      "exam": 14
+    },
+    {
+      "grade": 2,
+      "subject": "japanese",
+      "regular": 42,
+      "exam": 40
+    },
+    {
+      "grade": 2,
+      "subject": "social",
+      "regular": 19,
+      "exam": 17
+    },
+    {
+      "grade": 3,
+      "subject": "science",
+      "regular": 24,
+      "exam": 21
+    },
+    {
+      "grade": 3,
+      "subject": "math",
+      "regular": 17,
+      "exam": 15
+    },
+    {
+      "grade": 3,
+      "subject": "english",
+      "regular": 17,
+      "exam": 13
+    },
+    {
+      "grade": 3,
+      "subject": "japanese",
+      "regular": 12,
+      "exam": 11
+    },
+    {
+      "grade": 3,
+      "subject": "social",
+      "regular": 14,
+      "exam": 9
+    }
+  ],
+  "completedG3ScienceRuns": [
+    {
+      "mode": "practice",
+      "score": 25
+    },
+    {
+      "mode": "exam",
+      "score": 25,
+      "distribution": [
+        8,
+        8,
+        9
+      ]
+    }
+  ]
+}

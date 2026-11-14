@@ -17,15 +17,16 @@ def sha(path): return hashlib.sha256(path.read_bytes()).hexdigest()
 def main():
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument('runtime', type=Path); p.add_argument('delivery', type=Path)
+    p.add_argument('--report-dir', type=Path, default=ROOT / 'reports/coverage_repair')
     args = p.parse_args()
     out = args.delivery.resolve(); out.mkdir(parents=True)
     for name in EXPORTS: shutil.copyfile(args.runtime / name, out / name)
-    shutil.copyfile(ROOT / 'reports/coverage_repair/README.md', out / 'README.md')
+    shutil.copyfile(args.report_dir / 'README.md', out / 'README.md')
     with tempfile.TemporaryDirectory(prefix='manabi-package-') as tmp:
         bundle = Path(tmp) / 'bundle'; bundle.mkdir()
         for name in EXPORTS + ['README.md']: shutil.copyfile(out / name, bundle / name)
         shutil.copytree(args.runtime / 'dist', bundle / 'dist')
-        shutil.copytree(ROOT / 'reports/coverage_repair', bundle / 'reports')
+        shutil.copytree(args.report_dir, bundle / 'reports')
         files = sorted(f for f in bundle.rglob('*') if f.is_file())
         hashes = {f.relative_to(bundle).as_posix(): sha(f) for f in files}
         (bundle / 'SHA256.json').write_text(json.dumps(hashes, indent=2)+'\n')

@@ -26,7 +26,18 @@ def main(runtime):
     rows = []
     def add(grade, subject, content, source, location, ids, units, base_count,
             base_prompts, body_count, evidence, limitation, gap, target, next_file, origin):
-        if 'repair-' in ids: return  # Final additions are listed once below.
+        new_id = 'repair-japanese-g2-conjugation'
+        if str(grade) == '2' and subject == '国語' and content.startswith('用言の活用') and new_id in sections:
+            ids = units = new_id
+            location = '文科解説 第2学年 知識及び技能(1)オ（印刷p78／PDF p82） ; 光村R7中2計画PDF p20 文法2 用言の活用'
+            body_count = 25
+            evidence = ';'.join(sections[new_id]['ids'])
+            limitation = '追加25問の全設問・全選択肢・正答・解説を作問者と独立担当が確認'
+            gap = '固定比較元の不足を今回25問で補強。自由記述による活用表完成、学校固有のページ対応は未確認'
+            target = '今回25問追加（本小単元のID不足0）。内容の完全収録を示すものではない'
+            next_file = 'data/coverage_repair/japanese_conjugation.json'
+            origin = 'reports/continuation_japanese/author_review.md ; independent_review.md'
+        if 'repair-' in ids and ids != new_id: return  # Previous additions are listed once below.
         known = [x for x in re.split(r'[;,\s]+', ids) if x in sections]
         final_ids = {qid for sid in known for qid in sections[sid]['ids']}
         rows.append(dict(比較元SHA=BASE, 学年=str(grade), 教科=subject, 学習内容=content,

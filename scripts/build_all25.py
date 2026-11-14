@@ -28,11 +28,14 @@ def add_reviewed_material(dist, catalog, bank, existing, sections):
          '助動詞', '義務・禁止・不必要の使い分け'),
         ('science_material.json', 'repair-science-g3-data', 3, 'science',
          '実験・資料読解', '中3理科の実験・資料読解'),
+        ('japanese_conjugation.json', 'repair-japanese-g2-conjugation', 2, 'japanese',
+         '文法', '用言の活用（形と文脈）'),
     ]
     descriptions = {
         'repair-math-g1-primes': '素数の意味、素因数分解の手順、誤りの直し方と活用を練習する25問。',
         'repair-english-g2-obligation': 'must・have toの義務と、禁止・不必要を場面や案内から読み分ける25問。',
         'repair-science-g3-data': '学習用に作成した記録表・グラフ・模型から、条件と理由を考える25問。',
+        'repair-japanese-g2-conjugation': '動詞・形容詞・形容動詞の活用を、文脈と接続から確かめる25問。',
     }
     for filename, uid, grade, subject, chapter, title in materials:
         questions = read_json(ROOT / 'data/coverage_repair' / filename)

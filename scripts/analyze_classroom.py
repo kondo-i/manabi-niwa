@@ -168,11 +168,26 @@ def expect_repair(delta, bank, previous):
                 f'Unexpected added question assignment: {qid}')
 
 
+def expect_conjugation(delta, bank, previous):
+    expected = {f'CR-JPN2-{i:03}' for i in range(1, 26)}
+    require(len(previous) == 8773, 'Conjugation baseline must have 8,773 questions')
+    require(set(delta['added_ids']) == expected, 'Unexpected conjugation additions')
+    require(not delta['deleted_ids'] and not delta['changed_questions'],
+            'The previous 8,773 questions must remain unchanged')
+    for qid in expected:
+        q = bank[qid]
+        require((q['grade'], q['subject'], q['unitId']) ==
+                (2, 'japanese', 'repair-japanese-g2-conjugation'),
+                f'Unexpected conjugation assignment: {qid}')
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('runtime_dir', type=Path)
     parser.add_argument('baseline_dir', type=Path)
-    parser.add_argument('--expect-repair', action='store_true', help='Require exactly the reviewed 75 additions and five translation fixes')
+    acceptance = parser.add_mutually_exclusive_group()
+    acceptance.add_argument('--expect-repair', action='store_true', help='Require exactly the reviewed 75 additions and five translation fixes')
+    acceptance.add_argument('--expect-conjugation', action='store_true', help='Require 25 conjugation additions and preserve all previous 8,773 questions')
     args = parser.parse_args()
     runtime, baseline = args.runtime_dir.resolve(), args.baseline_dir.resolve()
     catalog, bank, unit_ids, packs = load_runtime(runtime)
@@ -181,6 +196,8 @@ def main():
     delta = make_delta(bank, previous)
     if args.expect_repair:
         expect_repair(delta, bank, previous)
+    if args.expect_conjugation:
+        expect_conjugation(delta, bank, previous)
     by_combination = []
     for grade in (1, 2, 3):
         for subject in SUBJECTS:
@@ -198,6 +215,7 @@ def main():
         'by_grade_subject': by_combination,
         'exports_verified': exports,
         'repair_delta_acceptance': 'passed' if args.expect_repair else 'not requested',
+        'conjugation_delta_acceptance': 'passed' if args.expect_conjugation else 'not requested',
     }
     with (runtime / 'unit_quality.csv').open('w', encoding='utf-8-sig', newline='') as file:
         writer = csv.writer(file, lineterminator='\n')
@@ -217,7 +235,8 @@ def main():
     write_json(runtime / 'delta.json', delta)
     print(json.dumps({'all_questions': report['all_questions'], 'exports_verified': exports,
                       'added': delta['added_count'], 'changed': delta['changed_count'],
-                      'deleted': delta['deleted_count'], 'repair_delta_acceptance': report['repair_delta_acceptance']},
+                      'deleted': delta['deleted_count'], 'repair_delta_acceptance': report['repair_delta_acceptance'],
+                      'conjugation_delta_acceptance': report['conjugation_delta_acceptance']},
                      ensure_ascii=False))
 
 
