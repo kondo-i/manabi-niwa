@@ -37,7 +37,22 @@ def main(runtime):
             target = '今回25問追加（本小単元のID不足0）。内容の完全収録を示すものではない'
             next_file = 'data/coverage_repair/japanese_conjugation.json'
             origin = 'reports/continuation_japanese/author_review.md ; independent_review.md'
-        if 'repair-' in ids and ids != new_id: return  # Previous additions are listed once below.
+        improvements = {
+            (3, '理科', '水圧と浮力'): ('repair-science-g3-buoyancy', 'science_buoyancy.json', 'buoyancy_author.md'),
+            (2, '数学', '箱ひげ図の表示・二群比較'): ('repair-math-g2-boxplots', 'math_boxplots.json', 'boxplots_author.md'),
+        }
+        improved = improvements.get((int(grade), subject, content))
+        if improved and improved[0] in sections:
+            ids = units = improved[0]
+            body_count = 25
+            evidence = ';'.join(sections[ids]['ids'])
+            limitation = '今回追加25問を図・全選択肢・正答・解説まで作問者と独立担当が確認'
+            gap = '固定比較元の不足を今回25問で補強。自由記述や学校固有のページ対応は未確認'
+            target = '今回25問追加（本小単元のID不足0）。全内容の充足率ではない'
+            next_file = 'data/coverage_repair/' + improved[1]
+            origin = 'reports/publication_20261114/' + improved[2]
+        allowed = {new_id} | {x[0] for x in improvements.values()}
+        if 'repair-' in ids and ids not in allowed: return  # Previous additions are listed once below.
         known = [x for x in re.split(r'[;,\s]+', ids) if x in sections]
         final_ids = {qid for sid in known for qid in sections[sid]['ids']}
         rows.append(dict(比較元SHA=BASE, 学年=str(grade), 教科=subject, 学習内容=content,

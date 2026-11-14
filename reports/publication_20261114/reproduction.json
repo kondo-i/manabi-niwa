@@ -1,0 +1,32 @@
+{
+  "previous_curriculum_sha": "29c946952f2abb4e47576ca04af441270420bdb1",
+  "previous_site_version": 24,
+  "previous_site_source_sha": "b54cc88b362ee144a2ba013d920ed8bf41b4083a",
+  "normal_production_ids_before": 900,
+  "production_id_deletions": 0,
+  "production_changed_ids": 9,
+  "new_curriculum_ids": 8848,
+  "curriculum_delta": {
+    "added": 50,
+    "changed": 1,
+    "deleted": 0
+  },
+  "source_sha256": {
+    "data/coverage_repair/answer_clarifications.json": "96607692bf8749e6d6112fd3fce949bcb172d76f5b2d57966ca109182ead4f99",
+    "data/coverage_repair/boxplot-reading.svg": "a1f5407455edbcbd22c58ca25bf5cc920f41735e32355997d3dc14015e5c7db8",
+    "data/coverage_repair/boxplot-same.svg": "bfb99f498996eab4c1eb769f78088a175bb6e7f665120aec10e8e629a7225fbc",
+    "data/coverage_repair/boxplot-scores.svg": "9e4507eae3be3491e198c44713b224320738e892fde073a7012f4bc2b238ad00",
+    "data/coverage_repair/boxplot-waiting.svg": "6a814bdaaca7f0a7a1db6e2ed9dd8774ea4bad3892983114c23d7dc171cb8671",
+    "data/coverage_repair/buoyancy-forces.svg": "5400f8a8bfb3a1816493b5590b17497874ecfd43de9930872be720b7c04f6be2",
+    "data/coverage_repair/english_obligation.json": "b9c53242bb69d7bc7763d2aceb901eed66f10a55e3376ff0d9ae421bfbc02274",
+    "data/coverage_repair/japanese_conjugation.json": "ea49fd27d5dc97ecad0d92e883ad4c0eecfd801b22789a740242b05c89e9ffdb",
+    "data/coverage_repair/math_boxplots.json": "2569d68e7dd5218a1f32a0d7f55d0970ca7401ff43ae24dcc21e9356025ee270",
+    "data/coverage_repair/math_primes.json": "0d133a2d0a1fe44c32d5625a78d4bb8cbb4cb084b004b3bf458d410f84f77d63",
+    "data/coverage_repair/motion-distance.svg": "bec3a81b470eaf81c0e10987c5c57d290fee1702d3868d65b9fce0889c6d81f3",
+    "data/coverage_repair/science_buoyancy.json": "e3348ee056253763108d3f1770486961caae9eee628e6485782fb88eb18ed318",
+    "data/coverage_repair/science_material.json": "3a8bb7133e3b42d3bdf89d07e6d9c791f77955d993ffb5ea5608dd625738cdbe"
+  },
+  "browser_qa_this_release": "Not run: managed Sites cua_repl.js unavailable",
+  "site_source_helper": "Unavailable; used stdin-only in-memory Git authentication and native Sites save/deploy",
+  "chat_history": "Same-account login; no public share link created"
+}

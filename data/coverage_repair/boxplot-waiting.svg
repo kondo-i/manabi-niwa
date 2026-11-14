@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="350" height="240" viewBox="0 0 350 240" role="img" aria-labelledby="title desc">
+<title id="title">図3 待ち時間</title>
+<desc id="desc">ヒゲの端は最小値と最大値、箱の左端と右端は第1四分位数と第3四分位数、箱内の縦線は中央値。</desc>
+<rect width="350" height="240" fill="white"/>
+<text x="12" y="21" font-family="sans-serif" font-size="16" fill="#24324f">図3 待ち時間</text>
+<text x="12" y="44" font-family="sans-serif" font-size="14" fill="#285f99">C窓口・16回</text>
+<path d="M92.1429 66H277.857 M92.1429 56V76 M277.857 56V76" stroke="#285f99" stroke-width="2" fill="none"/>
+<rect x="129.286" y="56" width="92.8571" height="20" fill="white" stroke="#285f99" stroke-width="2"/>
+<path d="M185 56V76" stroke="#285f99" stroke-width="3"/>
+<text x="92.1429" y="92" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#285f99">2</text>
+<text x="129.286" y="92" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#285f99">4</text>
+<text x="185" y="92" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#285f99">7</text>
+<text x="222.143" y="92" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#285f99">9</text>
+<text x="277.857" y="92" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#285f99">12</text>
+<text x="12" y="112" font-family="sans-serif" font-size="14" fill="#ad4e1d">D窓口・16回</text>
+<path d="M92.1429 134H277.857 M92.1429 124V144 M277.857 124V144" stroke="#ad4e1d" stroke-width="2" fill="none"/>
+<rect x="147.857" y="124" width="111.429" height="20" fill="white" stroke="#ad4e1d" stroke-width="2"/>
+<path d="M185 124V144" stroke="#ad4e1d" stroke-width="3"/>
+<text x="92.1429" y="160" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#ad4e1d">2</text>
+<text x="147.857" y="160" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#ad4e1d">5</text>
+<text x="185" y="160" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#ad4e1d">7</text>
+<text x="259.286" y="160" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#ad4e1d">11</text>
+<text x="277.857" y="160" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#ad4e1d">12</text>
+<path d="M55 176H320" stroke="#333" fill="none"/>
+<path d="M55 172V180" stroke="#333"/>
+<text x="55" y="194" text-anchor="middle" font-family="sans-serif" font-size="14">0</text>
+<path d="M92.1429 172V180" stroke="#333"/>
+<text x="92.1429" y="194" text-anchor="middle" font-family="sans-serif" font-size="14">2</text>
+<path d="M129.286 172V180" stroke="#333"/>
+<text x="129.286" y="194" text-anchor="middle" font-family="sans-serif" font-size="14">4</text>
+<path d="M166.429 172V180" stroke="#333"/>
+<text x="166.429" y="194" text-anchor="middle" font-family="sans-serif" font-size="14">6</text>
+<path d="M203.571 172V180" stroke="#333"/>
+<text x="203.571" y="194" text-anchor="middle" font-family="sans-serif" font-size="14">8</text>
+<path d="M240.714 172V180" stroke="#333"/>
+<text x="240.714" y="194" text-anchor="middle" font-family="sans-serif" font-size="14">10</text>
+<path d="M277.857 172V180" stroke="#333"/>
+<text x="277.857" y="194" text-anchor="middle" font-family="sans-serif" font-size="14">12</text>
+<path d="M315 172V180" stroke="#333"/>
+<text x="315" y="194" text-anchor="middle" font-family="sans-serif" font-size="14">14</text>
+<text x="334" y="194" font-family="sans-serif" font-size="14">分</text>
+<text x="12" y="214" font-family="sans-serif" font-size="14" fill="#444">ヒゲ：最小値〜最大値</text>
+<text x="12" y="233" font-family="sans-serif" font-size="14" fill="#444">外れ値の別表示なし。</text>
+</svg>

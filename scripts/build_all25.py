@@ -19,6 +19,25 @@ DATA = ROOT / 'data/all25'
 MINIMUM = 25
 
 
+def apply_publication_corrections(dist, catalog):
+    patches = {q['id']: q for q in read_json(ROOT / 'data/coverage_repair/answer_clarifications.json')}
+    found = set()
+    for unit in catalog['units']:
+        for pack in unit['packs']:
+            path = dist / pack['file']
+            questions = read_json(path)
+            touched = False
+            for q in questions:
+                if q['id'] in patches:
+                    q.update(patches[q['id']])
+                    found.add(q['id'])
+                    touched = True
+            if touched:
+                write_json(path, questions)
+                pack['revision'] = digest(path.read_bytes())[:12]
+    assert found == set(patches), 'Missing question for publication correction'
+
+
 def add_reviewed_material(dist, catalog, bank, existing, sections):
     """Add bounded, source-reviewed supplements; keep original item IDs intact."""
     materials = [
@@ -30,12 +49,18 @@ def add_reviewed_material(dist, catalog, bank, existing, sections):
          '実験・資料読解', '中3理科の実験・資料読解'),
         ('japanese_conjugation.json', 'repair-japanese-g2-conjugation', 2, 'japanese',
          '文法', '用言の活用（形と文脈）'),
+        ('science_buoyancy.json', 'repair-science-g3-buoyancy', 3, 'science',
+         '力と運動', '水圧・浮力の実験'),
+        ('math_boxplots.json', 'repair-math-g2-boxplots', 2, 'math',
+         'データの活用', '箱ひげ図の読み取りと比較'),
     ]
     descriptions = {
         'repair-math-g1-primes': '素数の意味、素因数分解の手順、誤りの直し方と活用を練習する25問。',
         'repair-english-g2-obligation': 'must・have toの義務と、禁止・不必要を場面や案内から読み分ける25問。',
         'repair-science-g3-data': '学習用に作成した記録表・グラフ・模型から、条件と理由を考える25問。',
         'repair-japanese-g2-conjugation': '動詞・形容詞・形容動詞の活用を、文脈と接続から確かめる25問。',
+        'repair-science-g3-buoyancy': '水中での力やばねばかりの記録から、水圧と浮力を考える25問。',
+        'repair-math-g2-boxplots': '実際の箱ひげ図から中央値や散らばりを読み、資料から言えることを比べる25問。',
     }
     for filename, uid, grade, subject, chapter, title in materials:
         questions = read_json(ROOT / 'data/coverage_repair' / filename)
@@ -222,6 +247,7 @@ def main():
     dist = out/'dist'
     path = dist/'data/catalog.json'
     catalog = read_json(path)
+    apply_publication_corrections(dist, catalog)
     existing = {u['id']: [q for p in u['packs'] for q in read_json(dist/p['file'])] for u in catalog['units']}
     used = {prompt_key(q['prompt']) for questions in existing.values() for q in questions}
     vocab = {q['id']:q for q in read_json(args.vocabulary)}

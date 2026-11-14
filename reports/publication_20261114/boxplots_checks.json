@@ -1,0 +1,21 @@
+{
+  "count": 25,
+  "distinct_prompts": 25,
+  "matches_previous_8798": 0,
+  "positions": {
+    "0": 9,
+    "1": 8,
+    "2": 8
+  },
+  "figures": 4,
+  "questions_with_figures": 23,
+  "sha256": "2569d68e7dd5218a1f32a0d7f55d0970ca7401ff43ae24dcc21e9356025ee270",
+  "figure_sha256": {
+    "boxplot-reading.svg": "a1f5407455edbcbd22c58ca25bf5cc920f41735e32355997d3dc14015e5c7db8",
+    "boxplot-same.svg": "bfb99f498996eab4c1eb769f78088a175bb6e7f665120aec10e8e629a7225fbc",
+    "boxplot-scores.svg": "9e4507eae3be3491e198c44713b224320738e892fde073a7012f4bc2b238ad00",
+    "boxplot-waiting.svg": "6a814bdaaca7f0a7a1db6e2ed9dd8774ea4bad3892983114c23d7dc171cb8671"
+  },
+  "figure_font_size_min": 14,
+  "figure_canvas": "350x240"
+}
